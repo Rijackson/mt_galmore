@@ -227,4 +227,35 @@
    eAGljosJBDEIRLeK67+F6/AQ7sEgjiauENT5me/neb7ynn8p1s3oc+88FYe/4hyGR7vTOnzjxeMyT/BtxtbHn7Z+fNHJuun4bzyqfePf/jnua+l/TubuLrkuB77L6LzBTVX5N/fIme4pj4cOxz51/WfnRYfG9ele8BTavIO7rnqdnT7wrjqf48iDz3vG4bWjuenqr+YqS3UV32HhDT6XeuAU03niKy2e6MrrPGmU73Iik9L8ae4yyTvRTHcy32WGlnI+x2f97Z5z2at+m6168sB0Z6ZXGrCTTo52fIrFDB69K3RZA579eT/1OZ3DqzvuT5HhOIdv72peNZOrHFh0h8M5rfryfOtR/du7+S/drrdUp/9RvJrRVpzD8HBfdcpVPFp07Cf9xDNpJt79Q30/LwTiyw==
   </data>
  </layer>
-</map>
+<objectgroup name="mapevents"> <object name="north" type="mapchange" x="32" y="0" width="896" height="32"> 
+   <properties> 
+    <property name="map" value="galmore_18"/> 
+   <property name="place" value="south"/> 
+  </properties> 
+ </object> 
+ <object name="east" type="mapchange" x="928" y="32" width="32" height="896"> 
+   <properties> 
+    <property name="map" value="galmore_29"/> 
+   <property name="place" value="west"/> 
+  </properties> 
+ </object> 
+ <object name="south" type="mapchange" x="32" y="928" width="896" height="32"> 
+   <properties> 
+    <property name="map" value="galmore_38"/> 
+   <property name="place" value="north"/> 
+  </properties> 
+ </object> 
+ <object name="west" type="mapchange" x="0" y="32" width="32" height="896"> 
+   <properties> 
+    <property name="map" value="galmore_27"/> 
+   <property name="place" value="east"/> 
+  </properties> 
+ </object> 
+</objectgroup> 
+<objectgroup id="11" name="Spawn"> 
+</objectgroup> 
+<objectgroup id="10" name="Keys"> 
+</objectgroup> 
+<objectgroup id="14" name="Replace"> 
+</objectgroup> 
+</map> 
