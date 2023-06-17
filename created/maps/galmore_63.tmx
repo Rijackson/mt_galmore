@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="357">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="364">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -222,40 +222,50 @@
    eAFjYBgFoyEwGgKjITAaAqMhQH4IHBYjX+9Q1blZcmi6XJhxaLqbXFcbjzD/khtOlOoLGqD8cGiAyp6RYC8oTmGY0vRBrH6QfaCwhWFi9VGqDmYfjKbUPGz6sdUZMPtgNDZ9tBAD2YcOAL1hEXk=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eAHFjotpA0EQQ6+K9N+COwwieSCEZvfWGN+ArRn99l4/1/V68Hf9z7e/gXfB9j6aY/OdcvTtcvga7rJNp6dpE0cGnHwr/ums3m/fx3e5nnvztC4497M3TVwOvtScn3a6mi4NHp8jGuh+uAmzx+9VT9M8O70nnvHduZZF32HLTpy6+IaVhzfdQ9a5k711ej778SfvmTv7Ls876srxfml+7/bJDy/UZM8fu/9f5SZNPOMeONA1z0h/R8vMrhN/e2+l4Rf6kHGU7rfvq2zLub/t3r3avftuD77s9a7U/Caf/okn2/zSksd/F8mDmYMX5qT35FaX/ExmxcPhAeFPkKxwyuFB554y6Pgb4gFXntQ+9e7U2/rzO/HAc2cnd/M5x45fOA0aKJ/nfKcD7u6Nb4V0TqgsGj3cjiead3qH73jo5U6P682D331wib+wfd1a
   </data>
  </layer>
-<objectgroup name="mapevents"> <object name="north" type="mapchange" x="32" y="0" width="896" height="32"> 
-   <properties> 
-    <property name="map" value="galmore_53"/> 
-   <property name="place" value="south"/> 
-  </properties> 
- </object> 
- <object name="east" type="mapchange" x="928" y="32" width="32" height="896"> 
-   <properties> 
-    <property name="map" value="galmore_64"/> 
-   <property name="place" value="west"/> 
-  </properties> 
- </object> 
- <object name="south" type="mapchange" x="32" y="928" width="896" height="32"> 
-   <properties> 
-    <property name="map" value="galmore_73"/> 
-   <property name="place" value="north"/> 
-  </properties> 
- </object> 
- <object name="west" type="mapchange" x="0" y="32" width="32" height="896"> 
-   <properties> 
-    <property name="map" value="galmore_62"/> 
-   <property name="place" value="east"/> 
-  </properties> 
- </object> 
-</objectgroup> 
-<objectgroup id="11" name="Spawn"> 
-</objectgroup> 
-<objectgroup id="10" name="Keys"> 
-</objectgroup> 
-<objectgroup id="14" name="Replace"> 
-</objectgroup> 
-</map> 
+ <objectgroup id="15" name="mapevents">
+  <object id="357" name="north" type="mapchange" x="32" y="0" width="896" height="32">
+   <properties>
+    <property name="map" value="galmore_53"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="358" name="east" type="mapchange" x="928" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_64"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="359" name="south" type="mapchange" x="672" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="galmore_73"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="361" name="south4" type="mapchange" x="384" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_73"/>
+    <property name="place" value="north4"/>
+   </properties>
+  </object>
+  <object id="362" name="south3" type="mapchange" x="96" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="galmore_73"/>
+    <property name="place" value="north3"/>
+   </properties>
+  </object>
+  <object id="363" name="south2" type="mapchange" x="32" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_73"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Spawn"/>
+ <objectgroup id="10" name="Keys"/>
+ <objectgroup id="14" name="Replace"/>
+</map>

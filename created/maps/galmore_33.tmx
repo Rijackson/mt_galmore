@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="357">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="361">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -209,7 +209,7 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="30">
@@ -222,40 +222,38 @@
    eAHtkMEJhUAMRINFCLZlb78hK5OHDMTwXT0YTxMIYbObmeyLcJiACZiACZiACZiACZhAL4F1icjZ63ao47fN56TXHXjWoPeFd/Xl3Ol996d/LLQjszV1N6rMjHQ1m7Vzj9mavB3FU080srY0r/alrz31Vmfqb1L3/ao9d98bHgY=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eAHtkcEJxTAMQzvF33+Fblh8eCCEUpz8HHpIoMiWZDmk9++67uZ3yenO7PDJ2vZdz97+f+WtvvDOfofqud9uTNm6Hx1ux/5RFvwI/9mtmZ6jWqrdP9NrXppTXevkneXIe5vDA755Oxo54GhG9apHvg5PlmOa7XjSnHOaU5oe93b0NJO42uN57Ha/8sy5h6zEO0deQvW6rprW+JRLNb6E6nddNa3xKZfq8jmfZuFAn6leT9I7HBl46UF4RbRC5WdrzfE6ZbEPTJ4u5/u8J2fEo8+i59GnHLTCpK9y5K7Or86dvXv/4+g/nHf+3js/AcUmew==
+   eAHtk0EKxDAMA/OK/f8X+sPiw4AQStclOfSQwCJbkuWQstdvjKv5G3K6Mzt8srZ917O3/115qy+8s9+heu63G1O27keH27F/lgU/w5Xdmuk5qqXa/W96zUtzqmudvG858p7m8IBP3o5GDjibUb3qma/Dk+WYZjueNOec5pSmx70dPc0krvZ4Hrvdrzxz7iEr8c6Rl1C9rqumNT7lUo0vofpdV01rfMqlunzOp1k40Geq15P0DkcGXnoQXhGtUPm3teZ4nbJW92mm7/Mer/JwK6h5WqfMf3qa6XDkdrw7PWfv2v+l+y3OO3/vnW/0gygJ
   </data>
  </layer>
-<objectgroup name="mapevents"> <object name="north" type="mapchange" x="32" y="0" width="896" height="32"> 
-   <properties> 
-    <property name="map" value="galmore_23"/> 
-   <property name="place" value="south"/> 
-  </properties> 
- </object> 
- <object name="east" type="mapchange" x="928" y="32" width="32" height="896"> 
-   <properties> 
-    <property name="map" value="galmore_34"/> 
-   <property name="place" value="west"/> 
-  </properties> 
- </object> 
- <object name="south" type="mapchange" x="32" y="928" width="896" height="32"> 
-   <properties> 
-    <property name="map" value="galmore_43"/> 
-   <property name="place" value="north"/> 
-  </properties> 
- </object> 
- <object name="west" type="mapchange" x="0" y="32" width="32" height="896"> 
-   <properties> 
-    <property name="map" value="galmore_32"/> 
-   <property name="place" value="east"/> 
-  </properties> 
- </object> 
-</objectgroup> 
-<objectgroup id="11" name="Spawn"> 
-</objectgroup> 
-<objectgroup id="10" name="Keys"> 
-</objectgroup> 
-<objectgroup id="14" name="Replace"> 
-</objectgroup> 
-</map> 
+ <objectgroup id="15" name="mapevents">
+  <object id="357" name="north" type="mapchange" x="32" y="0" width="896" height="32">
+   <properties>
+    <property name="map" value="galmore_23"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="358" name="east" type="mapchange" x="928" y="32" width="32" height="896">
+   <properties>
+    <property name="map" value="galmore_34"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="359" name="south" type="mapchange" x="32" y="928" width="896" height="32">
+   <properties>
+    <property name="map" value="galmore_43"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="360" name="west" type="mapchange" x="0" y="32" width="32" height="896">
+   <properties>
+    <property name="map" value="galmore_32"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Spawn"/>
+ <objectgroup id="10" name="Keys"/>
+ <objectgroup id="14" name="Replace"/>
+</map>
