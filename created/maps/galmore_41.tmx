@@ -228,28 +228,10 @@
   </data>
  </layer>
  <objectgroup id="15" name="mapevents">
-  <object id="357" name="north" type="mapchange" x="32" y="0" width="896" height="32">
-   <properties>
-    <property name="map" value="galmore_31"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
   <object id="358" name="east" type="mapchange" x="928" y="32" width="32" height="896">
    <properties>
     <property name="map" value="galmore_42"/>
     <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="359" name="south" type="mapchange" x="32" y="928" width="896" height="32">
-   <properties>
-    <property name="map" value="galmore_51"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="360" name="west" type="mapchange" x="0" y="32" width="32" height="896">
-   <properties>
-    <property name="map" value="galmore_40"/>
-    <property name="place" value="east"/>
    </properties>
   </object>
  </objectgroup>

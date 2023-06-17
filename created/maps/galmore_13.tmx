@@ -246,12 +246,6 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="360" name="west" type="mapchange" x="0" y="32" width="32" height="896">
-   <properties>
-    <property name="map" value="galmore_12"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="11" name="Spawn"/>
  <objectgroup id="10" name="Keys"/>
