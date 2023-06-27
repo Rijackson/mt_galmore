@@ -224,7 +224,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eAGljwGOw0AIA/OK/v8L/WFFo5EcC1g2i3RlwWOT+36u63vwd0md5Ox45eT/ueM9ZfX2adaun9u7vh0+bmR8tc/Y6U7/nyq/2k9vOMdN7c7EHJXt3+7uxPu3y4er7oReadmePO1wuvN3MF2R0XGu4elyOw0/vWMnGjl0PDFroWdduXjDZHvV4aJXpYy/K0+1d//buxOffkN3Fw2euepw3pVH0x1v13yG8w5Hdz1mLddV07dzPq9Y1av36tt2b5JHr+763u/4DO97nWGis9dd9oarOp6V7lw1+36Vm+lk0IPxwlft0bOOR7Vsh46W9WCiYLt+k8/fzv8k86m751qW4Azfk7G+y7y+C0+W6Ryz38CvGbA7ndypB54+9Tm36w8+MijPm874o088yk89nqsZrnUzvo7pNPxvv1uzf5C4x5Y=
+   eAGlj4sJw0AMQzNF91+hGxY1PBDCNr7E0Oqsn9vv57q+Lz6XzZuek6yd/D9Psm+9fvtt12me26e5E79uVP6Or7xbzv9P19/x2xvp46ZjerRrKv4pdzfe31M/vu6O9E6rePoc8TmXb3mmoWPypUZm6p008uDk3Wj0gGS0+6BX6D698VS86/iE3bgn312m4zP/9O4m579huouGn71DfInuR3OOd2q540vEB77Vu56pNzXtm0lf1eOcdzrvb3m0n4znqzddlVbdwkeuQ3wdkqt0NEd8cLknj56IT+ia87yl55DpePQKM+P7E7/yVS45v8NbHk164W+1/65yHVe1VN7KV3FVNjnlxOWkjz192lNjP0F6txn84DaXvtO8/Opgsm+7kxduMu7fZrLXO1KbdnKTZ9LIP/3d3v0DtM7BXg==
   </data>
  </layer>
  <objectgroup id="15" name="mapevents">
