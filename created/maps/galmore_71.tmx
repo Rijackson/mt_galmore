@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="361">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="361">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -214,17 +214,17 @@
  </layer>
  <layer id="4" name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eAGVUjtuAjEUtJQbUATlWpwiqVNBuATkMEmbECnUoQNuQElFh0fa0Y4m7xnzJGvt8cy8z7qU/tg8lrKa/uefAsxZbw8jspT9iOa7v5r3mOTYJ7i7fUxK+ayL0asD/7fqtoP2EORjb7OnUrA8LpLX73CG5rv2iBUFao3yggvNvM5zUddzXS/JbHdDDfxCu270gvtW4C1EAc/IF9z3IR/+Zyteg7oyPmdPT9f62X12Ugu4mCPjlpY5yT8PM8b/cC9y7v1qfT1azgNcrU/xHh/n9NQRcYBlb0VzRBxg2oPyde9vflPnn+m8RszFMfX+kveQ1aj8bN/StvLDz3vR/uiLN9cK9kE+uLqnNqqFmPJ1Dy3m6BhwYtoDMdy3Apof60t9Wlq/cx+/vwJhxEfB
+   eAGVVDsKQjEQDHgDC8VreQqtrfxcQj2MtvoErX2d2llaWtmZgQws4yYvLixJNjOzH/MMod6aQQjr4S/+5cQUdY1c2qrHXf36yOS4ZeKqvOuHsI9Oq+UBf468S+LenXzL1M94FAJc7WPy6h3O4BzjfOCeoVYvL7DgzGP+RfRJ9GmqRXXaVANX3G8KvSi/9gxNTxf8rZPP051V4sDl7KmjXD0Tx/VpZg4s5kjr4hLH9Z1mjN9DtYj5d21NfTVcOw/7zdl4jY5iaurwMIjhf6PLPAxitoechr75Js4/x9MaMReN2TwH8x5yNVp8bl/ilvJDT3ux/VEXb65k7IN4YO2eXK8Wxize7sHFHDWGOGO2B8ZwXzJwTtKX1Slx9U519P4LD+FDwg==
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eAFjYKAPOCxGH3uGoi2XgWETJAnBpLofpI9cQIs4AfmFXEAL95DilipmUlTjV0tNs/DbNCo70kKAkjw20sKKWP8CAMuRB4I=
+   eAFjYBgFAx0Cl8UYGIIkIZhUt4D0kQsOA+0lF1zCoRfkF3IBLjPJNY9UfVXMpOrArZ6aZuG2ZVRmJIYAJXlsJIYXMX4GAM2mB6A=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="15" height="30">
+ <layer id="6" name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHbKMbAsJFKmAENkGIumlaS3ISuFxcf3T3Y1MHUIMvBxGA0TA7Gx0bD1IBoZHmYOLIYOhumBkbD5NH5MHF0mlh16PpG+ahxNRoeo+ExmgZGRhoAAAx0Pf8=
+   eAHbKMbAsJFKmAENkGIumlai3YSuDx8f2T241MHUIMvDxGA0TA7GR6dh8jAaWR6bGLI8iI0O0MXQ1aPzYfrRxUf51Evro2E5GpajaWD4pAEA1rs64w==
   </data>
  </layer>
  <objectgroup id="15" name="mapevents">
