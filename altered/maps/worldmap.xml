@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="-29" y="-52">
+  <segment id="world1" x="-59" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -331,60 +331,61 @@
     <map id="haunted_forest25" x="382" y="484"/>
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
-    <map id="ratdom_bwm1" x="137" y="355"/>
-    <map id="galmore_13" x="33" y="577"/>
-    <map id="galmore_14" x="64" y="577"/>
-    <map id="galmore_15" x="95" y="577"/>
-    <map id="galmore_16" x="126" y="577"/>
-    <map id="galmore_17" x="157" y="577"/>
-    <map id="galmore_18" x="188" y="577"/>
-    <map id="galmore_19" x="219" y="577"/>
-    <map id="galmore_23" x="33" y="608"/>
-    <map id="galmore_24" x="64" y="608"/>
-    <map id="galmore_25" x="95" y="608"/>
-    <map id="galmore_26" x="126" y="608"/>
-    <map id="galmore_27" x="157" y="608"/>
-    <map id="galmore_28" x="188" y="608"/>
-    <map id="galmore_29" x="219" y="608"/>
-    <map id="galmore_32" x="2" y="639"/>
-    <map id="galmore_33" x="33" y="639"/>
-    <map id="galmore_34" x="64" y="639"/>
-    <map id="galmore_35" x="95" y="639"/>
-    <map id="galmore_36" x="126" y="639"/>
-    <map id="galmore_37" x="157" y="639"/>
-    <map id="galmore_38" x="188" y="639"/>
-    <map id="galmore_39" x="219" y="639"/>
-    <map id="galmore_41" x="-29" y="670"/>
-    <map id="galmore_42" x="2" y="670"/>
-    <map id="galmore_43" x="33" y="670"/>
-    <map id="galmore_44" x="64" y="670"/>
-    <map id="galmore_45" x="95" y="670"/>
-    <map id="galmore_46" x="126" y="670"/>
-    <map id="galmore_47" x="157" y="670"/>
-    <map id="galmore_48" x="188" y="670"/>
-    <map id="galmore_52" x="2" y="701"/>
-    <map id="galmore_53" x="33" y="701"/>
-    <map id="galmore_54" x="64" y="701"/>
-    <map id="galmore_55" x="95" y="701"/>
-    <map id="galmore_56" x="126" y="701"/>
-    <map id="galmore_57" x="157" y="701"/>
-    <map id="galmore_58" x="188" y="701"/>
-    <map id="galmore_62" x="2" y="732"/>
-    <map id="galmore_63" x="33" y="732"/>
-    <map id="galmore_64" x="64" y="732"/>
-    <map id="galmore_65" x="95" y="732"/>
-    <map id="galmore_66" x="126" y="732"/>
-    <map id="galmore_67" x="157" y="732"/>
-    <map id="galmore_68" x="188" y="732"/>
-    <map id="galmore_71" x="-14" y="763"/>
-    <map id="galmore_72" x="2" y="763"/>
-    <map id="galmore_73" x="33" y="763"/>
-    <map id="galmore_74" x="64" y="763"/>
-    <map id="galmore_75" x="95" y="763"/>
-    <map id="galmore_76" x="126" y="763"/>
-    <map id="galmore_77" x="157" y="763"/>
-    <map id="galmore_85" x="95" y="794"/>
-    <map id="galmore_86" x="126" y="794"/>
+    <map id="galmore_13" x="3" y="603"/>
+    <map id="galmore_14" x="34" y="603"/>
+    <map id="galmore_15" x="65" y="603"/>
+    <map id="galmore_16" x="96" y="603"/>
+    <map id="galmore_17" x="127" y="603"/>
+    <map id="galmore_18" x="158" y="603"/>
+    <map id="galmore_19" x="189" y="603"/>
+    <map id="galmore_23" x="3" y="634"/>
+    <map id="galmore_24" x="34" y="634"/>
+    <map id="galmore_25" x="65" y="634"/>
+    <map id="galmore_26" x="96" y="634"/>
+    <map id="galmore_27" x="127" y="634"/>
+    <map id="galmore_28" x="158" y="634"/>
+    <map id="galmore_29" x="189" y="634"/>
+    <map id="galmore_32" x="-28" y="665"/>
+    <map id="galmore_33" x="3" y="665"/>
+    <map id="galmore_34" x="34" y="665"/>
+    <map id="galmore_35" x="65" y="665"/>
+    <map id="galmore_36" x="96" y="665"/>
+    <map id="galmore_37" x="127" y="665"/>
+    <map id="galmore_38" x="158" y="665"/>
+    <map id="galmore_39" x="189" y="665"/>
+    <map id="galmore_41" x="-59" y="696"/>
+    <map id="galmore_42" x="-28" y="696"/>
+    <map id="galmore_43" x="3" y="696"/>
+    <map id="galmore_44" x="34" y="696"/>
+    <map id="galmore_45" x="65" y="696"/>
+    <map id="galmore_46" x="96" y="696"/>
+    <map id="galmore_47" x="127" y="696"/>
+    <map id="galmore_48" x="158" y="696"/>
+    <map id="galmore_52" x="-28" y="727"/>
+    <map id="galmore_53" x="3" y="727"/>
+    <map id="galmore_54" x="34" y="727"/>
+    <map id="galmore_55" x="65" y="727"/>
+    <map id="galmore_56" x="96" y="727"/>
+    <map id="galmore_57" x="127" y="727"/>
+    <map id="galmore_58" x="158" y="727"/>
+    <map id="galmore_62" x="-28" y="758"/>
+    <map id="galmore_63" x="3" y="758"/>
+    <map id="galmore_64" x="34" y="758"/>
+    <map id="galmore_65" x="65" y="758"/>
+    <map id="galmore_66" x="96" y="758"/>
+    <map id="galmore_67" x="127" y="758"/>
+    <map id="galmore_68" x="158" y="758"/>
+    <map id="galmore_71" x="-44" y="789"/>
+    <map id="galmore_72" x="-28" y="789"/>
+    <map id="galmore_73" x="3" y="789"/>
+    <map id="galmore_74" x="34" y="789"/>
+    <map id="galmore_75" x="65" y="789"/>
+    <map id="galmore_76" x="96" y="789"/>
+    <map id="galmore_77" x="127" y="789"/>
+    <map id="galmore_85" x="65" y="820"/>
+    <map id="galmore_86" x="96" y="820"/>
+    <map id="galmore_9" x="95" y="562"/>
+    <map id="galmore_10" x="95" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

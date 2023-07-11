@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="26">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -154,7 +157,7 @@
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
@@ -180,211 +183,62 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <tileset firstgid="7577" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
+  <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="7741" name="map_rock_3" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="../drawable/map_rock_3.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="7771" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
+  <image source="../drawable/map_transition_6.png" width="576" height="256"/>
+ </tileset>
+ <layer id="1" name="Base" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJytls9Kw0AQh5eAxqZ6i4omDyVtH0Brwat/QB/BN+grtB71ILSeWtFL7UEfQPAVvIgexB2Sob9OZjdpbeDDsMnutzszndgPjOlbhpYby21tnlFkzDjnJPbDc3r5msxXbQY+I59rHfRexX7YO3B4w6jovY6LLOudBLP1h47z0viDpZEY0wRayeJejNWZff/C8uLw0vjUcmQ9beBY8WoxQXAP7G2tzXs5B+9KLbnq6nXfD+7B5Z3k3rL6RO/Hvh/cA+9bejnOZXXCXrovOy/ugb0dxdtz1LFWz3Rfdl5XrqSXctxMdGQ9+2qgDC3O7URH1jOv8W3vfxzQc61OtL5xF/l5zr2P+bq1ujGRQr2ePdfyheflXvUW+bkX3j27/m/k9mr9R+vN9G43yNDiNBJe15nZq/Uf2TP6QXmfXtTrq6tJUPxWsbchYrRKL+ZXImNU1ZtU8GpnbcWzM2v9eZVe/ntunR3LZVzNyy6cV6VvDIR3OzVmx7KbzudCXviMwHlVvPwtYv+6nRdaNtLi2j4vzmMH/yYRV3553+g9CDPw4jH04nldtap5qWfKc6AX8yu92He1NeQ7PWUvksMwA708VuZwgTEI0yIU79MwA708RvFFaA7mU67XVWKvva95n4SXa4LQcqq5fEgvfwfHirfr6LfLQt7PzYwxeHmMvD6f/B1VjQP9Hx9sZaCXx9bT4rdM+74tGvdpiZeu/8b0D/FlP1k=
+   eJztwQENAAAAwqD3T20ON6AAAODPAArIAAE=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Ground" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJyNV09IlEEU/9hcF1HX7ds/uvKZXbqUkIeoQ7ciT11SCIwIshA6BSEd6hCaFfTnGB5kT2UG1SW6KJEHCTWkqCDRrUCjdO3PoSCSzHo/Zl7zvtlZ1wePmZ2ZN7/33vzmzbeep6Tg6zbreZ9J86TLWa+srCVNf06vn9kcXtNTVWz3RqzJRIrng4bwb6w5EzFr4ykzBz+nxH68t2vfFd/MQdMR0+9OeF4N4T6NF9vZknbszfv3W/HCnxnh049K1R8M1O+zGvd+XdiuSmA0l8BjGSSd1rElS6zdFFPtvcCMteg8y5iz62BtSYVjB+5JK95ZHesdsa5g8Yn3aGxQ/THt05jwTfZtAS54taBjvlkmP2u+6QOzWsf9IlD5Qnus0oyxzFk+MC6E+TWSMf1SvICs1ps+YuO4/1SasRuaA8sCN01jnVGFGxf3bda6Z//XWz5IXI4NbW3M9HOCe9uo/1qf1alomE+MmdN+Q9EfTRtev0uYHOPMP1F+ltbRQkbZ8R0G/vmEilfGOER+PNB+Q9G/Xqd4XU9zX8lmO2H+pngXyW4iU5ybV3GDMannWwWn5fnKmGd9r6wwtsT9KO4V53EyE65N6EtcyWXm919f8YyF+cx+r1q4kicswH1I5/REcx5n9zhw12f24QDtMx8zfrpi/kn75klr9XwnncMR0itRgwt5rrmHs5sOiuskC9dv+x1h4TwiBzJmHocd8gXcWxTjbdITCTXXW+F5X/xwLHj7VqzzHSfb94Hi9KO0smE5l3BziwW4i9r3Rn2v9lSYOjlk5XEf8W8XaVtK4X4LTK2We9i4w5Tfu9Ew7kVaU229IzhfeYeZR+2a94dT3rqykXhdwrziO4wc42yOC1+6qlTMtuCeMm4/xXiJdL+266D2F42vCLsP+hsAsbv4DOmjOHtIL5eJ167l0q47qjRH92KZfCyQLpEeSpj3yH6LdjTR90xMtQsbqCMQnJe0A+ZLHe+82MOuV+Ay+NWlx1oEj3p0rg9GzBvPsV7T81zn2A7rsZdUxu0rkWeuPd/9Ylxb2H9XbeEx3GVwyPVdg1oh34gJ3HuNC//wph+17LAvxntL+O8Sl3+Qq1oxj3Zvk2pdnIbkxBq0HdrO3rM9q9Seg8xbHBrQ368+aY3Dz3HHe8McxV5cb2UedyfNmKsO8/+FAf4Got+jvuL3W90C97Sed32f2TUX0pZ0r8E7ZL8LwJ6i+WeO2n3Bqnf2t9KI43x4zG5LCeJsJr+2JhU3JW6ptysvci3X5DcXjxX88P+kARHTTsJsJa1LGq4NR9y2rjjyJfz7B/emAj4=
+   eJy1lU1ugzAQhRHLSDlCr43UExBygwKbJEsHpLb7nKW2OlZenmbwD8riLRiL+cbz51PbNCfR4LWI2uO/LoemuXrdDk+b8+c9/Be+76IvsY1wbmkgbvSfyw16iMLZGWIYN2Io5QYxFzVDDJyHd3JXIw/8zwTcjoRctGvxp4TcgfifH69CLtq1+FPCenOOmfvteT9evwoX/eT0L9Y7xbXkyI/WO6G/zmKPtYz1nhLcq+TZYs/ta+8ge5VzJ75no6c135GrsZ345h3SA2M1eHu4QcyNfYuztFZwc8Tc0hmz/G7dN4g5pTNWm2un+IozxvYRerkDrsZGrsXm+8UZwxmfxLbQXYdW31k5d9Zqym/DIjbOcenuyN2bD4XH3JT/klxvCXNfwtXYJfPDOYjvXA235o0q2SN7c81vfEfnNbXWuJb/2j22p6/+AAkD2lw=
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Ground1" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJzFVjtLQ1EMjhf6cqlWKXQU/4KLjg6C4iAiTuKg7qLU2cEHWFykShXBHyA4q3MnR+vka9BN0EEXVxNuQ9NjzuO2gh+ES3NP7nfyJTmnAO24K4KKl4zul3hV1pz6w5zf+eyCt5xLxhtlk/F+dZjv8ED8LEax1YXmpDP5Qnk597qlboz9fMx7XwJ4KMUcDRHTk7XHMqQ+Wu4uMK8GLV/yrSr6RAH7tEHrEwnSh/g2FV6XvkcJ6kXgfPnp4uUadTJHrJWpvdS7IHgbSo5J50ju/63J+dxnX3+R1/22fF2zYe7/w8FLCDnT/gKjuI8xsZeQWdPw2J9s/SRyThkabKUBttOt3yF9VVM0l7P07tGZUEXOQ8F7XQgght/3ke+c8+EmkNeEi7eWAjhOueOlzq7zoha197g2k4zxQYARtIlB/T2d+Vp9bfy2u59Rxhw30GaRbw5t3sJLCD2viHMpF2Yhe/XxDjXvXlnPTC/Ad65lGhbT7XG3Bn9ovhS/JnKSvOxbV/ZAcb57xgXuoz20CtpMpmUVR5ypO+Hc4pe4xDm7ErN2wt9DHZfRVtCmu8hHg9Yr2twuRK16yfVav9n6z0TFeJ6h7RhrdpW1ZGZd6QywvfOBdK4avoNkn+gIpPN/8/L/aZNX01Dz8T3H77R7z+SVZzXxPhW6m1MffDqH5mrDDyiDfYM=
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgcIJpTLjlABtmAJk=
   </data>
  </layer>
- <layer id="4" name="Top" width="30" height="30">
+ <layer id="4" name="Objects" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSigP0jiJA4PF1BIwJ9FNPZrFxqmJ/BhZ2DwBWI/dvrYNxNKxwDtiwXiODrZCwKtQJwDtC8XiPPoaO8oGAXkAgCYZw7b
+   eJx9VstOFEEUrfROcdOQzFDRL/A3jDt3bv0sRvkA9QfYsmE6wSGZjU7SBIZxEBIFET9AXViHvsc+dan2JJXprqr7Pvf2hBBCMwphL4Y7PKjCIHAPeDlwZ+T227r7XcR+b2l7J/bb2FlMsmuRn9n5xWZvl4As/F2l+/ui++Nm2S/c13u0rXuKD/TN7K7EL/o7j/fPiCh7uAdf1da8YJc21a6C8jtbIUy28jOfB/WVtp6bzOPtfClK+5R/m+TfmY7z6v4589BKHGuXm291/j6T96/2/ExkjuvcBoDagUOt03Xi3hXXSf77QK1/pP3bWOb0F+MT+btbdWuS1hu5X9kz6oy7qD/1ogaHBd+wf+D2IUddt3Wv08PXu5HnaZ3H+2scwu9x5wN9oo7/QXUuhI+shdYWz59Guf5HiUNPtzvbiHPm+l1nhfdF+fW+yt+RD+aGcTKXp2k9NP5uCIfp18rpUdvsWdgiFxBrK35rzkucurK78GOq/Rz7GPB8LXNKYzt3tQfQA8x5Yzn+mdZnyTVrfGZyB2l/WuCNnxGt9BfnCrlOfl/Ku9b3qM5rrBz3uYF+9JLmn72lcwXw9qnvJvYcQo2fiO0jx60hbvvvk4fPDzhC20SJX0uLV79zC/FlbHZfVL0PsLUWnhHgIePweWT8Z/XwTPMzE/ZfVV0ssMf9fz1kdWAPK6/AY3KKHOM+Oaa5XrqZNY99LH5eq686KxWeYwTu3Yg+1o3y1LsvNakkBwrwrNQv5Nifce4jEF3dkMtLkfffd41rz/W/6gWubIYpv1jrUv8wduZ8Uvh+eh/0/0WJR1pr9W8xEKP3wZ/Dns5S6vOxeyCW1uafxtVIrK9t/QXPmwi4
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
+ <layer id="5" name="Above" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJztk1kKwDAIRHOK3v8KuWG/AsGOcVy6QCNISev41Nh+tNYXPtsqTtMMnScH0kfYXu6In59ernb21v0EN8rMcJG90e/mXt/J2ChX0yJjdkKr02JZ7FU/Wh1Vxswt0k8V17Nb6GzNsYLr7TfDlb0gDlMLy0U5tTkzPIZr5ZFc9t/OchkNup/MPkf9a1xmfpk+ZByTF323TLtzqffOOWJ370SFZ+rd3P9yT6ja1ls=
+   eJzlVTsOwjAMjXoDlkjl1gihcg1gZevK1ExFcBdiCVM38i9tN55UkRrjFz9/CCGErgk/9HF6jmGOQ9geKc55h5W8fazzQ17Av/Auxb2dzoMjToqTH/CO+ffPlvd9Zftb+K4WmCPwY9ybEFuyaxh3Oi/WVspXy3Xf8HaKc+FT8nq0pHknppaUo+RDYG0xT0vL8l5SD9H7wPkuxLV6qoR1Pzob2pxQjTWtL9l+ddwNdYA8tbnqHL1BUaONhVSh9ZKZkgBaYz9Y3Evy5Xo/xfl+1rhHg0/rXc5WM8MAT49Ze5tyArz1W1vnUmNPLlv8T3AaeOJuOU8A2ntW7KV5Y+1xd8A7nGk8b2zaR6eGrz9no3ur5PfsUQmPr3+fPz85N4hL
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
-  <object id="1" name="north1" type="mapchange" x="256" y="0" width="96" height="32">
+ <layer id="6" name="Top" width="30" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4gsNiA+2C4Q9Gw3gUjIJRMApGwUABAETcAbM=
+  </data>
+ </layer>
+ <layer id="7" name="Walkable" width="30" height="23" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsBEPRgb41FEbj9pLe3vwgeFkLz430Dtuke2ld1xjCxN6p7HhZCche+ltP3rc0srugfLvYAlnetqLzW5scrSyE5ffByqOB8puZDXUtG+g0hc2f9EzrImJA1L0AQBb2qSb
+  </data>
+ </layer>
+ <objectgroup id="8" name="mapevents">
+  <object id="2" name="east" type="mapchange" x="928" y="-128" width="32" height="896">
    <properties>
-    <property name="map" value="waytogalmore0"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object id="3" name="north2" type="mapchange" x="672" y="0" width="128" height="32">
-   <properties>
-    <property name="map" value="waytogalmore0"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object id="4" name="north3" type="mapchange" x="832" y="0" width="64" height="32">
-   <properties>
-    <property name="map" value="waytogalmore0"/>
-    <property name="place" value="south3"/>
-   </properties>
-  </object>
-  <object id="5" name="entrance3" type="mapchange" x="480" y="256" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle0"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object id="6" name="entrance4" type="mapchange" x="736" y="416" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_shed"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object id="7" name="entrance1" type="mapchange" x="32" y="320" width="64" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_stable"/>
-    <property name="place" value="exit1"/>
-   </properties>
-  </object>
-  <object id="8" name="entrance2" type="mapchange" x="160" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_stable"/>
-    <property name="place" value="exit2"/>
-   </properties>
-  </object>
-  <object id="9" name="west1" type="mapchange" x="0" y="352" width="32" height="64">
-   <properties>
-    <property name="map" value="wild22"/>
-    <property name="place" value="east1"/>
-   </properties>
-  </object>
-  <object id="10" name="west2" type="mapchange" x="0" y="704" width="32" height="64">
-   <properties>
-    <property name="map" value="wild22"/>
-    <property name="place" value="east2"/>
-   </properties>
-  </object>
-  <object id="11" name="entrance5" type="mapchange" x="192" y="512" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_shop"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object id="12" name="entrance6" type="mapchange" x="64" y="672" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_tower0"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object id="13" name="entrance7" type="mapchange" x="512" y="672" width="32" height="32">
-   <properties>
-    <property name="map" value="stoutford_castle_tower1"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object id="32" name="stn_gyra_m14_9" type="script" x="224" y="544" width="32" height="64"/>
-  <object id="33" name="stn_gyra_m14_8" type="script" x="128" y="352" width="96" height="32"/>
-  <object id="34" name="stn_gyra_m14_7" type="script" x="32" y="704" width="64" height="64"/>
-  <object id="31" name="stn_gyra_m14_6" type="script" x="224" y="32" width="128" height="32"/>
-  <object id="29" name="stn_gyra_m14_5" type="script" x="480" y="704" width="96" height="32"/>
-  <object id="27" name="stn_gyra_m14_4" type="script" x="832" y="32" width="64" height="32"/>
-  <object id="25" name="stn_gyra_m14_3" type="script" x="704" y="32" width="96" height="32"/>
-  <object id="20" name="stn_gyra_m14_2" type="script" x="32" y="352" width="96" height="64"/>
-  <object id="21" name="stn_gyra_m14_1" type="script" x="448" y="288" width="96" height="32"/>
-  <object id="20" name="stn_gyra_40" type="script" x="256" y="928" width="96" height="32"/>
-  <object id="25" name="south" type="mapchange" x="32" y="928" width="896" height="32">
-   <properties>
-    <property name="map" value="galmore_13"/>
-    <property name="place" value="north"/>
+    <property name="map" value="galmore_14"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
-  <object id="14" name="erwyn_soldier" type="spawn" x="448" y="704" width="416" height="64"/>
-  <object id="15" name="erwyn_soldier2" type="spawn" x="832" y="32" width="64" height="640">
-   <properties>
-    <property name="quantity" type="int" value="2"/>
-   </properties>
-  </object>
-  <object id="16" name="erwyn_soldier3" type="spawn" x="32" y="32" width="768" height="576">
-   <properties>
-    <property name="quantity" type="int" value="4"/>
-   </properties>
-  </object>
-  <object id="17" name="erwyn_knight" type="spawn" x="352" y="288" width="320" height="288">
-   <properties>
-    <property name="quantity" type="int" value="2"/>
-   </properties>
-  </object>
-  <object id="23" name="stn_gyraC" type="spawn" x="0" y="384" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="22" name="stn_gyraB" type="spawn" x="0" y="704" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="21" name="stn_gyraA" type="spawn" x="256" y="896" width="96" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="35" name="stn_gyra9" type="spawn" x="192" y="512" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="36" name="stn_gyra8" type="spawn" x="160" y="320" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="37" name="stn_gyra7" type="spawn" x="64" y="672" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="30" name="stn_gyra6" type="spawn" x="288" y="0" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="28" name="stn_gyra5" type="spawn" x="512" y="672" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="26" name="stn_gyra4" type="spawn" x="832" y="0" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="24" name="stn_gyra3" type="spawn" x="704" y="0" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="22" name="stn_gyra2" type="spawn" x="32" y="320" width="64" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
-  <object id="23" name="stn_gyra1" type="spawn" x="480" y="256" width="32" height="32">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="9" name="Spawn"/>
+ <objectgroup id="10" name="Keys"/>
+ <objectgroup id="11" name="Replace"/>
 </map>
