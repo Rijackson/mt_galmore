@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="2">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -231,10 +231,10 @@
   </data>
  </layer>
  <objectgroup id="8" name="mapevents">
-  <object id="2" name="east" type="mapchange" x="928" y="-128" width="32" height="896">
+  <object id="1" name="south" type="mapchange" x="512" y="704" width="96" height="32">
    <properties>
-    <property name="map" value="galmore_14"/>
-    <property name="place" value="west"/>
+    <property name="map" value="galmore_10"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

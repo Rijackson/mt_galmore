@@ -386,6 +386,7 @@
     <map id="galmore_86" x="96" y="820"/>
     <map id="galmore_9" x="95" y="562"/>
     <map id="galmore_10" x="95" y="586"/>
+    <map id="galmore_11" x="65" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
