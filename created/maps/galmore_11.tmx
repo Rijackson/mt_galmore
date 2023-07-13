@@ -203,7 +203,7 @@
  </layer>
  <layer name="Ground" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+WMGEiVcisWkBdjEhML3svMeEwDuhdu+msZ3o4XoPjU8PO9HjlRYA2Vx62bkHau5ppPjchRSvtADnoObOlIXYewYJn6WRnSC7kDFyOgbx6WEnOp7GRDuMy05aAOR0is0dtLaTXnkFn50DUQ4NlJ0Ai09iuA==
+   eJxjYCAdrGAiHa9EYp8hAxOydxcSxmYnufgekXgn1O7dOMyhJOwIuQ+XffjCjprxCgNnkdinsdhxlog4hcUhsrnY7ATpB5k3W5aBYSYUg9inkcw/y4TqJlwApn4Pkt6dTKhpajfUHGT7kO2FgdmymGqwuQsGzkHZM9HUwNSh20UKRg8bbGpeiKGmY0rsowRPY6IdxmUntfMiOkZ2A63twpc/B8ruoYRxlaOEMAA64iCZ
   </data>
  </layer>
  <layer name="Ground1" width="29" height="16">
@@ -213,12 +213,12 @@
  </layer>
  <layer name="Objects" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+OCwJoZ8JMjBslkSI6wvRwDI89oPAHiD7miBt7dsjico/I4ldHTUByI67TBD2fSba2gWLt+vAcLwsieBvprE/dzFBMAi8hNp5mMZ2nmGCYBjIpXHYgsA9JggGAUkgXctEW3sfIJkNS0O1UHtpnZZA4AVafjxO4/w5HclPJ2ls10Zg+tyEJY0+E0N1BzXBQaB9h4D4NdRv9Cpnr0Ptg+VJWufNaUy4Ma3CFgQMkMLzMZIfVwLtBADCJytn
+   eJydVcFOAkEMncwfrIdN5iv0x/wEPmMX/0A5qidxL0oiGJSLCYhG8SIJePBm4GYb2kzpdneBJs3OdLZ9r+10t+ud6+6pTdILm+c8ce46RPvxUbNvldzsgKvxUQpYj5PDMD92xCzC9v4plN+pq93ZHrlJDOY3M/xvhc2qXaF6elHDgfs2gTq+hLjn3qI/4336jTIux8fzkcJo6qms2YIwe6q2mPsqde49tfs18pET6tCXedXJqThHf8Rbp9HGuBwfz79AB2D/q+El6yTXAZ4tH3EHAmsO6wXFZQ64XpFKm8Xrjez9NK6ZW4twZ8R9DDpVWFXyIHDXaeRk+Vnx+gfO567S9pHnI2BlsM/JJr8NaG/76j3KaxLPcnE+Ifsl3M8rY/61SA7McQoxzsmW+6iMwWcdxekO8O5Bf4iD9Z3NKu65xlgmEQN9ljTzvLdy5pmUs5kZ/GU9v0M5j44xm5wzcpA10ar7xLnpemlM7P+Q7j7OyTNh/op7cVLx38JY/8Q9oxI=
   </data>
  </layer>
  <layer name="Above" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfOCxGR8tGmJ2XBsDO4Qguj6aXUTCEwWZJVHoU0BYAAGqvB7Y=
+   eJxjYKAfOCxGR8tGmJ2XBsDO4Qguj4D08oBp8KWXG4ID7YKhBXCl082SqDQ1ASXp9CIOvYTyGzl27sHid2R7CJmJTx7dbAAx7xIx
   </data>
  </layer>
  <layer name="Top" width="29" height="16">
@@ -226,13 +226,13 @@
    eJxjYBgFo2AUjIJRMApGAakAAAdAAAE=
   </data>
  </layer>
- <layer name="Walkable" width="29" height="16">
+ <layer name="Walkable" width="29" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKA+2CiGH9MCjNo5aueoncTbic/+gQCEwoFSPFj8MWrn8LITAJ1FaCs=
   </data>
  </layer>
  <objectgroup name="mapevents">
-  <object name="east" type="mapchange" x="896" y="288" width="32" height="64">
+  <object name="east" type="mapchange" x="896" y="288" width="32" height="32">
    <properties>
     <property name="map" value="galmore_10"/>
     <property name="place" value="west"/>
