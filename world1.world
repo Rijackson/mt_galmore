@@ -1,13 +1,6 @@
 {
     "maps": [
         {
-            "fileName": "created/maps/galmore_13.tmx",
-            "height": 960,
-            "width": 960,
-            "x": 1984,
-            "y": 0
-        },
-        {
             "fileName": "created/maps/galmore_14.tmx",
             "height": 960,
             "width": 960,
@@ -370,6 +363,48 @@
             "width": 960,
             "x": 4960,
             "y": 6944
+        },
+        {
+            "fileName": "created/maps/galmore_9.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 4928,
+            "y": -1312
+        },
+        {
+            "fileName": "created/maps/galmore_13.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1984,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/galmore_11.tmx",
+            "height": 512,
+            "width": 928,
+            "x": 3968,
+            "y": -544
+        },
+        {
+            "fileName": "created/maps/galmore_12a.tmx",
+            "height": 512,
+            "width": 992,
+            "x": 1984,
+            "y": -544
+        },
+        {
+            "fileName": "created/maps/galmore_10.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 4928,
+            "y": -544
+        },
+        {
+            "fileName": "created/maps/galmore_12.tmx",
+            "height": 512,
+            "width": 928,
+            "x": 3008,
+            "y": -544
         }
     ],
     "onlyShowAdjacentMaps": false,
