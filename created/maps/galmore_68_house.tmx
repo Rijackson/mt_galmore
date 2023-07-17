@@ -236,7 +236,7 @@
  </layer>
  <layer id="4" name="Top" width="20" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDFUAAAPAAAE=
+   eJxjYBgFIKCtNNAuGAWjgHQAANT2AE4=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="20" height="12" visible="0">
