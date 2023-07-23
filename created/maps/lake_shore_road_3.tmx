@@ -180,14 +180,29 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_transition_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7833" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7961" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8089" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcGIUj+JRPIpHMU3wRhqbTSvz6WE2NkxLsym1gxizyTWfWLOR7SDWLlLNJsV/AEvAqjE=
+   eJw7wcnAcGIUj+JRPIpHMU3wRhqaLSnPwGBAZYxsNrXNRzcbF6al2eSYT4rZpJpPK7NBajeTaDapGGQ2ALVgXvQ=
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSggHQAACEQAAQ==
+   eJxjYBgFo2AUjIKRDS7IMTBclKON2euB5m6godmXoG6fK0tds+8BzTwMNf8CFowrvLqJ9CvI/AdY8GEkP1Eb3CPR/DnAMD2HRW0AFr2n5DHNP4cWXmdlERgkd5lEv4LiW1oeoucylA3jI8cNSO4Q1Exi0p6/HO74QI4XkF0gcx8C8XExiNkA/JdE5Q==
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="23">
@@ -197,7 +212,7 @@
  </layer>
  <layer id="4" name="Walkable" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSggHQAACEQAAQ==
+   eJxjYBgFo2AUjILBD2bKQfBQNp+WZuPDtLYTXZyW5uNSR4n52MKL0nBE14PPPFqmDVoDAPC1Hgc=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>

@@ -180,14 +180,17 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsJFCfAILptTMwWovNjuHq7247Bwo/w5UmhrIsKaHnwdbeA/XOB7ouB4If+Ozc6DtHk5+JsZOWvl5sNs9EH4daLsHKo4B6ATuaw==
+   eJzbyMnAsJECfAIHpsRMfHgzFA+EvbjsHI724rNzoOyllZ3EhPNw9DMhf480ewcyHw9kXqaV3cTYSwu7iQlrattLrF+pbfdQsZdadm/mJNwGGI1n+uclGAYAu1PxCw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20Hb6AAAOA3ClAAAQ==
+   eJzllbEKwzAQQ+8rvOX/x+Yb6sFbcNqthUAXE/Be2q0SnCl0cwZ5qECrH7o7ZLN+lWC2w9fJbJ4OPHBQCczNeWpuBu8MPwZwlVmpE3g3sN9Bz73A64C8lHrOvOXombM4d2NTI+7rH7nq2+aO70HfWxS7S523+J9EqXa8gFN9xlHY1W235G3i/dbw7Sxlb6Wf/0g16ye4L7e6O5pGcXvZH8V0Pyc=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="22">
