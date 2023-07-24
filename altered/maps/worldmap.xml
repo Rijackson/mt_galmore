@@ -399,6 +399,7 @@
     <map id="lake_shore_road_7" x="189" y="535"/>
     <map id="lake_shore_road_8" x="189" y="563"/>
     <map id="lake_shore_road_9" x="189" y="580"/>
+    <map id="galmore_10a" x="158" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

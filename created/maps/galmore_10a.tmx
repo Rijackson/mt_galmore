@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,29 +184,26 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="22">
+ <layer id="1" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJzlk1EKwCAIhqO33f91V9hGdImONWITxDSjFkJ7+F9M/fzFwuZcGFASNNKzpvjKgisxV+TWmFbcuOCeNc8zuTXff+Na/+OZ961xZ3m34rbs+mtuq1fKjZ3q4eI7G5XG2D3PzXGpZ34D9cxw+keXL7nwRntDHNdKu8Y5MCetl7iYT2McNzC1iYlxng8hhxO9Q46r9YNd5LwbM2vqvg==
+   eJxbwcTAsGIUj+JRPIoHEd7IiR3T2t7NnNjxcLUXhOdgwdQwdy0e80Fy67BgatmLy3xa2rsCi/nrCdgLAMCiQEo=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="22">
+ <layer id="2" name="Objects" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJzFlE0OgkAMhSccgh2z8yQS1+r11BMYg2fQhTuCuCe49hK2YRqHSoe/GX3Jiwl03pe2I0qNV54oVYAf4HPy/T4Tns8V5lYm99dc7PcCfv6BK2WH5Eq95o69++CW4LswY1QorpSN9+0aqF/KLs2eed+h9muzUZwRkkv5EleaRUguzqI2DsEnrnS37ZrCI5d2LP2XqaY2db57dvVr1/m6a/RtQvVlcu5aT/MGfIubGQ/5Tth3HL3Q470Cb8GvuOFVjv2S7D2jpjBT/cmze+A73kXN7yFq902yn/MzvCZlXKrdR+1Z8/NdXJ4tnbG5WEOzG6KjqcMzrvw+7qnjbNezucogc6nd3DF6AwsZf4c=
+   eJxjYBgFo2AUjILBBS7IYse0BktlseOhbO88Jtxys/HIUQMgmz+XxnbhA/Swez8ZdgAAcW8SgA==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="22">
+ <layer id="3" name="Above" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYOmAuE2653bLkm4uudw4TBMPAbDz24nMTIbCaAjeDwGkc+m9KMjDckkTwNwLZm5D4xNqLbg4yfzOUBgAVWw9Q
+   eJxjYBgFo2AUjIJRMApGAaXgpiQDwy1J4tUDAF5yAeY=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="22">
+ <layer id="4" name="Walkable" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20Hb6AAAOA3ClAAAQ==
+   eJxjYBgFo2AUjIJRMApGAb0BAAeAAAE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
