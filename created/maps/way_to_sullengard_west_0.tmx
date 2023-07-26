@@ -185,17 +185,17 @@
  </tileset>
  <layer id="1" name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8bDCAIItEIY=
+   eJzbyMnAsHEUj+JRPIqHAF7HhGDPYSJdL0jPOiheT4L+dUyomBy9B6D4IBl6L0HxZRL0AgAFJxAs
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMNwAAAXcAAE=
+   eJxjYBgFo2AUDCR4KUa+3hMjTO96Jgg9G0rPZSJdLyX2DiW9AEZoCSk=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMNwAAAXcAAE=
+   eJxjYBgFo2AUjAL6gblMA+2CkQEA5XIAoA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="15" height="25">
