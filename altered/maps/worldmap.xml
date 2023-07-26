@@ -400,6 +400,13 @@
     <map id="lake_shore_road_8" x="189" y="563"/>
     <map id="lake_shore_road_9" x="189" y="580"/>
     <map id="galmore_10a" x="158" y="586"/>
+    <map id="way_to_sullengard_west_0" x="220" y="580"/>
+    <map id="way_to_sullengard_west_1" x="220" y="606"/>
+    <map id="way_to_sullengard_west_2" x="220" y="665"/>
+    <map id="way_to_sullengard_west_3" x="220" y="634"/>
+    <map id="way_to_sullengard_west_4" x="246" y="665"/>
+    <map id="way_to_sullengard_west_5" x="272" y="665"/>
+    <map id="way_to_sullengard_west_6" x="285" y="686"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
