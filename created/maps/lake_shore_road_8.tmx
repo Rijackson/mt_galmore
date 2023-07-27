@@ -220,6 +220,18 @@
     <property name="place" value="northeast"/>
    </properties>
   </object>
+  <object name="northeast" type="mapchange" x="416" y="0" width="448" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_7"/>
+    <property name="place" value="southeast"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="0" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_7"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
