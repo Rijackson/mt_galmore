@@ -207,7 +207,20 @@
    eJxjYMAOZsoiMLIYrcFgsBdmH7o76GEvut245GllNy47qB0OxPqLFnGAy15scUBtQEw40yrN4UvXtEzn9A5jbPbisp9e9iLbTUt7B9puQpgeYCDKcWz2wsTwAQDtikLV
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="0" y="480" width="512" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_9"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="southeast" type="mapchange" x="768" y="480" width="192" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_9"/>
+    <property name="place" value="northeast"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
