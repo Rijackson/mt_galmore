@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,26 +200,31 @@
  </tileset>
  <layer id="1" name="Ground" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJwzkGdgMBjFo3gUj+JRTBMsPUTNlqSh+ZIEMC3NpsR8Yswm13xyzJbGE0fI8Ues2aRikNkArL+dRw==
+   eJwzkGdgMBjFo3gUj+JRTBMsPUTNlqSh+ZIEMC3NpsR8Yswm13xyzJbGE0fI6ok1m1QMMhsAq/edRQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBiawIkRPx6sZo+CUTAKBh+4IMfAcFGOduZvoKHZl6BunytLXXMPyyHMv4AF4wqvbiL8eg+o5gEODLL3Eo3i4x6J5s8Bhuk5LGoDsOg9JY9p/jm08Dori8Agucsk+nU9UJ20PETPZSQ96HEEkjsElScm7fnL4Y8TWLyA7AaZ+1AO4haQ2QC9h0b5
+   eJxjYBiawIkRPx6sZo+CUTAKBh+4IMfAcFGOduZvoKHZl6BunytLXXMPyyHMv4AF4wqvbiL8eg+o5gEODLL3Eo3i4x6J5s8Bhuk5LGoDsOg9JY9p/jm08Dori8Agucsk+nU9UJ20PETPZSQ96HEEkjsEdQsxac9fDn+cwOIFZDfI3IdyELeAzAYAFVxH2g==
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9ATBjBAcwojJBtGjYBSMglEwCkYBNcFdSdqZDQA9nQOa
+   eJxjYBgF9ATBjBAcwojJBtGjYBSMglEwCkYOyBCmjbnlQHMroGbflaSOmZuh5rQDze2Amg0AI9AHKw==
+  </data>
+ </layer>
+ <layer id="9" name="Top" width="23" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSggHQAACEQAAQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="23" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdmClHGNPS7sFo9kCGySgYBUMZ0KPMGKzlBjFm07tMwWU+tewj1v3k+pFQeFEajuh68Jk3lMt9AEzMLFM=
+   eJxjYKAdmClHGNPS7sFo9kCGySgYBUMZ0KPMGKzlBjFm07tMwWU+tewj1v3k+pFQeFEajuh68Jk31Mp9ZD8AAF2aLng=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="32" y="704" width="672" height="32">
+  <object id="1" name="south" type="mapchange" x="32" y="704" width="608" height="32">
    <properties>
     <property name="map" value="lake_shore_road_6"/>
     <property name="place" value="north"/>
