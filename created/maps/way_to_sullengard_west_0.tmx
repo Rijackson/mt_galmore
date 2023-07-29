@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTlWJg+CrJwPANiNHBdyxi6IAVqJ9Ninj12AC7FIJ9ikwzQACXP4gByP4YBaOAnuClGPl6T4wwveuZIPRsKD2XiXS9lNg7lPQCAFcxETQ=
+   eJwTlWJg+CrJwPANiNHBdyxi6IAVqJ9Ninj12AC7FIJ9ikwzQACXP5DBDTEGhm1QvFsMIY7sD2LAdjHCamih9ySS3mMD7IaRbj+1wEsizcPm3xNE6sXmX2L1YvMvsXqxAUr0rmeC0LOh9Fwm3GrRw2s9HrXoAD28hqJeAHQlJTQ=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
@@ -204,7 +204,7 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="160" y="768" width="224" height="32">
+  <object id="1" name="south" type="mapchange" x="160" y="768" width="320" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_west_1"/>
     <property name="place" value="north"/>
