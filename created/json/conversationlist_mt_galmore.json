@@ -97,5 +97,53 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sutdover_river_bridge_script_selector",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"sutdover_river_bridge_broken_script",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sutdover_river_bridge_fixed_script",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sutdover_river_bridge_fixed_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"sutdover_river_bridge_broken_script",
+        "message":"You can't continue over the broken boards. It's time to turn around and find another way across.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":36
+            }
+        ]
     }
 ]

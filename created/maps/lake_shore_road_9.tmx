@@ -256,6 +256,11 @@
     <property name="place" value="southeast"/>
    </properties>
   </object>
+  <object name="sutdover_river_bridge_script_selector" type="script" x="512" y="128" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
