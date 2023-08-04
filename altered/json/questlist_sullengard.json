@@ -167,6 +167,10 @@
                 "logText":"East of Stoutford and west of Sullengard, the PC has seen first hand that the once broken bridge is now fixed."
             },
             {
+                "progress":38,
+                "logText":"Seraphina robbed the PC"
+            },
+            {
                 "progress":110,
                 "logText":"110 Ravine achievement"
             },

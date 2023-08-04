@@ -145,5 +145,181 @@
                 "value":36
             }
         ]
+    },
+    {
+        "id":"thief_seraphina_script_selector",
+        "replies":[
+            {
+                "nextPhraseID":"thief_seraphina_script_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_script_10",
+        "message":"Hey, kid! Just where do you think you're going?",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"Across the bridge, of course. Afterall, I can't swim.",
+                "nextPhraseID":"thief_seraphina_script_20"
+            },
+            {
+                "text":"Nowhere...I guess.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_script_20",
+        "message":"The bridge is broken. You're going nowhere."
+    },
+    {
+        "id":"thief_seraphina_selector",
+        "replies":[
+            {
+                "nextPhraseID":"thief_seraphina_script_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"thief_seraphina_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want my gold back. You thief!",
+                "nextPhraseID":"thief_seraphina_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":38
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"thief_seraphina_bridge_fixed"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_10",
+        "message":"Let me guess, you're wondering if I know how to cross the river?",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"Well, do you?",
+                "nextPhraseID":"thief_seraphina_20"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_bridge_fixed",
+        "message":"Please move along. There's nothing to see here.",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"Yes, ma'am.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_20",
+        "message":"Well, a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 2000 gold.",
+        "replies":[
+            {
+                "text":"Wow! All you thieves are alike. Here, take it.",
+                "nextPhraseID":"thief_seraphina_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_30",
+        "message":"Great! Now, let me see. Where is that board?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"thief_seraphina_40"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_40",
+        "message":"[Seraphina bends down to look under the bridge.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"thief_seraphina_50"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_50",
+        "message":"Um, it's not here.",
+        "replies":[
+            {
+                "text":"What do you mean \"it's not here\"? Where is it?",
+                "nextPhraseID":"thief_seraphina_60"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_60",
+        "message":"It must have drifted down river. Sorry!",
+        "replies":[
+            {
+                "text":"\"Sorry\"? I want my gold back.",
+                "nextPhraseID":"thief_seraphina_70"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_70",
+        "message":"Maybe next time you come by I'll have the board?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":38
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_80",
+        "message":"Do I know you?",
+        "replies":[
+            {
+                "text":"Umar will here about this!",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

@@ -261,8 +261,19 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="thief_seraphina_script_selector" type="script" x="448" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="thief_seraphina_spawn" type="spawn" x="384" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="thief_seraphina"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">
   <object name="bridge_broken" type="replace" x="544" y="128" width="32" height="32">

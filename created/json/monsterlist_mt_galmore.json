@@ -4,5 +4,14 @@
         "name":"Laska Blizz",
         "iconID":"monsters_rltiles4:26",
         "monsterClass":"animal"
+    },
+    {
+        "id":"thief_seraphina",
+        "name":"Sly Seraphina",
+        "iconID":"monsters_tometik7:38",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"thief_seraphina_selector"
     }
 ]
