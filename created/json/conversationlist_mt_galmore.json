@@ -2,5 +2,100 @@
     {
         "id":"galmore_68_blocked_door",
         "message":"You try to push the door open, but it's blocked from the inside. Best to try the other door."
+    },
+    {
+        "id":"sullengard_town_clerk_selector",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_town_clerk_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_town_clerk_bridge_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":37,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_town_clerk_bridge_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":37
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_bridge_0",
+        "message":"With all that gold that you helped us get back, we plan to fix the bridge so we will be able ship our beer to the west.",
+        "replies":[
+            {
+                "text":"\"Bridge\"? What bridge? To the west?",
+                "nextPhraseID":"sullengard_town_clerk_bridge_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Oh, that's great news indeed! It's going to make my life easier.",
+                "nextPhraseID":"sullengard_town_clerk_bridge_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":36
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_bridge_10",
+        "message":"Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_town_clerk_bridge_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_bridge_20",
+        "message":"It should be ready by the time you get there."
+    },
+    {
+        "id":"sullengard_town_clerk_bridge_5",
+        "message":"The bridge that crosses over the Sutdover River has been repaired thanks to you.",
+        "replies":[
+            {
+                "text":"Yes. I am aware. In fact, I've already used.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

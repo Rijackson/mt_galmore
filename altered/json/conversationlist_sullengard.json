@@ -1,0 +1,38 @@
+[
+    {
+        "id":"sullengard_mayor_5",
+        "message":"Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena.",
+        "replies":[
+            {
+                "text":"Of course, he is my brother.",
+                "nextPhraseID":"sullengard_mayor_6"
+            },
+            {
+                "text":"How did you know?",
+                "nextPhraseID":"sullengard_mayor_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_0",
+        "message":"Hello. I am Maddalena, the the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_town_clerk_10"
+            }
+        ]
+    }
+]
