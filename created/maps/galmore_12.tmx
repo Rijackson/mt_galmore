@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -209,12 +209,12 @@
  </layer>
  <layer id="4" name="Objects" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJytVL1OwzAQrrwyeUGyeIyuLNChSzckKCorqIihT5PAG4RMzGkfAfEITV4Fn3KffD6dEwY+6RTbufvu1z66xeLI8ujTekokvny+38f9Kozrl7hehrKuhQtnn3cucc5hFfL9vWGzjmdt5OyjXPG34RoAZxXL4Ozza+VP4pX5ULuTsu2Mmu7/kOMmpDgoLtRlw7FoP4QHxduJnn4K/YPS26q97qPMq+daDsr/mc+1f8lVqg2dY029lfXSfqxewzfJt8t5Zcwk0P0x6qfzoj7tLsd1xbnU6j/8S0gOihc+B5fH2iu9KbSGruS1UJozeccwMxVzrJXNe4Fb25dAsWrO/wZipFg+3JgL+jRXV4KcUbI9cJ+Jl+4b+KSU6lKLOYEO7iy9PZXiePLp7SPIO4J7ehPtb6O8+RRva/jf+bweyEfCsiuB6nly6b1tJvIm1KLuz+LNhE85+5jZhr93wY4P/+fmUAM8Vv8bl7+BrbpD8Ennv/TneNE=
+   eJytVDtOxDAQXU1L5WYli2PQ0kCKbbZD4qOlBS2i2NMkyw1CKursHgFxhE2ugkfxyM+jcZaCJ41iO/Z787MPtFgcoj25NJ4zxJfL59swr/w0fg3jK1/ea+GC7PWeEuc5VD6f3xtnVmGtC5xDsMv4bWMOBCfly0j2+rXSQ7xFPsndUZ3tjZxu/xDj2ic/2C/Jyzr6onUYD4q3h5p+wv6d2veo5rqOGNcQczkq/VNc1/rIVcoNr8uYa4v50jpWrUWb7ZtyXvSZTfb+GPnTcXGdNstpXMdYmvDdU/ov+gjkYH9Fc6Tc10Htm0Nn7EVeC6U+wzsmPVNHjpU6Uy3n/dI9p8G+as7/htSDffmgKZaGkv45YI/y2R3Ume+b8KHtCzlvjD6RO8tvT604nl16+xh4R+Se3oTzt8HeXfK3M/Q3Ls+HxIOwzpXA+TxSem/bmbgZDeT9Bd5M0cTel55t4/fO2/7J/zldC8Jj1b+l/A3s1B0STV7/BYz7eSo=
   </data>
  </layer>
  <layer id="5" name="Above" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOcBajTI0PEyoNAjlM2NVSy04QCIbK1xOwCwaCoOrxuQ1mp40keW4iBwRhMRPZHlrYaYzFf8j2YHMTCOQSEXaEAHI6wWUPMqjFYSfIPmci4hQZELJvOhHpFp8ZxKTFqVjUJGMxE+ZvYsJoIEGEIOVm4Mpv9DTDEKjfCM2MVUSmK2oAWJ6kp520KFvwgWAC+QcZkBKf+NTiKtMB3ocUgg==
+   eJxjYKAOcBajTI0PEyoNAjlM2NVSy04QCIbK1xOwCwaCoOrxuQ1mp40keW4iBwRhMRPZHlrYaYzFf8j2YHMTCOQSEXaEAHI6wWUPMqjFYSfIPmci4hQZEGMfPgCyD58ZxKTFqVjUBGMxE+ZvSt2MC0wnMswIgQhBys3Ald/oaYYhUL8RmhmrqBRGxABYnqSnnbQoW/CBYAL5BxmQEp/41OIq0wEaOxRy
   </data>
  </layer>
  <layer id="6" name="Top" width="29" height="16">
