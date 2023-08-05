@@ -103,6 +103,7 @@
         "message":"",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"sutdover_river_bridge_broken_script",
                 "requires":[
                     {
@@ -114,6 +115,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"sutdover_river_bridge_fixed_script",
                 "requires":[
                     {
@@ -150,6 +152,7 @@
         "id":"thief_seraphina_script_selector",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_script_10",
                 "requires":[
                     {
@@ -183,8 +186,10 @@
     },
     {
         "id":"thief_seraphina_selector",
+        "switchToNPC":"thief_seraphina",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_script_10",
                 "requires":[
                     {
@@ -196,12 +201,19 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves04",
                         "value":75,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":38,
                         "negate":true
                     }
                 ]
@@ -218,6 +230,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_bridge_fixed"
             }
         ]
@@ -246,7 +259,7 @@
     },
     {
         "id":"thief_seraphina_20",
-        "message":"Well, a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 2000 gold.",
+        "message":"Well, a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold.",
         "replies":[
             {
                 "text":"Wow! All you thieves are alike. Here, take it.",
