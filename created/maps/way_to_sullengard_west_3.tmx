@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,10 +200,15 @@
  </layer>
  <layer id="3" name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJzllNENgDAIRJmiSfcfpRvIl06jxhAbWio99Mv7ahNejsAFolZrJtry9S6pUzCor+VhLT2xlmfElw9uAdmIJ8oWoF9ON+tRLwvIjCJZ0H3wh7myhO5JOIQVDp23l5PZMrDf2TzVKi+yM5k4mdkbp32tf0+Wj/xHtyzi+zdWZqjz62F3lH1Apw==
+   eJzllNEJwCAMRDOF4P6juIH5aqdppYSKGhsv7VfvSyGP0+QIUa8tEu3xOqcwKJjU17Kwmp5YzdPjyyeXQdbjibIJeC+Hm7VolAWkR54stO/gD3OlCZ2TcAgrHNpvKye9ZWC+q3mqlV5kVzJRmPLnDPi3tRZW26Vyn+0yj+/fWOlhm18LewB9/ECc
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="30">
+ <layer id="10" name="Top" width="15" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRB25JDrQLRsFgAQD4YgD0
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYMANNorhkcSjB4ZJUU+pvaToxWUnufbS2r249NHTvaTGKy49lJhBrp8p0YtsBr31khNW5OhD1kOuPnLBUIybweRmctMIKeopTRv0Ditk+4jVCwChWjZr
   </data>

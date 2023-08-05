@@ -188,7 +188,7 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1lL0OgjAURkk3Xt0HcHK3HSgxTuCguKKD4szkg1iS2/Dl0pYWcDhJf8g9/W4bpMgySdQRXAw3xs6gDaXhSmsNzTXsfQHrVIY+gqfh7aCj2i82R+8pH0n1VpQZnXfIqCmPXuF9OGgps4KefSAj9r9h46Xeit2zpnro5b23Z0Nnap9b8uPb6Twel8vnPed+7Pc9ezuhTDFeKaYOl3cAvSkun9dmnvMOpOaL8Yb6vBXonev1lnCvDPT6396BPWON4yCm8PqW0Fn4fRfCX78Q478S8eVVjrH1KjH1+uov8VYwPrI9/jZ5/XLG+wPx3mBt
+   eJy1lL0OgjAURkk3Xt0HcHK3HSwaJ3RQXNFBcWbyQSjJbfhyaUsLOJykP+SefrcNUmSZJC4RXA13xsagDYXhRmsVzTXs/QDrVIY2gpfh46Ch2m82R+8pH0j1lpQZnQ/IqCmPXuB9Oqgps4KefSEj9r9i47nekt2zpnro5b23Z0Nnap9r8uPbaTwel8vnPed+7PctezuhTDFeKcYOl7cHvSkun9dmnvL2pOaL8Yb6vBboner1mnCvDPT6396eLWOJYyfG8PqW0Fn4fR+Fv/5BDP9KxJdXOcbWq8TY66s/x1vCeM/2+NvkdYsJbwf3fmB0
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="16">
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd7JbFFOtmwhRbLYufT0gcHbwWJM49IPN8mCCYGvZiswPE34UmBuLHMEEwtewFqUW2mxi9pNjrjxROyGAXkv9A9hNjL3p4EHJPDBZ7YQBmJy4ziQH43HxaCLceUuIHG5iOx1+4AKV+hQFseRMfoIadIEBpmJELyAnrUTD8AKnpHhfYKMnAsEmSsLo9UDXo6f4mUPwWEfphAADKuyj1
+   eJxjYCAd7JbFFOtmwhRbLQvByHxsAJc4OngtiNs9u9HsAWEfJurYC7MDnb8LzX8wfgwV7V2NxW/YzCA3nP2ZEOGEDHZB/QcCu2WJs3cXif6NwWIvDMDs3IXDXlx2EWMvCJwWwq2HGD/hA9Px+AsXQPYrJQBb3sQHqGEnCJCSpqkJyAnrUTD8AKnpHhfYKMnAsEmSsLo9UDXo6f4mUPwWEfphAABcaDHX
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="16">
@@ -206,13 +206,18 @@
    eJxjYBg6YJfsQLtgFIyCUTAKRsEooA4AAMO6ANg=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="16">
+ <layer id="5" name="Walkable" width="30" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPmCmLiukF6GkXur0DYTe9w5ZQnKKrwYVJsYcYP8LU4FOLzTxK0ykp+pDdSMidpJhHjDpkOylNMyMtjw0Wu4lNq8TmAXLSPT59lOR5UgC2/EsPgM2/pAIAC6Y6TQ==
+   eJxjYKAPmCmLiukF6GkXur0DYTe9w5ZQnKKrwYVJsYcYP8LUEOsuUvxEjFuJVUuMHlLNI0Ydsp2UppmRlscGi93EplVCcuTkL1z6iTGb2mGHLf/SA2DzL6kAAERmOwM=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="928" y="32" width="32" height="352"/>
+  <object id="1" name="east" type="mapchange" x="928" y="32" width="32" height="352">
+   <properties>
+    <property name="map" value="lake_shore_road_9"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
   <object id="2" name="south" type="mapchange" x="448" y="480" width="96" height="32">
    <properties>
     <property name="map" value="galmore_18"/>
