@@ -248,7 +248,12 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="south" type="mapchange" x="352" y="672" width="96" height="32"/>
+  <object name="south" type="mapchange" x="352" y="672" width="96" height="32">
+   <properties>
+    <property name="map" value="galmore_19"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
   <object name="north" type="mapchange" x="64" y="0" width="448" height="32"/>
   <object name="northeast" type="mapchange" x="768" y="0" width="128" height="32">
    <properties>
