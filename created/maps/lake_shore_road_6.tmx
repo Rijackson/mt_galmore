@@ -197,7 +197,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMZAVbCRyuaNglFACkBPfyA+Mqa2eaSai6wem15yzcOnjxL/47KHFPOw+ZkSf5PqZ0LmEmMvvjgjZB42tyCrIeRWbGqx6cXlFnx6yE0TML0AOT873A==
+   eJzbKMZAFbBRDIGpad4oGAWkAPQ0g5wuyUlPhMwj1Vxk9dj0kmsePn3UyJuU+BubnynxN6l+JmQuMfbiizNC5mFzC7IaQm7FphabXlxuwaeH3DQB0wsARn0++A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -207,7 +207,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="32" y="0" width="576" height="32">
+  <object id="2" name="north" type="mapchange" x="32" y="0" width="544" height="32">
    <properties>
     <property name="map" value="lake_shore_road_3"/>
     <property name="place" value="south"/>
