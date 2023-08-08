@@ -13,5 +13,30 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"thief_seraphina_selector"
+    },
+    {
+        "id":"aidem_camp_defy",
+        "name":"Defy",
+        "iconID":"monsters_ld1:81"
+    },
+    {
+        "id":"aidem_camp_greedy",
+        "name":"Greedy",
+        "iconID":"monsters_ld1:65"
+    },
+    {
+        "id":"aidem_camp_grabby",
+        "name":"Grabby",
+        "iconID":"monsters_ld1:65"
+    },
+    {
+        "id":"aidem_camp_zachlanny",
+        "name":"Zachlanny",
+        "iconID":"monsters_ld1:65"
+    },
+    {
+        "id":"aidem_camp_lost_traveler",
+        "name":"Lost Traveler",
+        "iconID":"monsters_tometik2:55"
     }
 ]

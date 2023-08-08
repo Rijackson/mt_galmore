@@ -171,6 +171,10 @@
                 "logText":"Seraphina robbed the PC"
             },
             {
+                "progress":39,
+                "logText":"\"Aidem\" thieves have spawned."
+            },
+            {
                 "progress":110,
                 "logText":"110 Ravine achievement"
             },

@@ -334,5 +334,47 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"spawn_aidem_camp_thieves_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"spawn_aidem_camp_thieves_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":39,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"spawn_aidem_camp_thieves_spawn",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_camp_thieves",
+                "mapName":"aidem_camp"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":39
+            }
+        ]
     }
 ]
