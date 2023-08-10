@@ -200,7 +200,7 @@
  </layer>
  <layer name="Objects" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJydVUtOwzAU9BWcrsyiK/ZwEgQXQHACoDeEDWLBAVBQpXYBJG1Bggtgo4w8nT47LSNZSez3f/PiTXB/6OKzj6vzzq3jcxPXsnGuHfZLgCxjLntq52bi3O0k+12FfM5yqvfss8/PYe/V23aA+/j+ECg/kSvpcR6Ityc7Z1PnzuO6mG7nCUAO9enE/rvfzoP14fck2v6O65R8HAKNAejJ72W0fRXX9eDDymtfaD7w+yS2Ul4/hbzUBmM+nKE+4KsFzgs2j49yTbS37BtnrcHXhI+CT+jNmnoea7LPnOqCzQnIWTat+QPA7VqsLMd+cPZo5NqF3e9e4kCsXyHL6wz8F4tml9uLxpbV+PXfxFgaNrT3Y+AeKZ8Y3H+G1lZhzXSJa7X+Mzg+rsHK53OdC7Zr9XWMtwxr7ngu0tLezJo6b6066ty9CDdKc70vbzu5ixIs/pTqcSjXrLiYZzWuJ1h8Z9zROceM/bG+Ikb4svqk0P8Sy7ehPlO1u1zzSPHw/c/6tdzefJ0PpTuXdfi9Vot98QuXaBoZ
+   eJyVVktOwzAU9BWSrsKiK/ZwEgQXQHACPjeETcWCA5CgSrAAnFCQ4AL4oYw8Gb247UhWI/t53sfz7G6a8I+Yfvs0YhXCZ/rdpPFah9CN84zbOn/DlrGWOeW5WoRwvch+hyavs53ue0yxtWN8X+Pcc+XzGMz2Ln3fN5Sf2Hn7NA/E2xPPyTKE0zTOltM8AdihPlH43yUP3g+/R4n7J41j8rEPNAbUpCe/54n7Io3L0YeX167QfOD3Qbgsr9+ZvJSDsR7XUB/oFWjpm/MC5+FBromeLfvGWufo1fBBfjQ+26ca9XIEP2sqNtN9xsM9gLW2yrl6/QdA263UyAb3qPYAc66c+kbxh/hZY4j1u8n23APtTA3V19yaavulnuYHrIRH7yYG9y+gZ78NfH6qJwafP0Nrq/B6WjXDtsMWPgPHxzUYqryufcG8iIl9e7pVsIaVn/vChp6NvUEl3Xp11L57Em3M9bXe3XOI8hYZPP3M1WNfrXlx4f4xlLRu8PTOuJF3HjFjvnTHcYzw5Z2TQu8ltu8av6fawn8ABfZbPPz+8/5Sbm9VWQ9ef/K8fpdqsSv+AD/bLkM=
   </data>
  </layer>
  <layer name="Above" width="25" height="25">
@@ -213,9 +213,9 @@
    eJxjYBgFgwnckRxoF4wCXODWMIybB8PQT6NgFIwC+oKbksOzfBwKAACOYQTH
   </data>
  </layer>
- <layer name="Walkable" width="25" height="25" visible="0">
+ <layer name="Walkable" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9lEsKwDAIRHuNbHL/YxaSTSl+3kxDBSGo0clEHfNaMubW6hxJ5O9s0fmtbv7sPtUqZxZX8ULyd3ddUTg9IRX3VZzqU7mJ7hAbnYEIu/oOpQ+zmhUegpVyS/654/qruDn/jKd/qtRT+tPpW1KT7hO1n+g8EFxkjtT9QYXiOFnnaXPzObW6/OoeIL3g7MkOT+ajXLj41XdGvhv7MDuE
+   eJy9lFEKwDAIQ3eN/uz+xxxsP2NofAllglDUJlat6zxuWeej6lxJ5Z9s1fmrKX53n6rC7OJUXQj+dDcVp6Y7RNVexbk+tza075Od8iTvcOaw41T5kFxpbUmfFf4OSTH/jKc9dfic+UzmlnDSfeLOE/0PJC/yj9z9QYXmsZPnbUvxEq4J390DZBaSPTnl0/loLdL83XdWvgtx4Du7
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -225,9 +225,24 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object name="aidem_camp_easedrop_selector" type="script" x="64" y="320" width="64" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="aidem_camp_easedrop_selector" type="script" x="384" y="256" width="64" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="aidem_camp_intro_selector" type="script" x="384" y="128" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="aidem_camp_thieves" type="spawn" x="288" y="128" width="32" height="32">
+  <object name="aidem_camp_thieves" type="spawn" x="256" y="128" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="aidem_camp_defy"/>
@@ -258,6 +273,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="easedropping_required_key" type="key" x="608" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="easedropping_required_key"/>
+    <property name="requireId" value="wanted_men"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
 </map>

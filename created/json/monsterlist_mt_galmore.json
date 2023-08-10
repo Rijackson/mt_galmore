@@ -22,17 +22,20 @@
     {
         "id":"aidem_camp_greedy",
         "name":"Greedy",
-        "iconID":"monsters_ld1:65"
+        "iconID":"monsters_ld1:65",
+        "phraseID":"aidem_camp_greedy_10"
     },
     {
         "id":"aidem_camp_grabby",
         "name":"Grabby",
-        "iconID":"monsters_ld1:65"
+        "iconID":"monsters_ld1:65",
+        "phraseID":"aidem_camp_grabby_10"
     },
     {
         "id":"aidem_camp_zachlanny",
         "name":"Zachlanny",
-        "iconID":"monsters_ld1:65"
+        "iconID":"monsters_ld1:65",
+        "phraseID":"aidem_camp_zachlanny_10"
     },
     {
         "id":"aidem_camp_lost_traveler",

@@ -1,0 +1,21 @@
+[
+    {
+        "id":"wanted_men",
+        "name":"Wanted men",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices. "
+            },
+            {
+                "progress":15,
+                "logText":"Off the main road, southeast of Deebo's Orchard, I've discovered the Aidem thieves hiding-out in the woods."
+            },
+            {
+                "progress":20,
+                "logText":"TODO"
+            }
+        ]
+    }
+]

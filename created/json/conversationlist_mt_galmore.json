@@ -376,5 +376,165 @@
                 "value":39
             }
         ]
+    },
+    {
+        "id":"aidem_camp_grabby_10",
+        "message":"I'm just the muscle around here. Go talk to Defy."
+    },
+    {
+        "id":"aidem_camp_greedy_10",
+        "message":"I'm just the...um...",
+        "replies":[
+            {
+                "text":"brains?",
+                "nextPhraseID":"aidem_camp_greedy_20"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_greedy_20",
+        "message":"Um, yes. One of those."
+    },
+    {
+        "id":"aidem_camp_zachlanny_10",
+        "message":"Are you lost, kid?"
+    },
+    {
+        "id":"aidem_camp_easedrop_selector",
+        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_15",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_10",
+        "message":"Shh! What was that? Did you guys here that?",
+        "switchToNPC":"aidem_camp_greedy",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_20"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_20",
+        "message":"I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew.",
+        "switchToNPC":"aidem_camp_grabby",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_15",
+        "message":"There it is again! Please tell me that you guys heard that?",
+        "switchToNPC":"aidem_camp_greedy",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easdrop_25"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easdrop_25",
+        "message":"Greedy! That's enough! Stop it. We are safe here.",
+        "switchToNPC":"aidem_camp_zachlanny",
+        "replies":[
+            {
+                "text":"Wait a minute, I recognize those guys.",
+                "nextPhraseID":"aidem_camp_easdrop_35"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easdrop_35",
+        "message":"Ugh. Whatever.",
+        "switchToNPC":"aidem_camp_greedy",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"easedropping_required_key",
+        "message":"You should get a better understand of who those men are before you crash the party."
+    },
+    {
+        "id":"aidem_camp_intro_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_intro_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_intro_10",
+        "message":"Lookie what we have here! Sullengard's 5 most wanted men, all in one location. This is my lucky day.",
+        "replies":[
+            {
+                "text":"Hello boys!",
+                "nextPhraseID":"aidem_camp_intro_20"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_intro_20",
+        "message":"Oh, it's the child from Crossglen. Umar's little toy.",
+        "switchToNPC":"aidem_camp_defy",
+        "replies":[
+            {
+                "text":"Watch it, thief!",
+                "nextPhraseID":"aidem_camp_intro_30"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_intro_30",
+        "message":"Why are you yelling from across the woods? Please walk over here and we can talk.",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
