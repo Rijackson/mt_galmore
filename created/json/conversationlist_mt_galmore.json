@@ -536,5 +536,152 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"aidem_camp_defy_10",
+        "message":"Oh, how interesting your timing is.",
+        "replies":[
+            {
+                "text":"Really? And why is that?",
+                "nextPhraseID":"aidem_camp_defy_20"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_20",
+        "message":"Well, you see, we are in kind of a predicament.",
+        "replies":[
+            {
+                "text":"Oh, you are feeling guility for what you did to the great people of Sullengard and want to turn yourselves in, but don't want to go to jail?",
+                "nextPhraseID":"aidem_camp_defy_30"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_30",
+        "message":"Now that's funny. No! Now back to what I was trying to tell you...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_35"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_35",
+        "message":"We are planning a heist, but we need your \"skills\" to pull it off.",
+        "replies":[
+            {
+                "text":"Forget it!",
+                "nextPhraseID":"aidem_camp_defy_40"
+            },
+            {
+                "text":"My \"skills\" are not for hire.",
+                "nextPhraseID":"aidem_camp_defy_40"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_40",
+        "message":"Please. Just hear me out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_45"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_45",
+        "message":"We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key.",
+        "replies":[
+            {
+                "text":"OK. You had me a \"treasures\". Please go on.",
+                "nextPhraseID":"aidem_camp_defy_50"
+            },
+            {
+                "text":"And you want me to help you return it to its rightful owners?",
+                "nextPhraseID":"aidem_camp_defy_46"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_50",
+        "message":"The problem of needing the key is where your \"skills\" come in.",
+        "replies":[
+            {
+                "text":"These \"skills\" that you keep mentioning, what are they?",
+                "nextPhraseID":"aidem_camp_defy_55"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_46",
+        "message":"[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_50"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_55",
+        "message":"I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it.",
+        "replies":[
+            {
+                "text":"A \"major\" role you said. So what, I get fifty percent of the loot?",
+                "nextPhraseID":"aidem_camp_defy_56"
+            },
+            {
+                "text":"Oh, sorry. Please continue.",
+                "nextPhraseID":"aidem_camp_defy_60"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_56",
+        "message":"Again with the humor. No, you will not be getting fifty percent. Anyways...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_60"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_60",
+        "message":"Well, before I get into anymore details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_alaric_10"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_alaric_10",
+        "message":"Well Defy, @playername did let me go after discovering my crime.",
+        "switchToNPC":"aidem_camp_lost_traveler",
+        "replies":[
+            {
+                "text":"[Keep quiet about the facts and agree, for now] That's true.",
+                "nextPhraseID":"aidem_camp_defy_70"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_70",
+        "message":"That's fair enough. Now let us move on to the details, shall we?",
+        "switchToNPC":"aidem_camp_defy",
+        "replies":[
+            {
+                "text":"Yes, please. I'm getting bored here.",
+                "nextPhraseID":"aidem_camp_defy_75"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_75"
     }
 ]

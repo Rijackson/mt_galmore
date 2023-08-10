@@ -17,7 +17,8 @@
     {
         "id":"aidem_camp_defy",
         "name":"Defy",
-        "iconID":"monsters_ld1:81"
+        "iconID":"monsters_ld1:81",
+        "phraseID":"aidem_camp_defy_10"
     },
     {
         "id":"aidem_camp_greedy",
