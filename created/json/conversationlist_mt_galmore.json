@@ -773,6 +773,142 @@
     },
     {
         "id":"aidem_camp_defy_82",
-        "message":"Anyways...The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven."
+        "message":"Anyways...The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven.",
+        "replies":[
+            {
+                "text":"I've been all around the Fallhaven area a thousand times and I've never seen any vault.",
+                "nextPhraseID":"aidem_camp_defy_83"
+            },
+            {
+                "text":"I don't believe you. I would have stumbled across it.",
+                "nextPhraseID":"aidem_camp_defy_83"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_83",
+        "message":"Oh, trust me, it's there all right.",
+        "replies":[
+            {
+                "text":"Trust you? You want me to trust you? A dishonorable thief? Where is it then?",
+                "nextPhraseID":"aidem_camp_defy_84"
+            },
+            {
+                "text":"Tell me. I want to know.",
+                "nextPhraseID":"aidem_camp_defy_84"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_84",
+        "message":"Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?",
+        "replies":[
+            {
+                "text":"Of course I am.",
+                "nextPhraseID":"aidem_camp_defy_85"
+            },
+            {
+                "text":"[Lie] Yes, yes I am.",
+                "nextPhraseID":"aidem_camp_defy_85"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_85",
+        "message":"The enterance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access.",
+        "replies":[
+            {
+                "text":"That sounds easy. I'll do it.",
+                "nextPhraseID":"aidem_camp_defy_86"
+            },
+            {
+                "text":"I guess I can try and get in there.",
+                "nextPhraseID":"aidem_camp_defy_86"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_86",
+        "message":"You won't be doing it.",
+        "replies":[
+            {
+                "text":"I won't be?",
+                "nextPhraseID":"aidem_camp_defy_87"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_87",
+        "message":"Nope. We will be doing that.",
+        "replies":[
+            {
+                "text":"Then what do you need from me?",
+                "nextPhraseID":"aidem_camp_defy_88"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_88",
+        "message":"What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?",
+        "replies":[
+            {
+                "text":"Why should I help you? What do I get out of this?",
+                "nextPhraseID":"aidem_camp_defy_89"
+            },
+            {
+                "text":"If I do this for you, then I expect to get paid!",
+                "nextPhraseID":"aidem_camp_defy_89a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_89",
+        "message":"Oh, you aren't as dumb as you are funny.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_89a"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_89a",
+        "message":"How does 10 percent of the total treasure sound?",
+        "replies":[
+            {
+                "text":"I want 50 percent",
+                "nextPhraseID":"aidem_camp_defy_89a"
+            },
+            {
+                "text":"How does 30 percent sound?",
+                "nextPhraseID":"aidem_camp_defy_89a"
+            },
+            {
+                "text":"Nope. I will go no lower than 25 percent",
+                "nextPhraseID":"aidem_camp_defy_89a"
+            },
+            {
+                "text":"I'll do it for twice that amount. 20 percent.",
+                "nextPhraseID":"aidem_camp_defy_90"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_90",
+        "message":"Fine! [Shh] I'll take it out of of Greedy's portion. He'll never know the difference."
     }
 ]

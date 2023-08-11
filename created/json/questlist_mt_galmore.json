@@ -15,6 +15,14 @@
             {
                 "progress":20,
                 "logText":"While speaking with Defy, I've learned the he and his men have it out for The Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means. "
+            },
+            {
+                "progress":25,
+                "logText":"Defy has revealed the location of The Thieves Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven."
+            },
+            {
+                "progress":30,
+                "logText":"Defy needs the me to convince Troublemaker to let me  borrow the key long enough that the I can bring it back to Defy."
             }
         ]
     }
