@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="16" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,64 +181,41 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <layer name="Ground" width="30" height="16">
+ <layer name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJy1lL0OgjAURkk3Xt0HcHK3HSwaJ3RQXNFBcWbyQSjJbfhyaUsLOJykP+SefrcNUmSZJC4RXA13xsagDYXhRmsVzTXs/QDrVIY2gpfh46Ch2m82R+8pH0j1lpQZnQ/IqCmPXuB9Oqgps4KefSEj9r9i47nekt2zpnro5b23Z0Nnap9r8uPbaTwel8vnPed+7PctezuhTDFeKcYOl7cHvSkun9dmnvL2pOaL8Yb6vBboner1mnCvDPT6396eLWOJYyfG8PqW0Fn4fR+Fv/5BDP9KxJdXOcbWq8TY66s/x1vCeM/2+NvkdYsJbwf3fmB0
+   eJytzjEOgCAMQFHD5v0TzqADOLjhoO46oLuTB7GNJSGIoaDDHyA8WiOqyiQaIE1NlIJa6Ei0kuugjeLakWbNDLt4obP0fs+0NrAnxdnZerPQ9vWds+78lpvl33FtLP3RNoVWkS2Z/Yct2du3uT60mIz8IcUztBdmxqkx
   </data>
  </layer>
- <layer name="Objects" width="30" height="16">
+ <layer name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMrgtiF38pycDwShKTTQooFWJg8GUiTu10qDqQemcsemDmXAO6VxHIViJgbiyaPLI7fNDkQHaD1AdDxZ9C6cdQcRjfEEgbQdl3cIQbDHAxYbojBs3eYiH8ZlwjYAcIPIeqQQ/n7WwMDDugeCcbROwuUM19qLr3OMxGN4cdyf8wUA50dwXU7TD/iUPp40C7TkDxSTbsZoLAMzSxWLSwxwbagXZ2IIVZE1r4bZGF4EOyEL+ipwEY4MLiJ2LBalkIDbLjsCwkjo7IQvAGWex68NlFKB2hg0tAOy5D7UG2F5aPQWlWHMl/N0k0Hxk8x6EXZi/ILReoiEGgDClOV0P9BQtrkJ1XgXgplTE2ACoTYGFNCzvR7cVVDsPcgg2A0t48PGlrNolpHGbPVCZMO0H8B7IIjG7+XCLteonmz1YhhJ0wgMxGdsdtHGGEbjct0vx+MsoLAI0Ehoo=
+   eJxjYMAOHgnhkKAA+DIRJ4dNXSwTphouJoQcsjpsACYO8hc2NTCz8bkRF4hFcwfMDB4xTLV3gWL3sIg/RjLjKQ43vAXqewfV+w+LGchgNpoZTSTE51omhP7DYgi7iEkTa8kIP3S9zwVJ03dODNPewwTCBwZAfsLm5uk4/HEOLSyQ9aKHD7IZU/GECwB57B9c
   </data>
  </layer>
- <layer name="Above" width="30" height="16">
+ <layer name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd7JbFFOtmwhRbLQvByHxsAJc4OngtiNs9u9HsAWEfJurYC7MDnb8LzX8wfgwV7V2NxW/YzCA3nP2ZEOGEDHZB/QcCu2WJs3cXif6NwWIvDMDs3IXDXlx2EWMvCJwWwq2HGD/hA9Px+AsXQPYrJQBb3sQHqGEnCJCSpqkJyAnrUTD8AKnpHhfYKMnAsEmSsLo9UDXo6f4mUPwWEfphAABcaDHX
+   eJxjYKAMHBYb+nr9mRgYfJjItzeGAr3EgoHSO51Iv+ECl4eou+kJAAK8Cro=
   </data>
  </layer>
- <layer name="Top" width="30" height="16">
+ <layer name="Walkable" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBg6YJfsQLtgFIyCUTAKRsEooA4AAMO6ANg=
-  </data>
- </layer>
- <layer name="Walkable" width="30" height="16" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAPmCmLiukF6GkXur0DYTe9w5ZQnKKrwYVJsYcYP8LUEOsuUvxEjFuJVUuMHlLNI0Ydsp2UppmRlscGi93EplVCcuTkL1z6iTGb2mGHLf/SA2DzL6kAAERmOwM=
+   eJxjYBgFo2AUDCQAAAOEAAE=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="928" y="32" width="32" height="352">
+  <object name="outside" type="mapchange" x="192" y="448" width="64" height="32">
    <properties>
-    <property name="map" value="lake_shore_road_9"/>
-    <property name="place" value="west"/>
+    <property name="map" value="galmore_10a"/>
+    <property name="place" value="aidem_base"/>
    </properties>
   </object>
-  <object name="south" type="mapchange" x="448" y="480" width="96" height="32">
+  <object name="down" type="mapchange" x="384" y="160" width="32" height="32">
    <properties>
-    <property name="map" value="galmore_18"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object name="aidem_base" type="mapchange" x="256" y="160" width="64" height="32">
-   <properties>
-    <property name="map" value="aidem_base_1"/>
-    <property name="place" value="outside"/>
+    <property name="map" value="aidem_base_2"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
-  <object name="aidem_base_key" type="key" x="256" y="160" width="64" height="32">
-   <properties>
-    <property name="phrase" value="aidem_base_locked"/>
-    <property name="requireId" value="wanted_men"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="40"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

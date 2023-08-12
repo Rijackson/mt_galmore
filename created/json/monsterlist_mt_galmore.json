@@ -41,6 +41,17 @@
     {
         "id":"aidem_camp_lost_traveler",
         "name":"Lost Traveler",
+        "iconID":"monsters_tometik2:55",
+        "phraseID":"aidem_camp_lost_traveler"
+    },
+    {
+        "id":"aidem_base_alaric",
+        "name":"Alaric",
         "iconID":"monsters_tometik2:55"
+    },
+    {
+        "id":"aidem_base_defy",
+        "name":"Defy",
+        "iconID":"monsters_ld1:81"
     }
 ]
