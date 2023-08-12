@@ -23,6 +23,14 @@
             {
                 "progress":30,
                 "logText":"Defy needs the me to convince Troublemaker to let me borrow the key long enough that the I can bring it back to Defy."
+            },
+            {
+                "progress":35,
+                "logText":"Defy has agreed to pay me 20 percent of the looted Thieves Guild treasure if I get the key from Troublemaker and hand it over to him."
+            },
+            {
+                "progress":40,
+                "logText":"Defy wants me to bring Troublemakers' key to him back at their new hideout located east of the Sutdover river, where the rail tracks end."
             }
         ]
     }

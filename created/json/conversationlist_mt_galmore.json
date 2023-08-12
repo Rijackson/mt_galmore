@@ -909,6 +909,40 @@
     },
     {
         "id":"aidem_camp_defy_90",
-        "message":"Fine! [Shh] I'll take it out of of Greedy's portion. He'll never know the difference."
+        "message":"Fine! [Shh] I'll take it out of of Greedy's portion. He'll never know the difference.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_95"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_95",
+        "message":"We will be leaving this campsite in favor of our hideout. Meet up with me there and you can give me the key then.",
+        "replies":[
+            {
+                "text":"Sounds good, but where is your hideout?",
+                "nextPhraseID":"aidem_camp_defy_100"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_100",
+        "message":"It's where the rail tracks end. East of the Sutdover River.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":40
+            }
+        ]
     }
 ]
