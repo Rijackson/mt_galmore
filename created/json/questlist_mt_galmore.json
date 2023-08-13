@@ -38,11 +38,25 @@
             },
             {
                 "progress":50,
-                "logText":"I told Troublemaker all that I knew about Defy, his men and the \"Lost Traveler\" Alaric and how they hired me to help the rob the Thieves Guild."
+                "logText":"I told Troublemaker all that I knew about Defy, his men and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
             },
             {
                 "progress":55,
                 "logText":"Troublemaker wants me help him trap Defy by providing Defy with a fake key. When Defy arrives and the secret vault, the Guild members will be waiting for him."
+            },
+            {
+                "progress":60,
+                "logText":"Defy has given me a fake version of Troublemakers' vault key and has instructed me to return it to Troublemaker. Then report back to the vault in order to collect my share of the gold."
+            },
+            {
+                "progress":65,
+                "logText":"I have given the fake Aidem key to Troublemaker as a replacement for the real vault key."
+            },
+            {
+                "progress":70,
+                "logText":"I reported back to Defy and he rewarded me with 25000 gold.",
+                "rewardExperience":14700,
+                "finishesQuest":1
             }
         ]
     }

@@ -106,6 +106,22 @@
                 ]
             },
             {
+                "text":"[Lie] I have deposited the 10000 gold. Here is your key back, as promised.",
+                "nextPhraseID":"troublemaker_wm_return_fake_key_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"aidem_fake_vault_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Can I take a look at the Guild's current supplies?",
                 "nextPhraseID":"S"
             }

@@ -13,5 +13,13 @@
         "name":"Fake Thieves Guild vault key",
         "displaytype":"quest",
         "category":"other"
+    },
+    {
+        "id":"aidem_fake_vault_key",
+        "iconID":"items_japozero:399",
+        "name":"Aidem fake vault key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The fake key made by the Aidem thieves to trick Troublemaker."
     }
 ]

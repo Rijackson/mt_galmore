@@ -47,11 +47,25 @@
     {
         "id":"aidem_base_alaric",
         "name":"Alaric",
-        "iconID":"monsters_tometik2:55"
+        "iconID":"monsters_tometik2:55",
+        "phraseID":"aidem_base_alaric_10"
     },
     {
         "id":"aidem_base_defy",
         "name":"Defy",
-        "iconID":"monsters_ld1:81"
+        "iconID":"monsters_ld1:81",
+        "phraseID":"aidem_base_defy_selector"
+    },
+    {
+        "id":"alaric_wild6house",
+        "name":"Alaric",
+        "iconID":"monsters_tometik2:55",
+        "phraseID":"alaric_wild6house"
+    },
+    {
+        "id":"defy_wild6house",
+        "name":"Defy",
+        "iconID":"monsters_ld1:81",
+        "phraseID":"defy_wild6house_10"
     }
 ]
