@@ -962,5 +962,154 @@
     {
         "id":"aidem_camp_lost_traveler",
         "message":"Go talk to Dfy. I have nothing to say to you."
+    },
+    {
+        "id":"troublemaker_wm_10",
+        "message":"Great! Give it to me and when I have time, whenever that may be, I will add it to our bank.",
+        "replies":[
+            {
+                "text":"Well, if you are so busy, I don't mind making the deposit for the greater good.",
+                "nextPhraseID":"troublemaker_wm_15"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_15",
+        "message":"Hmm...well I guess you could do that for me considering Umar trusts you a lot.",
+        "replies":[
+            {
+                "text":"Great! Just tell me where to go and you can consider it done.",
+                "nextPhraseID":"troublemaker_wm_20"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_20",
+        "message":"Well, it's not that easy. You need more than the location. You need this key. ",
+        "replies":[
+            {
+                "text":"Thanks, but where is vault located?",
+                "nextPhraseID":"troublemaker_wm_25"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"troublemaker_wm_key"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_25",
+        "message":"You can find the empty house just south of here. Enter it and you will find your way.",
+        "replies":[
+            {
+                "text":"Thank you so much! I will bring the key back as quick as possible.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_5",
+        "message":"You what? How? Where? Tell me all you know.",
+        "replies":[
+            {
+                "text":"I found them by pure luck really.",
+                "nextPhraseID":"troublemaker_wm_report_10"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_10",
+        "message":"Where did you wind them?",
+        "replies":[
+            {
+                "text":"Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjying some of Sullengard's \"Bandit Brews\".",
+                "nextPhraseID":"troublemaker_wm_report_15"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_15",
+        "message":"What else can you tell me?",
+        "replies":[
+            {
+                "text":"They wanted to hire me to rob you guys. Defy wants your stash of gold and treasures.",
+                "nextPhraseID":"troublemaker_wm_report_20"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_20",
+        "message":"Really? What did you say?",
+        "replies":[
+            {
+                "text":"Well, I agreed to, but only because I want to help you guys catch him.",
+                "nextPhraseID":"troublemaker_wm_report_25"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_25",
+        "message":"You know, $playername, for just being a young adventurer, you are learning a lot.",
+        "replies":[
+            {
+                "text":"Thanks a lot. I do feel a lot smarter now than I did before joing your guild.",
+                "nextPhraseID":"troublemaker_wm_report_30"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_30",
+        "message":"Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault.",
+        "replies":[
+            {
+                "text":"Sir, that sounds like a great plan. What do you want me to do after handing him the fake key?",
+                "nextPhraseID":"troublemaker_wm_report_35"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"troublemaker_wm_fake_key"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_35",
+        "message":"You should got with them to the vault as we may need your help there.",
+        "replies":[
+            {
+                "text":"Great! Just tell me where to go and you can consider it done.",
+                "nextPhraseID":"troublemaker_wm_report_40"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_40",
+        "message":"You can find the empty house just south of here. Enter it and you will find your way.",
+        "replies":[
+            {
+                "text":"I'll be there. Thank you.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

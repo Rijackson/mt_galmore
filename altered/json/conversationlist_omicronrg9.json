@@ -1,0 +1,114 @@
+[
+    {
+        "id":"troublemaker_guild_13a",
+        "message":"Hi again, kid. What do you want?",
+        "replies":[
+            {
+                "text":"OK ... It's done. She's alright, and probably eating some bread now.",
+                "nextPhraseID":"troublemaker_guild02_9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":65
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I've dealt with the lady.",
+                "nextPhraseID":"troublemaker_guild02_8",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves02",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I still have to take our guest to her quarters.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have to ...(you look at Ambelie) find a better place for her.",
+                "nextPhraseID":"troublemaker_guild02_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild.",
+                "nextPhraseID":"troublemaker_wm_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"I have Defy and his men.",
+                "nextPhraseID":"troublemaker_wm_report_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can I take a look at the Guild's current supplies?",
+                "nextPhraseID":"S"
+            }
+        ]
+    }
+]

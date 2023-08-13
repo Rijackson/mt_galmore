@@ -4,6 +4,14 @@
         "iconID":"items_japozero:399",
         "name":"Thieves vault key",
         "displaytype":"quest",
+        "category":"other",
+        "description":"A key to the Thieves Guild's vault of gold and other treasures."
+    },
+    {
+        "id":"thieves_vault_key_fake",
+        "iconID":"items_japozero:396",
+        "name":"Fake Thieves Guild vault key",
+        "displaytype":"quest",
         "category":"other"
     }
 ]

@@ -22,7 +22,7 @@
             },
             {
                 "progress":30,
-                "logText":"Defy needs the me to convince Troublemaker to let me borrow the key long enough that the I can bring it back to Defy."
+                "logText":"Defy needs the me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy."
             },
             {
                 "progress":35,
@@ -31,6 +31,18 @@
             {
                 "progress":40,
                 "logText":"Defy wants me to bring Troublemakers' key to him back at their new hideout located west of the Sutdover river, where the rail tracks end."
+            },
+            {
+                "progress":45,
+                "logText":"I have talked my way into acquiring the The Thieves Guild's vault key from Troublemaker, but I must return it to him quickly."
+            },
+            {
+                "progress":50,
+                "logText":"I told Troublemaker all that I knew about Defy, his men and the \"Lost Traveler\" Alaric and how they hired me to help the rob the Thieves Guild."
+            },
+            {
+                "progress":55,
+                "logText":"Troublemaker wants me help him trap Defy by providing Defy with a fake key. When Defy arrives and the secret vault, the Guild members will be waiting for him."
             }
         ]
     }
