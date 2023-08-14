@@ -21,5 +21,57 @@
         "displaytype":"quest",
         "category":"other",
         "description":"The fake key made by the Aidem thieves to trick Troublemaker."
+    },
+    {
+        "id":"feygard_might",
+        "iconID":"items_misc_5:33",
+        "name":"Feygard's might",
+        "displaytype":"rare",
+        "category":"hammer",
+        "description":"A Feygard general's weapon of choice.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":8
+            },
+            "increaseUseItemCost":0,
+            "increaseAttackCost":6,
+            "increaseAttackChance":23,
+            "increaseCriticalSkill":8,
+            "increaseBlockChance":-2,
+            "setCriticalMultiplier":3.0,
+            "addedConditions":[
+                {
+                    "condition":"loyalist",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"feygard_necklace",
+        "iconID":"items_necklaces_1:25",
+        "name":"Necklace of Feygardian Glory",
+        "displaytype":"extraordinary",
+        "category":"neck",
+        "description":"A Feygardian soldier's medal of honor.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseMaxHP":5,
+            "increaseAttackChance":17,
+            "increaseCriticalSkill":1,
+            "increaseBlockChance":15,
+            "increaseDamageResistance":1,
+            "setCriticalMultiplier":1.2,
+            "addedConditions":[
+                {
+                    "condition":"loyalist",
+                    "magnitude":1
+                }
+            ]
+        }
     }
 ]

@@ -1166,6 +1166,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Yes, but you are not having it. I will loot the vault myself and keep everything I find.",
+                "nextPhraseID":"aidem_base_defy_dont_help_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_vault_key",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -1245,5 +1256,8 @@
                 "mapName":"wild6_house"
             }
         ]
+    },
+    {
+        "id":"aidem_base_defy_dont_help_10"
     }
 ]
