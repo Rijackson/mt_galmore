@@ -65,6 +65,12 @@
             {
                 "progress":76,
                 "logText":"I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
+            },
+            {
+                "progress":77,
+                "logText":"I informed Troublemaker that Defy and his men are now dead.",
+                "rewardExperience":16888,
+                "finishesQuest":1
             }
         ]
     }

@@ -1363,5 +1363,77 @@
                 "value":76
             }
         ]
+    },
+    {
+        "id":"troublemaker_wm_deffy_killed_10",
+        "message":"You what? How? Where? Tell me all you know.",
+        "replies":[
+            {
+                "text":"Your never going to believe this, but they were inside that vacant house when I walked in.",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_20"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_deffy_killed_20",
+        "message":"Then what happened?",
+        "replies":[
+            {
+                "text":"They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead.",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_30"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_deffy_killed_30",
+        "message":"Can you prove this? Can you show me something that proves that all 4 are dead?",
+        "replies":[
+            {
+                "text":"Yes. I looted their rings. [Shows them to Troublemaker]",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"defy_ring",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"greedy_ring",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"grabby_ring",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"zachlanny_ring",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes. I looted their rings, but I forgot to bring them with me. I'll come back.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_deffy_killed_40",
+        "message":"Well, this is great news indeed. We however would like to have them alive.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":77
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":3
+            }
+        ]
     }
 ]

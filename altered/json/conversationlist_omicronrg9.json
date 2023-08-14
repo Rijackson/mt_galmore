@@ -83,7 +83,7 @@
                 ]
             },
             {
-                "text":"I have Defy and his men.",
+                "text":"I have found Defy and his men.",
                 "nextPhraseID":"troublemaker_wm_report_5",
                 "requires":[
                     {
@@ -118,6 +118,17 @@
                         "requireType":"inventoryRemove",
                         "requireID":"aidem_fake_vault_key",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I encountered Defy and his men and was forced to kill them!",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":76
                     }
                 ]
             },
