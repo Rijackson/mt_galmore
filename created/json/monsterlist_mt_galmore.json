@@ -24,37 +24,108 @@
         "id":"aidem_camp_greedy",
         "name":"Greedy",
         "iconID":"monsters_ld1:65",
-        "phraseID":"aidem_camp_greedy_10"
+        "maxHP":329,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "phraseID":"aidem_camp_greedy_10",
+        "droplistID":"aidem_camp_greedy_dl",
+        "attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
     },
     {
         "id":"aidem_camp_grabby",
         "name":"Grabby",
         "iconID":"monsters_ld1:65",
-        "phraseID":"aidem_camp_grabby_10"
+        "maxHP":329,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "phraseID":"aidem_camp_grabby_10",
+        "droplistID":"aidem_camp_grabby_dl"
+		"attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
     },
     {
         "id":"aidem_camp_zachlanny",
         "name":"Zachlanny",
         "iconID":"monsters_ld1:65",
-        "phraseID":"aidem_camp_zachlanny_10"
+        "maxHP":329,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "phraseID":"aidem_camp_zachlanny_10",
+        "droplistID":"aidem_camp_zachlanny_dl"
+		"attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
     },
     {
         "id":"aidem_camp_lost_traveler",
         "name":"Lost Traveler",
         "iconID":"monsters_tometik2:55",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
         "phraseID":"aidem_camp_lost_traveler"
     },
     {
         "id":"aidem_base_alaric",
         "name":"Alaric",
         "iconID":"monsters_tometik2:55",
+		"maxHP":329,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
         "phraseID":"aidem_base_alaric_10"
+		"attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
     },
     {
         "id":"aidem_base_defy",
         "name":"Defy",
         "iconID":"monsters_ld1:81",
-        "phraseID":"aidem_base_defy_selector"
+        "maxHP":379,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":18
+        },
+        "phraseID":"aidem_base_defy_selector",
+        "droplistID":"aidem_base_defy_dl",
+        "attackCost":3,
+        "attackChance":170,
+        "criticalSkill":5,
+        "criticalMultiplier":3.0,
+        "blockChance":170
     },
     {
         "id":"alaric_wild6house",

@@ -73,5 +73,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"defy_ring",
+        "iconID":"items_japozero:251",
+        "name":"Defy's ring",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Defy's Aidem ring."
+    },
+    {
+        "id":"greedy_ring",
+        "iconID":"items_japozero:253",
+        "name":"Greedy's ring",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Greedy's Aidem ring"
+    },
+    {
+        "id":"grabby_ring",
+        "iconID":"items_japozero:252",
+        "name":"Grabby's ring",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Grabby's Aidem ring"
+    },
+    {
+        "id":"zachlanny_ring",
+        "iconID":"items_japozero:254",
+        "name":"Zachlanny ring",
+        "description":"Zachlanny's Aidem ring"
     }
 ]

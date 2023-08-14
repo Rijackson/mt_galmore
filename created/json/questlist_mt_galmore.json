@@ -57,6 +57,14 @@
                 "logText":"I reported back to Defy and he rewarded me with 25000 gold.",
                 "rewardExperience":14700,
                 "finishesQuest":1
+            },
+            {
+                "progress":75,
+                "logText":"I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight has ensued."
+            },
+            {
+                "progress":76,
+                "logText":"I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
             }
         ]
     }

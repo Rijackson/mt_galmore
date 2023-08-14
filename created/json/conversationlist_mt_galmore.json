@@ -1137,6 +1137,34 @@
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What are you waiting for? Go bring the fake key to Troublemaker.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Come and try to get the key!",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":75
                     }
                 ]
             }
@@ -1182,7 +1210,7 @@
     },
     {
         "id":"aidem_base_defy_help_20",
-        "message":"Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before has suspects anything. Then meet us at the vault to collect your share of the loot.",
+        "message":"Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot.",
         "rewards":[
             {
                 "rewardType":"dropList",
@@ -1258,6 +1286,82 @@
         ]
     },
     {
-        "id":"aidem_base_defy_dont_help_10"
+        "id":"aidem_base_defy_dont_help_10",
+        "message":"Come again?",
+        "replies":[
+            {
+                "text":"I said, \"here it is\".",
+                "nextPhraseID":"aidem_base_defy_help_20"
+            },
+            {
+                "text":"You heard me the first time. I'm keeping the key and looting the vault myself.",
+                "nextPhraseID":"aidem_base_defy_dont_help_20"
+            }
+        ]
+    },
+    {
+        "id":"aidem_base_defy_dont_help_20",
+        "message":"I will be taking that key now!",
+        "replies":[
+            {
+                "text":"Come and try.",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"aidem_base_thieves_killed_selector",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_base_thieves_killed",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"aidem_camp_greedy",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"aidem_camp_grabby",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"aidem_camp_zachlanny",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"aidem_base_alaric",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"aidem_base_defy",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"aidem_base_thieves_killed",
+        "message":"I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":76
+            }
+        ]
     }
 ]
