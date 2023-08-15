@@ -1196,6 +1196,17 @@
                 ]
             },
             {
+                "text":"Yes, Here it is. [Handing over the fake key] ",
+                "nextPhraseID":"aidem_base_defy_help_tg_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"thieves_vault_key_fake",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Yes, but you are not having it. I will loot the vault myself and keep everything I find.",
                 "nextPhraseID":"aidem_base_defy_dont_help_10",
                 "requires":[
@@ -1435,5 +1446,128 @@
                 "value":3
             }
         ]
+    },
+    {
+        "id":"aidem_base_defy_help_tg_10",
+        "message":"Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot.",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"aidem_base_defy_help_key"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":56
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_thieves",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild6_house_thief_spawn",
+                "mapName":"wild6_house"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"thief_rennik_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":57,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"thief_rennik_generic_10"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_10",
+        "message":"Ah, $playername has finally returned. ",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"thief_rennik_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"thief_rennik_dl"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_20",
+        "message":"You will be to hear that we have captured Defy and his four accomplices before they could steal from us.",
+        "replies":[
+            {
+                "text":"That's great news indeed. Where are they now?",
+                "nextPhraseID":"thief_rennik_30"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_30",
+        "message":"We are keeping them in our holding cage in Fallhaven.",
+        "replies":[
+            {
+                "text":"Is there anything else that I should know about?",
+                "nextPhraseID":"thief_rennik_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":57
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_40",
+        "message":"Yes. That fifth man, the one that was not one of us...",
+        "replies":[
+            {
+                "text":"You mean Alaric?",
+                "nextPhraseID":"thief_rennik_50"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_50",
+        "message":"His name is not important to me...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"thief_rennik_55"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_55",
+        "message":"We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have there guy.",
+        "replies":[
+            {
+                "text":"I will. Thank you again.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_generic_10",
+        "message":"I am here now to watch out for suspicious activity or people."
     }
 ]

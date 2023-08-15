@@ -53,8 +53,8 @@
             "max":9
         },
         "phraseID":"aidem_camp_grabby_10",
-        "droplistID":"aidem_camp_grabby_dl"
-		"attackCost":3,
+        "droplistID":"aidem_camp_grabby_dl",
+        "attackCost":3,
         "attackChance":158,
         "criticalSkill":3,
         "criticalMultiplier":2.0,
@@ -73,8 +73,8 @@
             "max":9
         },
         "phraseID":"aidem_camp_zachlanny_10",
-        "droplistID":"aidem_camp_zachlanny_dl"
-		"attackCost":3,
+        "droplistID":"aidem_camp_zachlanny_dl",
+        "attackCost":3,
         "attackChance":158,
         "criticalSkill":3,
         "criticalMultiplier":2.0,
@@ -92,7 +92,7 @@
         "id":"aidem_base_alaric",
         "name":"Alaric",
         "iconID":"monsters_tometik2:55",
-		"maxHP":329,
+        "maxHP":329,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
@@ -100,8 +100,8 @@
             "min":7,
             "max":9
         },
-        "phraseID":"aidem_base_alaric_10"
-		"attackCost":3,
+        "phraseID":"aidem_base_alaric_10",
+        "attackCost":3,
         "attackChance":158,
         "criticalSkill":3,
         "criticalMultiplier":2.0,
@@ -138,5 +138,12 @@
         "name":"Defy",
         "iconID":"monsters_ld1:81",
         "phraseID":"defy_wild6house_10"
+    },
+    {
+        "id":"wild6_house_thief",
+        "name":"Rennik",
+        "iconID":"monsters_tometik6:36",
+        "spawnGroup":"wild6_house_thief_spawn",
+        "phraseID":"thief_rennik_selector"
     }
 ]

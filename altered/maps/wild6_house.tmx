@@ -253,6 +253,12 @@
     <property name="spawngroup" value="defy_wild6house"/>
    </properties>
   </object>
+  <object name="wild6_house_thief_spawn" type="spawn" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="wild6_house_thief"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">

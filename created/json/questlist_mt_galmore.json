@@ -42,7 +42,17 @@
             },
             {
                 "progress":55,
-                "logText":"Troublemaker wants me help him trap Defy by providing Defy with a fake key. When Defy arrives and the secret vault, the Guild members will be waiting for him."
+                "logText":"Troublemaker wants me help him trap Defy by providing Defy with a fake key. When Defy arrives at the secret vault, the Guild members will be waiting for him."
+            },
+            {
+                "progress":56,
+                "logText":"\nI gave Defy the fake version of the vault key that Troublemaker gave me.\nIn return, Defy has given me a fake version of Troublemakers' vault key and has instructed me to return it to Troublemaker.\nDefy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
+            },
+            {
+                "progress":57,
+                "logText":"I have reported back to the vacant house and I met Rennik there. He informed me that The Thieves Guild has apprehended all five men and that they are now the Guild jail cell.",
+                "rewardExperience":19797,
+                "finishesQuest":1
             },
             {
                 "progress":60,

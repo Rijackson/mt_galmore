@@ -123,8 +123,8 @@
         ]
     },
     {
-        "id":"aidem_camp_grabby_dl"
-		        "items":[
+        "id":"aidem_camp_grabby_dl",
+        "items":[
             {
                 "itemID":"grabby_ring",
                 "chance":"100",
@@ -144,8 +144,8 @@
         ]
     },
     {
-        "id":"aidem_camp_zachlanny_dl"
-		"items":[
+        "id":"aidem_camp_zachlanny_dl",
+        "items":[
             {
                 "itemID":"zachlanny_ring",
                 "chance":"100",
@@ -160,6 +160,27 @@
                 "quantity":{
                     "min":2000,
                     "max":3500
+                }
+            }
+        ]
+    },
+    {
+        "id":"thief_rennik_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":17097,
+                    "max":18906
+                }
+            },
+            {
+                "itemID":"nixite_crystal",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
                 }
             }
         ]

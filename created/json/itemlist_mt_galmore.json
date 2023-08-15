@@ -103,5 +103,13 @@
         "iconID":"items_japozero:254",
         "name":"Zachlanny ring",
         "description":"Zachlanny's Aidem ring"
+    },
+    {
+        "id":"nixite_crystal",
+        "iconID":"items_japozero:341",
+        "name":"Nixite crystal",
+        "displaytype":"extraordinary",
+        "category":"gem",
+        "description":"A remarkable jewel of unparalleled rarity, exudes an enchanting iridescence reminiscent of tranquil waters under a midday sun. Its surface seems to shimmer with an inner light, casting a soothing teal glow that captivates all who behold it. Legends tell of its unique power coveted by wizards and sorcerers."
     }
 ]
