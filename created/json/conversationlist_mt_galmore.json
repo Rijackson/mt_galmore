@@ -1511,7 +1511,7 @@
     },
     {
         "id":"thief_rennik_20",
-        "message":"You will be to hear that we have captured Defy and his four accomplices before they could steal from us.",
+        "message":"You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us.",
         "replies":[
             {
                 "text":"That's great news indeed. Where are they now?",
@@ -1569,5 +1569,94 @@
     {
         "id":"thief_rennik_generic_10",
         "message":"I am here now to watch out for suspicious activity or people."
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt",
+        "message":"Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered \"the lost traveler\" again?",
+        "replies":[
+            {
+                "text":"Actually, yes. Yes, I have.",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_10",
+        "message":"Where? Can you get him back here to be punished?",
+        "replies":[
+            {
+                "text":"Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there.",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_11",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":57
+                    }
+                ]
+            },
+            {
+                "text":"Actually, I had a chance encounter with him and after atte,pting to drag him back here, he attacked me and I had not other option than to end his life.",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_12",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_11",
+        "message":"Oh, thank you so much! ",
+        "replies":[
+            {
+                "text":"Of course. It was my pleasure.",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_13"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_12",
+        "message":"Well, I would have preffered to see him be punished instead of killed, but thnak you so much for putting an end to this.",
+        "replies":[
+            {
+                "text":"Of course. It was my pleasure.",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_13"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_13",
+        "message":"Please, take this as a gift of gratitude.",
+        "replies":[
+            {
+                "text":"Thanks you!",
+                "nextPhraseID":"sullengard_zaccheria_ask_about_lt_14"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":40
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"sullengard_zaccheria_ask_about_lt_dl"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_14",
+        "message":"I don't know if you will like it, but let me tell you, nobody down here wants it.",
+        "replies":[
+            {
+                "text":"Oh, really?",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

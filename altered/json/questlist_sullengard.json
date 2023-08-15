@@ -181,6 +181,10 @@
             {
                 "progress":120,
                 "logText":"120 bar achievement"
+            },
+            {
+                "progress":40,
+                "logText":"The PC has be rewarded by Zaccheria for getting Alaric off the roads."
             }
         ]
     }

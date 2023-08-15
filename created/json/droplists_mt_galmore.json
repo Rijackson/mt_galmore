@@ -184,5 +184,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"sullengard_zaccheria_ask_about_lt_dl",
+        "items":[
+            {
+                "itemID":"feygard_might",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
