@@ -1596,7 +1596,7 @@
                 ]
             },
             {
-                "text":"Actually, I had a chance encounter with him and after atte,pting to drag him back here, he attacked me and I had not other option than to end his life.",
+                "text":"Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no other option than to end his life.",
                 "nextPhraseID":"sullengard_zaccheria_ask_about_lt_12",
                 "requires":[
                     {
@@ -1620,7 +1620,7 @@
     },
     {
         "id":"sullengard_zaccheria_ask_about_lt_12",
-        "message":"Well, I would have preffered to see him be punished instead of killed, but thnak you so much for putting an end to this.",
+        "message":"Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this.",
         "replies":[
             {
                 "text":"Of course. It was my pleasure.",
@@ -1633,7 +1633,7 @@
         "message":"Please, take this as a gift of gratitude.",
         "replies":[
             {
-                "text":"Thanks you!",
+                "text":"Thank you!",
                 "nextPhraseID":"sullengard_zaccheria_ask_about_lt_14"
             }
         ],
@@ -1654,7 +1654,7 @@
         "message":"I don't know if you will like it, but let me tell you, nobody down here wants it.",
         "replies":[
             {
-                "text":"Oh, really?",
+                "text":"Oh, really? I will play with it. Thanks again.",
                 "nextPhraseID":"X"
             }
         ]

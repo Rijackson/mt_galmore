@@ -22,7 +22,7 @@
             },
             {
                 "progress":30,
-                "logText":"Defy needs the me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy."
+                "logText":"Defy needs me to convince Troublemaker to let me borrow the key long enough that I can bring it back to Defy."
             },
             {
                 "progress":35,
@@ -30,7 +30,7 @@
             },
             {
                 "progress":40,
-                "logText":"Defy wants me to bring Troublemakers' key to him back at their new hideout located west of the Sutdover river, where the rail tracks end."
+                "logText":"Defy wants me to bring Troublemakers' key to him at their new hideout located west of the Sutdover River, where the rail tracks end."
             },
             {
                 "progress":45,
@@ -46,11 +46,11 @@
             },
             {
                 "progress":56,
-                "logText":"\nI gave Defy the fake version of the vault key that Troublemaker gave me.\nIn return, Defy has given me a fake version of Troublemakers' vault key and has instructed me to return it to Troublemaker.\nDefy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
+                "logText":"I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemakers' vault key and has instructed me to return it to Troublemaker.\nDefy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
             },
             {
                 "progress":57,
-                "logText":"I have reported back to the vacant house and I met Rennik there. He informed me that The Thieves Guild has apprehended all five men and that they are now the Guild jail cell.",
+                "logText":"I have reported back to the vacant house and I met Rennik there. He informed me that The Thieves Guild has apprehended all five men and that they are now the Guild jail.",
                 "rewardExperience":19797,
                 "finishesQuest":1
             },
@@ -70,7 +70,7 @@
             },
             {
                 "progress":75,
-                "logText":"I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight has ensued."
+                "logText":"I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight ensued."
             },
             {
                 "progress":76,
