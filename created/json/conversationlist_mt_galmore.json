@@ -487,7 +487,7 @@
     },
     {
         "id":"easedropping_required_key",
-        "message":"You should get a better understand of who those men are before you crash the party."
+        "message":"You should get a better understanding of who these men are before you crash the party."
     },
     {
         "id":"aidem_camp_intro_selector",
@@ -508,7 +508,7 @@
     },
     {
         "id":"aidem_camp_intro_10",
-        "message":"Lookie what we have here! Sullengard's 5 most wanted men, all in one location. This is my lucky day.",
+        "message":"Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day.",
         "replies":[
             {
                 "text":"Hello boys!",
@@ -701,7 +701,7 @@
     },
     {
         "id":"aidem_camp_defy_76",
-        "message":"Well, yes. But not right now. Those adventures are too big for us right now. I'm talking about The Thieves Guild.",
+        "message":"Well, yes. But not right now. Those adventures are too big for us right now. I'm talking about the Thieves Guild.",
         "replies":[
             {
                 "text":"Why would you want to do that?",
@@ -766,7 +766,7 @@
                 "nextPhraseID":"aidem_camp_defy_82"
             },
             {
-                "text":"I'm not so sure, but please, get one with your plan.",
+                "text":"I'm not so sure, but please, get on with your plan.",
                 "nextPhraseID":"aidem_camp_defy_82"
             }
         ]
@@ -909,7 +909,7 @@
     },
     {
         "id":"aidem_camp_defy_90",
-        "message":"Fine! [Shh] I'll take it out of of Greedy's portion. He'll never know the difference.",
+        "message":"Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference.",
         "replies":[
             {
                 "text":"N",
@@ -961,7 +961,7 @@
     },
     {
         "id":"aidem_camp_lost_traveler",
-        "message":"Go talk to Dfy. I have nothing to say to you."
+        "message":"Go talk to Defy. I have nothing to say to you."
     },
     {
         "id":"troublemaker_wm_10",
@@ -1026,7 +1026,7 @@
     },
     {
         "id":"troublemaker_wm_report_10",
-        "message":"Where did you wind them?",
+        "message":"Where did you find them?",
         "replies":[
             {
                 "text":"Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjying some of Sullengard's \"Bandit Brews\".",
@@ -1262,7 +1262,13 @@
     },
     {
         "id":"alaric_wild6house",
-        "message":"I'm rich. I'm finally rich!"
+        "message":"I'm rich. I'm finally rich!",
+        "replies":[
+            {
+                "text":"Only in gold. You have no friends.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"defy_wild6house_10",
@@ -1568,7 +1574,7 @@
     },
     {
         "id":"thief_rennik_generic_10",
-        "message":"I am here now to watch out for suspicious activity or people."
+        "message":"I am here now to watch out for suspicious activity and people."
     },
     {
         "id":"sullengard_zaccheria_ask_about_lt",
