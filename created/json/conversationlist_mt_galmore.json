@@ -404,7 +404,6 @@
         "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"aidem_camp_easedrop_10",
                 "requires":[
                     {
@@ -416,7 +415,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"aidem_camp_easedrop_15",
                 "requires":[
                     {
@@ -434,7 +432,6 @@
         "switchToNPC":"aidem_camp_greedy",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"aidem_camp_easedrop_20"
             }
         ]
@@ -457,7 +454,6 @@
         "switchToNPC":"aidem_camp_greedy",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"aidem_camp_easdrop_25"
             }
         ]
