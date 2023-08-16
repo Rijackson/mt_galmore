@@ -111,5 +111,23 @@
         "displaytype":"extraordinary",
         "category":"gem",
         "description":"A remarkable jewel of unparalleled rarity, exudes an enchanting iridescence reminiscent of tranquil waters under a midday sun. Its surface seems to shimmer with an inner light, casting a soothing teal glow that captivates all who behold it. Legends tell of its unique power coveted by wizards and sorcerers."
+    },
+    {
+        "id":"silver_coin",
+        "iconID":"items_japozero:363",
+        "name":"Silver coin",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"other"
+    },
+    {
+        "id":"bronze_coin",
+        "iconID":"items_japozero:360",
+        "name":"Bronze coin",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"other"
     }
 ]

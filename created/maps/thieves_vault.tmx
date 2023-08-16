@@ -188,7 +188,7 @@
  </layer>
  <layer name="Objects" width="14" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9uCZInBghsIaVgWEtEK8G4nVAzMjPwGANpLuYGBicgbQLELsC8SMhBoZVrITNuy6KKfaHD8F+A2U/Q3MrNn3oAOQGGEgFuuUx0I3PgfqeAulwJLftFcLUi80t6OAckr4deNThAycI6NuHZIcpjvBEjsdHePwCAlOJiBMY4OFH5e8WQqVxAWsCdkxngrqFCbs8AGLkHD0=
+   eJxjYKA9uCZInBghsIaVgWEtEK8G4nVAzMjPwGANpLuYGBicgbQLELsC8SMhBoZVrITNuy6KKfaHD8F+A2U/Q3MrNn3oAOQGGEgFuuUx0I3PgfqeAulwJLftFcLUi80t6OAckr4deNThAycI6NuHZIcpjvBEjsdHePwCAlOJiBMY4OFH5e8Gmn1GCELjA9YE7JjOBHULE3Z5ALmKHRs=
   </data>
  </layer>
  <layer name="Above" width="14" height="14">
@@ -220,6 +220,15 @@
    </properties>
   </object>
   <object name="feygard_necklace_dl" type="container" x="192" y="96" width="32" height="32"/>
+  <object name="thieves_vault_silver" type="container" x="96" y="384" width="32" height="32"/>
+  <object name="thieves_vault_gold" type="container" x="64" y="384" width="32" height="32"/>
+  <object name="thieves_vault_gold" type="container" x="384" y="128" width="32" height="32"/>
+  <object name="thieves_vault_gold" type="container" x="384" y="96" width="32" height="32"/>
+  <object name="thieves_vault_gold" type="container" x="288" y="192" width="32" height="32"/>
+  <object name="thieves_vault_silver" type="container" x="96" y="96" width="32" height="32"/>
+  <object name="thieves_vault_gold" type="container" x="160" y="224" width="32" height="32"/>
+  <object name="thieves_vault_bronze" type="container" x="128" y="384" width="32" height="32"/>
+  <object name="thieves_vault_jewelery" type="container" x="32" y="160" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
