@@ -1446,7 +1446,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"wanted_men",
-                "value":77
+                "value":80
             },
             {
                 "rewardType":"alignmentSet",
@@ -1610,7 +1610,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"wanted_men",
-                        "value":77
+                        "value":80
                     }
                 ]
             }
@@ -1686,5 +1686,68 @@
                 "nextPhraseID":"aidem_camp_easedrop_15"
             }
         ]
+    },
+    {
+        "id":"wild6_house_hatch_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wild6_house_hatch_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":76,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_vault_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wild6_house_hatch_10",
+        "message":"Do you want to unlock the hatch?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"wild6_house_hatch_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"thieves_vault_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Not right now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"wild6_house_hatch_20",
+        "message":"The lock creaks open revealing a staircase.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wanted_men",
+                "value":77
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Downstairs",
+                "mapName":"wild6_house"
+            }
+        ]
+    },
+    {
+        "id":"prevent_bucket_walking",
+        "message":"Oh, gross! It's full of spiders."
     }
 ]

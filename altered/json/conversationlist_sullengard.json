@@ -108,7 +108,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"wanted_men",
-                        "value":77
+                        "value":80
                     },
                     {
                         "requireType":"questProgress",

@@ -181,19 +181,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer name="Ground1" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiagEuMcjMACWYAIQ==
+  </data>
+ </layer>
  <layer name="Ground" width="9" height="7">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMC75bCjWFqTkvhxjA1nzlxY5g9+NTshpqHTw1I/iUndvwZiQ0Ax24uKw==
+   eJzj42Jg4CMC75bCjWFqTkvhxjA1nzlxY5g9+NTshprHIoZbDUj+JSd2/BmJDQCLWS1J
   </data>
  </layer>
  <layer name="Objects" width="9" height="7">
   <data encoding="base64" compression="zlib">
-   eJxjYICATjYGgmAmUM1RGQaGYzIIGh2sBKq5ChS/JoOgkcEiVghtwQKhLYH0UaAYI5KaZAHs9gsisVnEGBgWA/XlsELMQDefGAAAPJsNsA==
-  </data>
- </layer>
- <layer name="Object_Stairs" width="9" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYBiagEuMcjMACWYAIQ==
+   eJxjYICATjYGgmAmUM1RGQaGYzIIGh2sBKq5ChS/JoOgkcEiVghtwQKhLYH0UaAYI5KaZAHs9gsiscuBehYDcQ4rxAx084kBAFa0DhI=
   </data>
  </layer>
  <layer name="Above" width="9" height="7">
@@ -201,42 +201,21 @@
    eJxjYCAOHBYjTY04E4Teyopg4zPnohhhNbjARRLVwwAAQ7wGHw==
   </data>
  </layer>
- <layer name="Above_Bucket" width="9" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYBiaoJyVcjMAIecAfQ==
-  </data>
- </layer>
- <layer name="Above_Hatch" width="9" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi5AAAA/AAB
-  </data>
- </layer>
  <layer name="Walkable" width="9" height="7" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJHOGASQaVxqsAF0M9DVE2s3CAMAfW0npg==
   </data>
  </layer>
- <layer name="Walkable_Hatch" width="9" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi5AAAA/AAB
-  </data>
- </layer>
- <layer name="Walkable_Bucket" width="9" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYBiaYKMY5WYAADXCAMg=
-  </data>
- </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="entrance" type="mapchange" x="192" y="192" width="32" height="32">
    <properties>
     <property name="map" value="wild6"/>
     <property name="place" value="house"/>
    </properties>
   </object>
-  <object name="basement" type="mapchange" x="32" y="160" width="32" height="32">
+  <object name="wild6_house_hatch_selector" type="script" x="64" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="wild6_house_basement"/>
-    <property name="place" value="first_floor"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
@@ -260,33 +239,43 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace">
-  <object name="hatch_blocked" type="replace" x="32" y="160" width="32" height="32">
+ <objectgroup name="Keys">
+  <object name="prevent_bucket_walking" type="key" x="64" y="128" width="32" height="32">
    <properties>
-    <property name="Above" value="Above_Bucket"/>
-    <property name="Walkable" value="Walkable_Bucket"/>
+    <property name="phrase" value="prevent_bucket_walking"/>
     <property name="requireId" value="wanted_men"/>
-    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="30"/>
    </properties>
   </object>
-  <object name="hatch_unblocked" type="replace" x="32" y="160" width="32" height="32">
+ </objectgroup>
+ <objectgroup name="Replace" visible="0">
+  <object name="hatch_no_bucket" type="replace" x="32" y="160" width="32" height="32">
    <properties>
-    <property name="Above" value="Above_Hatch"/>
-    <property name="Walkable" value="Walkable_Hatch"/>
+    <property name="Objects" value="Walkable"/>
+    <property name="requireId" value="wanted_men"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="30"/>
+   </properties>
+  </object>
+  <object name="hatch_unlocked" type="replace" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="Ground" value="Ground1"/>
     <property name="requireId" value="wanted_men"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="76"/>
    </properties>
   </object>
-  <object name="hatch_open" type="replace" x="32" y="160" width="32" height="32">
+ </objectgroup>
+ <objectgroup name="DownStairs" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="basement" type="mapchange" x="32" y="160" width="32" height="32">
    <properties>
-    <property name="Objects" value="Object_Stairs"/>
-    <property name="requireId" value="thieves_vault_key"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="1"/>
+    <property name="map" value="wild6_house_basement"/>
+    <property name="place" value="first_floor"/>
    </properties>
   </object>
  </objectgroup>

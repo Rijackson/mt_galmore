@@ -78,6 +78,10 @@
             },
             {
                 "progress":77,
+                "logText":"I've unlocked the hatch leading to the vault. It's time to head down."
+            },
+            {
+                "progress":80,
                 "logText":"I informed Troublemaker that Defy and his men are now dead.",
                 "rewardExperience":16888,
                 "finishesQuest":1
