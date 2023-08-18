@@ -406,10 +406,10 @@
     },
     {
         "id":"aidem_camp_easedrop_selector",
-        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
         "replies":[
             {
-                "nextPhraseID":"aidem_camp_easedrop_10",
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -420,7 +420,8 @@
                 ]
             },
             {
-                "nextPhraseID":"aidem_camp_easedrop_15",
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_6",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -1663,6 +1664,26 @@
             {
                 "text":"Oh, really? I will play with it. Thanks again.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_5",
+        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_10"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_6",
+        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_15"
             }
         ]
     }
