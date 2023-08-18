@@ -405,6 +405,146 @@
             "width": 928,
             "x": 3008,
             "y": -544
+        },
+        {
+            "fileName": "created/maps/galmore_10a.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 6944,
+            "y": -544
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_9.tmx",
+            "height": 704,
+            "width": 960,
+            "x": 7936,
+            "y": -736
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_8.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 7936,
+            "y": -1280
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_7.tmx",
+            "height": 864,
+            "width": 864,
+            "x": 7936,
+            "y": -2176
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_6.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 7264,
+            "y": -2176
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_5.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 6592,
+            "y": -2528
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_4.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 8032,
+            "y": -2944
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_3.tmx",
+            "height": 736,
+            "width": 736,
+            "x": 7264,
+            "y": -2944
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 6592,
+            "y": -3200
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_1.tmx",
+            "height": 960,
+            "width": 736,
+            "x": 7264,
+            "y": -3936
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_0.tmx",
+            "height": 704,
+            "width": 640,
+            "x": 6592,
+            "y": -3936
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_0.tmx",
+            "height": 800,
+            "width": 480,
+            "x": 8928,
+            "y": -736
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_1.tmx",
+            "height": 864,
+            "width": 480,
+            "x": 8928,
+            "y": 96
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_3.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 8928,
+            "y": 992
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_2.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 8928,
+            "y": 1984
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_4.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 9760,
+            "y": 1984
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_5.tmx",
+            "height": 1056,
+            "width": 384,
+            "x": 10592,
+            "y": 1984
+        },
+        {
+            "fileName": "created/maps/way_to_sullengard_west_6.tmx",
+            "height": 384,
+            "width": 800,
+            "x": 11008,
+            "y": 2656
+        },
+        {
+            "fileName": "created/maps/aidem_camp.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 11392,
+            "y": -1760
+        },
+        {
+            "fileName": "created/maps/way_to_aidem_camp_1.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 11392,
+            "y": -896
         }
     ],
     "onlyShowAdjacentMaps": false,
