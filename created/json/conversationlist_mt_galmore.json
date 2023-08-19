@@ -1186,8 +1186,8 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"thieves_vault_key",
-                        "value":0,
-                        "negate":false
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
