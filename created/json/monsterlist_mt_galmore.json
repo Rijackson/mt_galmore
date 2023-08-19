@@ -24,66 +24,68 @@
         "id":"aidem_camp_greedy",
         "name":"Greedy",
         "iconID":"monsters_ld1:65",
-        "maxHP":329,
+        "maxHP":1,
         "maxAP":10,
-        "moveCost":2,
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"none",
         "attackDamage":{
-            "min":7,
-            "max":9
+            "min":0,
+            "max":0
         },
         "phraseID":"aidem_camp_greedy_10",
         "droplistID":"aidem_camp_greedy_dl",
-        "attackCost":3,
-        "attackChance":158,
-        "criticalSkill":3,
+        "attackCost":10,
+        "attackChance":0,
+        "criticalSkill":0,
         "criticalMultiplier":2.0,
-        "blockChance":170
+        "blockChance":0
     },
     {
         "id":"aidem_camp_grabby",
         "name":"Grabby",
         "iconID":"monsters_ld1:65",
-        "maxHP":329,
+        "maxHP":1,
         "maxAP":10,
-        "moveCost":2,
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":7,
-            "max":9
+            "min":0,
+            "max":0
         },
+        "faction":"1",
         "phraseID":"aidem_camp_grabby_10",
         "droplistID":"aidem_camp_grabby_dl",
-        "attackCost":3,
-        "attackChance":158,
-        "criticalSkill":3,
-        "criticalMultiplier":2.0,
-        "blockChance":170
+        "attackCost":0,
+        "attackChance":0,
+        "criticalSkill":0,
+        "criticalMultiplier":0.0,
+        "blockChance":0
     },
     {
         "id":"aidem_camp_zachlanny",
         "name":"Zachlanny",
         "iconID":"monsters_ld1:65",
-        "maxHP":329,
-        "moveCost":2,
+        "maxHP":1,
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":7,
-            "max":9
+            "min":0,
+            "max":0
         },
+        "faction":"1",
         "phraseID":"aidem_camp_zachlanny_10",
         "droplistID":"aidem_camp_zachlanny_dl",
-        "attackCost":3,
-        "attackChance":158,
-        "criticalSkill":3,
-        "criticalMultiplier":2.0,
-        "blockChance":170
+        "attackCost":0,
+        "attackChance":0,
+        "criticalSkill":0,
+        "criticalMultiplier":0.0,
+        "blockChance":0
     },
     {
         "id":"aidem_camp_lost_traveler",
@@ -91,27 +93,28 @@
         "iconID":"monsters_tometik2:55",
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
+        "faction":"1",
         "phraseID":"aidem_camp_lost_traveler"
     },
     {
         "id":"aidem_base_alaric",
         "name":"Alaric",
         "iconID":"monsters_tometik2:55",
-        "maxHP":329,
-        "moveCost":2,
+        "maxHP":1,
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":7,
-            "max":9
+            "min":0,
+            "max":0
         },
         "phraseID":"aidem_base_alaric_10",
-        "attackCost":3,
-        "attackChance":158,
-        "criticalSkill":3,
-        "criticalMultiplier":2.0,
-        "blockChance":170
+        "attackCost":0,
+        "attackChance":0,
+        "criticalSkill":0,
+        "criticalMultiplier":0.0,
+        "blockChance":0
     },
     {
         "id":"aidem_base_defy",
@@ -152,5 +155,94 @@
         "iconID":"monsters_tometik6:36",
         "spawnGroup":"wild6_house_thief_spawn",
         "phraseID":"thief_rennik_selector"
+    },
+    {
+        "id":"aidem_camp_greedy_aggressive",
+        "name":"Greedy",
+        "iconID":"monsters_ld1:65",
+        "maxHP":329,
+        "maxAP":10,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "spawnGroup":"aidem_camp_aggressive_thieves",
+        "phraseID":"aidem_camp_greedy_10",
+        "droplistID":"aidem_camp_greedy_dl",
+        "attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
+    },
+    {
+        "id":"aidem_camp_grabby_aggressive",
+        "name":"Grabby",
+        "iconID":"monsters_ld1:65",
+        "maxHP":329,
+        "maxAP":10,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "spawnGroup":"aidem_camp_aggressive_thieves",
+        "phraseID":"aidem_camp_grabby_10",
+        "droplistID":"aidem_camp_grabby_dl",
+        "attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
+    },
+    {
+        "id":"aidem_camp_zachlanny_aggressive",
+        "name":"Zachlanny",
+        "iconID":"monsters_ld1:65",
+        "maxHP":329,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "spawnGroup":"aidem_camp_aggressive_thieves",
+        "phraseID":"aidem_camp_zachlanny_10",
+        "droplistID":"aidem_camp_zachlanny_dl",
+        "attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
+    },
+    {
+        "id":"aidem_base_alaric_aggressive",
+        "name":"Alaric",
+        "iconID":"monsters_tometik2:55",
+        "maxHP":329,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "spawnGroup":"aidem_camp_aggressive_thieves",
+        "phraseID":"aidem_base_alaric_10",
+        "attackCost":3,
+        "attackChance":158,
+        "criticalSkill":3,
+        "criticalMultiplier":2.0,
+        "blockChance":170
     }
 ]

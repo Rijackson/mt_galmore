@@ -1163,8 +1163,8 @@
                 ]
             },
             {
-                "text":"Come and try to get the key!",
-                "nextPhraseID":"F",
+                "text":"Come and get it!",
+                "nextPhraseID":"aidem_base_fight",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -1317,8 +1317,8 @@
         "message":"I will be taking that key now!",
         "replies":[
             {
-                "text":"Come and try.",
-                "nextPhraseID":"F"
+                "text":"Come and try!",
+                "nextPhraseID":"aidem_base_fight"
             }
         ],
         "rewards":[
@@ -1779,6 +1779,28 @@
                         "value":10
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"aidem_base_fight",
+        "message":"You will regret this, kid!",
+        "replies":[
+            {
+                "text":"I hope not.",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_camp_aggressive_thieves_spawn",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_thieves",
+                "mapName":"aidem_base_2"
             }
         ]
     }
