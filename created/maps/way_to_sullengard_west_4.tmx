@@ -185,32 +185,32 @@
  </tileset>
  <layer id="1" name="Ground" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbzMnAsBmKN9IIbx61YxSP4lE8iumKAQBsEJ4=
+   eJzbzMnAsBmKN9IIbx61YxQTgacxoWJqm70CC15JgT3IbsVmNjImxz+EzKTEP8S4mVT/kBIepNpFC3Nx4V10wGdojC8CMQBsNAsZ
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJw7LsTAcAKI74BoMQaagZtA83fR0I5HQLN/iEEwrezYCfXDIxr6A+YHEP5Jgh3XgGqvA/ENIL4phl0cXY4YM0lRT64bBzMYim4eBaMABABdHSNG
+   eJw7LsTAcAKI74BoMQaagZtA83fR0I5HQLN/iEEwrezYCfXDIxr6A+YHEP5Jgh3XgGqvA/ENIL4phl0cXY4YM0lRT64bQWAqE6b66VjEyAHYzCYW4HIzOWaS4h9K3Ewvs6kVPyMNzKZTuAEAt9sooQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAP2ClEeztOAu04RQd7aAmGgx9GwSgYBQMPAF+OBDo=
+   eJxjYKAP2ClEeztOAu04RQd7aAmGgx+GGrgsNtAuoC4Ybv4ZBeQBAM9+Bgw=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBGKaQmGgx3DwQ+jYBSMgpEBAOy3CI4=
+   eJzbKMbAsBGKaQmGgx3DwQ+DFWwUw46pbTY2OUrNJORWcvxDrv+J0UNp+OLST+u4G4n5ghIAACCCI8M=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="768" y="0" width="32" height="480">
+  <object id="1" name="east" type="mapchange" x="768" y="0" width="32" height="352">
    <properties>
     <property name="map" value="way_to_sullengard_west_5"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="160" width="32" height="320">
+  <object id="2" name="west" type="mapchange" x="0" y="160" width="32" height="192">
    <properties>
     <property name="map" value="way_to_sullengard_west_2"/>
     <property name="place" value="east"/>
