@@ -418,17 +418,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"aidem_camp_easedrop_6",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"wanted_men",
-                        "value":10
-                    }
-                ]
             }
         ]
     },
@@ -438,6 +427,7 @@
         "switchToNPC":"aidem_camp_greedy",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"aidem_camp_easedrop_20"
             }
         ]
@@ -460,6 +450,7 @@
         "switchToNPC":"aidem_camp_greedy",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"aidem_camp_easdrop_25"
             }
         ]
@@ -1031,7 +1022,7 @@
         "message":"Where did you find them?",
         "replies":[
             {
-                "text":"Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjying some of Sullengard's \"Bandit Brews\".",
+                "text":"Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjoying some of Sullengard's \"Bandit Brews\".",
                 "nextPhraseID":"troublemaker_wm_report_15"
             }
         ]
@@ -1096,7 +1087,7 @@
     },
     {
         "id":"troublemaker_wm_report_35",
-        "message":"You should got with them to the vault as we may need your help there.",
+        "message":"You should go with them to the vault as we may need your help there.",
         "replies":[
             {
                 "text":"Great! Just tell me where to go and you can consider it done.",
@@ -1149,6 +1140,18 @@
                 ]
             },
             {
+                "text":"N",
+                "nextPhraseID":"aidem_base_dont_help_defy_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":56,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"What are you waiting for? Go bring the fake key to Troublemaker.",
                 "nextPhraseID":"X",
                 "requires":[
@@ -1177,12 +1180,14 @@
         "message":"Do you have the key? Hand it over.",
         "replies":[
             {
-                "text":"Oops. I forgot to breing it with me. I'll be back soon.",
+                "text":"Oops. I forgot to bring it with me. I'll be back soon.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"thieves_vault_key"
+                        "requireID":"thieves_vault_key",
+                        "value":0,
+                        "negate":false
                     }
                 ]
             },
@@ -1193,17 +1198,6 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"thieves_vault_key",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"Yes, Here it is. [Handing over the fake key] ",
-                "nextPhraseID":"aidem_base_defy_help_tg_10",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"thieves_vault_key_fake",
                         "value":1
                     }
                 ]
@@ -1477,6 +1471,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"wild6_house_thief_spawn",
                 "mapName":"wild6_house"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"thieves_vault_key_fake",
+                "value":1
             }
         ]
     },
@@ -1692,7 +1691,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"wild6_house_hatch_10",
+                "nextPhraseID":"wild6_house_prevent_bucket_walking",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1747,7 +1746,40 @@
         ]
     },
     {
-        "id":"prevent_bucket_walking",
+        "id":"wild6_house_prevent_bucket_walking",
         "message":"Oh, gross! It's full of spiders."
+    },
+    {
+        "id":"aidem_base_dont_help_defy_10",
+        "message":"Do you have the key? Hand it over.",
+        "replies":[
+            {
+                "text":"Yes, Here it is. [Handing over the fake key] ",
+                "nextPhraseID":"aidem_base_defy_help_tg_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"thieves_vault_key_fake",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_easedrop_selector_east",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_easedrop_6",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":10
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -252,7 +252,7 @@
     <property name="place" value="down"/>
    </properties>
   </object>
-  <object name="aidem_base_thieves_killed" type="script" x="352" y="320" width="96" height="32">
+  <object name="aidem_base_thieves_killed_selector" type="script" x="352" y="320" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
