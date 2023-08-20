@@ -224,7 +224,7 @@
                 ]
             },
             {
-                "text":"I want my gold back. You thief!",
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_80",
                 "requires":[
                     {
@@ -332,11 +332,11 @@
     },
     {
         "id":"thief_seraphina_80",
-        "message":"Do I know you?",
+        "message":"Why are you looking at me like that?",
         "replies":[
             {
-                "text":"Umar will here about this!",
-                "nextPhraseID":"X"
+                "text":"I want my gold back. You thief!",
+                "nextPhraseID":"thief_seraphina_81"
             }
         ]
     },
@@ -1801,6 +1801,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"aidem_base_thieves",
                 "mapName":"aidem_base_2"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_81",
+        "message":"Do I know you?",
+        "replies":[
+            {
+                "text":"Oh, you want to play dumb? Umar will here about this!",
+                "nextPhraseID":"X"
             }
         ]
     }
