@@ -30,17 +30,9 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "attackDamage":{
-            "min":0,
-            "max":0
-        },
         "phraseID":"aidem_camp_greedy_10",
         "droplistID":"aidem_camp_greedy_dl",
-        "attackCost":10,
-        "attackChance":0,
-        "criticalSkill":0,
-        "criticalMultiplier":2.0,
-        "blockChance":0
+        "attackCost":10
     },
     {
         "id":"aidem_camp_grabby",
@@ -52,18 +44,9 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "attackDamage":{
-            "min":0,
-            "max":0
-        },
         "faction":"1",
         "phraseID":"aidem_camp_grabby_10",
-        "droplistID":"aidem_camp_grabby_dl",
-        "attackCost":0,
-        "attackChance":0,
-        "criticalSkill":0,
-        "criticalMultiplier":0.0,
-        "blockChance":0
+        "droplistID":"aidem_camp_grabby_dl"
     },
     {
         "id":"aidem_camp_zachlanny",
@@ -74,18 +57,9 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "attackDamage":{
-            "min":0,
-            "max":0
-        },
         "faction":"1",
         "phraseID":"aidem_camp_zachlanny_10",
-        "droplistID":"aidem_camp_zachlanny_dl",
-        "attackCost":0,
-        "attackChance":0,
-        "criticalSkill":0,
-        "criticalMultiplier":0.0,
-        "blockChance":0
+        "droplistID":"aidem_camp_zachlanny_dl"
     },
     {
         "id":"aidem_camp_lost_traveler",
@@ -105,16 +79,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "attackDamage":{
-            "min":0,
-            "max":0
-        },
-        "phraseID":"aidem_base_alaric_10",
-        "attackCost":0,
-        "attackChance":0,
-        "criticalSkill":0,
-        "criticalMultiplier":0.0,
-        "blockChance":0
+        "phraseID":"aidem_base_alaric_10"
     },
     {
         "id":"aidem_base_defy",
