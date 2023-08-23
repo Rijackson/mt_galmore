@@ -945,6 +945,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"aidem_base_thieves",
                 "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_base_defy_spawn",
+                "mapName":"aidem_base_2"
             }
         ]
     },
