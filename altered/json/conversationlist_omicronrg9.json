@@ -102,6 +102,12 @@
                         "requireID":"wanted_men",
                         "value":50,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
