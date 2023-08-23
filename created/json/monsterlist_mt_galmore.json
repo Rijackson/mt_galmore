@@ -122,7 +122,7 @@
         "phraseID":"thief_rennik_selector"
     },
     {
-        "id":"aidem_camp_greedy_aggressive",
+        "id":"aidem_base_greedy_aggressive",
         "name":"Greedy",
         "iconID":"monsters_ld1:65",
         "maxHP":329,
@@ -145,7 +145,7 @@
         "blockChance":170
     },
     {
-        "id":"aidem_camp_grabby_aggressive",
+        "id":"aidem_base_grabby_aggressive",
         "name":"Grabby",
         "iconID":"monsters_ld1:65",
         "maxHP":329,
@@ -168,7 +168,7 @@
         "blockChance":170
     },
     {
-        "id":"aidem_camp_zachlanny_aggressive",
+        "id":"aidem_base_zachlanny_aggressive",
         "name":"Zachlanny",
         "iconID":"monsters_ld1:65",
         "maxHP":329,

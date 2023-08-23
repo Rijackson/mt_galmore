@@ -277,7 +277,7 @@
     <property name="spawngroup" value="aidem_camp_zachlanny"/>
    </properties>
   </object>
-  <object name="aidem_base_defy_spawn" type="spawn" x="224" y="416" width="160" height="128">
+  <object name="aidem_base_defy_spawn" type="spawn" x="224" y="384" width="160" height="160">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="aidem_base_defy"/>
@@ -289,10 +289,28 @@
     <property name="spawngroup" value="aidem_base_alaric"/>
    </properties>
   </object>
-  <object name="aidem_camp_aggressive_thieves_spawn" type="spawn" x="320" y="416" width="64" height="128">
+  <object name="aidem_base_alaric_aggressive_spawn" type="spawn" x="224" y="448" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="aidem_camp_aggressive_thieves"/>
+    <property name="spawngroup" value="aidem_base_alaric_aggressive"/>
+   </properties>
+  </object>
+  <object name="aidem_base_grabby_aggressive_spawn" type="spawn" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="aidem_base_grabby_aggressive"/>
+   </properties>
+  </object>
+  <object name="aidem_base_greedy_aggressive_spawn" type="spawn" x="352" y="416" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="aidem_base_greedy_aggressive"/>
+   </properties>
+  </object>
+  <object name="aidem_base_zachlanny_aggressive_spawn" type="spawn" x="352" y="448" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="aidem_base_zachlanny_aggressive"/>
    </properties>
   </object>
  </objectgroup>

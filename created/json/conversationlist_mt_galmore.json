@@ -1797,13 +1797,28 @@
         ],
         "rewards":[
             {
-                "rewardType":"spawnAll",
-                "rewardID":"aidem_camp_aggressive_thieves_spawn",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_thieves",
                 "mapName":"aidem_base_2"
             },
             {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"aidem_base_thieves",
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_camp_aggressive_alaric_spawn",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_base_grabby_aggressive_spawn",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_base_greedy_aggressive_spawn",
+                "mapName":"aidem_base_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_base_zachlanny_aggressive_spawn",
                 "mapName":"aidem_base_2"
             }
         ]
