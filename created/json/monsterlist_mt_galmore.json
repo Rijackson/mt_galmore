@@ -44,7 +44,6 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "faction":"1",
         "phraseID":"aidem_camp_grabby_10",
         "droplistID":"aidem_camp_grabby_dl"
     },
@@ -57,7 +56,6 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "faction":"1",
         "phraseID":"aidem_camp_zachlanny_10",
         "droplistID":"aidem_camp_zachlanny_dl"
     },
@@ -67,7 +65,6 @@
         "iconID":"monsters_tometik2:55",
         "monsterClass":"humanoid",
         "movementAggressionType":"helpOthers",
-        "faction":"1",
         "phraseID":"aidem_camp_lost_traveler"
     },
     {
