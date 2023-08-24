@@ -1,0 +1,129 @@
+[
+    {
+        "id":"faction_count_thieves",
+        "name":"faction_count_thieves",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":0,
+                "logText":"Ranges: ..."
+            },
+            {
+                "progress":10,
+                "logText":" 8-  wanted_men:65   Returned fake key to Troublemaker"
+            },
+            {
+                "progress":20,
+                "logText":" 3   wanted_men:80   Defy and his men killed"
+            },
+            {
+                "progress":30,
+                "logText":" "
+            },
+            {
+                "progress":40,
+                "logText":" "
+            },
+            {
+                "progress":50,
+                "logText":" "
+            },
+            {
+                "progress":60,
+                "logText":" "
+            },
+            {
+                "progress":70,
+                "logText":" "
+            },
+            {
+                "progress":80,
+                "logText":" "
+            },
+            {
+                "progress":90,
+                "logText":" "
+            },
+            {
+                "progress":100,
+                "logText":" "
+            },
+            {
+                "progress":110,
+                "logText":" "
+            },
+            {
+                "progress":120,
+                "logText":" "
+            },
+            {
+                "progress":130,
+                "logText":" "
+            },
+            {
+                "progress":140,
+                "logText":" "
+            },
+            {
+                "progress":150,
+                "logText":" "
+            },
+            {
+                "progress":160,
+                "logText":" "
+            },
+            {
+                "progress":170,
+                "logText":" "
+            },
+            {
+                "progress":180,
+                "logText":" "
+            },
+            {
+                "progress":190,
+                "logText":" "
+            },
+            {
+                "progress":200,
+                "logText":" "
+            },
+            {
+                "progress":210,
+                "logText":" "
+            },
+            {
+                "progress":220,
+                "logText":" "
+            },
+            {
+                "progress":230,
+                "logText":" "
+            },
+            {
+                "progress":240,
+                "logText":" "
+            },
+            {
+                "progress":250,
+                "logText":" "
+            },
+            {
+                "progress":260,
+                "logText":" "
+            },
+            {
+                "progress":270,
+                "logText":" "
+            },
+            {
+                "progress":280,
+                "logText":" "
+            },
+            {
+                "progress":290,
+                "logText":" "
+            }
+        ]
+    }
+]
