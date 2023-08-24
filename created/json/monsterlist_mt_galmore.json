@@ -131,7 +131,7 @@
         "moveCost":2,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":7,
             "max":9
@@ -153,7 +153,7 @@
         "moveCost":2,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":7,
             "max":9
@@ -174,7 +174,7 @@
         "moveCost":2,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":7,
             "max":9
@@ -196,7 +196,7 @@
         "moveCost":2,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":7,
             "max":9
