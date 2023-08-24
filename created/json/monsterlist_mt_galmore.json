@@ -137,7 +137,6 @@
             "max":9
         },
         "spawnGroup":"help_defy",
-        "phraseID":"aidem_camp_greedy_10",
         "droplistID":"aidem_camp_greedy_dl",
         "attackCost":3,
         "attackChance":158,
@@ -160,7 +159,6 @@
             "max":9
         },
         "spawnGroup":"help_defy",
-        "phraseID":"aidem_camp_grabby_10",
         "droplistID":"aidem_camp_grabby_dl",
         "attackCost":3,
         "attackChance":158,
@@ -204,7 +202,6 @@
             "max":9
         },
         "spawnGroup":"help_defy",
-        "phraseID":"aidem_base_alaric_10",
         "attackCost":3,
         "attackChance":158,
         "criticalSkill":3,
