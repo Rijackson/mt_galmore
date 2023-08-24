@@ -244,7 +244,7 @@
    <properties>
     <property name="phrase" value="wild6_house_prevent_bucket_walking"/>
     <property name="requireId" value="wanted_men"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="30"/>
    </properties>
