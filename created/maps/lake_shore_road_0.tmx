@@ -186,22 +186,22 @@
  </tileset>
  <layer name="Ground" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8SgeZhgApEs/wA==
+   eJzbyMnAsHEUj+JRPIpH8SgmAp9AwoPdPADrc0CP
   </data>
  </layer>
  <layer name="Objects" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguC3JwPAKiF8C8WtJTD4y2C4GoQ9D5V+h0TA2DNxGMwNdHmYeLvAKTe9rHO4i1jx0gO4HSs0jBKht3kkqmLcLaMZNKrqLWn4EuWsbEJ+mknmDLexB/rsOxDeoFP6DzX/oYCeVzTs2yPMmtc07Bc0PMLx7kLt3oNLjRhYGhk1AvBmIAcD5Oc4=
+   eJxjYGBguC3JwPAKiF8C8WtJTD4y2C4GoQ9D5V+h0TA2DNxGMwNdHmYeLvAKTe9rHO4i1jx0gO4HSs0jBKht3kkqmLcLaMZNKrqLWn4EuWsbEJ+mknmDLexB/rsOxDeoFP6DzX/oYCeVzTs2yPMmtc07Bc0PMLybCPOfAdW8QML4ADHuPQ5UcwuIf0AxNcw7QWQ4EZMe0c0DAN/GQwE=
   </data>
  </layer>
  <layer name="Above" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJy7KclAENwiQg02tTclsYtTCmBmUdPMUTAKRsEoGAUDC0BlOqjeoFbZDgD8Dwl8
+   eJy7KclAENwiQg02tTclsYtTCmBmUdPMUTAKRsEoGAWEwVch2pkNKtNB9Qa1ynYArMAKgw==
   </data>
  </layer>
  <layer name="Walkable" width="20" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGHmwUQ2BqmAEAykAEqw==
+   eJxjYBgFo2AUjIJRMAqIAxvFqG8eNkwN8wAc8gfH
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -211,7 +211,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="608" y="32" width="32" height="640">
+  <object name="east" type="mapchange" x="608" y="32" width="32" height="608">
    <properties>
     <property name="map" value="lake_shore_road_1"/>
     <property name="place" value="west"/>
