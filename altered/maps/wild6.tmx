@@ -268,7 +268,7 @@
     <property name="spawngroup" value="forestboar2"/>
    </properties>
   </object>
-  <object name="forestbeetle" type="spawn" x="381" y="221" width="512" height="352">
+  <object name="forestbeetle" type="spawn" x="381" y="221" width="259" height="355">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="4"/>
@@ -289,7 +289,7 @@
     <property name="spawngroup" value="fox2"/>
    </properties>
   </object>
-  <object name="forestwolf1" type="spawn" x="352" y="640" width="512" height="256">
+  <object name="forestwolf1" type="spawn" x="352" y="736" width="544" height="128">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
