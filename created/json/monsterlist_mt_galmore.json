@@ -177,7 +177,6 @@
             "max":9
         },
         "spawnGroup":"help_defy",
-        "phraseID":"aidem_camp_zachlanny_10",
         "droplistID":"aidem_camp_zachlanny_dl",
         "attackCost":3,
         "attackChance":158,
