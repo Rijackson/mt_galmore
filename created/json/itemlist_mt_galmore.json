@@ -102,6 +102,7 @@
         "id":"zachlanny_ring",
         "iconID":"items_japozero:254",
         "name":"Zachlanny ring",
+        "displaytype":"quest",
         "category":"other",
         "description":"Zachlanny's Aidem ring"
     },
