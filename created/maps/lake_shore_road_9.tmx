@@ -196,7 +196,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJy1VjtOxDAQ9UYgkRqkKCmMKKiQWECi5bNZUa6SRbQRHAqaZY+wouYmXIACTgAdM7JHNs44jkN40lOyzvg9z/i3QvA4kO22BbTVUj0r4C3whIlDTD3fdgsh9gqPqQeotdR+jdbktBc6ZqnHV3vGxuGYiUXfqdU+g/cHT5z97qsJh/2AXhWosY0Y3zOIlZrXsq23NTF8TX//Rrq+F8BL4JXWRLwn/cZCvqcTNXfcvFHMueXtyzfG19bg9HC9lU59YurMATXvNcuO9erG/dXX1S575EN7L2YvhRCqI+3j0NjG9qWabBfj5ky+XZr23hsrZ8rHd25RzH+sr77rJva87ELMunF9KzmMtb4jZj1rSHWh/ocDeCPNfYh+jWd+HzNDe54RQzznloedA9aAfBArff6u4fmUmbwJa+Z8XjltFDN3fCn2OVG5v6WKbn/EXda+I21trg+BfDGGaufDRy7EZ67ej3RcI7v1Q74b6PsFmt+5+bYJ6FEtYvCSqDVh++7A+ZdG/kcj/ABBz15J
+   eJydVr1OwzAQTiOQyAxSlAxGDExIFJBY+WkqxioJYo3goWApfYSKmZmXQOrMQHkB2LhTfMrVOcd2P+nk1D1/3/3YTqJIxpHqz81grlLtWILdg50Jfoix5b/9PIoOcouoBchVa71Gc0rcM+1T6/gqS2wSTgVf1B2z+Qk8P1n8+LOtJhIOHXylo8YcIboX4Ku03ao+386os/dk8zeaqXsFdg12ozkRX7FfLKR7Pmp7J/WNfC6Zti3fEF3OIfHhfiuM+oTUWQJyPmorBvar6Tek+5G14zeMP5lfDIVHPnT2fM4Saq89tF11pHPsii0ULl2qyW7un3OI7hAnP3tDOa9Yf82er9iIfaB8bPcWovHYX9RXrm3T5Pn41NB1X3LtdbY5Z+71kH1j6pZqO6v0O2LicUZJt2brj7ewO9W9D1GvsfT3Oe2M9xmxjeaUafAcsAakg5jr+3cB40va5U1YCPfz3Jgjn6mhS76vcZv7Z9KauR7xkPbfkZyb1kj3FumiD9XOBr7+RPs1So7JBdJdwtpf4PxjcS0dfFSLELzF7Z7guntw/yWB32iEf2/6f/c=
   </data>
  </layer>
  <layer id="3" name="Objects_bridge_fixed" width="30" height="22" visible="0">
@@ -206,7 +206,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAbTkGqoOrQoTV0MJeYgAp9jIyElbDSoQaUu0VBJopRACL0sBeRaCZSgSwKg3sBQEtOfyYWGBFor1JkvjxSAY7B8j/X4H2fhsgu9mkBsbeUTAKRgFxYC4TKv8msKy4BS0vrCloV6DrncMEwTAwG81efG4iBVDaFvLGoR85XEBgI5C9CYlPrL3o5iDzN0NpAMktHP4=
+   eJxjYIAAbTkGqoOrQoTV0MJeYgAp9jIyElbDSoQaUu0VBJopRACL0sBeRaCZSgSwKg3sBQEtOfyYWGBFor1JkvgxsWAzVO1NIH2LBH3UBtS0e+cA+eMr0N5vA2Q3mxR+eeT4RY9zdJpa4CaSWbfonM6w2U1r+5D9iA9Q0z0vgWa9ksRk41M3CqgDSE3Lc5lw67emoF2BrncOEwTDwGw0e/G5iRRAaVvIG4d+9HDdCGRvQuITay+6OdjKQABJ5Tpv
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="22">
@@ -216,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgkJRjoAiA9KNjmDghfbSwlxh9pNpDyE5izCTHXmIwte2llv6B8C8p6YBYN9ATDJTd5KYtWtpLSzcMRntpCSgpP2hl70DaPZzspVY9QS37scnh4uPzA7H24TMPlz58aii1i1BY4DKDWLW4ADnxTA17kQEAwtwk9Q==
+   eJzNlEsOgCAMRHsNN97/mMYFCSH9TNsBbUKCyswrWCoict3Sile/jvE+0u3gIrosJ2IinhUuMthclv6L/WbqAM3hZFTZcx1Wcq7WlubB4u48/z9yM/oxRz27/cM6o8iL0bsiNqrNaNa5t47B7QSjbzL52jfr2dsDyvP8LJ2VN3JvIhZyBzUPdK0Vlf/M4M7xAPjJLY0=
   </data>
  </layer>
  <layer id="7" name="Walkable_bridge_fixed" width="30" height="22" visible="0">
