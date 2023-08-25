@@ -1695,13 +1695,29 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"wild6_house_prevent_bucket_walking",
+                "nextPhraseID":"wild6_house_hatch_defy_killed_no_key",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":76,
-                        "negate":true
+                        "negate":false
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_vault_key",
+                        "value":0
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"wild6_house_hatch_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":76
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -1832,5 +1848,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"wild6_house_hatch_defy_killed_no_key",
+        "message":"I should come back with the Thieves Guild key."
     }
 ]
