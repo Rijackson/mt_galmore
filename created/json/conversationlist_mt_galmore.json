@@ -159,6 +159,12 @@
                         "requireID":"sullengard_hidden",
                         "value":36,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75,
+                        "negate":true
                     }
                 ]
             }
