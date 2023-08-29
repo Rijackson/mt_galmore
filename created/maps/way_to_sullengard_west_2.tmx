@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJy9VEsKwjAQDbmAkEWh4hEE0YN4BG/gETyGuPIQrsQDqFVcubMqgqj42YvunNGMnaRpCkV88KDTdN7LZCYdBOKNuhSiIcUXUSBSGFnvpiweKyEmwCVwo9K5hAVbQ48T8OLw4h5TyImUmUt+tGajr2u5Qv4tMOuZOOqgPR9Uov1e0/p7YA14CUEzTPv1pOkxyzgr1I/hea1jqmmfcWZHaca+Ou4QPzSfgRlzEsryo2/XxD2Gnt74QHpVq66aSnvM4XlV0Ifg6otrhgl5c8exhDMqsT40c+4JAXuO83f2kO8BZ7attVvMw6eBs921ZgSB8xizWeDn03F8XxR8b/8EvxeVH9bD9WO6ozLhr/WxN1tLd8firP8Nwc7leAERpG4P
+   eJy9VEsKwjAQDbmAkEWh4hEE0YN4BG/gETyGuPIc4gH84qo7qyIUFa170Z0zmrGTNI0gxQcPOk3nvcxk0jQULzSlEC0pPpgHIoex9W7G4okSYgqMgFuVzyWs2Bp6nIAXhxf3mEHOXJm55EdrNoa6lhTyr4FZz9RRB+35oDLt15rWT4AN4AX6lYZ5v4E0PRYFvUL9GJ43OqaakoKeHaUZ++q4QXzXfARmzEmoyre+XRP3GHnOxgfSq1t1NVTeYwnP6x99CK5zcc0w4dvccUTQowo7h/aXe0LAM8f5O3vI94Az29XaHebh08DZ7lszgsB5jNks8P70HN//Cr63f4Lfi1qJ9XD9mO6ozFi2Pp7NztLds7jof0OwczmecUBuSw==
   </data>
  </layer>
  <layer id="4" name="Above" width="25" height="15">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBGKYQCZjQ9sFMON8ekhxQ50e4ixmxh34HIXstnobHzuIsUuXPYSMp9cOwiZiy5OSzBqB/XtoEbaJycv4csX5PiDGLeR4l5yywVq24XNTkJlGbFhh88+AFNGZp0=
+   eJy1lIEJACAIBJui/Vdww6AIRHz9xARJML1PIZljm8zjN2bs1nge1bwwLIdhMzqQLt3bxij3ykJcL9fBYPr+YOjTsrst2llH35+zynhVjd4dG0f1mQ6kDfWumKeB1VvdWzcL7QO9Ef03zHy0L8FGd7c=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
