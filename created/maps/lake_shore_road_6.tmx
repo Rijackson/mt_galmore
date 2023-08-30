@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,17 +187,22 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7K8lAFSAhxcAgCcRvqWSeBtAsTSnqmDXUwDUxBoZtQHwdiG8A8U2xgXYRYXCNDu4lxo65TKj82UwIMXQ5bOAYGW7HZ+52LOYdFkO4jVRwChoGsPSBDh4DzXyKw1xi/I8LoLuVFLOQ44AcP1MKKPE3vQExbkWO38dMmGKEzH2MxCakjxAAAOhZJH8=
+   eJx7K8lAFSAhxcAgCcRvqWSeBtAsTSnqmDXUwDUxBoZtQHwdiG8A8U2xgXYRYXCNDu4lxo65TKj82UwIMXQ5bOAYAbefgabva4K47UQG27GYd1gM4TZSwSloGMDSBwhch7rlJpB+DDTzKQ5zifE/LgBy6w+g339Kkm4Wchwg+5kDmL85Kcjj1wUJqwEBfG59BfXPOSqVW8QAdizuuQn1C7pbYX5E1gOK35eSELeD4lscR5zflkT4D9ncx1A2sj5sYQlK4yB7XktCzHotiSoHAgBsADod
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJy7K8kwCkbBKMADLosRJ0YsmMuEKXYYzTxKzAeBSxTqJxZQ6k50s9DDgRJAiVnY9CKLkeLvwzj8Ra77QPqwxS+5cU5JWgEAu4sSTQ==
+   eJy7K8kwCkbBsAV7qJC+L4sRJ0YsmMuEKXYYzTxKzAeBS0D9m+mQtyl1J7pZ6OGADm5B/bSPCL8RMotUvchipPgbpO+mJMLtuOzApgaXeZew2H8JyR5izYLpIxagmwkABuQdZg==
+  </data>
+ </layer>
+ <layer id="9" name="Top" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQEtwWGygXUAbAAC9QgDa
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMZAFbBRDIGpad4oGAWkAPQ0g5wuyUlPhMwj1Vxk9dj0kmsePn3UyJuU+BubnynxN6l+JmQuMfbiizNC5mFzC7IaQm7FphabXlxuwaeH3DQB0wsARn0++A==
+   eJzbKMZAFbBRDIGpad4oGAWkAPQ0g5wuyUlPhMwj1Vxk9bj0k2MePvdQI29S4m9cfsYmTo5byFVDir3IagipJyYNopuHz6341BLSh02elDgkZAYAZi9HhQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
