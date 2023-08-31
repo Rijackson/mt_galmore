@@ -188,7 +188,7 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcAILphQgm7URC8ZmJ7XtRcaboZje9hLCo/ZS3156g1F7CaulRnyRay+uMoeW9uIr80aCvfSM34FKV0PdXmrhUXtH7R1oewG/s/E+
+   eJw7wcnAcILGeCMWTGs70fFmKKa3vaN4FI/igcUDUeYMVJk3WOwd6DgfxaN4FI8cDAAa4jFk
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="23">
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOTnBShmHgpSQDwysg/iWEEHsjicNSKtpLCmAUHhh7Q8UHxl4QGM72UmoHuW4atZe28UWpvdFSDAwxUvSxF9mubCCdQyd7YXYh+5Ne4YzuT3rZiwuM2ku+WaQAcu2tYKK/vS7AOtdVnP72UgOM2ovbXgD6+ktM
+   eJxjYKAteCnJwPAKiH8JIcTeSNLYUhIBo/DA2BsqPjD2joJRMBJBtBQDQ4wU/e3KBtI5dLIXZhe9/InN7lEwCogBFUz0t9MFWOe6jta7ww4AAJ/aCzU=
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="23">

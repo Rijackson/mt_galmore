@@ -203,7 +203,7 @@
  </tileset>
  <layer id="1" name="Ground" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJwzkGdgMKASRgfUMnfU7FGzh4rZ1AJD0Wxiw22kmS1NxTSIjmlptiQNzZckgGlpNiXmE2M2ueaTY7Y0njhCVk+s2aRikNkA62JyEQ==
+   eJwzkGdgMBjFo3gUj+JRTBMsPUTNlqSh+ZIEMC3NpsR8Yswm13xyzJbGE0fI6ok1m1QMMhsAq/edRQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="23">
@@ -213,7 +213,7 @@
  </layer>
  <layer id="3" name="Above" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeMJBHxdQEw8XsYEYIDmHEZIPowerukWb2XlkIJtVsdDXk4qFoNi4wavYoGAW4QYYwbcwtB5pbATX7riR1zNwMNacdaG4H1GwAsCs0Ew==
+   eJxjYBgF9ATBjBAcwojJBtGjYHCAvbIQPApGwSgYBbQEGcK0MbccaG4F1Oy7ktQxczPUnHaguR1QswHvlgjf
   </data>
  </layer>
  <layer id="4" name="Top" width="23" height="23">
