@@ -203,5 +203,11 @@
         "criticalSkill":3,
         "criticalMultiplier":2.0,
         "blockChance":170
+    },
+    {
+        "id":"fish_school",
+        "name":"Blue fish",
+        "iconID":"monsters_ld2:137",
+        "monsterClass":"animal"
     }
 ]

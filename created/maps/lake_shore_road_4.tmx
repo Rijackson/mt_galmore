@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,30 +188,30 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcILGeCMWTGs70fFmKKa3vaN4FI/igcUDUeYMVJk3WOwd6DgfxaN4FI8cDAAa4jFk
+   eJw7wcnAcAILphQgm7URC8ZmJ7XtRcaboZje9hLCo/ZS3156g1F7CaulRnyRay+uMoeW9uIr80aCvfSM34FKV0PdXmrhUXtH7R1oewG/s/E+
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAduCfLwHAYiC+g4YuyNLQUye4HUHyYDvYRcgM2IChMX/eMglEwUOCZGAPDCyh+KUY/O18D8S0gvg3Er+hk/3GonT+B+BuUBtl/gg72guw4Lgjhw/xPD3thYfsaKcx/0theUNj+gOLbdLITmxvobSc1QSawDsoagHqoEmhn1QDY2wm0s2u03h12AABefzbM
+   eJxjYKAduCfLwHAYiC+g4YuyNLQUye4HUHyYDvYRcgM2IChMX/eMglEwUOAcnfM/zM7LQHwIWgZcopP966F2PpSFlAEPofZvoIO9IDuOC0L4MP/Tw15Y2F5GCvOHNLYXvYynh53Y3EBvO6kJMoF1UNYA1EOVQDurBsDeTqCdXaP17rADAKaGNEY=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAteCnJwPAKiH8JIcTeSNLYUhIBo/DA2BsqPjD2joJRMBJBtBQDQ4wU/e3KBtI5dLIXZhe9/InN7lEwCogBFUz0t9MFWOe6jta7ww4AAJ/aCzU=
+   eJxjYMAOTnBShmHgpSQDwysg/iWEEHsjicNSKtpLCmAUHhh7Q8UHxl4QGM72UmoHuW4atZe28UWpvdFSDAwxUvSxF9mubCCdQyd7YXYh+5Ne4YzuT3rZiwuM2ku+WaQAcu2tYKK/vS7AOtdVnP72UgOM2ovbXgD6+ktM
   </data>
  </layer>
- <layer id="9" name="Top" width="30" height="23">
+ <layer id="4" name="Top" width="30" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMFxAtNRAu2AUjIJRMAroBwBOUAB2
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="23" visible="0">
+ <layer id="5" name="Walkable" width="30" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdmCmLipHFaQ3oYQcue7H5eaDcMApGATLYKIaK6WknNjfQy05i5ahhLz77aG0vLr/Rw7+44plW9hIKa1oB9DxEz7w0CkbBKMAEAJJXJTs=
+   eJxjYKAdmCmLipHFaQ3oYQcue7H5eaDcMApGATIYiPSJLf/T2n585tPSbmzmIttHa3tx+Y0e/sUVz7Syl1BY0wqg56HRsnYUjIKBBQBiNyLX
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="864" y="0" width="64" height="32">
    <properties>
     <property name="map" value="mywildcave"/>
@@ -219,7 +219,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Spawn">
+  <object id="2" name="lake_fish_spawn" type="spawn" x="192" y="0" width="512" height="288">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="pond_fish"/>
+   </properties>
+  </object>
+  <object id="3" name="fish_school_spawn" type="spawn" x="608" y="192" width="320" height="544">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="fish_school"/>
+   </properties>
+  </object>
+  <object id="4" name="fish_school_spawn2" type="spawn" x="32" y="192" width="288" height="352">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="fish_school"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
