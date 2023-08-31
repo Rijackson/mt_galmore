@@ -186,6 +186,7 @@
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7705" source="map_guynmart.tsx"/>
  <layer id="1" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
    eJzF0z0OgCAMBlDjxv3PocRwAHVzVa7gQYQEEqxQWkQcvk3z6J/su24S92yZKPH8hxv5kzsWuKlwXWiXuhzbu2G/VQN3cCacc87G+kNxZ+OtETfXb+yNFHc3no7MmFL3m3r9fOGMOT2HN0a5M4rL2XHqbVtvccG+q+3aGg8X3bBe654uNeql7hc209Ldorip+/nazu1xzA5T6l5gTGyb
@@ -198,7 +199,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgWC3LMCCAHvbekcQUm8tEe3sHI9hNYnh/BobdFyzhR6qdpMYzsxQDA4sUZfauJsNeYaCdIkAsSoHdIDvpmb5uAuPnFhDvgvqV1DimFhjOZQg2uwbK3l0DZC+twU6kcoae+eczWvlGr/wDK+MApl0YHQ==
+   eJxjYGBgWC3LMCCAHvbekcQUm8tEe3sHI9hNYnh/BobdFyzhR6qdpMYzsxQDA4sUZfauJsNeYaCdIkAsSoHdIDvpmb5uAuPnFhDvgvqV1DimFhjMZUiYHCqmhl0DZe8uOoYzPeN0J1I5Q8/88xmtfKNX/oGVcQAsNBu9
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="16">

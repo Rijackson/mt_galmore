@@ -201,6 +201,7 @@
  <tileset firstgid="8217" name="map_boats_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../spritesheets/map_boats_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8345" source="map_guynmart.tsx"/>
  <layer id="1" name="Ground" width="23" height="23">
   <data encoding="base64" compression="zlib">
    eJwzkGdgMBjFo3gUj+JRTBMsPUTNlqSh+ZIEMC3NpsR8Yswm13xyzJbGE0fI6ok1m1QMMhsAq/edRQ==
@@ -213,7 +214,7 @@
  </layer>
  <layer id="3" name="Above" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9ATBjBAcwojJBtGjYHCAvbIQPApGwSgYBbQEGcK0MbccaG4F1Oy7ktQxczPUnHaguR1QswHvlgjf
+   eJxjYKAeuKaAiqkJhovZwYwQHMKIyQbRg9XdI83svbIQTKrZ6GrIxUPRbFxg1OxRMApwgwxh2phbDjS3Amr2XUnqmLkZak470NwOqNkA+RuPZw==
   </data>
  </layer>
  <layer id="4" name="Top" width="23" height="23">
