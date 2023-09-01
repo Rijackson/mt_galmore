@@ -190,17 +190,17 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJwTlWJg+CrJwPANiNHBdyxi6IAVqJ9Ninj12AC7FIJ9ikwzQACXP5DBDTEGhm1QvFsMIY7sD2LAdjHCamih9yQFeikBx0aYf5EBrf3+EocaYvx+ggK3EaMXl9+J0YvL76+A4i/QMHoY4PL7eiYIPRtKz2XC7RZ0t8P0IgNcetHdDtP7Eli+vJIkTy8l9pKjFwCdOi4g
+   eJytVDFuwzAMFAKk9eoCNSD/p0A/kNcVfUO2dsiUDkHsBxidOmQI7MDNlnaNCOsihiYDDzlAkC3qeEdK9nPp3Mk79xcGsHsa5n+2xrEO618xNg/8h/L2/i6/fn/JrnUeyxSrlRyVT3tfs3G8ifllHRLE/S6c+4hjVaQYr0PLL3U/C32vpUto8zEXdUlgr9StCn3fLV1gY3iulJ7do95L/olc8qGdL0HzLntncbl3rV9rQ5fyW977wDn6YSaudY4E7h3fDvHaeK+6GNfOAd6h9xPGr0+92rLcjaiNe+8jD3xw5bdp+QaPIHU1WL4XgXsIsVaMjuWTvomPvi1nw/pbnN9nyQtq2Sh8Argcsg743uep7iPT7cLzwY+5dP41+6+g3723dbW7CH3cpymeJRc4A3k7crw=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFOyUZyALI+naRacYoGAWjYPiDuUyU6X8sRpn+m8Dy6Ra0jLpMgVmHB7leAGOoCWk=
+   eJxjYEAFOyUZyALI+nZhMYNccwcL2EiB+w/Swe+DJXwHyh2g+NlEot13gOrvSiJocuwC6XuLpBef/9HtIzesSHUvsj5y7aPEXhiAhdtcJtL1Itv7WIwy/TeB7FtQ/mU8ZhEKr8NkuIOeegH56CYv
   </data>
  </layer>
  <layer id="4" name="Walkable" width="15" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBGK0QE2MWxqYOqIUY/LDFLsJMYccvRSon8UjIJRMPzBUConAOStCuM=
+   eJzbKMbAsBGK0QE2MZg4TA6dTQxAV4fMJ+QOfHYQsp+QXkrMJtfewaCXlLinpr3Y9A0VezeKoWJy9ZGStvHppcRecvQPdnvR9ZMLsMURMeZR4mZqAQAoPDjA
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
