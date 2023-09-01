@@ -4,5 +4,24 @@
         "name":"Maddalena",
         "iconID":"monsters_ld1:151",
         "phraseID":"sullengard_town_clerk_selector"
+    },
+    {
+        "id":"duleian_mountain_cat",
+        "name":"Duleian mountain cat",
+        "iconID":"monsters_tometik4:70",
+        "maxHP":97,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":7,
+            "max":19
+        },
+        "spawnGroup":"duleian_mountain_cat",
+        "droplistID":"big_cat_dl",
+        "attackCost":3,
+        "attackChance":225,
+        "criticalSkill":15,
+        "criticalMultiplier":2.5,
+        "blockChance":101
     }
 ]
