@@ -193,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="27">
   <data encoding="base64" compression="zlib">
-   eJy9lj1uwzAMhYXuWbx58JbMuU57g/RQQQ4QIE5uELd7ULe7kRjo1J8zVIRFmJVFmpbtcDECMfz0qEfZdWLMMTN3i3fLKu/A+06Nec3m5V1s3TdXu8oa3hy9BM6HVzefQRtyXpwWyoKYgoc9Q84ta+tDVIQ9hke1XB0H69OI5aEOX0tfxPByouOq5IR4Gm/mER6uky5Po03Dgtpnm1MweRxvlfzPm2pe+vTRWQVtddLNGRK5cHa4Vg7Qdgjk4B45Vuhe0HhkJ+Sgp30v0/4OmasTk4N75/ZLZ2vIXIWi7x0QM1uhoHeoxJI8QX25feBZ6AnuHHy/jwnOE9q9SIG+B92cJ5auJ1ST1MNHm//k/vNln3uXR70oaaKcPg9ubP1ncmaFd2YanyNH27vQ3UXvAklTaN2vV9lvtN+0/b22659OF5yXZp40euBb8CdtnsBbePvA85LmM2Z2kfcHWV29Aw==
+   eJy9ljuOwkAMhiN6mnQp0kHNdeAGy6FWHACJwA14VDQrWPoIkKh4nAFbjIUZxo4TEtykiPHn3/N7yDqJomkafS3+gbX9Au8CulZps7w/qLtxtfP0wWtilsjZeXWzBrQRZ+m0cBZGHTyaGXEO6bM+Rs7Yn/C4lr3jUH0eVXmkw9dSFFV4GdOxN3JCPIs3swoePsbvPIs2CwtrzyFnIeRJvG78mlfXvhTp47uK2o7xe06ZyJSzo3fbEtomgRzqUWKF7gWLR0ZKDnna9zKfb5m9mgk51LvUL9+tEGedFLP93jVWHf8P/A7VWJonuC9/WzKLPCGdg+/3T0LyhLUXLcj3qFvyRMfNhGvSZtiH/IH7zRmeY5fHvahp4hzNgxg/UH/IzmzhnZnF58Sxzi50d/G7QNMUeu/Xy2G3bmy/evD+5HTheVn2yaIHvwWvyeOJvLbXB52Xtp9Vdpd4d1BqvdM=
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfuCPJwHBXkn72vaWjXfQAd+jonzfDLOxGwSgYBaNgFAw82C1LP7tW09GuuUz0swsEaBGO2NpooDCkdjgit2WQ7QPZs4vGcQazj15pAwAJqhDG
+   eJxjYKAfuCPJwHBXkn72vaWjXfQAd+jonzfDLOxGwSgYBcMD7Bwtm4Y02C1LP7tW09GuuUz0swsEaBGO2NpooDCkdjgit2WQ7QPZs4vGcQazj15pAwDiHhGY
   </data>
  </layer>
  <layer id="4" name="Walkable" width="27" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzlllEKwCAMQ73IDr7b+jU2pLbJmhbGBGEKzbPqYsfobedx92r9i1HB8zSVrDUPZh0s46nj5ZbhsbEMzzp7tiGxyvsUaVXc205Wxz8S8aq9JuIredb3l1mo76hY3vivLNZfd2MVy9J9s38oK2IjsYiPK72C8XFFfbCbz+TExGdyWusC9s3N1hIT/cZLXQ==
+   eJzVltENgDAIRJ3CPwd3jG7ol6lpKHBwkEhiYptwr9R6ZZxHa9zXfKr1X0YFT9NkstY6kHWgjK+OVluGh+YiPOnbo+HJZZ4nS6vi3HayOv4Ri1ftNRafyZPe/8zy+g6LpY2lGMH7McKKRpaF+utuzGJJupH987IstifX4+NMr0B8nNEf7OYzNSH5mZrWvgC9c7O9xAMp9Uzr
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
