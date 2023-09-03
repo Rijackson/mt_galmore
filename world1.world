@@ -559,6 +559,13 @@
             "width": 576,
             "x": 8832,
             "y": -2176
+        },
+        {
+            "fileName": "created/maps/lake_shore_road_8a.tmx",
+            "height": 512,
+            "width": 480,
+            "x": 8928,
+            "y": -1280
         }
     ],
     "onlyShowAdjacentMaps": false,

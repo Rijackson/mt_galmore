@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJytVDFuwzAMFAKk9eoCNSD/p0A/kNcVfUO2dsiUDkHsBxidOmQI7MDNlnaNCOsihiYDDzlAkC3qeEdK9nPp3Mk79xcGsHsa5n+2xrEO618xNg/8h/L2/i6/fn/JrnUeyxSrlRyVT3tfs3G8ifllHRLE/S6c+4hjVaQYr0PLL3U/C32vpUto8zEXdUlgr9StCn3fLV1gY3iulJ7do95L/olc8qGdL0HzLntncbl3rV9rQ5fyW977wDn6YSaudY4E7h3fDvHaeK+6GNfOAd6h9xPGr0+92rLcjaiNe+8jD3xw5bdp+QaPIHU1WL4XgXsIsVaMjuWTvomPvi1nw/pbnN9nyQtq2Sh8Argcsg743uep7iPT7cLzwY+5dP41+6+g3723dbW7CH3cpymeJRc4A3k7crw=
+   eJytVLFuwkAMPUVqyxqGSJf/qdQf6NchvoGNDkzpEDUMHaNODAyIIGBrWXtW7vUcx44Y+qTTwdnP79mX5DN37ts79xMWsJ/3+42dcVTh/D3GHkrnHsvp/C4f/n+eDXWeyhTbKjUan3JfZuN4G+vLPiSI+1U4t45rU6QY70OrL3XfCj3X0iUc8zEXfUkgV+o2hZ43pQvUhudGmdl/9PtX/04u+dDul6B5l7OzuNy7Nq/K0KX6lvdz4Fx9vxPXukcC9453h3iXyO1iXLsHeIfeLvIwqw9WuxW9ce/Q2zFd4sp30/INHkHqarB8vwbuKcSOYnWsnvRNfMxtlfXni7gvs+QFvdQKnwAuh+wDvg956vvKdLvw++THXLr/LfuuYN5nb+tqzyL08Tzd41lygV+fmHN5
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
@@ -214,6 +214,12 @@
    <properties>
     <property name="map" value="lake_shore_road_9"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="3" name="north" type="mapchange" x="0" y="0" width="416" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_8a"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
