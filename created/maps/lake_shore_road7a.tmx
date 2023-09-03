@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,63 +180,35 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <layer id="1" name="Ground" width="27" height="27">
+ <layer id="1" name="Ground" width="18" height="27">
   <data encoding="base64" compression="zlib">
-   eJzt1DEKgDAMBdDi5v3voZRcwt0LieAg0pYk/f9PDtlKH21+Ymsph6hMaNWnlBbbM5FVG8XoXctBeyMD6XmdrBe9f8abtSLZRFheD2V5vO+ssnpnQut9hv2HyF79Fi8T0bzvS/490blSWtvAQu+KrJWZ2/sPz4bH2LW9fjEyrrQuAx4u0A==
+   eJw7wcnAcIIA3kgEJmQGNczZTKQZhMwh1gxc5pCifxSP4lE8ikfxKCYFAwBAs2SB
   </data>
  </layer>
- <layer id="2" name="Objects" width="27" height="27">
+ <layer id="2" name="Objects" width="18" height="27">
   <data encoding="base64" compression="zlib">
-   eJy9lj1uwzAMhYXuWbx58JbMuU57g/RQQQ4QIE5uELd7ULe7kRjo1J8zVIRFmJVFmpbtcDECMfz0qEfZdWLMMTN3i3fLKu/A+06Nec3m5V1s3TdXu8oa3hy9BM6HVzefQRtyXpwWyoKYgoc9Q84ta+tDVIQ9hke1XB0H69OI5aEOX0tfxPByouOq5IR4Gm/mER6uky5Po03Dgtpnm1MweRxvlfzPm2pe+vTRWQVtddLNGRK5cHa4Vg7Qdgjk4B45Vuhe0HhkJ+Sgp30v0/4OmasTk4N75/ZLZ2vIXIWi7x0QM1uhoHeoxJI8QX25feBZ6AnuHHy/jwnOE9q9SIG+B92cJ5auJ1ST1MNHm//k/vNln3uXR70oaaKcPg9ubP1ncmaFd2YanyNH27vQ3UXvAklTaN2vV9lvtN+0/b22659OF5yXZp40euBb8CdtnsBbePvA85LmM2Z2kfcHWV29Aw==
+   eJxjYMAPjosxMJwQI6AID3gG1PsCiF+TaQ5I/0sxiDtA4BaQ/kmEOSA9ML0gANL/CuqO2yS4BabnFZI/YG6AmUkMuAW1F0T/gGKYP74R6ScQgNlLSZzAACn2joJRMApGwXAFfEID7QJUAAAC5CgL
   </data>
  </layer>
- <layer id="3" name="Above" width="27" height="27">
+ <layer id="3" name="Above" width="18" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfuCPJwHBXkn72vaWjXfQAd+jonzfDLOxGwSgYBaNgFAw82C1LP7tW09GuuUz0swsEaBGO2NpooDCkdjgit2WQ7QPZs4vGcQazj15pAwAJqhDG
+   eJxjYBie4K4kdcx5SyVzRsEoGAWjYBQMb3BHkjp1DwCphwPo
   </data>
  </layer>
- <layer id="4" name="Walkable" width="27" height="27" visible="0">
+ <layer id="4" name="Walkable" width="18" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzlllEKwCAMQ73IDr7b+jU2pLbJmhbGBGEKzbPqYsfobedx92r9i1HB8zSVrDUPZh0s46nj5ZbhsbEMzzp7tiGxyvsUaVXc205Wxz8S8aq9JuIredb3l1mo76hY3vivLNZfd2MVy9J9s38oK2IjsYiPK72C8XFFfbCbz+TExGdyWusC9s3N1hIT/cZLXQ==
+   eJzbKMZAU7CRQvNB+skxA6aPGvaPglEwCkbBKBi+gFrlPDXqHBAAAPfHCI4=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="southeast" type="mapchange" x="416" y="832" width="384" height="32">
+  <object id="1" name="west" type="mapchange" x="0" y="160" width="32" height="640">
    <properties>
-    <property name="map" value="lake_shore_road_8"/>
-    <property name="place" value="northeast"/>
-   </properties>
-  </object>
-  <object id="2" name="south" type="mapchange" x="32" y="832" width="160" height="32">
-   <properties>
-    <property name="map" value="lake_shore_road_8"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="3" name="west" type="mapchange" x="0" y="96" width="32" height="512">
-   <properties>
-    <property name="map" value="lake_shore_road_6"/>
+    <property name="map" value="lake_shore_road_7"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="4" name="east" type="mapchange" x="832" y="160" width="32" height="640">
-   <properties>
-    <property name="map" value="lake_shore_road7a"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="5" name="pond_fish_spawn" type="spawn" x="288" y="32" width="288" height="160">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="pond_fish"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>
