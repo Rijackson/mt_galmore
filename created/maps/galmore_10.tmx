@@ -199,7 +199,7 @@
  </layer>
  <layer id="2" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1lMENwjAMRasc2aACNubcFZqOEMIGbRmhs0CELb5+ndZSIdI/xLH9bCtJDE0TSYOxb6/76iGmN/Ki7Q76NzcBawGpPZN/PsjFvpTFNbGtMGcn1+qtxE+iFNaztTRsMDvyPb9tZel+FNYsvUxgmyS3Lou7NU+tPUNe7SmKjc+V+xAuxmC+GneAHKWn2+nTM+bG84W4T+G2Rkxtxklq0jtSeCi8q3yuNs6J/rX7M1JNzPXIc0/3xDk7YwYqvYPFp3O+Ew9X8+Ww5sWw3sfwjbFq8cyO30LNz/rLrHfkYSYj1lujJfbHd452fYf4zx3hRvhX+G8pC/OMcDb/gIvsvdnw/iJi3xfFPuby
+   eJy1lMENgzAMRascuwGibNwzKxBGSNMNgI7ALFVUW/39OGCpLdI/xLH97BAnhtMpkkZj3XTHGiBmMPKi7Qb6NzcBawWpPZN/dnDbHS72pSyuiW2FuVS4La2t3kr8LEphe7aWxh1mT76lhvLpehLWIr3MYJslt34Wd+8/au0Z8mpPUWy8r9y7cDEG89W4I+QoPV3Pr54xN+6vxH0ItzFiamecpCa9I233KbyrvO+Jqd3diWriHB555tIzQ6je6Eeld7D49I759HI1Xw5bXgzbdQzvGKsWz9nxLNT8rLfMmiMPMxmx3hotsT/OOdp1DvGd+4Yb4V3ht6V8mGeCveUHXGQfnQ2vLyL2fQL7Vub+
   </data>
  </layer>
  <layer id="3" name="Ground1" width="30" height="16">
@@ -209,7 +209,7 @@
  </layer>
  <layer id="4" name="Objects" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJx9VMFKgkEQ/tmbx19h4e8N6lZdu5QHCbyEkGASRCCa6THyoG+h9QBZCIHn8hHKc160HqWddob9HNc+GPbf2Zn5ZmZn/2KW/KGRJskhfxOmqV/LrLt1ayfza9fJJe9P0+BPOGL73UKS7BX8dydN1lDJ1vdF2JP/OdjX3f7YyUkWcoihrPRX+bgd8vznL1wXTm62cBIqkG+POWW/NJtcxCP6b7Meq2h8vS3FOXT6Ecg2lNUZcck9VlOfq+zxrikP7O3QBH/q47Nb340XgvRW+Opu7QK35W/0abGP3LWunbDvzg4ivV6BLfWO+MR/wGsObD6NF0EnwlWDGZP5yqAO4lxF/LqKl3xsxIf0fRO4GzjTaXg3ggHU9MozsmPi50vQ/6jeEPrMjT0uKT7K7866+babNWrge6TZeFB9aarYwlVP122WkFNJ8VJcstGxZfafXE9mcIZ2upcNF7u5Rdo21EOx32BGq6Bvp/6tTNz33GyfTeKiXBocW2ZJ4ywfYhM+eEbnUIfkQjLjXkm8Nuc2VbViPYSajd+RIMYrOq2Xfsibxf900XquRxPuSEDc9862x/Yvxt89vY2Jmld5Mzir+n8nIjWNOA7FHUNOpFtYL2M+l54hL9XxZYPtwoY8BdcqLn5jXH2OcXKQr65B8As5dYwt
+   eJyFVLtKREEMHaazvAoD1z/QTm1tdItF2EYEBV0EEdbHuluKW6x/4eMDfCAI1uonqLU2Pj7FOU7CnJu96oEwdzJJTpLJ3EbpftApnJuTb+CuSGtLdAdx7ZVp7UfZlP1Skf2BebGfmnBueiJ99wpXwUpZ3TdoD/9Vsm/H/UKUxTLnoOgE53ZDNU/F1rj7E/PG3vor10aU/TJzQbqhWovmOxBO3b/7US7wqP7TVzkbPtW7J5xAM3KdRP0pyW9omTNw6T2uFSlX3fNdIw/u7YnP/ujjVVwffBJAe6t87bj2iTvIN/vsiY/eta0dmIlns+Wo/oNs0Tvwqf+xrGNk8+yTKHo1XOs0YzpfJdUBzo8av77hhU+o8YF+6DN3h2e6yO9GcUw13cqMTPr683fSf5neAEPh5h43DR/yO4yztRHcv+D3iNk4E98jkUGUHbJRrjbpdouUn+bUNLyIC5szP6rHzF/EnjzSGdvZXvJbtYK3q/Ug9j3N6Brpu0V6Kzfx+8X/PpvgQi4dia2zZLE8nmMDTzKjL1SH5gJ5lF5pvK7kdmdq5XqA9ZDvqA51vKqzeu2Hvln+TzdC4jr3+Y4U4D6KtgOxv/bp7vE2bsy86pvhWbX/OxWt6VTiIO4l5QTdW0hyKefaM+ZFHa8h276FnKdi28Tlb45rzznOGOVra1B8A5+bkbM=
   </data>
  </layer>
  <layer id="5" name="Above" width="30" height="16">
@@ -227,7 +227,7 @@
    eJwzFGNgMKQAIwNKzCHXTnrZiw3Qy056hSvMTlLER+ORdHspCWds8vj8gc+/5ABS9GLzNzFxgEucGL+RAvCFI7FuwBUH2OzCJo+PTWl6xmU/IXtJ8TOp7sTnR1LMw+YPXGbi8y8ufdRKb/j0geQApbhZlg==
   </data>
  </layer>
- <objectgroup id="8" name="mapevents">
+ <objectgroup id="8" name="mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="512" y="0" width="96" height="32">
    <properties>
     <property name="map" value="galmore_9"/>
