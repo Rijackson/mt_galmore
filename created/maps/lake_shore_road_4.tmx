@@ -186,7 +186,9 @@
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7705" source="map_guynmart.tsx"/>
+ <tileset firstgid="7705" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="30" height="23">
   <data encoding="base64" compression="zlib">
    eJw7wcnAcILGeCMWTGs70fFmKKa3vaN4FI/igcUDUeYMVJk3WOwd6DgfxaN4FI8cDAAa4jFk
