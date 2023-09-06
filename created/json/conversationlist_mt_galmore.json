@@ -1727,7 +1727,7 @@
                 "nextPhraseID":"wild6_house_hatch_10",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"wanted_men",
                         "value":76
                     },
