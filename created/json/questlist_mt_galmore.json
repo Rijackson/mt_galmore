@@ -87,5 +87,21 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"wicked_witch",
+        "name":"A Wicked witch",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more."
+            },
+            {
+                "progress":100,
+                "logText":"Completed [TODO]",
+                "finishesQuest":1
+            }
+        ]
     }
 ]

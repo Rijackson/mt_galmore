@@ -2013,5 +2013,98 @@
                 "value":-8
             }
         ]
+    },
+    {
+        "id":"bela_witch_10",
+        "message":"Did you hear about the kidnapping?",
+        "replies":[
+            {
+                "text":"It wasn't me!",
+                "nextPhraseID":"bela_witch_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":75
+                    }
+                ]
+            },
+            {
+                "text":"Someone kidnapped Ambelie?",
+                "nextPhraseID":"bela_witch_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":76
+                    }
+                ]
+            },
+            {
+                "text":"No, I don't think so.",
+                "nextPhraseID":"bela_witch_20"
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_15",
+        "message":"[Looking extermely confused and terrified]...Well, why would it me you?",
+        "replies":[
+            {
+                "text":"Nevermind.",
+                "nextPhraseID":"bela_witch_20"
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_16",
+        "message":"[Looking extermely confused]...Who?",
+        "replies":[
+            {
+                "text":"Nevermind",
+                "nextPhraseID":"bela_witch_20"
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_20",
+        "message":"Well, while you were off hunting and killing that giant snake, I had a customer.",
+        "replies":[
+            {
+                "text":"So?",
+                "nextPhraseID":"bela_witch_25"
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_25",
+        "message":"A customer with a very interesting report about a kidnapped girl and a witch.",
+        "replies":[
+            {
+                "text":"Is this customer still here?",
+                "nextPhraseID":"bela_witch_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_30",
+        "message":"That's the thing. He is no longer here. He just left before you walked in.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bela_witch_31"
+            }
+        ]
+    },
+    {
+        "id":"bela_witch_31",
+        "message":"You should ask around town if anyone has seen or heard about it."
     }
 ]
