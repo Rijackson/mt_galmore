@@ -209,5 +209,13 @@
         "name":"Blue fish",
         "iconID":"monsters_ld2:137",
         "monsterClass":"animal"
+    },
+    {
+        "id":"busy_indoor_farmer",
+        "name":"Busy farmer",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"fallhaven_farmer1",
+        "phraseID":"fallhaven_farmer1"
     }
 ]

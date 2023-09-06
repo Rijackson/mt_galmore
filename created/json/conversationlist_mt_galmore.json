@@ -2131,5 +2131,239 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_10",
+        "message":"Hello there. Please do not bother me, I have a lot of work to do.",
+        "replies":[
+            {
+                "text":"Can I have just one minute of your time, please?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_20",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_20",
+        "message":"I suppose.",
+        "replies":[
+            {
+                "text":"Great! I was wondering if you know anything about a kidnapping or a witch?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_30"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_30",
+        "message":"[Taken aback by the question] What did you just ask me?",
+        "replies":[
+            {
+                "text":"I asked if you know anything about a witch and a possibility that she took a girl.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_40"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_40",
+        "message":"Leave me alone! I don't want to talk about her!",
+        "replies":[
+            {
+                "text":"Ok. I'm sorry I asked.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"So you know something about the kidnapping?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_45"
+            },
+            {
+                "text":"What about the witch? Do you know something about her?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_50"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_45",
+        "message":"Nope!",
+        "replies":[
+            {
+                "text":"Are you sure?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_40"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_50",
+        "message":"I may, but I don't want to tell you about her as I am terrified of her.",
+        "replies":[
+            {
+                "text":"Wow! Now I have to learn what you know. Please tell me your story.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_60"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_60",
+        "message":"No way! I have no way to protect myself and believe me, I will need to if I tell you anything. ",
+        "replies":[
+            {
+                "text":"I will protect you. Trust me.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_65"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_65",
+        "message":"[Laughing uncontrollably]...You? You are just a child of a farmer. So you are weaker than I am.",
+        "replies":[
+            {
+                "text":"You know my father?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_66"
+            },
+            {
+                "text":"I can protect you.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_70"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_66",
+        "message":"Of course I do. He lives a stones throw away from me and we are both farmers.",
+        "replies":[
+            {
+                "text":"Oh. I didn't know. But I can protect you.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_70"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_70",
+        "message":"And how can you do that? Have you ever done anything like this before?",
+        "replies":[
+            {
+                "text":"Well, actually, I have. In fact, I just finished protecting this entire town from a giant snake.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_75"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_75",
+        "message":"That was you?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_76"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_76",
+        "message":"Well, if that's the case, then I will tell you my story.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_77"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_77",
+        "message":"My story starts a very long time ago, when I was just a kid.",
+        "replies":[
+            {
+                "text":"Great, more stories with grandpa.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_78"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_78",
+        "message":"You see, one day, my best friend Addie and I were playing amongst the trees south of town when we encountered her.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_outdoor_farmer_79"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_79",
+        "message":"She was a young beautiful woman, but terrifyingly alluring. So much so, that she easily coerced us into following her into her house.",
+        "replies":[
+            {
+                "text":"I see. What happened next?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_80"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_80",
+        "message":"Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experiance.",
+        "replies":[
+            {
+                "text":"Understandable.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_81"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_81",
+        "message":"All I remember was being kept in a dark room for what felt like weeks without food an alone. You see, the witch kept Addie in another room...I think.",
+        "replies":[
+            {
+                "text":"You think?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_82"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_82",
+        "message":"Yes. You see, after I escaped, I never saw Addie again.",
+        "replies":[
+            {
+                "text":"That's terrible.",
+                "nextPhraseID":"fallhaven_outdoor_farmer_83"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_83",
+        "message":"After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until know.",
+        "replies":[
+            {
+                "text":"Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_84"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_outdoor_farmer_84",
+        "message":"Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":40
+            }
+        ]
     }
 ]

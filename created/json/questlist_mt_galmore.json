@@ -98,6 +98,18 @@
                 "logText":"Bela, the Fallhaven tavern keeper heard from a customer about a possible kidnapping of a girl. I should ask around town if anyone knows more."
             },
             {
+                "progress":20,
+                "logText":"The \"busy farmer\", in the south eastern part of Fallhaven knows something about the witch."
+            },
+            {
+                "progress":30,
+                "logText":"The \"busy farmer\" and his best friend, Addie where kept captive by the witch a very long time ago when they were just kids. He never saw Addie again."
+            },
+            {
+                "progress":40,
+                "logText":"The \"busy farmer\" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers."
+            },
+            {
                 "progress":100,
                 "logText":"Completed [TODO]",
                 "finishesQuest":1

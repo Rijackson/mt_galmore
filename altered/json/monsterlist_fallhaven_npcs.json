@@ -1,0 +1,10 @@
+[
+    {
+        "id":"busy_farmer",
+        "name":"Busy farmer",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"fallhaven_farmer1",
+        "phraseID":"fallhaven_outdoor_farmer_10"
+    }
+]
