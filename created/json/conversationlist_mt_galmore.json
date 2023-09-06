@@ -1746,14 +1746,7 @@
         "replies":[
             {
                 "text":"Yes.",
-                "nextPhraseID":"wild6_house_hatch_20",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"thieves_vault_key",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"wild6_house_hatch_20"
             },
             {
                 "text":"Not right now.",
@@ -2001,6 +1994,23 @@
             },
             {
                 "nextPhraseID":"faction_count_shadow_40"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_return_real_key_10",
+        "message":"Thank you very much!",
+        "replies":[
+            {
+                "text":"I encountered Defy and his men and was forced to kill them!",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":-8
             }
         ]
     }
