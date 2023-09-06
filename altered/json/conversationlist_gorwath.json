@@ -1,0 +1,34 @@
+[
+    {
+        "id":"arensia_1",
+        "message":"Hello kid.",
+        "replies":[
+            {
+                "text":"Hello.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have a letter for you.",
+                "nextPhraseID":"arensia_letter",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gorwath_letter",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hello. I am wondering if you could help me?",
+                "nextPhraseID":"arensia_witch_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    }
+]

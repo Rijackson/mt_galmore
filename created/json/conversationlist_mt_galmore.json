@@ -2105,6 +2105,31 @@
     },
     {
         "id":"bela_witch_31",
-        "message":"You should ask around town if anyone has seen or heard about it."
+        "message":"You should ask around town if anyone has seen or heard about it.",
+        "replies":[
+            {
+                "text":"OK. I think I will do that. Thanks."
+            }
+        ]
+    },
+    {
+        "id":"arensia_witch_10",
+        "message":"Of course, my dear.",
+        "replies":[
+            {
+                "text":"Did you see a witch around here or hear about a witch kidnapping a girl?",
+                "nextPhraseID":"no_witch_info"
+            }
+        ]
+    },
+    {
+        "id":"no_witch_info",
+        "message":"No, I'm sorry, I don't.",
+        "replies":[
+            {
+                "text":"Oh, thanks anyway.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
