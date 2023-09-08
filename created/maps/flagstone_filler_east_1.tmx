@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="22" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,49 +181,37 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="22">
+ <layer name="Ground" width="20" height="18">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8SgmAp9AwoPdPADrc0CP
+   eJzbyMnAsHEUj+JRPIpH8aDDANRHBaA=
   </data>
  </layer>
- <layer name="Objects" width="20" height="22">
+ <layer name="Objects" width="20" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguC3JwPAKiF8C8WtJTD4y2C4GoQ9D5V+h0TA2DNxGMwNdHmYeLvAKTe9rHO4i1jx0gO4HSs0jBKht3kkqmLcLaMZNJHMcORkYjJCwEydp5qH70QWoP1iIgeGTAANDshCET6y7tgHxaTTzAoH6k4QgZoHMDSLSvMEW9jD/bUMLf3LBYPMfOthJZfOODfK8SW3zTiGlFxDeTYT5z4BqXiBhfIAY9x4HqrkFxD+gmBrmnSAynIhJj+jmAQBaUkh9
+   eJy7JcnA8BKIX5FAH8YjB8LUBLeobB613TfYwWAPP1q4D5QWXwPxbShNMRBGTeeUmIns339CDAxr+CHuJDdcQfpAZvwHmtXDT7mfb0HDDdn8lxS6j1IzaAkGe/4AAJUVOAU=
   </data>
  </layer>
- <layer name="Above" width="20" height="22">
+ <layer name="Above" width="20" height="18">
   <data encoding="base64" compression="zlib">
-   eJy7KclAENwiQg02tTclsYtTCmBmUdPMUYAJHgkMtAtwAyNOBB4Fo2AU0A98FaKd2aAyHVRvUKtsBwALOQwm
+   eJxjYBgFo2BgwU1JBoZbkgiaFmZTA/TyU8/MOUhmUQqQww+ZT65ZIPAaSN+mgtteUjk+RxIAxQUAzjMTaA==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="22" visible="0">
+ <layer name="Walkable" width="20" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqIAxvFqG8eNkwN8wAc8gfH
+   eJzbKMbAsJHKmJpgsJs32MFgDz9amEeL9EgtM7HppcRMdH3UcB818zW142IopD9qAgAFCCrC
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="96" y="672" width="448" height="32">
+  <object name="east" type="mapchange" x="608" y="32" width="32" height="512">
    <properties>
-    <property name="map" value="lake_shore_road_2"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object name="east" type="mapchange" x="608" y="32" width="32" height="608">
-   <properties>
-    <property name="map" value="lake_shore_road_1"/>
+    <property name="map" value="lake_shore_road_0"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="320" y="0" width="128" height="32">
+  <object name="west" type="mapchange" x="0" y="320" width="32" height="32">
    <properties>
-    <property name="map" value="wild7"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object name="west" type="mapchange" x="0" y="96" width="32" height="576">
-   <properties>
-    <property name="map" value="flagstone_filler_east_1"/>
-    <property name="place" value="east"/>
+    <property name="map" value="flagstone0"/>
+    <property name="place" value="southeast"/>
    </properties>
   </object>
  </objectgroup>

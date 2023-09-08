@@ -566,6 +566,13 @@
             "width": 480,
             "x": 8928,
             "y": -1280
+        },
+        {
+            "fileName": "altered/maps/wild8.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 5920,
+            "y": -4320
         }
     ],
     "onlyShowAdjacentMaps": false,
