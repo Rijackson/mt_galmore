@@ -186,6 +186,9 @@
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7705" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="27" height="27">
   <data encoding="base64" compression="zlib">
    eJzt1DEKgDAMBdDi5v3voZRcwt0LieAg0pYk/f9PDtlKH21+Ymsph6hMaNWnlBbbM5FVG8XoXctBeyMD6XmdrBe9f8abtSLZRFheD2V5vO+ssnpnQut9hv2HyF79Fi8T0bzvS/490blSWtvAQu+KrJWZ2/sPz4bH2LW9fjEyrrQuAx4u0A==
@@ -198,7 +201,7 @@
  </layer>
  <layer id="3" name="Above" width="27" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfuCPJwHBXkn72vaWjXfQAd+jonzfDLOxGwSgYBcMD7Bwtm4Y02C1LP7tW09GuuUz0swsEaBGO2NpooDCkdjgit2WQ7QPZs4vGcQazj15pAwDiHhGY
+   eJxjYKAfuCPJwHBXEr+aMDnCmFjwlo52EQLUsOsOAf9Q0643dLRrFIyCUTAKiAU7iSybRsHgBLtl6WfXajraNZeJfnaBAC3CEVsbDRSG1A5H5LYMsn0ge3bROM5g9tErbQAAOO0l/A==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="27" height="27" visible="0">
