@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="20" height="13" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,42 +184,31 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="18">
+ <layer name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIoHEd5MZbOobR69wgEA2hcFqA==
+   eJzbyMnAsHEUj+JBjjdjwYTUT2OCYGxqNxOhZiOS/AokvJIJ0y3oalbgMBddDbJabHZhw5uJMI9UDLMbABp0uNA=
   </data>
  </layer>
- <layer name="Objects" width="20" height="18">
+ <layer name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJyVU0Fqw0AMzAfasCkY/Oc+pZ9oe3AOvgUCtW89uEn2buJLWsnRsBNZCVSwLN6VxjMa7a5erY6yTv/YPx/c6eJo5ft7U+595HTdoxw96wgbuYgmXe+yrN5yhkrOqts8xtW9rZd3OztjbYqVZU1V+Uem2h/iE/E/kDZgdQ7r6DD53wfTEvVulPNzFXvQU35nepHfW82TcHreLPvl/+W/PY+9aRxS0bglzqq9ddygd5/iOcI9OGv/uR/ora8FP56JXMf9gxeTmxXWpDF7/LLkx37r3pjuqGcaTSp+IC6C8ba+9Qu1o3F75AX0KsavYL2ui+Z3WR91mXeujd5IJn698/ve2x2sRrWfnD9cH80o4su9aczQzIX80X4j32P42dDAG2+qUrcNvGY/UDPaO/H597i1rl9zLnqTCuZEs4uzM80460T8AQP86EU=
+   eJx7JclANfCSimbBwCsamElNcGiYhN8zMaD9YvjVwNxHSC1I/jUQvwLiF0gYmx6Q+44TUHsch10nxFDdAnIfzO6pTAh105lQzX8NVY9NDUjuBIFwQAfI5qADmLkgN1IrfpH9Q20AAMM4L2k=
   </data>
  </layer>
- <layer name="Above" width="20" height="18">
+ <layer name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJy9UrENgDAM4wNmfucEFmDtIy0XFJ6glUAKxk0DSHiJQhIndgldc4E7cp9igBqi1KPNnjVLD97EarOyv6bBqjFCT1Du0Xg1LqtemUei0Vf04P6cr8DjurKH+N3iIbtN6mZcVk6Gob3fy25nPRZexoke1nh7wZUxpjgd/af/+FYlSF0yt84jV8aW4vLwfRnYP8rgXux4M/Nl7m9k33atHmmi
+   eJxjYKAuuCVJZQOpDDZR0X03aeBXaobfSHQfNcFgdx8tAABbJwdt
   </data>
  </layer>
- <layer name="Top" width="20" height="18">
+ <layer name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFhMAtycFp1igYXuAmWtoYTSujAAAh6APM
-  </data>
- </layer>
- <layer name="Walkable" width="20" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJytk1EKACAIQztF979CN+wrCNnWTIUgK99y1JpjrOZxx8nRXgxWr2qVNuLGc7EWsRyNbI+MqTxwWW6/jj7KnWCeZu/jaLy0MsyKFuodcRhbzRlX/ZcfD7r9c97bL+91TuVovdJjlcFiA3vdeH4=
+   eJzbKMZANbCRimbR0kxqAZDbqOk+avt1JLsPZjY+OwipwSWPrhaXGkL6cNmDL0yoHWbo9gMAlBwgpw==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="608" y="32" width="32" height="512">
+  <object name="north" type="mapchange" x="32" y="0" width="576" height="32">
    <properties>
-    <property name="map" value="lake_shore_road_0"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="south" type="mapchange" x="32" y="544" width="576" height="32">
-   <properties>
-    <property name="map" value="flagstone_filler_east_2"/>
-    <property name="place" value="north"/>
+    <property name="map" value="flagstone_filler_east_1"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>

@@ -573,6 +573,27 @@
             "width": 640,
             "x": 5920,
             "y": -4320
+        },
+        {
+            "fileName": "created/maps/flagstone_filler_east_1.tmx",
+            "height": 576,
+            "width": 640,
+            "x": 5920,
+            "y": -3808
+        },
+        {
+            "fileName": "created/maps/flagstone_filler_east_2.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 5920,
+            "y": -3200
+        },
+        {
+            "fileName": "altered/maps/waytogalmore0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4928,
+            "y": -3296
         }
     ],
     "onlyShowAdjacentMaps": false,
