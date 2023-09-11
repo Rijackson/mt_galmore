@@ -217,5 +217,18 @@
         "monsterClass":"humanoid",
         "spawnGroup":"fallhaven_farmer1",
         "phraseID":"fallhaven_farmer1"
+    },
+    {
+        "id":"wcked_witch",
+        "name":"Bonicksa",
+        "iconID":"monsters_phoenix01:9"
+    },
+    {
+        "id":"sutdover_fisherman",
+        "name":"Isobel",
+        "iconID":"monsters_phoenix01:6",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none"
     }
 ]

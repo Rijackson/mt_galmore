@@ -2365,5 +2365,44 @@
                 "value":40
             }
         ]
+    },
+    {
+        "id":"sutdover_fisherman_script",
+        "message":"While raising your arm and waving your hand, you yell over the water: \"Excuse me.\"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sutdover_fisherman_10"
+            }
+        ]
+    },
+    {
+        "id":"sutdover_fisherman_10",
+        "message":"Shh. You are scaring the fish.",
+        "switchToNPC":"sutdover_fisherman",
+        "replies":[
+            {
+                "text":"Please? I need your help. I'm looking for my brother. His name is Andor. He looks like me. Have you seen him?",
+                "nextPhraseID":"sutdover_fisherman_10"
+            },
+            {
+                "text":"That's a really cool boat. Where can I get one?",
+                "nextPhraseID":"sutdover_fisherman_10"
+            },
+            {
+                "text":"[While Pointing behind Isobel, you yell] Look at the size of that fish behind you!",
+                "nextPhraseID":"sutdover_fisherman_20"
+            }
+        ]
+    },
+    {
+        "id":"sutdover_fisherman_20",
+        "message":"Where?!",
+        "replies":[
+            {
+                "text":"[While laughing uncontrollably] \"Shh, your scaring him away.\"",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
