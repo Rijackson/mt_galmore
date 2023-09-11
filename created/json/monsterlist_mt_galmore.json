@@ -221,7 +221,8 @@
     {
         "id":"wcked_witch",
         "name":"Bonicksa",
-        "iconID":"monsters_phoenix01:9"
+        "iconID":"monsters_phoenix01:9",
+        "monsterClass":"humanoid"
     },
     {
         "id":"sutdover_fisherman",
