@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -210,17 +210,17 @@
  </layer>
  <layer id="3" name="Objects" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVM1OwkAQ3qAx8WTk51Bi9+jTeDHxBdTE+Ag+k5fyBKDFM0G4oJgGvG0Bz15MnEln7DDsGogk6pdMyrI733zztTt5ZMx7bL7gYD2DGEPkUbHe9Mn5Eq9VPz+jHZu1wPknzfA+8t5DpEpDImro+qzRqf98COXy3oz2MnguonBvHfU/5zoPv1N7b579kEad27CwrhlzDppPIS6ryzXnpFv3if450Z+sjed6wHsGXBcQVxB1WO/b8txxc9Uj1s1e6N7HxDskrpcjY64rxnzsGXMA60dbnGetIf80WEMG+V1bcC2A+6ZS7GOtll3VmivdGtrrRPSP6xH0mcar5xj6m/Dxc68Z6ZvYIpAbn995oHW31Z2QuezrjHRrD9aFr1c5L0axn5fvlE+33ttUkw/JmjNIa9hWfYR+/93Au9QzBe9In+6D1qcR+vYQiXjPXIO/YbwPczF7eE74+Jn3CZ7PnjN90ov3Gmu2bMkpZ1uPetqB2bGrZj5/m5LfifvQJc6B8CWLSq+GdMdrwFuHaIj5lAf8YfDcSCGm5AvyPpBnd3FRty/ei4vKfhC38bIWCfRc5st99j0lDQNxRuek5EXPw8X5/HsiAnvK1H86puyp8ps9kd/NT5EFak63wP3XcFj7bQX/D59lnRiG
+   eJzVVM1KAzEQDlUET2J/DlvcHH0aL4IvoIL4CD6Tl+0TVN16rrW9VCtL6223rWcvgjNkxp1OE2mxoH4wZLPJfPPNJJkiMuY9Nl/IYT4FG4EVkZuvO7K/xGvVz89ox2YlsP9RM7yOvHdgqdKQiBg6PmvM1T8fQr68NqW1DMZ5FM7tRv1n39zDn6u1N896SKP2bViY14w5Bc3HYOfVxZgz0q3zxPrlIj8ZG/d1gfcEuM7ALsDqMN+15b7D5nKNWDfXQuc+It4Bcb0cGHNZMeZjx5g9mD9at5+1huqnwRoy8O9YxzUH7quKW8dYLbustVC6NXStE5E/zoeQZxov72PoO+Hj51wz0je2zpAbx+9qoHW31ZuQvrKuw8D5rAJfrvz9EDtuHy+/KZ9uvbauJh+SFXuQ1rCp+Ah9/p3AWeqegm+kR+9B69MI3T1EIs6ZY/AdxvcwE72H+4SPn3mfYHz27OmRXnzXGLNlS07Z27qU0xb0jm3V8/m+Sv5cvIcOcfZFXbKorNWA3ngNeOtgDdGfikB9GNw3UrAJ1QV576lmt7GL2xPnkkdlPojreFGLBNZc+st1rntKGvpij/ZJqRZdDxf78/dYGOaUqX/aJlxTVW+uibw3P0UWiDnZAPdfw37ttxX8P3wC1LYYbw==
   </data>
  </layer>
  <layer id="4" name="Above" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVDsOwjAMbbuUjYGhClLhIlyDcyLoFZhBYkBqKANsLTDBAWjURKTGcdLfgMSTUMHPfn64TlaxZ0TKPI8zM0/VCSymdN66zNsQ+m3722pTLZ6V388NeqhaTF/XxXqnSD5n3xz1nwV3l7zwbfMBay8hzl1lPEH8YHoc8OK3P8K1FQ+92t6t6ltoeWFQPcez6pmzT17O6rqmOZhmrfxFAZ3nAvhuT9LnIa5zLnsCuQLM8ib1RRzOoIlfBc7qc1WxXUzrUr4pT3viDuoLXe4SGxLDOewC05mBORj0O42637r4xTSfZezloGnbE5N+Uw2ITNY8Wu6wraeua5q7OKNbZN/zgXbzj2HgT4bTXkZuecd5/59f1X4DsOerkw==
+   eJztVc0OgjAMBi948+CB1AR9EV/D5zTKK3j2aALiQW+gnvQBZIHFUdr9AMaY+CVksLZfv3XrWEceiwQ8LwXerosTWM70fpvSb6vh75rfFJso81n5fnLIIWMpfpWXyp0Q/im0bbo1C9uttgvdJh049hzQtks9HxN6KL4U2cW3P6a5pR1rNe2tzFsofsGoGifzaszh7ZdDk5erA1drqS8c6f1sgPf2CHQdbM4JthWI4wrV2gto18BFr0QKzbpK7CM9r053F01Dos9dYkLM9GEfcD2DfSiod5rufuujl+J8lHNPC07TOeH4XTkwsjrm3vEMm3KqvFzdRY/uiH9u/sXe+MMd/vRz3KvQzu+wGP75Ve4XH0ypxg==
   </data>
  </layer>
  <layer id="5" name="Top" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFtAB3JAfaBYMHMHEg2DepHC6r5ahrHjLYRYHZt3D4E5c4OWZTOywJAVrZ92o0r4yCUTAKRsEoIBMAABP2CVM=
+   eJxjYBgFtAB3JAfaBYMHMHEg2DepHC6r5ahrHjLYRYHZt2gY/zCzkcOSlvbBALXjbhSMglEwCkbBKKAUAABpUghQ
   </data>
  </layer>
  <layer id="6" name="Walkable" width="23" height="30" visible="0">
@@ -228,7 +228,12 @@
    eJztlFEKwCAMQz2J9/a2289+Rps8tWMMFvDLmsYmdPTWxnkujF53IpAahSr+7J5oIv2jOsettLv5ZvXZW+WZ6kW1ZbyRtkz3zj9m/XezcLozHtrvzuF005lE7wn3jP+Om2bMaXO638LT/Ve8JHw7Xjpd1V6qvUO5KY/LvtuBrrf6H8nSSt5I/cp+pdmsyqraz4pjteePb+AABYyq2g==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6AnsbdtbaGbgwQkwIau6wEA/DJNuQC4
+  </data>
+ </layer>
+ <objectgroup id="8" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="704" y="416" width="32" height="64">
    <properties>
     <property name="map" value="mywildcave"/>
@@ -248,7 +253,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="9" name="Spawn">
   <object id="4" name="fish_school_spawn" type="spawn" x="64" y="864" width="672" height="96">
    <properties>
     <property name="quantity" value="3"/>
@@ -256,6 +261,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="10" name="Keys"/>
+ <objectgroup id="11" name="Replace">
+  <object id="5" name="trees_gone" type="replace" x="384" y="288" width="64" height="64">
+   <properties>
+    <property name="Above" value="Top"/>
+    <property name="Walkable" value="Walkable_trees_gone"/>
+    <property name="requireId" value="wicked_witch"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="40"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
