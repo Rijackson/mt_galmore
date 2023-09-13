@@ -2691,11 +2691,16 @@
     },
     {
         "id":"captive_girl_75",
-        "message":"Before you go, I was able to steal this from the witch as I was escaping. I want you to have it.",
+        "message":"Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now.",
         "rewards":[
             {
                 "rewardType":"dropList",
                 "rewardID":"emmeline_dl"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"emmeline_spawn",
+                "mapName":"lake_shore_road_1"
             }
         ]
     }
