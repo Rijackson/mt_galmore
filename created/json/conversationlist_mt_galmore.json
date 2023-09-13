@@ -2404,5 +2404,299 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"captive_girl_10",
+        "message":"Excuse me, sir! Wait! Thank you for sparing me earlier. You've shown true compassion.",
+        "replies":[
+            {
+                "text":"What...do I know you? You're just a young girl?",
+                "nextPhraseID":"captive_girl_20"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_20",
+        "message":"Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind.",
+        "replies":[
+            {
+                "text":"Thank you, but you don't look well.",
+                "nextPhraseID":"captive_girl_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_30",
+        "message":"I am not well. Which is why I have not run far from this awful plance and this awful witch.",
+        "replies":[
+            {
+                "text":"What's wrong? Why can't you leave?",
+                "nextPhraseID":"captive_girl_35"
+            },
+            {
+                "text":"What happened to you here? How did you get here?",
+                "nextPhraseID":"captive_girl_35a"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_10"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_50",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_35",
+        "message":" I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_40"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_35a",
+        "message":"I am too sick to talk about this right now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_35"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_40",
+        "message":"All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it.",
+        "replies":[
+            {
+                "text":"I've had one or two of those. They are not that bad.",
+                "nextPhraseID":"captive_girl_45",
+                "requires":[
+                    {
+                        "requireType":"usedItem",
+                        "requireID":"tonic_of_blood",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_45",
+        "message":"Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_50"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_50",
+        "message":"I really need to get my hands on a lot of those 'Tonics of Blood'. Can you help me? I need a lot.",
+        "replies":[
+            {
+                "text":"Well, I have 25 of those for you.",
+                "nextPhraseID":"captive_girl_71",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"Well, I have 20 of those for you.",
+                "nextPhraseID":"captive_girl_54",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Well, I have 10 of those for you.",
+                "nextPhraseID":"captive_girl_56",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Well, I have 5 of those for you and I'm not sure where I got them. Do you know where I can get some?",
+                "nextPhraseID":"captive_girl_56",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Well, I only have 1 of those for you and I don't remember where I got it. Do you know where I can get some?",
+                "nextPhraseID":"captive_girl_56",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'm sorry, but I don't have any of those.",
+                "nextPhraseID":"captive_girl_56",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood"
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":85
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_55",
+        "message":"Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.",
+        "replies":[
+            {
+                "text":"Can you help me out a little bit? Do you know anything about them?",
+                "nextPhraseID":"captive_girl_60"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_60",
+        "message":"Hold on. Let me think....",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_65"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_65",
+        "message":"Ah, YES. I remember her saying that an \"undead\" friend of her's east of here tought her how to make them.",
+        "replies":[
+            {
+                "text":"OK. Stay here. I will be back with more of them.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_56",
+        "message":"Can you get me 25 of them?",
+        "replies":[
+            {
+                "text":"Where can I get some?",
+                "nextPhraseID":"captive_girl_55"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_54",
+        "message":"Only 20? I asked for 25.",
+        "replies":[
+            {
+                "text":"Whatever! Fine. I will go get you five more.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I know that you \"asked\" for 25, but I have 20 and they are hard to get.",
+                "nextPhraseID":"captive_girl_70"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_70",
+        "message":"OK. I won't make you go back just for 5 more when you've already brought me 20.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_75"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"tonic_of_blood",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":96
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_71",
+        "message":"WOW! You actually managed to find 25! I am so grateful.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_75"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":95
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"tonic_of_blood",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_75",
+        "message":"Before you go, I was able to steal this from the witch as I was escaping. I want you to have it.",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"emmeline_dl"
+            }
+        ]
     }
 ]

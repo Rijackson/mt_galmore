@@ -128,5 +128,12 @@
         "hasManualPrice":1,
         "baseMarketCost":5,
         "category":"other"
+    },
+    {
+        "id":"witch_scepter",
+        "iconID":"items_weapons_3:11",
+        "name":"Enchanted evergreen rod",
+        "displaytype":"extraordinary",
+        "description":"A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay."
     }
 ]

@@ -235,6 +235,9 @@
     {
         "id":"captive_girl",
         "name":"Emmeline",
-        "iconID":"monsters_ld1:220"
+        "iconID":"monsters_ld1:220",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"captive_girl_selector"
     }
 ]

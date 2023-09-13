@@ -110,6 +110,30 @@
                 "logText":"The \"busy farmer\" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers."
             },
             {
+                "progress":80,
+                "logText":"I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from the real witch."
+            },
+            {
+                "progress":85,
+                "logText":"Emmeline asked me to get her \"a lot\" of those \"Tonics of Blood\"."
+            },
+            {
+                "progress":90,
+                "logText":"Emmeline told me to head east of the witch's house to find the undead that know about the 'Tonic of Blood'."
+            },
+            {
+                "progress":95,
+                "logText":"I gave Emmeline 25 of the \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place.",
+                "rewardExperience":24097,
+                "finishesQuest":1
+            },
+            {
+                "progress":96,
+                "logText":"I gave Emmeline 20 of the 25 \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place.",
+                "rewardExperience":21085,
+                "finishesQuest":1
+            },
+            {
                 "progress":100,
                 "logText":"Completed [TODO]",
                 "finishesQuest":1
