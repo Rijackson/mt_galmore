@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,14 +180,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4cI9zAC2nEgAAshMA6A==
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMSh0ozMIThwTB1KUB2Kh4MU3ePEz8mRR3IbYTUhUtD3EZIXRpQzUtOCL7HiWBjwwDtOzFi
+   eJzj42Jg4CMSh0ozMIThwTB1KUB2Kh4MU8cpxsBwjxM3hqnDpwamDuQ2QurCpSFuI6QuDajmJScE3+NEsLFhAFQOMJo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeqAozMNyTgbB1hSG0hAADgzQQSwmgqn0HVLebFcF/xM/A8JAfQsMApxgDwwkOBobTQHXdIHOAZn4Cyn/kh9AwsBWo5hoHdjcZshDndnXilDGYE6kOBgAAYg5E
+   eJxjYCAeqAozMNyTgbB1hSG0hAADgzQQSwmgqn0HVLebFcF/xM/A8JAfQsPAGiD7BAcDw2mgum6QOUAzPwHFPvJDaBjYClRzjQPTPWJMDAmGLMS5XR2LGFA/BjAnzjg4AAC69Q9w
   </data>
  </layer>
  <layer id="3" name="Above" width="10" height="8">

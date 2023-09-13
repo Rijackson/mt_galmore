@@ -231,5 +231,10 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none"
+    },
+    {
+        "id":"captive_girl",
+        "name":"Emmeline",
+        "iconID":"monsters_ld1:220"
     }
 ]
