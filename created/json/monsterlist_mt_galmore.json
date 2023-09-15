@@ -219,10 +219,12 @@
         "phraseID":"fallhaven_farmer1"
     },
     {
-        "id":"wcked_witch",
+        "id":"wicked_witch_first",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:9",
-        "monsterClass":"humanoid"
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"wicked_witch_first_selector"
     },
     {
         "id":"sutdover_fisherman",

@@ -2703,5 +2703,110 @@
                 "mapName":"lake_shore_road_1"
             }
         ]
+    },
+    {
+        "id":"wicked_witch_first_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wicked_witch_first_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"wicked_witch_first_30",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"wicked_witch_first_45",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":55
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_first_10",
+        "message":"Oh my, what have we here? Another brave soul seeking to challenge me?",
+        "replies":[
+            {
+                "text":"[While backing up] Me? No ma'am. I just wondered into the wrong house. Please don't hurt me.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Halt, foul witch! Your reign of darkness ends here!",
+                "nextPhraseID":"wicked_witch_first_20"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_first_20",
+        "message":"And with such polite manners too. Come. Come. Take a seat.",
+        "replies":[
+            {
+                "text":"Your tricks won't work on me. Prepare to meet your end!",
+                "nextPhraseID":"wicked_witch_first_40"
+            },
+            {
+                "text":"Witches don't bother me. I'll leave you be.",
+                "nextPhraseID":"wicked_witch_first_25"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_first_25",
+        "message":"How intriguing. Such confidence in your path. We shall see, won't we?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":50
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"wicked_witch_despawn_timer"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_first_30",
+        "message":"Oh, the \"confident child\". Please leave me to my business."
+    },
+    {
+        "id":"wicked_witch_first_40",
+        "message":"[laughs] How amusing. You're not the first to try, and you won't be the last. But do go ahead, if you must.",
+        "replies":[
+            {
+                "text":"I won't hesitate! Take this!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_first_45",
+        "message":"Oh, this fight will be fun...for me that is.",
+        "replies":[
+            {
+                "text":"I won't hesitate! Take this!",
+                "nextPhraseID":"F"
+            }
+        ]
     }
 ]

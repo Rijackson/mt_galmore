@@ -110,6 +110,15 @@
                 "logText":"The \"busy farmer\" told me that the witch's house is just south of Fallhaven. Covered in beautiful flowers."
             },
             {
+                "progress":50,
+                "logText":"After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was \"confident in my path\" and that we shall see in the future. I wonder what that meant?",
+                "finishesQuest":1
+            },
+            {
+                "progress":55,
+                "logText":"I have attacked Bonicksa."
+            },
+            {
                 "progress":80,
                 "logText":"I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from the real witch."
             },
