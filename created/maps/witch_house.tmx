@@ -215,9 +215,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="wcked_witch_spawn1" type="spawn" x="160" y="160" width="96" height="64">
+  <object name="wicked_witch_spawn1" type="spawn" x="192" y="160" width="64" height="64">
    <properties>
-    <property name="spawngroup" value="wcked_witch"/>
+    <property name="spawngroup" value="wicked_witch_first"/>
    </properties>
   </object>
  </objectgroup>
