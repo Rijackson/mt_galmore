@@ -247,12 +247,16 @@
         "id":"wicked_witch_second",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:9",
+        "unique":1,
+        "monsterClass":"humanoid",
         "phraseID":"wicked_witch_second_selector"
     },
     {
         "id":"wicked_witch_third",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:9",
+        "unique":1,
+        "monsterClass":"humanoid",
         "phraseID":"wicked_witch_third_selector"
     }
 ]

@@ -213,6 +213,16 @@
     <property name="place" value="outside"/>
    </properties>
   </object>
+  <object name="wicked_witch_first_killed_script" type="script" x="128" y="128" width="128" height="96">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="wicked_witch_second_killed" type="script" x="32" y="128" width="160" height="96">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="wicked_witch_spawn1" type="spawn" x="192" y="160" width="64" height="64">
@@ -224,16 +234,6 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="wicked_witch_second"/>
-   </properties>
-  </object>
-  <object name="wicked_witch_first_killed_script" type="script" x="128" y="128" width="128" height="96">
-   <properties>
-    <property name="when" value="step"/>
-   </properties>
-  </object>
-  <object name="wicked_witch_second_killed" type="script" x="32" y="128" width="160" height="96">
-   <properties>
-    <property name="when" value="step"/>
    </properties>
   </object>
   <object name="wicked_witch_spawn3" type="spawn" x="224" y="128" width="32" height="32">

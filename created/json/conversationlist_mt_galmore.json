@@ -2958,5 +2958,34 @@
     {
         "id":"wicked_witch_third_40",
         "message":"Leave me now, child before you end up like that young girl you killed."
+    },
+    {
+        "id":"wicked_witch_first_killed_script2"
+    },
+    {
+        "id":"wicked_witch_reveal_girl_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wicked_witch_reveal_girl_spawn",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"wicked_witch_despawn_timer",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_reveal_girl_spawn",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"emmeline_spawn",
+                "mapName":"lake_shore_road_1"
+            }
+        ]
     }
 ]
