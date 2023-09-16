@@ -2808,5 +2808,155 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"wicked_witch_first_killed_script",
+        "message":"As the \"witch\" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your choices. When all of a sudden...",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wicked_witch_spawn2",
+                "mapName":"witch_house"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wicked_witch_second_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_10",
+        "message":"Bravo, hero! You fell right into my trap.",
+        "replies":[
+            {
+                "text":"What? No, it can't be!",
+                "nextPhraseID":"wicked_witch_second_20"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_20",
+        "message":"Oh, but it is. You see, that old witch you slew was nothing more than an illusion. A clever ruse to manipulate your actions.",
+        "replies":[
+            {
+                "text":"[shocked] Then who are you?",
+                "nextPhraseID":"wicked_witch_second_30"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_30",
+        "message":"I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory\u2014perfect for my amusement.",
+        "replies":[
+            {
+                "text":"[angry] You won't get away with this!",
+                "nextPhraseID":"wicked_witch_second_40"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_40",
+        "message":"[chuckles] You can certainly try, my dear hero. But your bravado has already cost you.",
+        "replies":[
+            {
+                "text":"You're the one that will pay!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_second_killed",
+        "message":"After defeating the real witch, she quickly reappears.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":65
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wicked_witch_spawn3",
+                "mapName":"witch_house"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_third_selector",
+        "replies":[
+            {
+                "text":"It's over, witch!",
+                "nextPhraseID":"wicked_witch_third_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"What did you mean when you said \"what lies ahead\"?",
+                "nextPhraseID":"wicked_witch_third_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_third_10",
+        "message":"[weakened] Yes, yes, you've bested me. Congratulations, but have you really won?",
+        "replies":[
+            {
+                "text":"[panting] Why all this deception?",
+                "nextPhraseID":"wicked_witch_third_20"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_third_20",
+        "message":"Oh, just a bit of entertainment. And for that, you get a big reward: You get to live.",
+        "replies":[
+            {
+                "text":"[disgruntled] Is this some kind of sick game to you?",
+                "nextPhraseID":"wicked_witch_third_30"
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_third_30",
+        "message":"[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"wicked_witch_third_40",
+        "message":"Leave me now, child before you end up like that young girl you killed."
     }
 ]

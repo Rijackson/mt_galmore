@@ -119,6 +119,20 @@
                 "logText":"I have attacked Bonicksa."
             },
             {
+                "progress":60,
+                "logText":"I've killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
+            },
+            {
+                "progress":65,
+                "logText":"I've \"killed\" Bonicksa again, only for her to reappear."
+            },
+            {
+                "progress":70,
+                "logText":"Bonicksa lives and could not be defeated. But I learned a huge life lesson.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            },
+            {
                 "progress":80,
                 "logText":"I discovered a young girl named Emmeline just behind the 'wicked witch's' house. The witch was really Emmeline under a spell from the real witch."
             },
