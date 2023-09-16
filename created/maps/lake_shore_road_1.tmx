@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -223,9 +223,9 @@
    eJxjYBgFlICbkgwMtyQxxe9gERupgIkDwb5J5XBZLUdd85DBLgrMxpYmqAVgZiOHJS3tgwFqx90oGAWjYBSMglFAKQAAdQoKNQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="23" height="30" visible="0">
+ <layer id="6" name="Walkable" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlEsKgDAMRHuS3ru31Y0gJcm8phERHOjCfl4mac3orY1zXBq9blgieyJV8b114ul+duaoNcLN1Nf6nn1QporjzRGu5S3iZ/OgtY5y8OJbvj0OjTczlG9aE+s8YdM8CJu8MfK/Kt9v6en4mbskvJ27VL6q73KlF0UiHPX2VQ9UsaP8Mr2LiOxf7a8rfabqrUb9OWJkY/76hg5v2az/
+   eJztlEEKwCAMBH2J//a37aVQJMmOMaUUuuChVSebRDJ6a+Ncl0avW5bImUhVfG+feLrfnTlqj3Az9bW+Zx+UqeJ4/wjX8hbxs3nQWls5RF49314tSDzVS49PamLdJ2yaB2FHb4xwqe+39HT8TC8Jb6eXyld1L1dmUSTCUW9fzUAVO8ovM7uIyPnV+boyZ6reqpojHiMb89c3dAD1kqra
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
