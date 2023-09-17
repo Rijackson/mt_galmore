@@ -2320,7 +2320,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_81",
-        "message":"All I remember was being kept in a dark room for what felt like weeks without food an alone. You see, the witch kept Addie in another room...I think.",
+        "message":"All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room...I think.",
         "replies":[
             {
                 "text":"You think?",
@@ -2863,7 +2863,7 @@
     },
     {
         "id":"wicked_witch_second_30",
-        "message":"I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement.",
+        "message":"I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory\u2014perfect for my amusement.",
         "replies":[
             {
                 "text":"[angry] You won't get away with this!",
