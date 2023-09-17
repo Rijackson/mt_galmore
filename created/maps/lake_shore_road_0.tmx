@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Objects" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlMEOgjAMhvsInpbAK+nzQtSTmqjoEyh3IsOTB4I3u7CFplC2Ef+kKcu2L23XAgBQJgAarUZrkvGaKle9P9l9zbz7dioZg+87niTN7jZCXJy3TgE26eCN3hN3eA4Sj4oyD3jnKMQyFx/nLFWhxpxY7g4ZD5ZnheuXtdrzRly8ZobVoH1WAE/030CeiStDu9vz7o0uqud0EaypuJzaCA7tE1N7PjMxcvllrP5SL/rkmyUuX58UlldG5DjH3KohNx+LciTmmfRFSHy+fPM/vIHEi1ElzNyN9IuxfQDfzZ62s0zF/6Mh8dLZ6ybO07qF8q6BdSoW8H5tEHsv
+   eJytlMEOgjAMhvsInpbAG+kDQ9STmqjoEyh3IsOTB4I3u7CFplC2Ef+kKcu2L23XAgBQJgAarUZrkvGaKle9P9l9zbz7dioZg+87niTN7jZCXJy3TgE26eCN3hN3eA4Sj4oyD3jnKMQyFx/nLFWhxpxY7g4ZD5ZnheuXtdrzRly8ZobVoH1WAE/030CeiStDu9vz7o0uqud0EaypuJzaCA7tE1N7PjMxcvllrP5SL/rkmyUuX58UlldG5DjH3KohNx+LciTmmfRFSHy+fPM/vIHEi1ElzNyN9IuxfQDfzZ62s0zF/6Mh8dLZ6ybO07qF8q6BdSoW8H64qXsD
   </data>
  </layer>
  <layer id="5" name="Above_reg_tree" width="20" height="22">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Above" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJy7KclAENwiQg02tTclsYtjA9ZSDAw2UggaBO7g0AMzi1h3IZu5EahnEwn+wWUOJQDdHGqZS23wSIAy/aD4JyXt0AKguwHGHwxuIxUQm05I8SMhM2+SkceINZOQ+wZrvhgoQKs0S6qZX4Wo7wYYoHbeBADZfydX
+   eJy7KclAENwiQg02tTclsYtjA5ZSDAxWUggaBO7g0AMzi1h3IZu5EahnEwn+wWUOJQDdHGqZS23wSIAy/aD4JyXt0AKguwHGHwxuIxUQm05I8SMhM2+SkceINZOQ+wZrvhgoQKs0S6qZX4Wo7wYYoHbeBAAXZycr
   </data>
  </layer>
  <layer id="7" name="Walkable" width="20" height="22" visible="0">

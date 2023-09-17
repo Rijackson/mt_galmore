@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -210,12 +210,12 @@
  </layer>
  <layer id="3" name="Objects" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVMtKA0EQHKIInsQ8DhvcPfo/gj+ggvgJfpOXzRf42HiOMblEV5bE266JZy+C3eyU2+nMhAQDakGzmcx0dXXNowiM+QjNN3Iav1GkFEVQjtf9Il/ite7mB65DsxKQPwv888x7R5GoNbGooetDY+7hlZC50IP+UjtmZFanr7cb9T9y0UPq8BXjd6VT63ZpRG4ronHDmBPSfERxVq/mGFOrW3vE/uWiP1mb1/WI95i4TinOKZo03o2qdYftRY+gG17kqmZqeYeW6+XAmIuaMZ87xuzR+DGqvCpUn8sADRnld6OSa0bcl7Vynmt1okWthdKtob2ORf88HlGfSbi4DtBnwsWPXjOrbxyVwdz8XeaB1n2t7oTMlb6OPPuzCly94vdDWHK7eHGnXLr13LqaXIhXfIO0hk3VZ+j973r2Ur8pfEf69j5ofRq+s8eIxT6jBs4w34epeHvwTrj4wftE32fHmr7Vy/eaa3aiilO+bT3b0xa9HdvteQ6cV8mfi/vQtZwD4UsWVF4N7R1vEG+ToiXep8LjD4B3I6GYWF+Y9956dhuWdftiX/Kg6odxFc5rkWDPZb6ch++J1TAQa3ROYr3oObiQj99jEdxTpv7TMYGnym94Is/NT5F5ak42wP3XsN/4bQX/D1+eIR4O
+   eJzVVM1Kw0AQXqoInsT+IClmj76P4AuoID6Cz+QlfYKqieda20s1Elpvia1nL4IzZMZMp7ulxYL6wZBssvPNN9/+FIExH6H5Rg7jN4gUogjK8bpPzpd4rbv5Gd3QrATOnwX+/8h7BxGrOZGooeuzxtzDKyFzWQ/3l9IYkZFOX2836jvncg+pw1cevyudWrdLI+e2LIwbxpyC5mOI83r1DzEl3doj9C8X/cnaOK8HvCfAdQZxAdGE8a6t5h21Fz1i3exFrmqmxDskrpdDYy5rxnzuGLMH40dbeVWoPpeBNWSQn9iSawbcV8B9UCtrdeyi1kLp1tBeR6J/HI+gzzhcnMfQe8LFz71mpG9sy0BufC7zQOvuqjMhc6WvI8/6rAJXr/z+EJbcLl4+Uy7d+t+6mlyIVryDtIZN1Ufo9U88a6nvFDwjfToPWp+Gb+8hIrHOXIP3MJ6Hqbh7+J5w8TPvEzyfHXP6pBfPNdbs2IpT3m096mkL7o7t9jwH71fJn4vzkBDnQPiSBZVXQzrjDeBtQrTE/VR4/GHwvRFDTMgX5L0nz27Dsm5frEseVP0grsN5LRLoucyX/9n3mDQMxBydE5MXPQcX5/P7WAT2lKlvOibsqfKbPZH75qfIPDUnG+D+a9hv/LaC/4cvXsIeJw==
   </data>
  </layer>
  <layer id="4" name="Above" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVDsOgkAQXWyws7AgU6Cn8qDKFawtTUAstAO10gPIBjZZhpnZ5WOMiS8h+5mZt4+3H6V4pKBUBkKCUKdxdtRuq/hOyBm6Pq7FPKnVz8GtE/NSnLqfojFXy2mkuEpUo2N3y1/KI7yOXXsJ6di1mU8IPRQf9lOPgznNbeKUZxIoD8JZ3S5WdVtYXhXQ5uV84PbJ6Itmcp4P8N6egPbB55zgWIk4blD/ewldD/roNcig7avBIZZ5Jd1DNE2JMW+JCwlzD8eAuzM4h4L9pknv2xi9FOezmnt5cLrOCcfflwMjb2oeA8+wa02bl/Nd39F93J0vvng3/uiPYPk57k3kl3dcT//9KvcbvhKuZw==
+   eJztVM0OgjAMHl7w5sGD6QF9Kh9UeQXPHk1APOgN1BM+gCyDZJS2Y4AxJn4J2U/bb+VbO6V4JKBUCoKDEKdxccTuKvte8Bl6Po7FPIk1z8CdJ+alOPU8QWsulsuR4ipQjLY9LH0pjfA5duw1pG23ej8m8qH4sJ56Hcxp7sZOaSaB0iCcmXGxNmNuaZVDm5fTgbsnqU586xDf7RloHfrUCbYViOMO5t8L6Grgk2+DFNq6NjhGMq+U95CcpsSYt8SFmOnDMeB6BvtQsN806X0bky/FWVZ7rx6crjrh+H05MLI65jmwhl1n2ryc7rpHD1F3P/9ib/zhj2D5Oe7tqp/faTP996vcb/1xrk4=
   </data>
  </layer>
  <layer id="5" name="Top" width="23" height="30">
@@ -223,9 +223,9 @@
    eJxjYBgFlICbkgwMtyQxxe9gERupgIkDwb5J5XBZLUdd85DBLgrMxpYmqAVgZiOHJS3tgwFqx90oGAWjYBSMglFAKQAAdQoKNQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="23" height="30">
+ <layer id="6" name="Walkable" width="23" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlEEKwCAMBH2J//a37aVQJMmOMaUUuuChVSebRDJ6a+Ncl0avW5bImUhVfG+feLrfnTlqj3Az9bW+Zx+UqeJ4/wjX8hbxs3nQWls5RF49314tSDzVS49PamLdJ2yaB2FHb4xwqe+39HT8TC8Jb6eXyld1L1dmUSTCUW9fzUAVO8ovM7uIyPnV+boyZ6reqpojHiMb89c3dAD1kqra
+   eJztlEsKgDAMRHuS3ru31Y0gJcm8phERHOjCfl4mac3orY1zXBq9blgieyJV8b114ul+duaoNcLN1Nf6nn1QporjzRGu5S3iZ/OgtY5y8OJbvj0OjTczlG9aE+s8YdM8CJu8MfK/Kt9v6en4mbskvJ27VL6q73KlF0UiHPX2VQ9UsaP8Mr2LiOxf7a8rfabqrUb9OWJkY/76hg5v2az/
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
@@ -233,7 +233,7 @@
    eJztzgENAAAIA6AnsbdtbaGbgwQkwIau6wEA/DJNuQC4
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="704" y="416" width="32" height="64">
    <properties>
     <property name="map" value="mywildcave"/>
@@ -274,7 +274,7 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="7" name="trees_gone" type="replace" x="384" y="288" width="64" height="64">
    <properties>
     <property name="Above" value="Top"/>
