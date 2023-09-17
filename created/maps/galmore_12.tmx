@@ -199,7 +199,7 @@
  </layer>
  <layer id="2" name="Ground" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJzFlAEKwjAMRUsvIUO8tlfQgRewHqHrFXoWKSaYxZ+0FMXAo6PN9n/SdiG8I8UwFNe4Z6XxEj/XZE4itgm07oPGO41JIDX5feSpxfEUQo2vEeVUBZqr5CMJX0iLa2hajNWvUaqjx7UXpZlFT719RT1F+8pRxHNWmo22ztpoT6XnjXK1tjxDui4PK6Rnqc816DPoaZwdP7njeTG8enqyL4uRY83PgPb/W99uvdN45x7lW7DG7bDvy+ydY2/rQB6qpVcbQt9D9K9FfnoeLeTZL47mr0Ga5Q+aFk/0sPYP
+   eJzFlA0KwjAMhaWXkCFe2yvowAvYHaHrFXoWF+yTNCbZVhQDHyv9e69puhIO74is7cUttIwLZeEaPsc4sTJ3AH9gqns+QtsfhS+s1/xQnM4v7/TV5hSB1leYj8nRQu5IC3j52kJx9HD2LDQTy6l3r1pOtbtHZNZOQpOgcWhD3/I817lSm9eQPJeHFdwz18cZZA16GhfHT1rxPBhePT2el8GYY/X3oN3/t/am3Em8utfmW0Djfmzz0vvm4G3c4VFbvwf5DrV/reZnzaMFr/3saP4aTTP/QdPiCZXU92w=
   </data>
  </layer>
  <layer id="3" name="Ground1" width="29" height="16">
@@ -214,7 +214,7 @@
  </layer>
  <layer id="5" name="Above" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOcBajTI0PEyoNAjlM2NVSy04QCIbK1xOwCwaCoOrxuQ1mp40keW4iBwRhMRPZHlrYaYzFf8j2YHMTCOQSEXaEAHI6wWUPMqjFYSco/p1xxGkwDnOJsQ8fANmHywyQODFpcSoWNdjcC/M3pW7GBaYTmW8IgQhBys3Ald/oaYYhUL8RmhmrqBRGxABYnqSnnbQoW/CBYDz5Bx2QEp/41OIq0wGQgBVT
+   eJxjYKAOcBajTL8PEyoNAjlM2NWSYichNcFQ+XoCdsFAEFQ9PrfB7LSRJM9N5IAgLGYi20MLO42x+A/ZHmxuAoFcIsKOEEBOJ7jsQQa1OOwExb8zjjgNxmEuMfbhAyD7cJkBEicmLU7Fogabe2H+ptTNuMB0IvMNIRAhSLkZuPIbPc0wBOo3QjNjFZXCiBgAy5P0tJMWZQs+EIwn/6ADUuITn1pcZToAMMQU+g==
   </data>
  </layer>
  <layer id="6" name="Top" width="29" height="16">
@@ -224,7 +224,7 @@
  </layer>
  <layer id="7" name="Walkable" width="29" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1VMkNwDAIyxTdo/sv11elqsIXJEj5AIkNOKy13+4L+1WMnRRf3VU4DqeU5z+e1MW4q5zKv9sYJ7dPTtzJm/DqzHdSe0dLlVYZJ2WObk/qaNLrZGadfVJhq7fcnfL6VF3f+w4PVw9oHzGe6L10ZgkmwujOM/1bqGcPXE42Fg==
+   eJylVMkNwDAIY4ru0f2Xq/qomgf4AimfEIwxhKrf7qtiO2MnnPd+cyYsxsXlg/xqHYpOSCtmiFv3potVOaacFL4IA3FTtE55Jb3d1J7OEftzrkbM786RYxutnZ45mqDcDEvdKd8dq+uMV3io8zDtI7ZbOjy3Z07OKUfaT/dvTZo9vik5ag==
   </data>
  </layer>
  <objectgroup id="8" name="mapevents">

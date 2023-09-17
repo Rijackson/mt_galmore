@@ -414,6 +414,10 @@
     <map id="lake_shore_road_8a" x="220" y="563"/>
     <map id="flagstone_filler_east_1" x="126" y="484"/>
     <map id="flagstone_filler_east_2" x="126" y="503"/>
+    <map id="stoutford_filler_4" x="74" y="562"/>
+    <map id="stoutford_filler_3" x="53" y="561"/>
+    <map id="stoutford_filler_2" x="32" y="561"/>
+    <map id="stoutford_filler_1" x="8" y="561"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

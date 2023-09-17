@@ -594,6 +594,55 @@
             "width": 960,
             "x": 4928,
             "y": -3296
+        },
+        {
+            "fileName": "altered/maps/waytogalmore1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4928,
+            "y": -2304
+        },
+        {
+            "fileName": "altered/maps/wild22.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 4256,
+            "y": -2304
+        },
+        {
+            "fileName": "altered/maps/stoutford_se.tmx",
+            "height": 576,
+            "width": 1024,
+            "x": 3200,
+            "y": -1952
+        },
+        {
+            "fileName": "altered/maps/stoutford_sw.tmx",
+            "height": 576,
+            "width": 768,
+            "x": 2400,
+            "y": -1952
+        },
+        {
+            "fileName": "created/maps/stoutford_filler_4.tmx",
+            "height": 736,
+            "width": 640,
+            "x": 4256,
+            "y": -1312
+        },
+        {
+            "fileName": "created/maps/stoutford_filler_3.tmx",
+            "height": 768,
+            "width": 640,
+            "x": 3584,
+            "y": -1344
+        },
+        {
+            "fileName": "created/maps/stoutford_filler_2.tmx",
+            "height": 768,
+            "width": 640,
+            "x": 2912,
+            "y": -1344
         }
     ],
     "onlyShowAdjacentMaps": false,
