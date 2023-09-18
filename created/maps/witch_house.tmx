@@ -213,12 +213,12 @@
     <property name="place" value="outside"/>
    </properties>
   </object>
-  <object name="wicked_witch_first_killed_script" type="script" x="128" y="128" width="128" height="96">
+  <object name="wicked_witch_first_killed_selector" type="script" x="128" y="128" width="128" height="96">
    <properties>
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="wicked_witch_second_killed" type="script" x="32" y="128" width="160" height="96">
+  <object name="wicked_witch_second_killed_selector" type="script" x="32" y="128" width="160" height="96">
    <properties>
     <property name="when" value="step"/>
    </properties>
