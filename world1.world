@@ -643,6 +643,13 @@
             "width": 640,
             "x": 2912,
             "y": -1344
+        },
+        {
+            "fileName": "created/maps/stoutford_filler_1.tmx",
+            "height": 768,
+            "width": 736,
+            "x": 2144,
+            "y": -1344
         }
     ],
     "onlyShowAdjacentMaps": false,
