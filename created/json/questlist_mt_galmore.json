@@ -155,11 +155,6 @@
                 "logText":"I gave Emmeline 20 of the 25 \"Tonics of Blood\" that she asked for and she was then able to leave that terrible place.",
                 "rewardExperience":21085,
                 "finishesQuest":1
-            },
-            {
-                "progress":100,
-                "logText":"Completed [TODO]",
-                "finishesQuest":1
             }
         ]
     }
