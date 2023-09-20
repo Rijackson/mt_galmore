@@ -278,5 +278,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"wicked_witch_first_dl",
+        "items":[
+            {
+                "itemID":"music_box",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

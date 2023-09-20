@@ -135,5 +135,13 @@
         "name":"Enchanted evergreen rod",
         "displaytype":"extraordinary",
         "description":"A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay."
+    },
+    {
+        "id":"music_box",
+        "iconID":"items_japozero:375",
+        "name":"music box",
+        "displaytype":"rare",
+        "category":"other",
+        "description":"This ornate wooden box is adorned with intricate carvings and when wound, produces a delicate melody is loved by upper class women."
     }
 ]

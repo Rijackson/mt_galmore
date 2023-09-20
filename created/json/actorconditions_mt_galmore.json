@@ -16,5 +16,16 @@
             "increaseBlockChance":5,
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"rootsnare",
+        "iconID":"actorconditions_1:61",
+        "name":"Rootsnare",
+        "category":"physical",
+        "isStacking":1,
+        "abilityEffect":{
+            "increaseMaxAP":-1,
+            "increaseDamageResistance":2
+        }
     }
 ]

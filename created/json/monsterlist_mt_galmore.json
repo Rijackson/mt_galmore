@@ -222,10 +222,31 @@
         "id":"wicked_witch_first",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:8",
-        "maxHP":2,
+        "maxHP":229,
+        "maxAP":12,
+        "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
-        "phraseID":"wicked_witch_first_selector"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":13,
+            "max":15
+        },
+        "phraseID":"wicked_witch_first_selector",
+        "droplistID":"wicked_witch_first_dl",
+        "attackCost":4,
+        "attackChance":187,
+        "blockChance":152,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rootsnare",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"sutdover_fisherman",
@@ -247,9 +268,30 @@
         "id":"wicked_witch_second",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:9",
+        "maxHP":297,
+        "maxAP":12,
+        "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
-        "phraseID":"wicked_witch_second_selector"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":13,
+            "max":15
+        },
+        "phraseID":"wicked_witch_second_selector",
+        "attackCost":4,
+        "attackChance":187,
+        "blockChance":152,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rootsnare",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"wicked_witch_third",
