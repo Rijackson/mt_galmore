@@ -2972,7 +2972,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"wicked_witch_despawn_timer",
-                        "value":30
+                        "value":3
                     }
                 ]
             }
