@@ -225,7 +225,7 @@
  </layer>
  <layer id="6" name="Walkable" width="23" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlEsKgDAMRHuS3ru31Y0gJcm8phERHOjCfl4mac3orY1zXBq9blgieyJV8b114ul+duaoNcLN1Nf6nn1QporjzRGu5S3iZ/OgtY5y8OJbvj0OjTczlG9aE+s8YdM8CJu8MfK/Kt9v6en4mbskvJ27VL6q73KlF0UiHPX2VQ9UsaP8Mr2LiOxf7a8rfabqrUb9OWJkY/76hg5v2az/
+   eJztlO0KgDAIRfcke++9bf0JQtR7lEUEXRhUc8ePmWuOsc51ac19yxOxybSLH+2TmO5nLUftEW6nvt67jYMylZ/oG+F6sWX8bh601lkOkX8v7ohD/VmGipvWxDtP2DQPwlZ1VVwa91t60n/3Limze5f2ObKpsKvM6r9DOar31QxUvrP8OrOLiNhX52ulN3f1qpojEaPr89c3dAAnMKxI
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
@@ -233,7 +233,7 @@
    eJztzgENAAAIA6AnsbdtbaGbgwQkwIau6wEA/DJNuQC4
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents" visible="0">
+ <objectgroup id="8" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="704" y="416" width="32" height="64">
    <properties>
     <property name="map" value="mywildcave"/>
