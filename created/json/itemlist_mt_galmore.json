@@ -134,7 +134,35 @@
         "iconID":"items_weapons_3:11",
         "name":"Enchanted evergreen rod",
         "displaytype":"extraordinary",
-        "description":"A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay."
+        "hasManualPrice":1,
+        "baseMarketCost":5004,
+        "category":"scepter",
+        "description":"A masterfully crafted staff crowned with a luminous green crystal. It channels the essence of nature, allowing its wielder to control the forces of growth and decay.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":4
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":0,
+            "increaseBlockChance":1,
+            "addedConditions":[
+                {
+                    "condition":"bless",
+                    "magnitude":2
+                }
+            ]
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rootsnare",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"3"
+                }
+            ]
+        }
     },
     {
         "id":"music_box",
