@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="10">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -216,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVlOEKwCAIhH2N/dn7P2bsRxAxvVNvg4Sgrc5PszQzu25r2aPfx/yPdF9wGU2Wg5gsO8tlhpqr0FfPuZtvhYti+NOq7PUedurVyV1Z86q/k7kZ/ZyzPrv9wzsj5EvRuxCb1WY0+zzap+B2TNE3lfy3Ne87yoHlRf48nRc3824Qy9uPfESxMlaps4K72gDmIy4y
+   eJzNlVEKgDAMQ3sKwR/v/+sNZR8FGWuTrZkYGExt+rqK1czsvKyk5u+X30e+HVzGM8tBTJY9y2WWmqvwr/a5et4VLqrhS43Y98H53v4qt/L+VNyd/f8jd8bvezZndX5EPUK5FLMLsVnvjKffZ3EKbkWKuankj55F19kZWF6WL/JFdTPfDWJF8ShHVisjj2f+F0quq3EfeW8whw==
   </data>
  </layer>
  <layer id="7" name="Walkable_bridge_fixed" width="30" height="22" visible="0">

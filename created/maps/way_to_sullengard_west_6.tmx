@@ -184,7 +184,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" source="../drawable/map_guynmart.png"/>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="25" height="12">
   <data encoding="base64" compression="zlib">
    eJylk0EOhCAQBIk3/p/4Bb1uPC0+AfgCbxGSmaS3HV3EQ0WCnamWSJicW4UF1kgQrHcWeyVVcmXzzpX6/MqMxZir+XTTgfOZHB9/drVcEXKHA3tkoch8dagnQg4dutYOyE49sDujDp6L+QizrN6ctxx6Zle5K8fdXHb0ZMr0C5/5W8com3/WZYTw8HtHSPJP9nhGuzRHlPtlzdC9Ge7cTPxzHz203Ws=
