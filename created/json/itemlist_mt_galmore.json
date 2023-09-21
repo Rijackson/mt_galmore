@@ -143,5 +143,21 @@
         "displaytype":"rare",
         "category":"other",
         "description":"This ornate wooden box is adorned with intricate carvings and when wound, produces a delicate melody is loved by upper class women."
+    },
+    {
+        "id":"crystal_ball",
+        "iconID":"items_japozero:356",
+        "name":"Crystal ball",
+        "displaytype":"rare",
+        "category":"other",
+        "description":"A tool for scrying and divination, believed to reveal hidden knowledge."
+    },
+    {
+        "id":"witch_candle",
+        "iconID":"items_japozero:449",
+        "name":"Witch's candle",
+        "displaytype":"rare",
+        "category":"other",
+        "description":"Used for casting spells and creating an eerie atmosphere."
     }
 ]

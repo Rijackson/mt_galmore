@@ -268,27 +268,28 @@
         "id":"wicked_witch_second",
         "name":"Bonicksa",
         "iconID":"monsters_phoenix01:9",
-        "maxHP":297,
+        "maxHP":277,
         "maxAP":12,
         "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":13,
-            "max":15
+            "min":14,
+            "max":17
         },
         "phraseID":"wicked_witch_second_selector",
+        "droplistID":"wicked_witch_second_dl",
         "attackCost":4,
-        "attackChance":187,
-        "blockChance":152,
+        "attackChance":207,
+        "blockChance":166,
         "hitEffect":{
             "conditionsTarget":[
                 {
                     "condition":"rootsnare",
                     "magnitude":1,
                     "duration":3,
-                    "chance":"25"
+                    "chance":"30"
                 }
             ]
         }
