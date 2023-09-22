@@ -2434,7 +2434,7 @@
     },
     {
         "id":"captive_girl_30",
-        "message":"I am not well. Which is why I have not run far from this awful plance and this awful witch.",
+        "message":"I am not well. Which is why I have not run far from this awful place and this awful witch.",
         "replies":[
             {
                 "text":"What's wrong? Why can't you leave?",
@@ -2498,6 +2498,18 @@
                         "requireType":"usedItem",
                         "requireID":"tonic_of_blood",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Are those things even good for you?",
+                "nextPhraseID":"captive_girl_45",
+                "requires":[
+                    {
+                        "requireType":"usedItem",
+                        "requireID":"tonic_of_blood",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
