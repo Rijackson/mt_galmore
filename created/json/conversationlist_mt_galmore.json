@@ -1517,7 +1517,7 @@
     },
     {
         "id":"thief_rennik_10",
-        "message":"Ah, $playername has finally returned. ",
+        "message":"Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you.",
         "replies":[
             {
                 "text":"Thank you.",

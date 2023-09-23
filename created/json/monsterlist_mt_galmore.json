@@ -116,6 +116,8 @@
         "id":"wild6_house_thief",
         "name":"Rennik",
         "iconID":"monsters_tometik6:36",
+        "unique":1,
+        "monsterClass":"humanoid",
         "spawnGroup":"wild6_house_thief_spawn",
         "phraseID":"thief_rennik_selector"
     },
