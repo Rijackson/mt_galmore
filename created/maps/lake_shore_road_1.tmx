@@ -223,9 +223,9 @@
    eJxjYBgFlICbkgwMtyQxxe9gERupgIkDwb5J5XBZLUdd85DBLgrMxpYmqAVgZiOHJS3tgwFqx90oGAWjYBSMglFAKQAAdQoKNQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="23" height="30">
+ <layer id="6" name="Walkable" width="23" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlO0KgDAIRfcke++9bf0JQrx6lEUEXRhUc8ePmWuOsc51ac19yxOxibSLr/ZJTPezlpPtEW6nvt67jYMyMz/qG+F6sUX8bh601l4OUawqblUL4i+7S8UnNfHOEzbNg7CjHiNcGvdbetJ/9y4ps3uX9lnZVNhVZvXfoZys97MZmPmO8uvMLiJiX52vld7c1avZHFGMrs9f39ABpUirkQ==
+   eJztlEsKgDAMBXuS3ru31Y0gJcmbhIgufFBQ206+Zs0x1rkurdm3LJEzkbr43j7x6X5356g9wq3k13rf/aBMZcf7RriWbxG/GgfNtRVD5Kvnt5cLYk/V0uOTnFj3CZvGQdhRjxEu9fstPWm/WkvKrNZyf/bOZNhZZvbfoRzV+2oGKttRfJXZRUTOZ+drpje7elXNkQ7ROvz6jg5LW6ra
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
