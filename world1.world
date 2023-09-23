@@ -650,6 +650,27 @@
             "width": 736,
             "x": 2144,
             "y": -1344
+        },
+        {
+            "fileName": "created/maps/rat_mountain_1.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 5920,
+            "y": -2752
+        },
+        {
+            "fileName": "created/maps/rat_mountain_2.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 5920,
+            "y": -2304
+        },
+        {
+            "fileName": "created/maps/rat_mountain_3.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 5920,
+            "y": -1856
         }
     ],
     "onlyShowAdjacentMaps": false,
