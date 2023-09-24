@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="5">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -222,7 +222,7 @@
    eJxjYBgFo2AUjIJRMAowwWbJgXbBKKAVGI3bUTAKRsEooD3YNETKWgC+0gJk
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30" visible="0">
+ <layer id="7" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJy9VNsJACEMcwr3X8EN7z5F+kqMLQiecknTpq45xvrXHmv2LC86eD1+tR7vfv/ec1LVEI0O7g7NSF6vNUdeU3mLObNmAeGu1CHS7OWi8lbEe3pQNVNZj71zpMfePsLO7tEeV/VYGIjeas2qmIxeljPzmJKX1Xye3dQ3w7jlzeLGzx5G9i87R9YMI1qrocRCeas9s/YeHlsjtg4KTyk4I+9leVTzq86e2qco77l/yRu9s+ybhHCi/rPeEmZ9ozZAVA==
   </data>
