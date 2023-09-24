@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
    eJxbwcTAsAINr8QiRgjj00Mt83ZB8W4yzMNmxj0oJteslVQwA9ldlPgL3V1ngPgsFrlpFPgT2YxpaPKkmrcLDVOSXmD+PYMUHzuZKEsv2OKVkrgmJw/Q0zwYBgCOpbCG
@@ -193,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg54LAYdvH7TJSbTQ0zaAGmI7lrKhOmGClgsPqRFgA9rdxF8vtwDQeQnwGskwi4
+   eJxjYBg54LAYdvH7TJSbTQ0zaAGmI7lrKhOmGCmAHn68KUh7O4gB6GnlLpLfB2tcUwpAfgYAC6AJog==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="13">
@@ -203,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAe2ChGRcOGgHmDGYD8CsP4xMgxD90cSszDJUcN91HDPFzmkwMGe3oGmQcAqJ4abw==
+   eJxjYKAe2ChGRcOGgHmDGYD8CsP4xMgxD90cSswjVpwc9yHLUeo+XGaTaiY1AS3MAwDTFxs2
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
