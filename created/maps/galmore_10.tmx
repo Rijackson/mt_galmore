@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -222,7 +222,7 @@
    eJxjYBgFo2AUjIJRMAqGPggWG2gXkAYAT5oAag==
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="16" visible="0">
+ <layer id="7" name="Walkable" width="30" height="16">
   <data encoding="base64" compression="zlib">
    eJy9kssNACEIRLcK+7D/5rwbBuYpK4mJ0cD8mOMLaw7vnPREfWSG4rrfq5mEe+YRxaUe0b9bTOJ5h76/tNAcX+FWPtN8nD2J9J4U6Y10Oxmod0cbqd3TirfDJdvtSKfC7dhnhV9hEc2uH524al7mQZYv0Uur8mYBZolTNQ==
   </data>
@@ -231,7 +231,7 @@
   <object id="1" name="north" type="mapchange" x="512" y="0" width="96" height="32">
    <properties>
     <property name="map" value="galmore_9"/>
-    <property name="place" value="top_south"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
   <object id="2" name="west" type="mapchange" x="0" y="288" width="32" height="32">
