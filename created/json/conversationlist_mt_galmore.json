@@ -3008,9 +3008,15 @@
                 "nextPhraseID":"wicked_witch_second_killed",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"wicked_witch",
-                        "value":65
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"wicked_witch_second",
+                        "value":1
                     }
                 ]
             }
@@ -3027,6 +3033,12 @@
                         "requireType":"killedMonster",
                         "requireID":"wicked_witch_first",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             }
