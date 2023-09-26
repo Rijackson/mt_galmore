@@ -2997,6 +2997,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"emmeline_spawn",
                 "mapName":"lake_shore_road_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wicked_witch_spawn1",
+                "mapName":"witch_house"
             }
         ]
     },
