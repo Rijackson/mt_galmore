@@ -2548,6 +2548,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":20
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":25,
+						"negate":true
                     }
                 ]
             },
@@ -2559,6 +2565,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":10
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":20,
+						"negate":true
                     }
                 ]
             },
@@ -2570,6 +2582,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":10,
+						"negate":true
                     }
                 ]
             },
@@ -2581,6 +2599,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"tonic_of_blood",
+                        "value":5,
+						"negate":true
                     }
                 ]
             },
