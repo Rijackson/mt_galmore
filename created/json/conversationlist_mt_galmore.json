@@ -2590,7 +2590,9 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"tonic_of_blood"
+                        "requireID":"tonic_of_blood",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
@@ -2663,7 +2665,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"captive_girl_75"
+                "nextPhraseID":"captive_girl_76"
             }
         ],
         "rewards":[
@@ -3046,6 +3048,17 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_76",
+        "message":"I need to go now. Thanks a lot.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"emmeline_spawn",
+                "mapName":"lake_shore_road_1"
             }
         ]
     }
