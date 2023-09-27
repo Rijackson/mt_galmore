@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,19 +183,24 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="20" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArIAyuYBtoFo2AUUAcAAOSVAKs=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxbx8TAsG4Uk41XQPHKQWzeylHzRs0jwbzdVDRvJRN10zM9zSPHDlqZh4x3QfFuKpgH4t+DYnLTC7p5lKY/WphHKN0cJNG83Ug0upr1QHyZxPjAl4fXkxm/1DYPX3qbA8WEzIOFG7Hxuh7NvehuJzWdYDPvABIGAKj/jgk=
+   eJzlkzEOgCAQBImP8OlWPkAa6KXR+AR736ImmBByotyt11hMaMxkcRfXGON+REcg8Q03oH1W4LMKvgD0cbNp+bh3pXySbF/5AtCH7ILynUjeMeWTZNXwjRHODqk+tgh3L0uL3R9yL6mn5JsrfSE582/8wVrZhy1k88x+0b7S3vrIk+/6b2979VnePHvtTijflLADpwSMtA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdvJRkYHgliaBHMpjONDTMHAWjYKDA/dH0PCQAufE0EGXg+gFMU7uobPc9JkTY44qDp0MkD80lwZ3UKBeoXbYAAE3SD4g=
+   eJxjYCAdvJRkYHgliaCHOpjORH29tDBzJIH7IygMhrtf6eW/0XxDGSA3nmgR7oTMXD+Acb2LynbfY0KEPa44eDpE0vZcEtxJjXKB2mULANdeExU=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIwFcFqOueYdHzRs1jwRwicrm0QsM9nClhnnIZlAjngajH0EAVgbiMo9Uew5TyTyYOlDYg9i44oDYuEG2l9rpYyDS22Ux/G64hBYPNyUZGG5JYrKR9eMyDwBX0icl
+   eJxjYBgFQwVcFqOu3sMUmIdNLzXNA/EvUdk8SgCtzaPEr9jMoxRQ0zxK4xKbedQE+MwjJ8/hM48ct9PaPGQ+NeJpsKZFWFziMo9Uew5TyTyYOlDY48srxMYNsr3UCDtamkeMny6L4XfDJbR4uCnJwHBLEpONrB+XeQBdOTNB
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="29" visible="0">
