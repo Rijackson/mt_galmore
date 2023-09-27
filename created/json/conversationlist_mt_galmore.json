@@ -2527,14 +2527,14 @@
     },
     {
         "id":"captive_girl_50",
-        "message":"I really need to get my hands on a lot of those 'Tonics of Blood'. Can you help me? I need a lot.",
+        "message":"I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot.",
         "replies":[
             {
                 "text":"Well, I have 25 of those for you.",
                 "nextPhraseID":"captive_girl_71",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"tonic_of_blood",
                         "value":25
                     }
@@ -2553,7 +2553,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":25,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2570,7 +2570,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2587,7 +2587,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2604,7 +2604,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tonic_of_blood",
                         "value":5,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2671,15 +2671,22 @@
     },
     {
         "id":"captive_girl_54",
-        "message":"Only 20? I asked for 25.",
+        "message":"Only 20? I was really hoping for 25.",
         "replies":[
             {
                 "text":"Whatever! Fine. I will go get you five more.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I know that you \"asked\" for 25, but I have 20 and they are hard to get.",
-                "nextPhraseID":"captive_girl_70"
+                "text":"I know that you \"asked\" for 25, but I have 20 and they are hard to get. Please take these.",
+                "nextPhraseID":"captive_girl_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"tonic_of_blood",
+                        "value":20
+                    }
+                ]
             }
         ]
     },
@@ -2693,11 +2700,6 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"tonic_of_blood",
-                "value":20
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"wicked_witch",
@@ -2719,11 +2721,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"wicked_witch",
                 "value":95
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"tonic_of_blood",
-                "value":25
             }
         ]
     },
