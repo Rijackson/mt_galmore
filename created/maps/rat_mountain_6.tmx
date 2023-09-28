@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,66 +183,28 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
- </tileset>
- <layer id="1" name="Ground" width="27" height="27">
+ <layer id="1" name="Ground" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJzt1DEOgCAMBVDC5v1Xz6AhvYCjs17Bg0gTBkOAQO3vosPfjC+FX2hybjcKGVohxdJCe2RkhUIQd1dytL2Woen1OnnQ//+C1etpWT1evqtv0uomGVrPb9BnqHlXv4XrxGjfVy+fZ3SvLK0lWnPF034r2NoElmRv+QyPmNOPzSTpGVtXYS5Ex2vdQFg3Rccu5w==
+   eJxbwcTAsGIUj+JRPIpHMU68iwIMAJL/5ik=
   </data>
  </layer>
- <layer id="2" name="Objects" width="27" height="27">
+ <layer id="2" name="Objects" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJy9ljFuwkAQRS16Gncu3JGa6yQ3SA4V5QZxuEFIKhoUoF85RKlCOAM78o74GnbWY2MzEnKxw7z5u3/WXhVZ9lZmN4utZ21uwDt4XZ/luLy1r/sVaruy4Y2xl8TZibrVCNqY8xG0IItiCB7vGXO+y3N9Cgds5q17cFFLHThcH0PydsYzZB1SS1u40E/dwS8V6KiNHNmnVVfVw8P7vHk60GXxioVFtd99zlLJcwrvLr9kDeFfjceBs0ra9vllTpeooJa2tumg7TWSwz1qrNi9YPHISyKHPS29jPvbZa4WSg73rvWLsxXjrIp2tuw9xRri/WCZ6Ta/oy+fJzqLPaGdg/T7NaF5wtqLjJ+i+Q74L86+J92aJ2ZhT1BTag/vff5D+M9feNJeohdTmpCT8iDFo6//JO6SJZybxefMsb4/YncX3gUpTbF1Wc/5cznCfM39+u+k+dF5WebJooc9cAi8qeiDzys1n31ml3knX7rHFA==
+   eJxjYBgFo2AUjIJRQCsAAAVkAAE=
   </data>
  </layer>
- <layer id="3" name="Above" width="27" height="27">
+ <layer id="3" name="Above" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfuCPJwHBXEr+aMDnCmFjwlo52EQLUsOsOAf9Q0643dLRrFIyCUTAKiAU7iSybRsHgBMS0A6gFVsvSx56BArup7D9scQMLQ2qGJXJbBtk+mB27aBhvMPvolTYABiwmcA==
+   eJxjYBgFo2AUjIJRQCsAAAVkAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="27" height="27" visible="0">
+ <layer id="4" name="Walkable" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJzVlmEKgDAIhT3F/nXwjrEbRj8GEaZP9xR6ENRw75u2XHOInIe06Watq9p/MSp4lieT9c4jso4o4+lj5bbDi87V3icjFuF6HJY8FlPdrI5vxONV9xqPz+Rp939moX2HxbKeNc3Rx8pql4XGM/Y7Eq/5ZuqHnAUaJ1IPZEzzrTyj2HvP6qs7OX3NR+qa4aD/B6z6Lc4Fng1Pww==
+   eJxjYBgFo2AUjIJRQCsAAAVkAAE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="southeast" type="mapchange" x="416" y="832" width="384" height="32">
-   <properties>
-    <property name="map" value="lake_shore_road_8"/>
-    <property name="place" value="northeast"/>
-   </properties>
-  </object>
-  <object id="2" name="south" type="mapchange" x="32" y="832" width="160" height="32">
-   <properties>
-    <property name="map" value="lake_shore_road_8"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="3" name="west" type="mapchange" x="0" y="96" width="32" height="512">
-   <properties>
-    <property name="map" value="lake_shore_road_6"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="4" name="east" type="mapchange" x="832" y="160" width="32" height="640">
-   <properties>
-    <property name="map" value="lake_shore_road7a"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="5" name="pond_fish_spawn" type="spawn" x="288" y="32" width="288" height="160">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="pond_fish"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>

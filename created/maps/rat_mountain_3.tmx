@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
  <layer id="11" name="Base" width="25" height="16">
   <data encoding="base64" compression="zlib">
    eJxbwcQwCoYxWEHH+N3MST+7RsEoGAWogJ55HQYAST8Cuw==
@@ -190,17 +193,17 @@
  </layer>
  <layer id="1" name="Ground" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxbwcTAsIJKeCUSvZkTgallPjY75gDpdUToOYMHL8djx36o+euQxKltx0UgXksDf4DwYTFEWMHs2AXEu6lox0oku2B23KOyP5DDi9iwuocH47NjNwl2IKdzdIzLDhA+Swc7kOOclnaA8sgBGtsByiOXaGwHCD+hkR0gehoWjMsebGoJ6QHlP1xuxucnUjGyWwDkMhU7
+   eJxbwcTAsIJKeCUSvZkTgallPjY75gDpdUToOYMHL8djx36o+euQxKltx0UgXksDf4DwYTFEWMHs2AXEu6lox0oku2B23KOyP5DDi9iwuocH47NjNwl2IKdzdIzLDhA+Swc7kOOclnaA8sgBGtsByiOXaGwHCD+hkR0gehoSxmcHulp0jEsPKP8RMpcaGNktAP+uFV4=
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtmM1EO7MPiyHY02loDz3BNUHq+gVm1mM6hA+6u+8PkzgZqoAe4Q9Kr7QGj4Rob8dNQcrzyGsy3EmLvE5PAAAsfQ1C
+   eJxjYKAtmM1EO7MPiyHY02loDz3BNUHq+gVm1mM6hA+6u+8PkzgZqoAe4Q9Kr7QGj4Rob8dNQcrzyGsy3HlAljI7kcFAlIEAX2INhg==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuOCyGStMCwMyezUS6HlqpH6x2wMBlLPqwiZFrBy6zLuEQt+NnYLDHgh34cdtBqrv8gGb5Y8EBg8AOXOFFTTtI8Qs97IgDmhWPBSdQ0Y48oFn5WHABFe0gB9DafEKAlPRGCgAAFI0qvg==
+   eJxjYKAuOCyGStMCwMyezUS6HlqpH6x2wMBlLPqwiZFrBy6zLuEQt+NnYLDHgh34cdtBqrv8gGb5Y8EBg8AOXOFFTTtI8Qs97IgDmhWPBSdQ0Y48oFn5WHABFe0gB9DafELggCxtzAUAEGYqsg==
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="16">

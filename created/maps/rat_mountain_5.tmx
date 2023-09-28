@@ -185,27 +185,27 @@
  </tileset>
  <layer id="9" name="Base" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMArIAyuYBtoFo2AUUAcAAOSVAKs=
+   eJxjYBgFo2AUjIJRQE+wjmmgXUA9sGIY+WUUjGwAAF1AAVs=
   </data>
  </layer>
  <layer id="1" name="Ground" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJzlkzEOgCAQBImP8OlWPkAa6KXR+AR736ImmBByotyt11hMaMxkcRfXGON+REcg8Q03oH1W4LMKvgD0cbNp+bh3pXySbF/5AtCH7ILynUjeMeWTZNXwjRHODqk+tgh3L0uL3R9yL6mn5JsrfSE582/8wVrZhy1k88x+0b7S3vrIk+/6b2979VnePHvtTijflLADpwSMtA==
+   eJzNlUEKwjAQRYuH8OhdeYBmYbs3C5WeQLt35UFkIIX4+ZOZhIAuPqGQvs6f+UnnwzDMf6xTQS28kYh9z8ubFGleWnnB0SONFyp5Vn2MF8neG+ju5LHa5N0naGvkLWl9g7x+mVdvbpBnzWH5AS9W8Cx5ZptnJc8I6ynLHp5j8YgZOSs9YDysVfZjRq5KzR6eaD1++3qQmjXeJSnPIc7Vy5PnV5KVE3ZOpuTFmq+Vu5zX455CXjB47G4q8WK2Mq/sbiqdj9Chdzjf3jzmdZf3/rPmUFtrbOThv2nXBwTEkNc=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdvJRkYHgliaCHOpjORH29tDBzJIH7IygMhrtf6eW/0XxDGSA3nmgR7oTMXD+Acb2LynbfY0KEPa44eDpE0vZcEtxJjXKB2mULANdeExU=
+   eJxjYCAdvJRkYHgliaAHCsxloo4507GYQ6zZ2PTiEyfGXFx6CQFqhQcMrKeyeaSA+zS2+ykW87GJkQrIiQNa+5WWgJg0Qo7/ZiPpoTQvUhNQI42AALXzKjUAvnh6jCSHHga0CHdCZg5k2bSLynbfY0KEPa44oFa6ozUgJV1Tq9y7SWIb5DIe9QBb9R7r
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwVcFqOu3sMUmIdNLzXNA/EvUdk8SgCtzaPEr9jMoxRQ0zxK4xKbedQE+MwjJ8/hM48ct9PaPGQ+NeJpsKZFWFziMo9Uew5TyTyYOlDY48srxMYNsr3UCDtamkeMny6L4XfDJbR4uCnJwHBLEpONrB+XeQBdOTNB
+   eJztlNENgDAIRJ3CpPuP0g3sl05jiDEactBD6oeJ92VbeCdSnKZfX1Gbx+ZWgmd5olyGZ8XofVkvai9SA+IxudozwotI51u+IqbvkffJ9OlJLOpllhdhoPjWOddx9xhUS8+POcvyvHvi8azaPF+vn+xMshrFQ73M8Oog3hkn39SbFXaG2LvD6k0eU1Pv/yeMrVzctRxr/Yz8tXZtyUTM
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdbBRDxaNgFIyCUTAKRsEoGAVDGQAAg7UDHQ==
+   eJxjYCAdbBRDxaNgFFAbYEtX6OmOkrSHzayBSsvDPQ+R4z9K4wVdL7IZg8E8fObT2zxi1A2GfDKUAClhhCtdkWveUAHUTufUsBcAnLwsUA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
