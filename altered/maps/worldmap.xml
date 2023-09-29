@@ -425,6 +425,7 @@
     <map id="rat_mountain_5" x="168" y="556"/>
     <map id="rat_mountain_6" x="152" y="562"/>
     <map id="rat_mountain_7" x="126" y="562"/>
+    <map id="rat_mountain_8" x="126" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
