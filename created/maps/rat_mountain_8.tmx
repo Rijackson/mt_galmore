@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -185,25 +185,38 @@
  </tileset>
  <layer id="1" name="Ground" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJw7w8TAcGaE4GlImJ72rkDDyHI7gXgXFO+ms92nkdhn6eD3e0j4NBL7LJoctTCy3Zs5UTFMDbo4NTB6mNPCDlx45wDaPVD+Xo4lndPSPuRyBN1eatqNbA8uu6hlNzFmU2o3NewgxW5Swo0STE48UQsDADTRbkY=
+   eJzllD0OgCAMRomb90+4gu5O6BGAK3AWWUhqg9rSz8nhJYSfPmgb0uRc+gmeINkfKnvlMHpXRs/R8xTAm5/ckYzzRzmn7kKIZJzZGgrq3uYrbQ+fR8BzLjnjQXcJSjftcfS732K2/stG99Lpc0nM0frTf4R7pfXWeu5cKLckttWNcGjcmrxZGKkTihPzhG5s
   </data>
  </layer>
  <layer id="2" name="Objects" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZYCrTwNm9fNTuQWX3XSS5+wPoRlqAgQrzgcxf9AT08ic9w5MeaYbe6XIgyx56AgBcjwll
+   eJylVUtOAkEU7PTGqCvYDK2eAE28CNwAjkU4Apdh7cQFMWGtJm6RhVSGl6kpXzdtrM1k3rde9euZEEKYxZCF55uT7aqQy8jFLcTejvr66gOWhX7IVb4pdrYV2Q/j4QyIeRkN6+/H3dPsHubSy+ML20bs1oO5vkqfXew0ezvHXEuOp4PxYc6b6M/AXEvnn8vRPNXNehu2qXu2xAUzLRzOQHOBk3K5pffG0Zyxi32c6av6AzxLDZ4L8fC1mV3CbsK/Js53kxAeJv078zPf+0nTzzSspXOvnXNRqPbHJoQb6s+505Pt6WxH/4/Uz1ACON/LTB5Q/5F6GHLaGVifbRraUfNbZsIO8PnX4tKcgNaEnofm90w5QO9Sn5pvk2EqWvJZ2r6W7spfUNqx//Yo3S2G7UlNP96Z2ruO+l7sl9j0e1LLv+ZMDfiP/QDh30rW
   </data>
  </layer>
  <layer id="3" name="Above" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowACLosNnN2HB9DuSwNo9ygYBaNgeIA9kvRXBwCtZQUq
+   eJxjYBgFxIDLYgNn9yUq2b1HEr/8QPrx8BAN3zvAML1LIFxpDahlPzXjH5bWiDWTFvFPrJnUyl+0NnMUDG5AqHylhToAoQwQ2g==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="31" height="16">
+ <layer id="4" name="Walkable" width="31" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVADAAfAAAE=
+   eJxjYKAf2CiGiukJkO0bSLspUUMru2kF0MMcV/xjk6MGxucudHXUDCdSzSLWzbj04VNHyC2U5Ef08KOn3bjcgc1d1LSbmHRGjbREapqmtl30sIOefsKlhhZ20at+A9kBANhmUmc=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="288">
+   <properties>
+    <property name="map" value="galmore_10"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="2" name="east" type="mapchange" x="960" y="32" width="32" height="480">
+   <properties>
+    <property name="map" value="galmore_10a"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

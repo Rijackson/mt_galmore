@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYCAe7JKF0IfFMOW6mTDFVstCMDIfBvZIYhfHB14LYhffLQvB6Pb6MOE3n1h7YXag83eh+Q/Gj6Givaux+A2bGbjCmZC9/kyIcEIGu2QR8b1bljh7d5Ho3xgs9sIAzM5dOOyFid8EpqNbkgxYAb5wPi2EWw8xfsIHpuPxFy6A7FdKAHo6JQSoYScIkJKmqQnICetRQBjswZGnaGn2TTx2EnIPqemeUgBzD3q6x1ceYZMDAHp3OSo=
+   eJxjYCAe7JKF0KtlMeW6mTDFQOqQ1SKz90hiF8cHXgtiF98tC8Ho9vow4TefWHthdqDzd6H5D8aPoaK9q7H4DZsZuMKZkL3+TIhwQga7ZBHxvVuWOHt3kejfGCz2wgDMTlxpDiZ+E5iObkkyYAX4wvm0EG49xPgJH5iOx1+4ALJfKQHo6ZQQoIadIEBKmqYmICesRwFhsAdHnqKl2Tfx2EnIPaSme0oBzD3o6R5feYRNDgD+VTkZ
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="16">
@@ -208,7 +208,7 @@
  </layer>
  <layer id="5" name="Walkable" width="30" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdlEkOwCAMA/lIH85ve+ISOYmnwKWWEIuC7YRlPmNM2BbUPMLl2GmRR82VR5Kriu90VT1ozll8xZmBaH05G6pV+SZacZ/qaS3cWrrrjocuJ4eP6pJ9u7qnQWr9R+0T94e+8Rt/QOfV0YmxHXc27rQrrySnhRcxEZa5
+   eJzdlMEOABAMQ/2ID/e3Ti5LZ304aSKMrd1GjN7agGNB2REux82IPMpWOZJalX+lq/pBa878d5wZiNbJ3VCtXd5EK8apmfbC7aW77+RQ1eTwUV0Sd6v7GqTXP2q/eD+Uq4p3uKu/keQfz13ubE20Vb2UYwKh84qj
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -230,10 +230,16 @@
     <property name="place" value="outside"/>
    </properties>
   </object>
+  <object id="4" name="west" type="mapchange" x="0" y="32" width="32" height="480">
+   <properties>
+    <property name="map" value="rat_mountain_8"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn"/>
  <objectgroup id="8" name="Keys">
-  <object id="4" name="aidem_base_key" type="key" x="256" y="160" width="64" height="32">
+  <object id="5" name="aidem_base_key" type="key" x="256" y="160" width="64" height="32">
    <properties>
     <property name="phrase" value="aidem_base_locked"/>
     <property name="requireId" value="wanted_men"/>
