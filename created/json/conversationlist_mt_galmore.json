@@ -2407,7 +2407,7 @@
     },
     {
         "id":"captive_girl_10",
-        "message":"Excuse me, sir! Wait! Thank you for sparing me earlier. You've shown true compassion.",
+        "message":"Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion.",
         "replies":[
             {
                 "text":"What...do I know you? You're just a young girl?",
@@ -2451,7 +2451,15 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"captive_girl_10"
+                "nextPhraseID":"captive_girl_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -2656,6 +2664,13 @@
             {
                 "text":"OK. Stay here. I will be back with more of them.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wicked_witch",
+                "value":90
             }
         ]
     },
