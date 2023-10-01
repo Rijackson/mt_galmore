@@ -62,7 +62,6 @@
             },
             "increaseAttackChance":13,
             "increaseBlockChance":15,
-            "increaseDamageResistance":1,
             "addedConditions":[
                 {
                     "condition":"loyalist",

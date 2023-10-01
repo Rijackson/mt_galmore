@@ -12,7 +12,6 @@
                 "max":1
             },
             "increaseMaxHP":-25,
-            "increaseCriticalSkill":2,
             "increaseBlockChance":5,
             "increaseDamageResistance":1
         }
