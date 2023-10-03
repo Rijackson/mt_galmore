@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="9" name="Base" width="20" height="13">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjHSwgglCAwAJXgCr
@@ -190,22 +193,22 @@
  </layer>
  <layer id="1" name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxbwcTAsGIQ42lUwtR218pBbt5uKvob5Lazg9ivQ8k8asQJNvdRau5hMQgNADyYq54=
+   eJxbwcTAsGIQ42lUwtR218oBNI8Y/+wm0d/47AfJnSXCjJ0kmEesu0Bm7oL6h1pxcW8A45YaaRGb+yg197AYhAYAvIysCw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZYDrTQLtgFCCD+yM4PmBpcSoTbdIlOWbC9AAAgPoEdg==
+   eJxjYMAE+kIQ+rUgFkk0cA1NzUtJBoZXkgjxR0KEzXiJZgbMfmL0EgumMyHYxJj7DOgmVjkGBjY54u1AD4vrSHx9AnYiu+kFnnCfCvUHsn9w2YkLgNwCsm8qDjOoAWB+aMXib1A43UezG1uc3CXBfchhVokjrEFhAzMT3X4QQI8j9PgkVu6oLAPDMVnc8rC4A4U/rnhEDw8Q/yDQzENYzIWpBbnpjCSqmdjS3TMs+Q2mBwDrrSrk
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5ILLYtQ17/AgNg/kV2qaBzLrEpXNoyYYaebBAAB2jwmD
+   eJy7KcnAcAuIhwN4KsvA8EyWfvZdFqOueYcH2Dx8/gHJkWoePvUguUtUNo9UALN/KTDNLENLN9SIi4VAMxfJ4jdvD5l5j1L3zQe6awGWvAIAXZEWQA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu2ChGXUxtt42aR75Z1DaPmmAkmkcLMwFOTxmo
+   eJxjYKAu2ChGXUxtt5HjF2qZR4x9xKghNmwIqUE2hxS1xNhHyFxS/Eqs+4gxm9jwoyRusZmP7A9sbFLNxcYmNW1gcyMA0xczTw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>

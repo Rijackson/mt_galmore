@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="9" name="Base" width="25" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYKAeWMFEW/WjYDTMyAGjYTY4wXCMl+Hop1EwCoYjAADF5wP9
@@ -195,12 +198,12 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJyVVbENwkAMfGWDpIJMABW7paNGFAyAqBgEUUJJDaJASCCigBiCWMSKc7H/89fZ+dhn333iXBjvtBsfMueOWTc3r+Nt0s2tm3gGZx9NvEn0WoRV0s+FcE31vOxzGts9h9Yj8GwbD0+a+2k8fw2cj/gWWdvH109DlbZcEYsmf1HmjO1DODd1yrTV2IL0lLZnmtsC1r4B1zvEMbPslLOl4QPmLf08BMgX8fX4znce7xnuEGP0RcyeeHaugbWkRsRL84Psh7vUUBjP5D7ljFSf41g/Ew/y80LhSDhHakSwPB/yA/qZgFrHYO55V/sWWGDeleE/Cc3To9y5cf7f5bvW6SO0C30/5M5wP6wN5Sd1/Wne9+fS+Cdx3uovZ9R0sVAN2Kvvf8PPNK/EaCaxT/wzYC95t+5w5ywP8znWn7XhWiGdtXsWescCcvwBWYRicA==
+   eJyVVTsOwjAMjXqDdoIurDBxKU7AxowYOABi4iCIEUZmEANCAlEVxCGoRa26Dztp3mYn8e89t86F8Urb9j5z7pC1fbPK3iRt36q2x3D3XtvrRI9FWCb/vhAuqe6XeY59O2fXeATube2pk/p+GOfPjv1RvdOsyePLp6FMm1oR89p/VvqMzUM41XGKtOHYgtSUNufJwH6Lsa9Q6w3smF62yt3C0AHXLfXcBVgv4uPRne8+7hlpx2ejLmLmxL1zDIwlOaK6ND3IfDhLDVPjTM5T9kjxWUexeqY6SM9zpUbCKZIjgqX5kB5QzwTkOgYzz1vtW2CB6y4N/Ulomu7lzvXz3yxfFW9vwV3o+yFnhvNhbsg/rOKP8n99Lox/Evut/LJHjRcLZYe5+v43fKZpJYYziV3i7wFzyd26wc5ZGuZ7zD9zw3sZ4lnbs9AbC1jjFyGuYUo=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJzNVDEKwDAI9A0ZAv3/E9Kxmz9op/Y1bQZBJIKSWLwpQ/C8OxVgDKwArQDsRfmwEMRzbDbOq8b3hAaO3i+Ht6/zBx1eWDRI3V5wb6OyzOgth/TQ42mW+feCNFL/s3OUBVF58Ayi5lnLubFs7u/9TGSlcaycsZE/vX7kHYiuTxwWyF1Cx45JDda9tGrPeotf77EoWA==
+   eJxjYMAODosxMGwWYmDYIoRDARUBzJ49ksTZeVmM9m46TIQdIPciA1LddYkO/iAVEOMHF3nK7EAOW1rF5WAMW2SAnnbQ+fjAYEn/pAKYH2HupzQdDRZAq/hAjgNapWdc8bwZKT3eBLJvkZA+ibWDmmkMW/iAzKdlOUBr82F2EAPQyw+YPmLKFXQ/EJsvifX7YC2LAYH0JwI=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="23" visible="0">
