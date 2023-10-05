@@ -713,6 +713,20 @@
             "width": 992,
             "x": 5920,
             "y": -544
+        },
+        {
+            "fileName": "altered/maps/wild7.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 6592,
+            "y": -4608
+        },
+        {
+            "fileName": "altered/maps/mywild18.tmx",
+            "height": 640,
+            "width": 736,
+            "x": 7264,
+            "y": -4608
         }
     ],
     "onlyShowAdjacentMaps": false,
