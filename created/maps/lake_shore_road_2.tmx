@@ -200,12 +200,12 @@
  </layer>
  <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyllDFuwkAQRRduAB1FHHqkOLkC9CgJ1CiRcqdcI7egiSihcIFEBeESmS887PdnYa3kSyMka3n+82fWIYRwGITwY6W6Ly6fqUo780jnmLXp/Z8HVcY7kr9d//T7lODte80z4L1avRSRBX8HYbbVwjgT8sgszfEh06/n4z1/3Rmn9q0s9NUmvwseMZTpvKXMKcXzDHUWrJy/NfX7VnsEy5nw5nODUvNVTe3MrIg9V1dmccz0yCzU2Opd/FWZ+eo7fFfGnVjPRSzkuab/3MoPM0KVwnN9dpt7DrXJz3ObGWte87CXH8MTk++i3meV58c+yn7zDPNu3Q/sQVnPFdLeIGTHz3P7xzyfr79LPS6v3Dee13m+xPpO3A33+Nfvn2vbbXoHT727+NvCGWGm6GGUyKHNvqDn1SAyfwH89GTm
+   eJyllD2KAkEQhVtvoJnBjuaCs3sFzRf/MkEUvJPX8BYmYqjBBAsbrRp5A+vRU86bsrWH9UEhaPvNq3rV45xzp5ZzZymrdvL4nVUqZz7pHLOOjfd5UCa8C/n7bfrPrwDvr1E+A95YapQULPg7GWZVzYUzII/MsnPsRfrV+WjPmw/h5L4tC31Vmd8DjxiWqbytySnE0xnaLFgxfwfqd5F7BEuZ8Ka5QaF8rb7lzCQpes6eZHGJ9MgsVF9qafxlkXztM3RX+rWi4GuY+MI8D/SfV/NDRqjU8GYd//u6Xt5zqMr8dG4TYU2lrk2/l6uOZ/JdtPfZSufHPtI8T91r5r26H9iDNM8Vsr1BmB1/H9s/5mm++iwWPG6f3DfO654vsXaBu6Ee//v+U/3Uy97Bs95V/G7hGSFT9NANzKHKvqDnfatg3gDZ5mf1
   </data>
  </layer>
  <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJy7KcnAcAuIqQluUtHMm0jmUNNMmFnU9Ds1zEI2g1rhSO34hZlJTXNfUtk8kFnUTIfUAiB/vpJE0NQCLgrk6w1mpJozCAJrOeqap02heXvQ4oBS82AA5k9qmQczx4oM8/ZhSWfTmShzDwwAABZ8HS4=
+   eJy7KcnAcAuIqQluUtHMm0jmUNNMmFnU9Ds1zEI2g1rhSO34hZlJTXNfUtk8kFnUTIfUAtYKDAyvJCH+fUVFt7kokK83mJFqziAIrOWoa542hebtQYsDSs2DAZg/qWUezBwrMszbhyWdTWeizD0wAABApxyH
   </data>
  </layer>
  <layer name="Top" width="20" height="20">
@@ -215,7 +215,7 @@
  </layer>
  <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJyTlGNgkIRicoGkHCamFCCbQw0zsblxsJmJrJea7qOWmdSMX2xmUjPdUGIernilRZqhFqBmvFIrLaPrp0bYDVbzcIUhpebh4lPDfdQwCwBVURIN
+   eJyTlGNgkIRicoGkHCamFCCbQw0zsblxsJmJrJea7qOWmdSMX2xmUjPdUGIernilRZqhFCDnEWq5iVppGV0/NcJusJqHHmbUDj9q511qmQUAVvQSew==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -238,6 +238,24 @@
    </properties>
   </object>
   <object name="start_over" type="mapchange" x="0" y="160" width="32" height="32"/>
+  <object name="top_south" type="mapchange" x="32" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_5"/>
+    <property name="place" value="top_north"/>
+   </properties>
+  </object>
+  <object name="dead_end" type="mapchange" x="64" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_2"/>
+    <property name="place" value="start_over"/>
+   </properties>
+  </object>
+  <object name="top_west" type="mapchange" x="0" y="448" width="32" height="160">
+   <properties>
+    <property name="map" value="rat_mountain_1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

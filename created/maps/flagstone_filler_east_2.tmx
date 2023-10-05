@@ -197,17 +197,17 @@
  </layer>
  <layer name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJytUjEOwyAMRPlBOiDRKVO2tq+t+p8upB+IVHXrkITkE+WUWhjHZMpJFmAf5wPZmOMQXNr7Oq99T+s6iDzQs9wk6rMzh+Djci3yg/yi9Ahu25typPWO8WQc0goFTQ7eH1qv/72x1ntJn6Pyj9wz7fkbKCdXYLDxbPc9B4XbKz5QX2LMMSYWuAM+74vVF7g0K77gq7PJC/4TutT7XiXeo8r1UW/POge1Tukn5/LSGHONcWtyHTk3pAuPQZkJbc4kaFa099B9ydmDfAvHDxPZaXg=
+   eJytUjEOwjAMjPqDMkQKUyc24LWI/7CkzEiVEBtD27SfwCew4hi3U0+yktiX8yWyc9shhbyPdVl7775rr/JAJ3Kjqk/BbYJXKLXYD/Kz0SOF/96cY60nxU1wWCstaErI/tC6/+4Ntd1L+xyMf5SeeS/fwDm9Ar2ns1/3nAxuZ/hAfaaYKEYRuAO+7Is1LnB5VuKCr9ZnL/hP6HLvS5V516rUR/2wtzmotUY/PZfHxrkTxbkpdfTcsC48JmMmrDnT4Fmx3sP3NWcN+i2MB+l8ABdwamQ=
   </data>
  </layer>
  <layer name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuuCVJHXNuSmI3ixRxmNhNJPFNkqjyMECsu2F6dmKxC90sQmbeRHPLLTQ/wOTJcSe6PkoActhSK35h5hILNlPRXnQ34PITNvfhU0+pfYMBAAAkaSOQ
+   eJxjYKAuuCVJHXNuSmI3ixRxmNhNJPFNkqjyMECsu2F6dmKxC90sQmbeRHPLLTQ/wOTJcSe6PkoActhSK35h5hILNlPRXnQ34PITNvfhU0+MPeTqRwcvgWa8okGYAAAMSyd6
   </data>
  </layer>
  <layer name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMZANbCRimZR20yQOdjMIkUcJoaOccmT4i5CZhFjJrIaapmJbj41ALn2E2MusXYQEw7kxA2h9IHLDlL8iM0tlABktwIAvas+MQ==
+   eJzbKMZANbCRimZR20yQOdjMIkUcJoaOccmT4i5CZhFjJrIaapmJbj41ALn2E2MusXYQEw7kxA2h9IHLDlL8SEkcEjIbADPiPjE=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -221,6 +221,18 @@
    <properties>
     <property name="map" value="waytogalmore0"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="64" y="384" width="544" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="top_west" type="mapchange" x="0" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="waytogalmore0"/>
+    <property name="place" value="top_east"/>
    </properties>
   </object>
  </objectgroup>

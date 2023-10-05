@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="25" height="16" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,62 +181,32 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <tileset firstgid="8121" name="map_pillar_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_pillar_3.png" width="512" height="320"/>
- </tileset>
- <tileset firstgid="8281" name="map_plant_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
- </tileset>
- <layer name="Base" width="25" height="16">
+ <layer name="Ground" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxbwcQwCgYZWEHFOKGmWYTAZk762TUKRgE90/ZQAMSEB7XDDACadQS5
+   eJz7xMnA8GkUj2IqYwCGcZMT
   </data>
  </layer>
- <layer name="Ground" width="25" height="16">
+ <layer name="Objects" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJy1lDEOwjAMRatsXICjZ2KnGWgHNjIUiRWGcoBOHIRYslXrK3EhhEpfSd3Er7bjeNd1fZLn8RcFNZ53q8h2YcXGjEMaB35fWLk9d0NHgzGx/0HZS/9Vy5iTTswg223fhiG+JFfCsOpQwwiKJYxcHVowAuTKYiyGLEZUDKsv8JyjSgzS44s4ahm65hhjSwb1yPXPDOqRJ3zHPtlilPKr970ya7w6B58w5E4aIR8efGnRI/MIa1GzW++k0ZXzYfXF1rq+wMA43kDsFfo=
+   eJxjYBgF2MBroYF2AeVgIP0AALkPAfs=
   </data>
  </layer>
- <layer name="Objects" width="25" height="16">
+ <layer name="Above" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJytVLsNwkAMta5MlxRIVIzAIoyQhhEYgwFQCsQsFAyQjihVpFCmYgMwxIrj2M4F8ZrT3fn/bAMAnAJ8UPTnP3EOg/0282W3xr+ld1vpuk3vr06nOruZHO/pcHK/ZP+Q6fKE6xogZz6S8H2LBdrTeKBYMP6S2aN8SsMH2Xos4Jbip7hzgz9ecy3uJkzlJSc87pg67Tfje5XqsVlAf0kY6yIkjxzWXFSODofsGYLs98Lp2xjIGsj6U47WnC0F5u/VTfr9VUbmhXfMgfOCO2Zufz17O7iTLkIWax4zI16fde+/YwSHlGvt1E97l/uoM/qH5DjPXm+0ylzKWqCMFtMLQHBFtA==
+   eJxjYBgFo4D6AAACWAAB
   </data>
  </layer>
- <layer name="Above" width="25" height="16">
+ <layer name="Walkable" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuOCyGSmMDl/HIkWLHbCbs4iBwSQy3HCl2ECtOTTuorQcEsIU5rnggxw6QWY7ymOLo8QADdvwMDPZYsAM/bjtIdZcf0Cx/LDhgENhBSh4g1w5cfsFmN7XtwCYeBzQrHgtOINMObCAPaFY+FlxARTtIAZeJKA9BYAW0LNvFRJx6ZECKWpA9MPXY8uZmIQaGLULE2wEA2UM4Sg==
-  </data>
- </layer>
- <layer name="Top" width="25" height="16">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D+4LDYqB2jdozaMdQBAGVQBsk=
-  </data>
- </layer>
- <layer name="Walkable" width="25" height="16" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzNlNEJADEIQ53i9l/hNjz8OpCYWGuhgX615CVFNPv1PrYt94gn3k8yMm5koVwon2JUc+0wGGeVgTxPMRgzvmN/onJV1WWsMKd6ZHM7yeh43cJQM8xmFu0FtTuYL1M1L+td7YE8Ovsg81E5XR+LdWzV
+   eJxjYBgFo4D6AAACWAAB
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="fourth" type="mapchange" x="544" y="448" width="32" height="32">
+  <object name="basement" type="mapchange" x="320" y="128" width="32" height="32"/>
+  <object name="exit" type="mapchange" x="448" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="rat_mountain_4"/>
-    <property name="place" value="third"/>
-   </properties>
-  </object>
-  <object name="top_south" type="mapchange" x="512" y="480" width="64" height="32">
-   <properties>
-    <property name="map" value="rat_mountain_7"/>
-    <property name="place" value="top_north"/>
-   </properties>
-  </object>
-  <object name="eigth" type="mapchange" x="448" y="416" width="32" height="32">
-   <properties>
-    <property name="map" value="witch_house_basement"/>
-    <property name="place" value="basement"/>
+    <property name="map" value="lake_shore_road_2"/>
+    <property name="place" value="start_over"/>
    </properties>
   </object>
  </objectgroup>
