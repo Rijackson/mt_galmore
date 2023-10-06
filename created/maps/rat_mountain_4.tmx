@@ -207,7 +207,7 @@
  </layer>
  <layer name="Walkable" width="15" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPbBQjXhyXWnLtRcak6iXVDmQ+qQCXO0l1B7kAWS96uOFzG7o4vrjGZhYxevG5eaAwJW4YKPcDAKNGVYM=
+   eJxjYCAPbBQjXhyXWnLtRcak6iXVDmQ+qQCXO0l1B7kAWS96uOFzG7o4vrjGZhYxevG5eaDwQLkBV1gRoxcAmjRTLg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -223,6 +223,13 @@
     <property name="place" value="fourth"/>
    </properties>
   </object>
+  <object name="south" type="mapchange" x="32" y="480" width="160" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_6"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="480" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

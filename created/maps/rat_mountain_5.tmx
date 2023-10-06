@@ -199,7 +199,7 @@
  </layer>
  <layer name="Objects" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJylVUtuwkAMtXKDsGORcAQO0NKz0FNlgXIGztBuUNkiIaULuqgggl6i4wo3jmt7MtMnRUnmY3uen8cAAJ8F/OJ8/+5KMHGdA9zmw9tc59jwgL5fKoDXyl/XFuP/Y6a/pvg7Jm1bfnAvnXM5G+Y0mzG7XjxToNnmeXwLfO6r8dxOcEbxX8J768TRTtCJBi1HMgbERyYHPB7Mh4WzYl+O5egXecEzPi+m79HOmsprLoj7VQ3wFJ7+/k9c4DzPmcyVpxFCTi43bA/XtVfjsbohTqUNedek6oaDx3oRfvpSXxdD6r22TtAeh5cnrUfIu65PiPPLWEu2G+EDwWsipjvSaRf607vToyRidRfreda5EA+hvh7r8RjaOhUD91YOJOc/vmb5Pe+/sM4Z0zVxhzzn3As7pYY7lg9LLxwHJ3/fSvxcbw==
+   eJylVUtug0AMtbgB7LKAHiEHaNKzNKfKosoZcoZ2E6XbSJXool1EgFoukXEUF+PaHpg8CQHz8ef5BwBwzuAPze27zsHEzwLgdzG8zXOODA+o+7UEeCv9c7ts/P+RqG+b/V+Tsi09eJf8XBbDniYzJtezZwo02TyOx8DnezneOwjOyP42vPeOHbsJeaJBi5G0AfGdyAG3B+NhoVHky7WU/EVe0MfNw/Q7mq/cj97x414Q9+sK4Ck83e2fuMB9HjMZKy9HCCmxfGF3eF57NR6rG+JUypC9Zm7ecHBbW6Gny/VzMczta88zco/Di5M2I2Sv62bY2RtnSfZW6EDwmojlHeVpHebTpzOjJGL9LDbzLL8Qj6G+VtV4DWV9ZQP3Vgwk51ddRfrMuxeWn7G8Ju6Q55S+cFBquGbxsPKF4+TE7wKm8V1s
   </data>
  </layer>
  <layer name="Above" width="20" height="29">
@@ -234,6 +234,12 @@
    <properties>
     <property name="map" value="lake_shore_road_2"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="loop" type="mapchange" x="416" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_6"/>
+    <property name="place" value="loop"/>
    </properties>
   </object>
  </objectgroup>

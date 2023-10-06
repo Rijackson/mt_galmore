@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,35 +184,61 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxbwcTAsAINr8QiRgjj00Mt83ZB8W4yzMNmxj0oJteslVQwA9ld5PprGhKGuesMEJ/FoRafWcux+BHmT3T7iIlfmHnI4b4SiQ/DxKaXnVAzziD5cSUSHxYfO5mISy+noWagxyO2eCU2rrGpIScPEEp71DQPhgEQG7IB
+   eJytk8ENwCAIRU33P3eFygjqCLUrOEt7gOSHUCXEwz9g5MkHzEdKWYmMs5VmObt4ldUCPIsxWFEWbWBgXVFfJ0jq6p+en7sz1mV4FJ/6Pc98hYd9J4irc/aiwowOHgniYXiY9fVmhp4jxsjz7LK1D5hXnLWtdk/3OfLPtF4mNLE7
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPnJRlYDgli13upiCELhSC0I+EsKvDJU6qGnxuQAaHxVDdBQP3mUg3H91dIDOw2YnNPnJBojym2FQ0t0/Hw4epRRbDFr4wMVzhhEseF8AWLsxyDAwscsSpJReQk3ZgfoSlFRAA+fMuE6YabPaB1CHLn5HErhbZn/pY3IktHLCFO7n5AxsA+RkAGzYktg==
+   eJxjYCAPnJRlYDgoycBwSBLCPiWLkLspCKELhSD0IyHsZuASJ1UNNgBzAzI4LIbqLhi4z0S6+ejuApmBzU5s9uEDr/GoTZTHFJuK5vbpePgwtchi2MIXJoYrnJDl8bkXBrCFC7McAwOLHHFqyQXkpB2YH2FpBQSITS8g++4yocqfkcSuFtmf+ljciS0csMULzE4Q+ChEXlqGAZCfATelKy8=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYMAODovhkMADLuPRQ455+PSQY950JtxmXCLDPHSAboajPOVmkgvwxQU5Zj2WZWB4Iksd+0DhTij+SJGnpnl7JCHxiJ5W0AGh9IJNnppxAgLk5AF8AORnAFhbGfU=
+   eJxjYMAODovhkEACp2RR+Zfx6CHGPFL0kGPedCbcZlwiwzx0gG6GozzlZpIL8MUFOWY9Bsb1E1n8aogFoHAnFH+kyFPTvD2SkHhETyvIAORXQukFmzyuMCInLePSR4zbcIGbggwMAH06HsA=
   </data>
  </layer>
- <layer id="9" name="Top" width="20" height="13">
+ <layer id="4" name="Top" width="20" height="13">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4AwOCw20C4YBfQAAKGxANo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="13" visible="0">
+ <layer id="5" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPbBSDYHQxZJpSQIk52PRSy12k2Elr82HxgIzRxbGpJdYObOZhswufeehuwCaOSz0u9+HzLy478bmPkD5cagi5nxg2LnMIAWqnN5B5APA8McE=
+   eJxjYCAPbBTDjmFy1ACUmINNL7XcRYqdtDYfXxwg83GJEbIDm3mkxDc2N2ATx6Uel/vw+ReXH/C5D1d4oesnxn3YzMDmdnxuIyYtoZtByG3EmAcAtTc2aw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="160" y="384" width="448" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="2" name="start_over" type="mapchange" x="0" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_2"/>
+    <property name="place" value="start_over"/>
+   </properties>
+  </object>
+  <object id="3" name="north" type="mapchange" x="192" y="0" width="256" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="4" name="island_hop_2" type="mapchange" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_1"/>
+    <property name="place" value="island_hop"/>
+   </properties>
+  </object>
+  <object id="5" name="top_south" type="mapchange" x="64" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
