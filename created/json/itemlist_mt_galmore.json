@@ -186,5 +186,24 @@
         "displaytype":"rare",
         "category":"other",
         "description":"Used for casting spells and creating an eerie atmosphere."
+    },
+    {
+        "id":"major_potion_speed",
+        "iconID":"items_newb:736",
+        "name":"Major potion of speed",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":522,
+        "category":"pot",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

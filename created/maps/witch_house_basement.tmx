@@ -183,27 +183,32 @@
  </tileset>
  <layer name="Ground" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJz7xMnA8GkUj2IqYwCGcZMT
+   eJxr52Jg6CADdwJxOxC7SEP4zkDajEiMTa8LEdgVSe9mToheEE0sRtZrIk2+XmcK9D4kQR9ML6luhWFQWJPqVhgGhfVDTvIxAApKYHs=
   </data>
  </layer>
  <layer name="Objects" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBia4Kcobc1/LURb8+kBBtIPAG/YAwk=
+   eJxjYKAMxDCh8n2Q+OxM2MXJtUMcyYyfogi2IAGzL/NjimFzzyMhBPuaIIK9mBXBvo4kTgy4gmZ3L5C/DojXQ/EGLG5DdwvM/2txqMXmrtdI+pHNwiaPTx25AAAeyxKG
   </data>
  </layer>
  <layer name="Above" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D6AAACWAAB
+   eJxjYKAMHBZDpcnRW8fPwFAPxQ38pOntA6rvh+IJdNQ7D6h+PhQvIFHvJQrCihxAjn2UAgBl/xJ5
   </data>
  </layer>
- <layer name="Walkable" width="15" height="10">
+ <layer name="Top" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D6AAACWAAB
+   eJxjYBh4cFhsZOkdCQAAA/MDZQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="15" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsJECDAIwmlgwqpc8vaQCauglFwMAJUcobQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="basement" type="mapchange" x="320" y="128" width="32" height="32"/>
-  <object name="exit" type="mapchange" x="448" y="224" width="32" height="32">
+  <object name="basement" type="mapchange" x="192" y="256" width="32" height="32"/>
+  <object name="exit" type="mapchange" x="416" y="224" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_2"/>
     <property name="place" value="start_over"/>
@@ -215,6 +220,8 @@
     <property name="place" value="down"/>
    </properties>
   </object>
+  <object name="witch_basement_dl1" type="container" x="384" y="96" width="32" height="32"/>
+  <object name="witch_basement_dl2" type="container" x="416" y="160" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

@@ -320,5 +320,47 @@
                 }
             }
         ]
+    },
+    {
+        "id":"witch_basement_dl1",
+        "items":[
+            {
+                "itemID":"pot_light_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"witch_basement_dl2",
+        "items":[
+            {
+                "itemID":"pot_blind_rage",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"major_potion_speed",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"tonic_of_blood",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":2
+                }
+            }
+        ]
     }
 ]
