@@ -157,5 +157,15 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"sutdover_hidden",
+        "name":"Sutdove_nondisplay",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"PC has completed enough of  'A Wicked witch' to enable mountain teleportation crystals."
+            }
+        ]
     }
 ]

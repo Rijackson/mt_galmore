@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="48">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="49">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,7 +186,7 @@
  <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
- <tileset firstgid="7800" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+ <tileset firstgid="7685" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
@@ -193,12 +196,12 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytV8FKAzEQDYht9VJbl4XC1kt/wS/wIOqxivgL3v0FvYtHxS+waC20Knso9At0D2JFf8GTeHWH7LCz02Qn0X0QMkkm8yYzyXQ77ygr3krWAHHHrjfv6Hns/4OY7TfZ5DoS5sK5Xf3mesNUvjfsozo0NlWA2nHNmc03wMgjtshtOjfaMZ2Xc7iA2zDdMVNMbTmxgerHDrEdesS/SuBZbZyxITcjj7vH40bHX61FP8rAfaR5k/bT/N51lUpCLbu8+bjkXlDbZfcYMQsX/a8CUq2kvBxnRD510HfxReKF+J+T8UU258NLcwc5pbhlY8SLgRc4YX4rUGozbdtpSzzzMu3mvHCOnUipo6ioY+IF9APdHwZ+nBxg76Gt5YTE0cZLkTjGfWqIK9h7THmf2loeN3RDXpCRd9LQcydBvteEgSV/040i714a492oaOdnRbf6qu4l+3hX6NygW1yj8ZlZZOTFNm7ka7112Q9pzRarelRsEnw4k+xtUFxnHP2aUvtZO6jJvD7AswL/VVPLS2FxTcJN82+8WIewjvU8eY+Xdf9M9KX3NQvzOlQluL1vw51CHeov1tZ38htd5e/VX85ZFbcr+Pe27/8DEyCek3Zepz/W5D0S9yUbwxt+bS3qSd9L/Pvh01KzbLyIX35FvZ8=
+   eJytV8FKAzEQDYht9VJby0Jh66W/4Bd4EBW8VBF/wbu/oHfxqPgFFq2FVmUPhX6B7kGs6C94Eq/ukB12djrZJHUfhEySybzJzCTdztrKiPeCNUDUNuvN2noe+/8gYvslm1zHhpnl3K5+c71BIj8I+6gOjU0ZoHZcc2byDTD0iC1yS+dGO9J5OYcLuA2pxqSYmnJiAtWPHGI78Ih/mcCzmjgjITdDj9rjcaPj78a8H0XgPtK82fbT/N53lIoDLbvc+aigLqhtXseSX9Ng3v8ywOu4iJfjnMhnDvouvth4If4XZHyZzvnw0txBTinu2BjxKvACJ8xvtZTaTNp20mLPvEw6GS+cYydU6jjM60i8gF5L90ctP04OsPfY1HJM4mjipYgd4z4R4gr2nhLe56aWRzXdkBdk5B3X9NxpK9sroW/I3/5GnncvifFumLfzu6JbdVX3NvtYK3Su38mv0fhMDTLyYhvVsrXuut0P25opVtUw32zw4YzTu0Fxk3L0KkodpO2wYuf1AZ4V+K/rWl4K8ms23NYX48V3CN+xrifvybLuX4i+7X5Ng+wdKhPc3o9QU6hD/cW39YP8Rpf5e7XIOcvidgX/3vb9fyAB4jluZu/055p9j437io3hDr815vVs30v8O/jL8GaZeBF//ljABA==
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="30" visible="0">
@@ -213,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNk9ENACEIQ53C/Vdww/s1hErBSo6ELwmPQl1zjLWljTXf5x+YXnSzO3SzO0fvN7Myeu27ak+2Z6cP2Njrq7tWR/Wunh5mRvVuI99W52C5zB3tnKxu9k9V/0n25h2p4CrurfSmksvUqvSeNHXpjbz7mludVekrFTfq+4q73+nErew7qjtpstwbPyHN3huqY72P5o7YaA7LRn0yHkFMxK1E1YdID7u3jDcyN/buyTKRZtvjA25ot0M=
+   eJzNk9ENACEIQ53C/Vdww/s1hErBSo7ELzlfC701x1jbsbXm+/MHplfd7A7f7MzR/Y1Wxq+9V83JvtmZA7b2/uqs1VXdq+eH0aiebZTbqg6Wy+zR6vRmhr7J6s78J9mddxwFN9qXihvVC79Mr8rvyVOX3yi7r7lVrcpcqbjRu6+4+55O3Mq8o76TJ8u9yRPy7N2hPjb7SHfERjosG72TyQhiIm6lqjlEfti5ZbKR2bG3T5aJPNs3PtjNtnw=
   </data>
  </layer>
  <layer id="7" name="Walkable2" width="30" height="30" visible="0">
@@ -221,7 +224,7 @@
    eJztw0EJAAAIBLBLYf8KNvQtNpANlgAAwD9dO3ANy/cDHQ==
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents" visible="0">
+ <objectgroup id="8" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="128" y="0" width="128" height="32">
    <properties>
     <property name="map" value="flagstone0"/>
@@ -295,108 +298,116 @@
     <property name="place" value="fifth"/>
    </properties>
   </object>
+  <object id="25" name="enable_crystal" type="key" x="896" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="crystal_teleportation_disabled"/>
+    <property name="requireId" value="sutdover_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="9" name="Spawn" visible="0">
-  <object id="25" name="stn_colonel" type="spawn" x="480" y="672" width="32" height="32">
+  <object id="26" name="stn_colonel" type="spawn" x="480" y="672" width="32" height="32">
    <properties>
     <property name="spawngroup" value="stn_colonel"/>
    </properties>
   </object>
-  <object id="26" name="erwyn_knight" type="spawn" x="256" y="384" width="128" height="160">
+  <object id="27" name="erwyn_knight" type="spawn" x="256" y="384" width="128" height="160">
    <properties>
     <property name="spawngroup" value="erwyn_knight"/>
    </properties>
   </object>
-  <object id="27" name="erwyn_soldier" type="spawn" x="32" y="768" width="416" height="160">
+  <object id="28" name="erwyn_soldier" type="spawn" x="32" y="768" width="416" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="erwyn_soldier"/>
    </properties>
   </object>
-  <object id="28" name="erwyn_soldier2" type="spawn" x="448" y="544" width="480" height="384">
+  <object id="29" name="erwyn_soldier2" type="spawn" x="448" y="544" width="480" height="384">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="erwyn_soldier2"/>
    </properties>
   </object>
-  <object id="29" name="stn_gyra5" type="spawn" x="160" y="0" width="32" height="32">
+  <object id="30" name="stn_gyra5" type="spawn" x="160" y="0" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra5"/>
    </properties>
   </object>
-  <object id="30" name="stn_gyra4" type="spawn" x="0" y="864" width="32" height="64">
+  <object id="31" name="stn_gyra4" type="spawn" x="0" y="864" width="32" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra4"/>
    </properties>
   </object>
-  <object id="31" name="stn_gyra3" type="spawn" x="288" y="928" width="32" height="32">
+  <object id="32" name="stn_gyra3" type="spawn" x="288" y="928" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra3"/>
    </properties>
   </object>
-  <object id="32" name="stn_gyra2" type="spawn" x="832" y="928" width="32" height="32">
+  <object id="33" name="stn_gyra2" type="spawn" x="832" y="928" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra2"/>
    </properties>
   </object>
-  <object id="33" name="stn_gyra1" type="spawn" x="704" y="928" width="64" height="32">
+  <object id="34" name="stn_gyra1" type="spawn" x="704" y="928" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra1"/>
    </properties>
   </object>
-  <object id="34" name="stn_colonel_mons1" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="35" name="stn_colonel_mons1" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="stn_colonel_mons1"/>
    </properties>
   </object>
-  <object id="35" name="stn_colonel_mons2" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="36" name="stn_colonel_mons2" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="stn_colonel_mons2"/>
    </properties>
   </object>
-  <object id="36" name="stn_colonel_mons3" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="37" name="stn_colonel_mons3" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="stn_colonel_mons3"/>
    </properties>
   </object>
-  <object id="37" name="stn_colonel_mons3b" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="38" name="stn_colonel_mons3b" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="stn_colonel_mons3b"/>
    </properties>
   </object>
-  <object id="38" name="stn_colonel_mons4" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="39" name="stn_colonel_mons4" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="stn_colonel_mons4"/>
    </properties>
   </object>
-  <object id="39" name="stn_colonel_mons5" type="spawn" x="256" y="800" width="160" height="64">
+  <object id="40" name="stn_colonel_mons5" type="spawn" x="256" y="800" width="160" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="stn_colonel_mons5"/>
    </properties>
   </object>
-  <object id="40" name="mikhail" type="spawn" x="928" y="448" width="32" height="32">
+  <object id="41" name="mikhail" type="spawn" x="928" y="448" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mikhail"/>
    </properties>
   </object>
-  <object id="41" name="stn_lizard" type="spawn" x="96" y="96" width="768" height="256">
+  <object id="42" name="stn_lizard" type="spawn" x="96" y="96" width="768" height="256">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="5"/>
@@ -405,7 +416,7 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="Keys" visible="0">
-  <object id="42" name="stn_nondisplay:51n" type="key" x="256" y="736" width="128" height="32">
+  <object id="43" name="stn_nondisplay:51n" type="key" x="256" y="736" width="128" height="32">
    <properties>
     <property name="phrase" value="stn_colonel_310"/>
     <property name="requireId" value="stn_nondisplay"/>
@@ -414,7 +425,7 @@
     <property name="requireValue" value="51"/>
    </properties>
   </object>
-  <object id="43" name="stn_nondisplay:51s" type="key" x="256" y="928" width="96" height="32">
+  <object id="44" name="stn_nondisplay:51s" type="key" x="256" y="928" width="96" height="32">
    <properties>
     <property name="phrase" value="stn_colonel_310"/>
     <property name="requireId" value="stn_nondisplay"/>
@@ -423,7 +434,7 @@
     <property name="requireValue" value="51"/>
    </properties>
   </object>
-  <object id="44" name="stn_nondisplay:51w" type="key" x="0" y="864" width="32" height="64">
+  <object id="45" name="stn_nondisplay:51w" type="key" x="0" y="864" width="32" height="64">
    <properties>
     <property name="phrase" value="stn_colonel_310"/>
     <property name="requireId" value="stn_nondisplay"/>
@@ -432,7 +443,7 @@
     <property name="requireValue" value="51"/>
    </properties>
   </object>
-  <object id="45" name="stn_nondisplay:02" type="key" x="192" y="736" width="32" height="32">
+  <object id="46" name="stn_nondisplay:02" type="key" x="192" y="736" width="32" height="32">
    <properties>
     <property name="phrase" value="stn_northgate_10"/>
     <property name="requireId" value="base_nondisplay"/>
@@ -442,7 +453,7 @@
   </object>
  </objectgroup>
  <objectgroup id="11" name="Replace" visible="0">
-  <object id="46" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
+  <object id="47" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
    <properties>
     <property name="Top" value="Objects"/>
     <property name="Walkable" value="Objects"/>
@@ -451,7 +462,7 @@
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="47" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
+  <object id="48" name="stn_northgate" type="replace" x="256" y="704" width="128" height="64">
    <properties>
     <property name="Top" value="Top2"/>
     <property name="Walkable" value="Walkable2"/>

@@ -2429,6 +2429,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"wicked_witch",
                 "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":1
             }
         ]
     },
@@ -3002,6 +3007,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"wicked_witch",
                 "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":1
             }
         ]
     },
@@ -3097,5 +3107,9 @@
                 "mapName":"lake_shore_road_1"
             }
         ]
+    },
+    {
+        "id":"crystal_teleportation_disabled",
+        "message":"There is nothing to see here except for that wolf dung over there. Gross!"
     }
 ]
