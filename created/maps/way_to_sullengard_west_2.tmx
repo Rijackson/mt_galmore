@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="25" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQwFs5BxoF4yCUTAKhhIAABPIALs=
@@ -195,12 +198,12 @@
  </layer>
  <layer id="3" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJyNU01KA1EMfryNuJKZxZPxDELRe9Qb6A08gscQV55DPIDtWGbVhWC1iGK1na7ciO5M2sRJ4nuvfhAmYZJ8+Xtt5VY48M4deveLOjj3UjqF66DtobBvwHcAMgZ5NHESjfiHHG8gC5C7Iu6PHEOIqUsdy3z8z+KSemkhfhnWXIwB6dwfcnDNr2WXe/WP8qNvD2QB82qrv3wXXnPckr4sOg7OPwH9Ieh52FkzZl7bsT4Yn2B/kXwHbUth7Pl1ftuT5LgyHP8F59s3feEMm0pzjEC/NzzvkXtI3Qgitpc6UzvfXQpyH2OY0Y7Yw5Hv6kGOeRGPxZ3j/c0zImvAmz2l3CeCL5cDb/vc3AgC73EibkHO5yziL9HLvN+Psuvd1pbK0/c6JoYm8qZykO9iG/RjsrcSvfU39Mz8XPOM5seoNsSn+FK8nB93MyWfXfo+iRi5N57fs9jPVPQugXP4AW2Cf50=
+   eJyNUzFOA0EMtJYCUaG7YtFS5AVIEflH+AH8gCfwDETFOxA1IjnQVSkiEYgQiIPkUtEg6LATO+dddi+MZJ1Xa8/YXl/tYIlDA9AzsEZhAV5z8HBt/fNQnW8xdoA2QnsK8jRKdUca72hztHEWjyeNIeYUuZ8renIX4pJ7qTF/YVdaggH70h9pSM1vecO9vGN+iu2imQ7AVuev3oXxNe7YX2SNhvBP0H+0/jzCWQsq5L1RvLE+BF94/mb7sf5Zm2DfrPjnuAO1i2tcBRr/hfAdBH3RDEvna9yj/xDofET2IbUjhLAHQtFSu+xdCvo9RjijXfVvHJmmHtKYZfFcenPav1mL6RpoZ0+Z+0TptXHQbp+rWAHt40Ttgp7PWSReo9vy/37mTe9hbSmevvFzYihd+i6GSvWwg/4xn7cTvfU39Cz6UnPF8xO4DfkpvZSu8NPbTDlmj7/PKke/m8zvRb3PVPWuQXP4BcRnfrI=
   </data>
  </layer>
  <layer id="4" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMAODovhkEACN4UYGLYD8Q4hVPGtQP42HHKk2oEOYGaDALr5NyUZGG5JUm4HKeCyGPXsOCOIKQbzE8yOyxTadVYQM4wuIZm5R5L6YYYeL4epGGa4wFCyA1u6hYFLNPAHtjSEz449ONyGz6xLJNqBD6Dbjy/cqRVWuPyAbAe+eCMG4DKfkByxAAB/8jJK
+   eJxjYMAODovhkEACN4UYGLYD8Q4hVPGtQP42HHKk2oEOYGaDACHzybWDFHBZjHp2nBHEFLspycBwSxJhx2UK7TorCDEPGVxCMnOPJPXDDOYHGDhMxTDDBYaSHejhgwwu0cAf2NIQPjv24HAbPrMukWgHPoBuP75wp1ZY4fIDsh344o0YgMt8QnLEAgDsCjBl
   </data>
  </layer>
  <layer id="5" name="Top" width="25" height="15">
@@ -227,7 +230,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="3" name="preying_bird_spawn" type="spawn" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="preying_bird"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>

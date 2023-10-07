@@ -303,5 +303,39 @@
         "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"wicked_witch_third_selector"
+    },
+    {
+        "id":"preying_bird",
+        "name":"Preying bird",
+        "iconID":"monsters_newb_1:223",
+        "monsterClass":"animal",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"nightfur_rat",
+        "name":"Nightfur rat",
+        "iconID":"monsters_newb_1:284",
+        "maxHP":194,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":8,
+            "max":12
+        },
+        "attackCost":3,
+        "attackChance":98,
+        "blockChance":185,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]

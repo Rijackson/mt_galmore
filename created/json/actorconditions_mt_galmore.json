@@ -26,5 +26,21 @@
             "increaseMaxAP":-1,
             "increaseDamageResistance":2
         }
+    },
+    {
+        "id":"rabies",
+        "iconID":"actorconditions_japozero:35",
+        "name":"Rabies",
+        "category":"physical",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-3,
+                "max":-5
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-25,
+            "increaseBlockChance":-10
+        }
     }
 ]
