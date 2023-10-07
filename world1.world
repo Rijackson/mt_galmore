@@ -727,6 +727,13 @@
             "width": 736,
             "x": 7264,
             "y": -4608
+        },
+        {
+            "fileName": "altered/maps/sullengard8.tmx",
+            "height": 384,
+            "width": 832,
+            "x": 11840,
+            "y": 2656
         }
     ],
     "onlyShowAdjacentMaps": false,

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,6 +186,12 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
+ <tileset firstgid="8249" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="25" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYBgFgxmsYBpoF4yCUTBywEbOgXbBKBgF5AMAI38BZQ==
@@ -195,28 +204,28 @@
  </layer>
  <layer id="3" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVUFuwkAMtKLyAEp72Av0B/QjPIHX9A0Vb6n6hRzgglSpKGoPSKRIcOLcuNpRBmNvUdWRosB6PR577Y2IyNtQ/gUt8RySyDH5+7ZDf88X+T9Xl36LvDa9LetYOL4My/0bn6LOOndOrT6NP+qpPrvuaVM5nxK8Pczl8UJP62id0f5lp+uDtHt1sPz4f432CJbT1lY16VrpXJrMsTY5/nCRn7Vj7SX7v+b3zMnnPejfm7HIYBxrizCvLnXvU39enO9dx39PMTx9nm0yEnkYndttHnzm2qubqtfHWgG1s/Zpx/9oYuyDOQZWOSbmYfPH3vegtayDGWNsqb886DxEMVW/x+/NmAXOle8O1WBrAP5In6J0r7IfdHGv2nsKutCL1s4o9Z/tVcUy0FgC9xj0IK7W7in/9voLaArz3AQ5zK+cLXDUqZ8JXufv6Np849R+SufzpvB4AJxh6R7kWuicfwOt+WhM
+   eJytVUtOAkEQrUz0AIgsejNyA7wIR2DJSfAKhLMQT6BhgRsSE8xEFySMJLJybZfpSj9qqstZ+DZAdderV7+GiOh1QP+CFnieaqLn2r53SPe+AtE5ZPsn+C+rrt8q2SY3vo6V4YvQ3H/xMTZJ59Go1Yfyl3qyzyLW4KH28/Fg3UEui1f0tIbWKdzfRn3voN2qg+aX3320l6A5dW1ZE9u8vjSJY6dy/OUCP30utnXyf0yfUyOffejaGFexn9eF2fYwq7q6TyH3C/O9jfwjiGHps87uhkTj4eW5zgN7zrP6VmV9qFXA56h9EvnvVYxTYY8FLynmMd5rQ47poe+McS2579YuIA4wXxZ4H0oxWb/Fb+2YhvQV3w7WoGsg/CV9DP1mItBPdOGs6ndKdMks6nOEN396VhnbgkYPOGOiR+Jy7RbpuzVfgsbZ56aQw6znbgnHJuSdQPt8nH/v1H8cn3+Hy31jWDwC6aH3DmIteM9/AK2RZuM=
   </data>
  </layer>
  <layer id="4" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMAO7ksyMDyQxCE5yMAeMtwJ0nMTiG9R4MfLYuTrJQQOUDHskd1JqpuxhS02scNi2NmE9BECl3GYi8sOcgAuc2llxyU62EGMODogJj9cIsMOcuIdHYDyAzXDChlQKx/jKzNp5XZy7CCnbIGZTYk/CKVPGH2JzPIKpB9XWsNmNiy+SPETSC2uPIBLHNl+dLtJNYeQ2wA1LTXF
+   eJxjYMAO7ksyMDyQxCE5yMAeMtwJ0pMsx8CQIke+vZfFyNdLCBygYtgju5NUN2MLW2xih8WwswnpIwQu4zAXlx3kAFzm0sqOS3SwgxhxdHATGD+3CMTRJTLsICfe0QEoP1AzrJABtfIxvjKTVm4nxw5yyhaY2ZT4g1D6hNGXyCyvQPpxpTVsZsPiixQ/gdTiygO4xJHth4HVwHpnDY66B585hNwGAA/HNIU=
   </data>
  </layer>
- <layer id="10" name="Top" width="25" height="20">
+ <layer id="5" name="Top" width="25" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMAqGPjgsNtAuGFgAAOC6ANo=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="25" height="20" visible="0">
+ <layer id="6" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJytlMENwDAIA5mi+6/QDat+K2KfrVrKD3OEEGZm7muw3lh1kjjlSflb3Mnf6MRQ9bse0FqUx+VQ8YRP3qipidypYdDefhlNb53cvDsGnfO/GXSuKUNxnGfLofKn2mZM9aARrbn5j4k3iaPcLW+zk8l+c71q961ipKepKfkTSq/3AekDjwk=
   </data>
  </layer>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
- <objectgroup id="9" name="Mapevents">
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
+ <objectgroup id="10" name="Mapevents">
   <object id="1" name="lower_west" type="mapchange" x="0" y="448" width="32" height="160">
    <properties>
     <property name="map" value="way_to_sullengard_west_5"/>
