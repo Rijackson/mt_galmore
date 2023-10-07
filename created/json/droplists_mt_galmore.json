@@ -362,5 +362,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"nightfur_dl",
+        "items":[
+            {
+                "itemID":"cursed_fang",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

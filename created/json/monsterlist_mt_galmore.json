@@ -323,6 +323,7 @@
             "min":8,
             "max":12
         },
+        "droplistID":"nightfur_dl",
         "attackCost":3,
         "attackChance":98,
         "blockChance":185,

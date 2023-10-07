@@ -205,5 +205,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"cursed_fang",
+        "iconID":"items_japozero:569",
+        "name":"Cursed rat fang",
+        "displaytype":"rare",
+        "category":"animal",
+        "description":"A tooth from a rabid Nightfur rat. Cursed with rabies which has debilitating effects on the diseased."
     }
 ]
