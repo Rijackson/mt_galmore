@@ -34,8 +34,8 @@
         "category":"physical",
         "roundEffect":{
             "increaseCurrentHP":{
-                "min":-3,
-                "max":-5
+                "min":-5,
+                "max":-3
             }
         },
         "abilityEffect":{
