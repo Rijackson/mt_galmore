@@ -338,5 +338,63 @@
                 }
             ]
         }
+    },
+    {
+        "id":"young_virid_toxin",
+        "name":"Young ViridToxin dartmaw",
+        "iconID":"monsters_newb_1:363",
+        "maxHP":80,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":4,
+            "max":12
+        },
+        "droplistID":"young_virid_toxin_dl",
+        "attackCost":3,
+        "attackChance":150,
+        "criticalSkill":6,
+        "criticalMultiplier":2.0,
+        "blockChance":60,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"slime",
+                    "magnitude":4,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
+    },
+    {
+        "id":"virid_toxin",
+        "name":"ViridToxin dartmaw",
+        "iconID":"monsters_newb_1:365",
+        "maxHP":93,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":6,
+            "max":14
+        },
+        "droplistID":"virid_toxin_dl",
+        "attackCost":3,
+        "attackChance":160,
+        "criticalSkill":9,
+        "criticalMultiplier":2.0,
+        "blockChance":77,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"slime",
+                    "magnitude":4,
+                    "duration":5,
+                    "chance":"60"
+                }
+            ]
+        }
     }
 ]
