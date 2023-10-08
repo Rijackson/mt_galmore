@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Ground" width="15" height="25">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIqHAF7HxMCwmROC50DZpOgF6VkHxeuZSNO7jkK9B6D4IBl6L0HxZRL0AgAL9xAy
@@ -190,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJytVLFuwkAMPUVqyxqGSJf/qdQf6NchvoGNDkzpEDUMHaNODAyIIGBrWXtW7vUcx44Y+qTTwdnP79mX5DN37ts79xMWsJ/3+42dcVTh/D3GHkrnHsvp/C4f/n+eDXWeyhTbKjUan3JfZuN4G+vLPiSI+1U4t45rU6QY70OrL3XfCj3X0iUc8zEXfUkgV+o2hZ43pQvUhudGmdl/9PtX/04u+dDul6B5l7OzuNy7Nq/K0KX6lvdz4Fx9vxPXukcC9453h3iXyO1iXLsHeIfeLvIwqw9WuxW9ce/Q2zFd4sp30/INHkHqarB8vwbuKcSOYnWsnvRNfMxtlfXni7gvs+QFvdQKnwAuh+wDvg956vvKdLvw++THXLr/LfuuYN5nb+tqzyL08Tzd41lygV+fmHN5
+   eJytVLFuwkAMPSEVWNMhUiLd51TqD/TrKr6hG4h2ClVRk4EyoU4MHRBBwNay1lbsnuP4IoY+6ZTk7Of37EuySpz7zpz7gcX4um2uF7EnUcD+gmI3uXPDvD+/TtrPd+O2zigPscqoUWYh937cjW+ovu5DA7mfqXNTWi9piMk+rPpad5bauTFdxD7pcrkvDc7VumVq5/XpMpYRz6Uxs//o96/+lVz0YZ0vwvKuZxfjSu/WvIqILtaPeT8C5wzr1Tfc2DkipHf+dpB/It2a4tY5sHfOfwO9pQ+zehe1N6o36b0AzsKHZ+bqbzPm+wO4a9/m9kH6xjltyf8DcA8Q26tVi3rSN/N5bk+DZv+RrpNB8MK9SN8leK7IN3MldB/se0e1tqTP3BruD1mXi+dfif/KHDSffeM/pmu9i6zP79M1njWX8QuzaHAP
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFOyUZyALI+nZhMYNccwcL2EiB+w/Swe+DJXwHyh2g+NlEot13gOrvSiJocuwC6XuLpBef/9HtIzesSHUvsj5y7aPEXhiAhdtcJtL1Itv7WIwy/TeB7FtQ/mU8ZhEKr8NkuIOeegH56CYv
+   eJxjYEAFOyUZyALI+nZhMYNccwcL2EiB+w/Swe+DJXwHyh2g+NlEot13gOrvAvFiWQaGJbLk2QXSfwRJLz7/w+xbClS/TJb0sFoI1LOIBHeig/VAvRvI0A9zN4wmF8DCbS4TafpWAt28Csndj8VI04/u7ptA9i0o/zIes2YC7ZyFJ7wOk+gOeusFAHJ1KGo=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="15" height="25" visible="0">

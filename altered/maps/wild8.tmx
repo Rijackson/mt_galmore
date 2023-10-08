@@ -183,6 +183,12 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
+ <tileset firstgid="8121" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJxbx8TAsI4IfAALPgjEl9AwIT249IHwZSB+goYJ6cGlD4Q3cmJiQnpw6cOFydEzikfxKCYPAwAE/t7x
@@ -190,12 +196,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNUkEOwiAQJP0BHmr4hS/zCb6oZ7/Qg57bNO25FYkJT5BNumGyLujRSQhLmNkZtjXmP3FsvnPOCgd1Xapf9ne/S5N1hAjau8v10Bpz3RdrO/Bdk24EbW8/dbSmNnMWm7UIqZE6Anqh3jtdg29BPIQ3554T/5nWBPcD1FHobpWZU6bgcq1xeRZ+991sPTfnI9Cu8UbFJwofLR9n6YWe51z7vzaYH/cMkA29NHBmnDW/lTPPogeeT4dyb+Qu0D9AT/QqeazijXL34kygb17i41w0zhufVXAJ
+   eJzNkkEOgkAMRSfcYFxgWIEmuvZkHsETsfYKLHQNIbJWEU04gtOEn/mpM+jSJs10Mn3tb8GY/7Rl8j1nH8hhrnTxy/7e75B4Tmwk9pz5uE6NOU4OtqS+V8c1xFb2kxNvU5/TWc+yaUZzYtyL+T4LMzwL2131hu6Ly384b+m9pnhU3Glm56JpyHwcysUuNoUxW+c3O68b+sTkDOU1gT7Q3RPP8ZB7LZXisee5/wu6V26GdTHVJG1S/5nHeWjmXWNW6OTZ8Y4eu0W8Nud2VF/u0Mu9WDfPgz1gFtTE2au7mHzzWL6YZvh8A0tZan8=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMHBajrr5LeMzDZxe6vj2ShN2Az66BADdxuJkYv6Cbc4tEPfjMwsYmxl587oapA9GU+I8U95ECkN2HzV5iAbKbsJmJjU+MWegAZAY2u2D60O1AV0uM33DZQUq4o5uBTX4zHnkApB0tZA==
+   eJw7I8tAETgsRl19l/CYh88udH17JAm7AZ9dAwFu4nAzMX5BN+cWiXrwmYWNjQ2wKjAwsCkg+PjcDXMfiKbEf8huOi1Pmjm4AKMCAwOTAoR9C838MyTaAXMrsptvSWLKE2sWPvciyyObCZNHBsh+weY+dLtg6rH5B1mMEEDWC1OP7pbNeMwBABUbN54=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">

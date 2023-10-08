@@ -141,9 +141,6 @@
  <tileset firstgid="5681" name="map_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
  </tileset>
@@ -183,11 +180,11 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7833" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Ground" width="30" height="22">
   <data encoding="base64" compression="zlib">
@@ -196,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJydVr1KA0EQ3osKpvQHwqVYsbASjAq2gjFYhuTE9ogPpU3MIwQfwsLGWsR0gmhyL6CdO9wMO5nbnzMfDHuuM/PN3+5GKaWet1QF+7q63zd7Q12uAyPXRo511RbQwf+9Ch87baV2224biY9t6ytDvhz5XLx91MkwvqHQAX8vqf0m/4WJ8cjhD3g7bL9rvm89evzbVxMX9iL+BpEac3A9WXeJU6OrUS501d96YmUtWf4bhCPDWp8zn4DPRjgGmcdJYn35dM483Bwu3rmjHrJXrjrDvF2K+sAcjDyzUAc52o/Qt29epR7FR3MLoDP6hHM9N2uRhvnBnucVmlc6e66eSAD3gnFTnF+i9p0IL51jrlNE5plj4dGN8VJNNtr1cya8B+Ij3pBPfvZkfLzfM9Zf2fMZW6EPlI/v3gLkkfki/4t0mdvHCYCZrDs3rvuSzir44dywQmy0J2fdNTcx3m/kGujVZIhvRFfUMMSbMfuDFeRK2/cQ+HJPf+9aVnifAatw9hgHzwFqQDyAMd6/E7Pet2zehInjfh6LPdLpCV7SfWiUub81S5H2gJtW9Y3kvslG3lucF3Sodj5w+0PUy9FW+o2BeKfG9sfY/jL7aeQ9pVr8B4+NciY476a5/5o1f6NJ/AGKR5ok
+   eJydVs1Kw0AQ3qSt2KM/UNpDogdPglXBq2AtHksb8RrsQ+ml9hGKD+HBg70JIvYmiLZ9Ab05Q3bYcbKbjf1gSJrMfN/szOymSin1uKFy2I3yz3vwbBBl1z7YJdhhlI9FtPW7F8Gx1VJqu2WPkXjfNFyJ1ku1nk23p30Snd9A+CDftGnuiX8JOR5Y+FC3zZ534H7o8OP3rprYEHv4+p4ac3A/WXeJY/CNtJ1Feb5qYKwS/P2NxpHoWp8yTsRHWJyDXMdRYLhcPicObQ6b7txSD9krW51x3s5FfXAOrh2zUAapjr/W3K55lX6UH80tgvbog57rOVyXzWJ9jOfrKppX2nu2nkig9oJpU56fovZtjy7tY+6z9Mwzx8Lh69OlmtRa5ddMeCvIj3SLOPnek/nxfs9Yf2XPnyBuChbESoWxWY/r3EKknvkifuzrjPW3AvzV2OTD3+FMlp0b23lJexV5aqCxBvYM3MOdLDfKR866bW58ul9aqx+tZgP9jeiIGhbpJix+bwW7iMz3EPVSR39vGsZ4nxGraHaZBl8D1oB0ECN9/o7hetsw6yaMLefzSDwjn67QJd+7MFv7az0zGY+4auS/kZybYuS5xXXRh2rnAu07xL6+pjpW8vpAuhOI/YbYHxY/8XxPqRb/wX2YzQTXXYfzr17yP5rEL35clA8=
   </data>
  </layer>
  <layer id="3" name="Objects_bridge_fixed" width="30" height="22" visible="0">
@@ -206,7 +203,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAbTkGqoOrQrjl9kjSzl5iACn2MjISVsNKhBpS7RUEmilEAIvSwF5FoJlKBLAqDewFAS05/JhYYEWivUmS+DGxYDNU7U0gfYsEfdQG1LR75wD54yvQ3m8DZDebFH555PhFj3N0mlrgJpJZt+iczrDZTWv7kP2ID1DTPS+BZr2SxGTjUzcKqANITctzmXDrt0Yr/0kxF13vHCYIhoHZaPbicxMpgNK2kDcO/ejhuhHI3oTEJ9ZedHOwlYEA0Ko8Nw==
+   eJxjYIAAbTkGqoOrQrjl9kjSzl5iACn2MjISVsNKhBpS7RUEmilEAIvSwF5FoJlKBLAqDewFAS05/JhYYEWivUmS+DGxYDNU7U0gfYsEfdQG1LR75wD54yvQ3m8DZDebFH555PhFj/PVwLS3BogfAvEjKpZvN5HCAmb3Y6D5T+QQYrRKd0+BdjyD2uOogOkeagNYGMLsweUnaofxaaBZZ6DmvQTa+QqHvYzyDAxM8tSzdxSQnnbnMqHykdOMNVqaIMVcdL1zmCAYBmaj2YvPTaQASttC3jj0o4frRiB7ExKfWHvRzcFWBgIAfhI/zw==
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="22">

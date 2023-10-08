@@ -183,6 +183,12 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Base" width="20" height="22">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUgMBGTkxMqXn4+MPRPGqG3ygYBZQCAOfsC6E=
@@ -210,7 +216,7 @@
  </layer>
  <layer id="6" name="Objects" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJylVE1vwjAM9U9YdohU/uH2A0GwE0yig91B0NsOpS0fhx0mdsMWseq6bknFk6w0TfLy7NgGAMgSgAqtRDsm7bnExN/Hz7BeqZG/GZni0OvM1wXem7paj6Urhu8kzvy8NvVoXblr8m1cm6/Af3M8sxDntsY+eecjf4di9STfAfXOkGPna+0U6xznRbBS3LHq8Y+hfSSuI9rvC8Aex/+wzm/A0HPSNUb7Dvv5jVJ/57kKrhh0xf5vAI/ME4q9rhmNtxHA+8jmYv/GIf7WHRY050HkqszT/YO3kjyWTs6tzPCxDNw6H/r8nfrat654DcHSN/uCxalzSoJiJdc5P7bOfoOLobfoifHEyHPqK9SHzkk9auSq5hhrkS9kH8aeVOihe7n2qlDLnB+la/fRmN4ka+9q7Jdxi+X7iqy9vl7Hfmm+G4hAmVQ=
+   eJylVMFOwzAM9ScQDpE2CX4IfgR+A75p08ZpIFEGdybWG4eu6YADBzRuOFqe6npu14onWVkX58V2nr04I8pHRBVbYNuyXZwTXbLdsN2ySUz9fn1I/pVa8RvIEyeg98HXBvhmro4vKE4rPgsf4sz7aTMeHVfhmnyv7pCv5P8WfOZenFsZfvLOY/kOxfKffBuOd84cb76OPda64O8yWRB3LDvyA3SOkWvL9n1CtOb1N+3jDQD9HeOasL0kf7xR5vc8O8HVB221/xnAI3USaw8t5ko/wNWY6HpscyG/Saq/dYcFzbkRWpU6XR95K8ljxQlt5UaOIXFrPXTlO/N1bm31GoJH35wLFqfWlESsldyHPlbOfoMvI96yo8ZTQ+dxrsQ59DmqV41C9RzwLPQS7c7wyUQ88V70XpV6GfoI7nCO9plNsvd2hr+sW1++p5691zXrkJfm+wOZ1phL
   </data>
  </layer>
  <layer id="7" name="Above_reg_tree" width="20" height="22">
@@ -220,7 +226,7 @@
  </layer>
  <layer id="8" name="Above" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJy7KclAENwiQg02tTclsYsTC+7g0AMzixwzNwL1bCJD30gEjwQo0w+Kf3LiiJoA3Q0wPi63RUoxMERJUdcN1DIT2Rx8ZhLyIyluu0mD+IOZScv0ASo77lLJbJBZ96BmUctMcgCtwotUM78KUd8NMEBsuiUWAAAkEilO
+   eJy7KcmAAQ7JItgHgexbWNTgAshqb0piFycW3MGhB2YWOWZuBOrZRIa+kQgeCVCmHxT/5MQRNQG6G2B8XG6LlGJgiJKirhuoZSayOfjMJORHUtx2kwbxBzOTlukDVHbcpZLZILPuQc2ilpnkAFqFF6lmfhWivhtggNh0SywAAOqxKws=
   </data>
  </layer>
  <layer id="9" name="Top" width="20" height="22">
@@ -233,7 +239,7 @@
    eJxjYGBg2CiGH2MDxOohxMcHcOklxgxsarHpIcVMbO4iRR8+cygBlIQxPQGlbhoM/iI1TZLjZkJ6aJFuSMnrxJpJqVnEAlqaiYtPDbMHOj2Taz+10yYp9Q6p5gEAYa1NvQ==
   </data>
  </layer>
- <objectgroup id="11" name="Mapevents">
+ <objectgroup id="11" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="96" y="672" width="448" height="32">
    <properties>
     <property name="map" value="lake_shore_road_2"/>
