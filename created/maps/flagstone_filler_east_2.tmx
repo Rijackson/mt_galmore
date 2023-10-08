@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -189,6 +189,9 @@
  <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8249" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JBjjdjwYTUT2OCYGxqNxOhZiOS/AokvJIJ0y3oalbgMBddDbJabHZhw5uJMI9UDLMbABp0uNA=
@@ -196,12 +199,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJytUssOgkAMrPi444EEEwgnb+rXGv/HCxi9mZAYbxyAxZ+wDTZ0a+HEJM0+OjudbgowH1w87PPQz1Xbfq3VPaEUd63KdzHMgnsC8Ej+/ZBnq4bmS+77t74wruLtOgXYYCwxVum0H67PWre4129CvxavrM1ojH+UvfBe9sY9LVAnSH1+HeE5mvbsDG5p+KD8B6PDaEXQG+LLuuQnH+HyrOQjvopo8EL/Sf1x7XMw8C6Br0/5/c7mUK4w6um5PGQAR4xT5uvoeWJd8uiMORubPwmeFasffq85U9C9MJ6o8wVV22LS
+   eJytUksKwkAMjfWz10VhBOus3Kln8gh6F/E+blrQnVAQdy76vYQJ09DMdFo3DYQpycvLSxqA8axU7Xe8tHPflXkzJ06Wiljh5CsFo9hH2VysZx4BLKIuvlTd3hxjrjf6XWDOGuCiDa7+o5v7Uw1xnbamLm/mf2wAnuhT1DaLTE/iZss9e+QaqVXOwDF+J8gbNLNnIcbDYc38fyU29eigfI1eoRfCqYbwcrf0xj1YvpW4R1cStlpon8TLva9Bi7sFNj/ld2s/hnKJp597l3sNcEA/apvHvRvmJY2l5yZ8d+Ya34pvHq53MUPmzsL2Qp4f1UhixQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuuCVJHXNWyzIwrJHFFL8pid0ObOphapH1bELS+xSo/hkQPwbiJ1jswgZuQvXvlMQUR7YLZjYxZiHrR/YbzE8PgfiRLG6/E2M+JQDZXmxxQi5YTYJZm6nkF3SAL0yxhR+pcYCuj1z96OAl0IxXNAgTAC/ZLyU=
+   eJxjYKAuuCVJHXNuSmI366ksA8MzWeLUw8RuIolvkkSVT1JgYEhUIN7dMLMc5VHFVwPdtAaIHwPxE6j7CJkJ04Ps1ltY3Aez8yFQ7SMsfifkVkoBcthSK35h5hILNlPRXnQ34PITNvfhU0+MPeTqRwcvgWa8okGYAAA3hSwD
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="13" visible="0">
@@ -209,7 +212,7 @@
    eJzbKMZANbCRimZR20yQOdjMIkUcJoaOccmT4i5CZhFjJrIaapmJbj41ALn2E2MusXYQEw7kxA2h9IHLDlL8SEkcEjIbADPiPjE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="32" y="0" width="576" height="32">
    <properties>
     <property name="map" value="flagstone_filler_east_1"/>
@@ -235,7 +238,25 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="5" name="stn_lizard_spawn" type="spawn" x="96" y="224" width="512" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="stn_lizard"/>
+   </properties>
+  </object>
+  <object id="6" name="forest_serpent_spawn1" type="spawn" x="32" y="64" width="64" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forest_serpent"/>
+   </properties>
+  </object>
+  <object id="7" name="wolf_spawn" type="spawn" x="224" y="96" width="256" height="96">
+   <properties>
+    <property name="spawngroup" value="wolf"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>
