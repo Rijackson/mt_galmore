@@ -3111,5 +3111,19 @@
     {
         "id":"crystal_teleportation_disabled",
         "message":"There is nothing to see here except for that wolf dung over there. Gross!"
+    },
+    {
+        "id":"guardian_mushroom_1",
+        "message":"You're here to take our magical muchroom!",
+        "replies":[
+            {
+                "text":"Yes!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"No, I swear. Please don't hurt me.",
+                "nextPhraseID":"F"
+            }
+        ]
     }
 ]

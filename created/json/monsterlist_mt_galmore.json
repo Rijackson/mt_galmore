@@ -396,5 +396,36 @@
                 }
             ]
         }
+    },
+    {
+        "id":"guardian_mushroom",
+        "name":"Mushroom guardian",
+        "iconID":"monsters_gisons:3",
+        "maxHP":160,
+        "maxAP":12,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "phraseID":"guardian_mushroom_1",
+        "droplistID":"guardian_mushroom_dl",
+        "attackCost":4,
+        "attackChance":120,
+        "criticalSkill":18,
+        "criticalMultiplier":2.0,
+        "blockChance":60,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spore_poison",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]

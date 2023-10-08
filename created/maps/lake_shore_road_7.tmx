@@ -262,7 +262,7 @@
   </object>
   <object name="virid_toxin_spanw1" type="spawn" x="608" y="192" width="192" height="256">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="virid_toxin"/>
    </properties>
   </object>
@@ -270,6 +270,12 @@
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="virid_toxin"/>
+   </properties>
+  </object>
+  <object name="river_troll_spawn" type="spawn" x="672" y="192" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="rivertroll"/>
    </properties>
   </object>
  </objectgroup>

@@ -213,5 +213,13 @@
         "displaytype":"rare",
         "category":"animal",
         "description":"A tooth from a rabid Nightfur rat. Cursed with rabies which has debilitating effects on the diseased."
+    },
+    {
+        "id":"garnet_stone",
+        "iconID":"items_newb:610",
+        "name":"Garnet stone",
+        "displaytype":"rare",
+        "category":"gem",
+        "description":"A precious stone loved by many"
     }
 ]
