@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="40">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="40">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -208,7 +208,7 @@
    eJztk1kKwDAIRHOK3ij3v1K/AsGOcVy6QCNISev41Nh+tNYXPtsqTtMMnScH0kfYXu6In59ernb21v0EN8rMcJG90e/mXt/J2ChX0yJjdkKr02JZ7FU/Wh1Vxswt0k8V17Nb6GzNsYLr7TfDlb0gDlMLy0U5tTkzPIZr5ZFc9t/OchkNup/MPkf9a1xmfpk+ZByTF323TLtzqffOOWJ370SFZ+rd3P9yT5AW1xA=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="north1" type="mapchange" x="256" y="0" width="96" height="32">
    <properties>
     <property name="map" value="waytogalmore0"/>
@@ -291,12 +291,6 @@
   <object id="20" name="stn_gyra_m14_2" type="script" x="32" y="352" width="96" height="64"/>
   <object id="21" name="stn_gyra_m14_1" type="script" x="448" y="288" width="96" height="32"/>
   <object id="22" name="stn_gyra_40" type="script" x="256" y="928" width="96" height="32"/>
-  <object id="23" name="south" type="mapchange" x="256" y="928" width="96" height="32">
-   <properties>
-    <property name="map" value="galmore_9"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="24" name="erwyn_soldier" type="spawn" x="448" y="704" width="416" height="64">

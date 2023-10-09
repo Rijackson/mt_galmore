@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,11 +183,8 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <tileset firstgid="8121" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+ <tileset firstgid="7629" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
@@ -196,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNkkEOgkAMRSfcYFxgWIEmuvZkHsETsfYKLHQNIbJWEU04gtOEn/mpM+jSJs10Mn3tb8GY/7Rl8j1nH8hhrnTxy/7e75B4Tmwk9pz5uE6NOU4OtqS+V8c1xFb2kxNvU5/TWc+yaUZzYtyL+T4LMzwL2131hu6Ly384b+m9pnhU3Glm56JpyHwcysUuNoUxW+c3O68b+sTkDOU1gT7Q3RPP8ZB7LZXisee5/wu6V26GdTHVJG1S/5nHeWjmXWNW6OTZ8Y4eu0W8Nud2VF/u0Mu9WDfPgz1gFtTE2au7mHzzWL6YZvh8A0tZan8=
+   eJzNkkEOgkAMRRtuMC4wLOQMbjTRQ3kET8TaK7DQNcTIWkViwg10Gv2ZnzqgS5s008n0tb8Fkf+0afI9ZxPJYa7w8d393m+bBE6tJ/aQhbhKRXZvB1tQ37PnamJL98mpH9OQ07jAslnGcmrci/k2izM8C9vV9Ibuk8+/eT/Se0Vxb7j9yM5VU5eFOJaLXaxykbX3ixvXDX1qesby6kgf6G6J5/gxC1pKw2PPY/8XdC/8DMv8FXekTetLPsxDM+8as0Inz4539JhPhmtzbkP19Q693It18zzYA2ZBTZytuavpNx/KV7MMn0+CTWiQ
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJw7I8tAETgsRl19l/CYh88udH17JAm7AZ9dAwFu4nAzMX5BN+cWiXrwmYWNjQ2wKjAwsCkg+PjcDXMfiKbEf8huOi1Pmjm4AKMCAwOTAoR9C838MyTaAXMrsptvSWLKE2sWPvciyyObCZNHBsh+weY+dLtg6rH5B1mMEEDWC1OP7pbNeMwBABUbN54=
+   eJxjYKAMHBajrr5LeMzDZxe6vj2ShN2Az66BADdxuJkYv6Cbc4tEPfjMwsbGBiTlGBik5BB8fO6GuQ9EU+I/ZDfdlyXNHFxAFOgHMTmE+5DNf0CiHTC3Irv5liSmPLFm4XMvsjyymcj+gQFkv2BzH7pdMPXY/IMsRggg64WpR3fLZjzmAAAoZTfn
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">

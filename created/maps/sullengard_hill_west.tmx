@@ -190,7 +190,7 @@
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="8249" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_plant_3.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="25" height="20">
   <data encoding="base64" compression="zlib">

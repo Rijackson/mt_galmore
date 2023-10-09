@@ -189,9 +189,6 @@
  <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8249" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="20" height="13">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JBjjdjwYTUT2OCYGxqNxOhZiOS/AokvJIJ0y3oalbgMBddDbJabHZhw5uJMI9UDLMbABp0uNA=
@@ -199,15 +196,15 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJytUksKwkAMjfWz10VhBOus3Kln8gh6F/E+blrQnVAQdy76vYQJ09DMdFo3DYQpycvLSxqA8axU7Xe8tHPflXkzJ06Wiljh5CsFo9hH2VysZx4BLKIuvlTd3hxjrjf6XWDOGuCiDa7+o5v7Uw1xnbamLm/mf2wAnuhT1DaLTE/iZss9e+QaqVXOwDF+J8gbNLNnIcbDYc38fyU29eigfI1eoRfCqYbwcrf0xj1YvpW4R1cStlpon8TLva9Bi7sFNj/ld2s/hnKJp597l3sNcEA/apvHvRvmJY2l5yZ8d+Ya34pvHq53MUPmzsL2Qp4f1UhixQ==
+   eJytUksKwkAMjfWz10VhBGtX7tQzeSjxPm5a0J1QEHcu+r2ECW3oTCatmwbCDMnLy8tMAKazyvT3ZO3mvpv2zEWcLLNipcjXBiaxj3G5WM8yAlhFPr4yfm+OMdcb/W78PJ3NH93cn2su+/ZedPM/dgBP9DlqW0S+nkJ5R66xeesBfXTOkDfoZs9DjIfjmvl/bWym6KB8g16jl5ZTDeHtWehMBrC8K8mArjTstdB7Ei/3vgY97ha4/JQ/bHUM5VKln9zLYwxwQj/HLo/8J+YljZWyE9qeSeNd0ebheokZMzkL2wt5fpZXZJc=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuuCVJHXNuSmI366ksA8MzWeLUw8RuIolvkkSVT1JgYEhUIN7dMLMc5VHFVwPdtAaIHwPxE6j7CJkJ04Ps1ltY3Aez8yFQ7SMsfifkVkoBcthSK35h5hILNlPRXnQ34PITNvfhU0+MPeTqRwcvgWa8okGYAAA3hSwD
+   eJxjYKAuuCVJHXNuSmI366ksA8MzWeLUw8RuIolvksQuT6y7YWY5yqOKrwa6aQ0QPwbiJ1D3ETITpgfZLbfwuO8hUO0jLH4n5FZKAXL4UCt+YeYSCzZT0V50N+DyEzb3kZJWsOkjVz86eAk04xUNwgQARl8uSQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="13">
+ <layer id="4" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMZANbCRimZR20yQOdjMIkUcJoaOccmT4i5CZhFjJrIaapmJbj41ALn2E2MusXYQEw7kxA2h9IHLDlL8SEkcEjIbADPiPjE=
   </data>
