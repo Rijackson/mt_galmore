@@ -252,6 +252,11 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
+  <object name="grimmthorn_marauder_spawn1" type="spawn" x="160" y="704" width="224" height="32">
+   <properties>
+    <property name="spawngroup" value="grimmthorn_marauder"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

@@ -427,5 +427,45 @@
                 }
             ]
         }
+    },
+    {
+        "id":"grimmthorn_marauder",
+        "name":"Grimmthorn marauder",
+        "iconID":"monsters_newb_1:22",
+        "maxHP":369,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":8,
+            "max":9
+        },
+        "droplistID":"grimmthorn_marauder_dl",
+        "attackCost":5,
+        "attackChance":173,
+        "criticalSkill":12,
+        "criticalMultiplier":2.25,
+        "blockChance":65,
+        "damageResistance":9
+    },
+    {
+        "id":"dirty_grimmthorn_marauder",
+        "name":"Dirty grimmthorn marauder",
+        "iconID":"monsters_newb_1:20",
+        "maxHP":370,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":9
+        },
+        "droplistID":"dirty_grimmthorn_marauder_dl",
+        "attackCost":5,
+        "attackChance":189,
+        "criticalSkill":12,
+        "criticalMultiplier":2.25,
+        "blockChance":77,
+        "damageResistance":9
     }
 ]
