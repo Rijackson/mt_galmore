@@ -67,7 +67,7 @@
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2609" name="map_ground_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_ground_2.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2737" name="map_ground_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_3.png" width="512" height="256"/>
@@ -157,7 +157,7 @@
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_transition_5.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
@@ -198,20 +198,20 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYMAE+kIQ+rUgFkk0cA1NjZICqvgjoFmvhfCb8RLNDJj9jwjoIwVMZ0Kw0c29icWfz4BiqgoMDGoK+NUhA/SwuI7E1yfgF2Q3vcBjz1SoP5D9g8tOXADkFpB9U3GYQQ0A80MrFn+Dwuk+mt3Y4vouCe5DDrNKJLOQ4wwUNjAz0e0HAfQ4Qo9PYuWeygPTjzxueVjcgcIfVzyihweI/xBo5iN5zPwEUwty0xlJVDOxpbtnULdvBKrdJAlRA9MDAAOoMDo=
+   eJxjYMAE+kIQ+rUgFkk0cA1NDZMcqvgjoFmvhfCb8RLNDJj9jwjoIwVMZ0Kw0c29icWfz4BirEC/sMnhV4cM0MPiOhJfn4BfkN30Ao89U6H+QPYPLjtxAZBbQPZNxWEGNQDMD61Y/A0Kp/todmOL67skuA85zCqRzEKOM1DYwMxEtx8E0OMIPT6JlTsqy8BwTBa3PCzuQOGPKx7RwwPEPwg085AsZn6CqQW56YwkqpnY0t0zqNs3AtVukoSogekBAHBgL0w=
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjUmAYNoBVgYGBTYF+9l0Wo655hwfYPHz+AcmRah4+9SC5S1Q2j1QAs/+oPAPDMXnKzUMHB4FmHpLHb94eSfLMptR9+4HuOgB120kgfQrKBgAmNxVg
+   eJx7JMswbMBToF+e0dE/l8Woa97hATYPn39AcqSah089SO4Slc0jFcDsXwpMM8vQ0g014mIh0MxFsvjN2yNJntmUum8+0F0LoG5bCaRXQdkAyhwW5w==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="20" height="13">
+ <layer id="5" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMZAVbCRiuaBzKI2JsXN6HrQ1VHTr8SaR8gvpJiHbA4paomxj5C5pPiVWPcRYiObSYp5pAJs5iP7AxubVHOxsUlNG9gwAO3MOYc=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="608" y="0" width="32" height="160">
    <properties>
     <property name="map" value="lake_shore_road_2"/>
