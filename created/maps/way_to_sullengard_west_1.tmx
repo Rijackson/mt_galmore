@@ -229,9 +229,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="dirty_grimmthorn_marauder_spawn1" type="spawn" x="192" y="64" width="256" height="160">
+  <object name="grimmthorn_marauder_spawn1" type="spawn" x="192" y="64" width="256" height="160">
    <properties>
-    <property name="spawngroup" value="dirty_grimmthorn_marauder"/>
+    <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
   </object>
   <object name="dirty_grimmthorn_marauder_spawn2" type="spawn" x="160" y="544" width="160" height="192">
@@ -239,7 +239,7 @@
     <property name="spawngroup" value="dirty_grimmthorn_marauder"/>
    </properties>
   </object>
-  <object name="grimmthorn_marauder_spawn1" type="spawn" x="256" y="128" width="128" height="288">
+  <object name="grimmthorn_marauder_spawn2" type="spawn" x="256" y="128" width="128" height="288">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimmthorn_marauder"/>

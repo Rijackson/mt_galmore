@@ -252,9 +252,9 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object name="grimmthorn_marauder_spawn1" type="spawn" x="160" y="704" width="224" height="32">
+  <object name="dirty_grimmthorn_marauder_spawn1" type="spawn" x="160" y="704" width="224" height="32">
    <properties>
-    <property name="spawngroup" value="grimmthorn_marauder"/>
+    <property name="spawngroup" value="dirty_grimmthorn_marauder"/>
    </properties>
   </object>
  </objectgroup>

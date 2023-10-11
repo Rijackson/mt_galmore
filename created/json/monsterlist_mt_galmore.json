@@ -460,6 +460,7 @@
             "min":9,
             "max":9
         },
+        "phraseID":"dirty_grimmthorn_marauder_1",
         "droplistID":"dirty_grimmthorn_marauder_dl",
         "attackCost":5,
         "attackChance":189,

@@ -3125,5 +3125,19 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"dirty_grimmthorn_marauder_1",
+        "message":"We are in a rush to get through here, kid. Get out of our way or die.",
+        "replies":[
+            {
+                "text":"Where is the Shadow to help me now?",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Please don't hurt me.",
+                "nextPhraseID":"F"
+            }
+        ]
     }
 ]
