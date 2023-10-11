@@ -520,5 +520,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"esp_sweet_cherries_dl",
+        "items":[
+            {
+                "itemID":"esp_sweet_cherries",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":5
+                }
+            }
+        ]
     }
 ]

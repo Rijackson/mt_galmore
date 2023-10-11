@@ -239,5 +239,22 @@
             "increaseBlockChance":20,
             "increaseDamageResistance":2
         }
+    },
+    {
+        "id":"esp_sweet_cherries",
+        "iconID":"items_newb:814",
+        "name":"Especially sweet cherries",
+        "hasManualPrice":1,
+        "baseMarketCost":256,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":7,
+                    "duration":6
+                }
+            ]
+        }
     }
 ]

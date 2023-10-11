@@ -207,7 +207,7 @@
    eJxjYBgFo2AUjIJRQEtwWGygXUAbAAC9QgDa
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20" visible="0">
+ <layer name="Walkable" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJzNkssNACAIQ52C/VdwQ48SQvmlJpJwAsujsmVRYstNpl6196dAPCx/Mh2v9sIj5n+zGCyPvsuuZ0jfywkzej/xNNNj+TDZW/cijY5mhQHNi3oRs+1B/mZ1xJIxVu4v2qE7r6NxABTYV9g=
   </data>
@@ -259,6 +259,12 @@
    <properties>
     <property name="map" value="lake_shore_road_2"/>
     <property name="place" value="start_over"/>
+   </properties>
+  </object>
+  <object name="lake_island" type="mapchange" x="96" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_4"/>
+    <property name="place" value="exit"/>
    </properties>
   </object>
  </objectgroup>
