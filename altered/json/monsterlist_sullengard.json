@@ -23,5 +23,46 @@
         "criticalSkill":15,
         "criticalMultiplier":2.5,
         "blockChance":101
+    },
+    {
+        "id":"huckleber_reaper",
+        "name":"Huckleberreaper",
+        "iconID":"monsters_newb_1:1081",
+        "maxHP":265,
+        "moveCost":7,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":30,
+            "max":30
+        },
+        "spawnGroup":"huckleber_reaper",
+        "faction":"huckleber_reaper",
+        "droplistID":"forest_tree_dl",
+        "attackCost":5,
+        "attackChance":190,
+        "criticalSkill":10,
+        "criticalMultiplier":1.2,
+        "blockChance":240,
+        "damageResistance":10
+    },
+    {
+        "id":"broxwood",
+        "name":"Broxwood",
+        "iconID":"monsters_newb_1:1083",
+        "maxHP":225,
+        "moveCost":7,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":20,
+            "max":25
+        },
+        "spawnGroup":"broxwood",
+        "droplistID":"forest_tree_dl",
+        "attackCost":5,
+        "attackChance":170,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":229,
+        "damageResistance":10
     }
 ]

@@ -264,11 +264,6 @@
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object name="branchbane_stalker_spawn1" type="spawn" x="64" y="128" width="32" height="128">
-   <properties>
-    <property name="spawngroup" value="branchbane_stalker"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
