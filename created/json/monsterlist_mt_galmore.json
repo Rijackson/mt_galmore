@@ -468,5 +468,15 @@
         "criticalMultiplier":2.25,
         "blockChance":77,
         "damageResistance":9
+    },
+    {
+        "id":"tanglebark_titans",
+        "name":"Tanglebark titans",
+        "iconID":"monsters_newb_1:1083"
+    },
+    {
+        "id":"branchbane_stalker",
+        "name":"Branchbane stalker",
+        "iconID":"monsters_newb_1:1081"
     }
 ]
