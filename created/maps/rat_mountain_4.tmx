@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJxbx8TAsG4Ujwg8BwvGpQ6Zv5ZIM2Fi64H4ABTvR2ITgw8C8SUovojEJgZfBuInUExI7xM0vAKIp0ExPr07gXgXGt4N1Q/D6GbD8GkgPoOGzyLZSwjfQ8MgMQBtiKyX
+   eJxbx8TAsG4Ujwg8BwvGpQ6Zv5ZIM2Fi64H4ABTvR2ITgw8C8SUovojEJgZfBuInUExI7xM0vAKIp0ExPr07gXgXGt4N1Q/D6GY/QQrDM2j4LJK9uDBMLyx87kExSA4AUbisNw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF1wUZiAI3cajDJt4kBKGvYZHDJkYIcMkxMHADMY8cafpeSmIX3y6LyucFmssHxPxQ8xuBdBOJduHThx5G6GEOC5NWoN42MuxFtwdk3mwm7GrmMqH6H6ZuLpR+LYSpRx8qdgYansju18einpw4xgV8sfgjAIffQGA/UpzHYlGXABV7ikXuPFp6QTbrEdSfl9HC4DEOt6CbBQLsONTCwusHUM9PqL67TAhzQHEEip/7QAwAadwoLw==
+   eJxjYEAF1wUZiAI3cajDJt4kBKGvYZHDJkYIcMkxMHADMY8cppy+EG59LyWxi2+XReXzAs3lA2J+qPmNQLoJi12EALo+mNvQwwg9zGFh0grU20aGvTAAswdk3mwm7GrmMqH6H6ZuLpR+jSU8Yf44Aw1PZPdjC39y4hgX8MXijwAcfgOB/UhxHotFXQJU7CkWufNo6QXZrEdQf15GC4PHeNxyF02OHYdaWHj9AJr9E4j3I6kDuQkUR6D4uQ/EALnCKIo=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJybw8QwIOCXLAPDbyD+I0uavpuS+OX1hRDsn0hmJ8oxMCTJkWYXJfpgIBWoN00O022DBewhEJ6jgDKwmYTwJUUtDAAAMiwL4w==
+   eJybw8QwIOCXLAPDbyD+I0uavpuSxKv9iWR2ohwDQ5IcaXZRog8GUoF60yjQT2uwh4TwHAWkg80khC8pamEAANvuC2E=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="16">
+ <layer id="4" name="Walkable" width="15" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPbBQjXhyXWnLtRcak6iXVDmQ+qQCXO0l1B7kAWS96uOFzG7o4vrjGZhYxevG5eaDwQLkBV1gRoxcAmjRTLg==
+   eJxjYCAPbBQjXhyXWnLtRcak6iXVDmQ+qQCXO0l1B7kAWS96uOFzG7o4vrjGZhYxevG5eaDwQLmBkrAAAHHeUmc=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
