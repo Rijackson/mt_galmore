@@ -2141,9 +2141,32 @@
                 "nextPhraseID":"fallhaven_outdoor_farmer_20",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"wicked_witch",
                         "value":10
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":40,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me the story about the wicked witch again?",
+                "nextPhraseID":"fallhaven_outdoor_farmer_77",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":40,
+						"negate":true
                     }
                 ]
             }

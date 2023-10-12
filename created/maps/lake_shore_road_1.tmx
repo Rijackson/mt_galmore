@@ -216,7 +216,7 @@
  </layer>
  <layer id="3" name="Objects" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVLtKA1EQHVPYGwsbd7NJabN+QZTExkRiEi1SSEhcEBuLxChRUPCBIgo2WqmtP+An+Ce2foPgDPeOOxnvxgiC5MCwex9z5txzH90cQN+DL3SwvYsRYXRzpv3bL+dLvKVjfjmfkfdgJDD/Xs49fhYAnGMs43hJzQlFjUjVZ42dBF4Jmct6eH2RbRO2rM6ktS2ofs5lbyKHr9zeVzq17nIAsBIMaiTcY83nDMD7NEAbNdcwovTgfvSsbslBIP8kl6xNuevIU8J4Rf4t/N7h/Cu7xoksQCr73SPWzV7oc0Fz13zDQ7ExC7CdAviYBLjFds2Pveoqj4aBNRR9w0Oxg9x95J5JmVrz/ve97irdGuzPBa71EiNEjpeMGaPcBvIWhI/aY30mXPysqWn1tXwTxE3fYR5o3Xl1J2SuvKeNhP0ZBfrsEk5wzacYq57hdvHynXLp1mO/1eRCOOIbpDX8VX2C3v9ywl7qN6WC+171zX3Q+jRc+8EIxT5zjdBy0n3oibeH3wkXP/O28bvpmFO1euluh/auMad82yp2TdfYd6N4+LxK/o64D0XLWRe+0JtcEbWp7gP2PWI85WJe0n8QABwGLgfN3SP+Akbb+kK8S9azRc/UrYp9OUKu4yDWMucNapEgz2W+HGffC1ZDXczROQXrRcXBxfn83xJBa2qqvqI/OK/tx160FBeNyXPzE5qCL2ncVXNYzrhiavq/FYwfPgFSAqRw
+   eJzVVL1KA0EQHlPYGwsbb3OmtDmfQCWx8YeYRIsUEhIPxMYiMYoKCv6giIKNVmrrC/gIvomtzyA4w+54c+NejCCIHwx3e7vzzbff3G63CLAXwCc6ON7GiDG6RTv+6ZPzJV7zCb9cz5gOYCAw/07RP38aApxhzOP8gloTiRqxqs8aOxm8EjKX9fD+YjcmbDidWXubUd85l72JPb7yeFfp1LoXQ4ClMK2RcIc1nwoAb6MAbdRcw4jz6X70nG7JQSD/JJesTbmryLOA8YL8G/i8xfWXbo9DEwC5ia8esW72Qv8XtHbFWB6KtXGAzRzA+zDADY5rJvGqqzzqB9ZQNpaHYgu595B7LGdrTZmvve4q3Rrszznu9QIjQo7ngp2j3AbyloSP2mP9T/j4WVPT6WsZG8RNz34eaN3T6kzIXHlOGxn90Qiw7ybv90TmHuOeTzCWA8vt433Npzn6zX3X70EQDXgHaQ2/VZ+g+7+Y0Ut9p1Sw71Vjz4PWp+HrByMSfeYakeOk89ATdw/fEz5+5m3jc92zpur00tmO3FljTnm3VdyervDbteLh/1Xyd8R5KDvOuvCF7uSKqE117/HbA8ZjMeEl/fshwEHoc9CePeIvYbSdL8Q75zybDWzdqujLIXIdhYmWySCtRYI8l/lynn0vOQ11sUbnlJwXFQ8X5/N7SwTtqam+lU16XdskXrQUF83J/+Y7NAVf1ryvZr+c/4qR0b9W8P/wAbfEpM8=
   </data>
  </layer>
  <layer id="4" name="Above" width="23" height="30">
@@ -231,7 +231,7 @@
  </layer>
  <layer id="6" name="Walkable" width="23" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlEEKgDAMBP1GL/3/M/UilJJkJyGiBxcK2qTTtbEZ8zjGNW6N2TcskZxIXXwvTjyta3eOihFu5Xyt990HZap9vDnCtbxF/O7/j5xP5NXz7fnd56K8NaZ809pa6wnb46i7R7gWh9xX5fstPbl/tZaUWa3l/uzlZNhZZvbuUI7691UPVHtH35ftXVQkn/aSSp/J9B3qaY13itbh13d0AmMBNG0=
+   eJztlEEKgDAMBP1GL/3/M/UilJBsJiWiBxcK2qTT1bQZ8zjGNW6N2Tc8kRylLn4UJ57WtZaTxQh35/9679YHZWb7RHOE63lT/O7zR/6P8hr5jvzaOZW3xjLftLbeesKOOPTuKa7HyWpGfL+lJ/ffrSVlqlqqtfY5yqmwq8zq3aGc7OxnZzzbW31ftXdRkXzaS3b6TKXvUE9rvFO0Dr++oxMppjTb
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">

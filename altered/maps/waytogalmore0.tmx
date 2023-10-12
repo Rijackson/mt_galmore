@@ -298,14 +298,6 @@
     <property name="place" value="fifth"/>
    </properties>
   </object>
-  <object id="25" name="enable_crystal" type="key" x="896" y="384" width="32" height="32">
-   <properties>
-    <property name="phrase" value="crystal_teleportation_disabled"/>
-    <property name="requireId" value="sutdover_hidden"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="9" name="Spawn" visible="0">
   <object id="26" name="stn_colonel" type="spawn" x="480" y="672" width="32" height="32">
@@ -449,6 +441,14 @@
     <property name="requireId" value="base_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="25" name="enable_crystal" type="key" x="896" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="crystal_teleportation_disabled"/>
+    <property name="requireId" value="sutdover_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
