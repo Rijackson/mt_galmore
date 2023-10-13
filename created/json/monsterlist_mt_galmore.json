@@ -468,5 +468,22 @@
         "criticalMultiplier":2.25,
         "blockChance":77,
         "damageResistance":9
+    },
+    {
+        "id":"cyclopea_creeper",
+        "name":"Cyclopea creeper",
+        "iconID":"monsters_newb_1:1093",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"verdant_cyclopea_creeper",
+        "name":"Verdant cyclopea creeper",
+        "iconID":"monsters_newb_1:1090",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"spiked_cyclopea_creeper",
+        "name":"Spiked cyclopea creeper",
+        "iconID":"monsters_newb_1:1088"
     }
 ]
