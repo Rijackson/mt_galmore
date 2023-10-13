@@ -256,5 +256,49 @@
                 }
             ]
         }
+    },
+    {
+        "id":"cyclopean_eye_gem",
+        "iconID":"items_newb:561",
+        "name":"Cyclopean eye gem",
+        "displaytype":"rare",
+        "category":"gem",
+        "description":"Extracted from the Cyclopea creeper species' giant eye, radiating a faint but mysterious energy."
+    },
+    {
+        "id":"cyclopea_root",
+        "iconID":"items_newb:590",
+        "name":"Cyclopea root",
+        "displaytype":"rare",
+        "category":"animal_e",
+        "description":"A root from the Cyclopea creeper which when consumed, has been known to provide a modest boost in strength",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"str",
+                    "magnitude":4,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"photosynthetic_leaf",
+        "iconID":"items_newb:639",
+        "name":"Photosynthetic leaf",
+        "displaytype":"rare",
+        "category":"animal_e",
+        "description":"A leaf that, when held to sunlight, provides a minor regeneration effect.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":4,
+                    "duration":3,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
