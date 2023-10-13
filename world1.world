@@ -321,6 +321,13 @@
             "width": 832,
             "x": 11840,
             "y": 2656
+        },
+        {
+            "fileName": "created/maps/galmore_10a.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 6944,
+            "y": -544
         }
     ],
     "onlyShowAdjacentMaps": false,
