@@ -314,7 +314,7 @@
     {
         "id":"nightfur_rat",
         "name":"Nightfur rat",
-        "iconID":"monsters_newb_1:284",
+        "iconID":"monsters_newb_1:285",
         "maxHP":194,
         "moveCost":2,
         "monsterClass":"animal",
