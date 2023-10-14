@@ -237,7 +237,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="steelthorn_hexileg_spawn1" type="spawn" x="64" y="0" width="352" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="steelthorn_hexileg"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

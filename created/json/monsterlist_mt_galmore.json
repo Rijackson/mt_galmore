@@ -575,5 +575,18 @@
         "attackChance":135,
         "blockChance":185,
         "damageResistance":8
+    },
+    {
+        "id":"flamejaw_tunnelbeast",
+        "name":"Flamejaw Tunnelbeast",
+        "iconID":"monsters_newb_1:561",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"steelthorn_hexileg",
+        "name":"Steelthorn hexileg",
+        "iconID":"monsters_newb_1:570",
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn"
     }
 ]
