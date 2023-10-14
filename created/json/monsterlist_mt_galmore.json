@@ -557,5 +557,23 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hexapede_crawler",
+        "name":"Hexapede crawler",
+        "iconID":"monsters_newb_1:573",
+        "maxHP":228,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":5,
+            "max":7
+        },
+        "droplistID":"hexapede_crawler_dl",
+        "attackCost":3,
+        "attackChance":135,
+        "blockChance":185,
+        "damageResistance":8
     }
 ]

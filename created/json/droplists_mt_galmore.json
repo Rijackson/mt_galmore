@@ -620,5 +620,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"hexapede_crawler_dl",
+        "items":[
+            {
+                "itemID":"hexapede_crawler_slime",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

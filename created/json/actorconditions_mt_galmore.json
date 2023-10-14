@@ -42,5 +42,18 @@
             "increaseAttackChance":-25,
             "increaseBlockChance":-10
         }
+    },
+    {
+        "id":"bad_taste",
+        "iconID":"actorconditions_japozero:40",
+        "name":"Bad taste",
+        "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     }
 ]

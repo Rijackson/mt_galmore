@@ -248,6 +248,11 @@
     <property name="spawngroup" value="spiked_cyclopea_creeper"/>
    </properties>
   </object>
+  <object name="hexapede_crawler_spawn1" type="spawn" x="224" y="288" width="384" height="128">
+   <properties>
+    <property name="spawngroup" value="hexapede_crawler"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

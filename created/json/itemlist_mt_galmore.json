@@ -300,5 +300,29 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hexapede_crawler_slime",
+        "iconID":"items_newb:760",
+        "name":"Hexapede crawler slime",
+        "displaytype":"ordinary",
+        "category":"pot",
+        "description":"Provides temporary immunity to Rootsnare, but at a cost.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"rootsnare",
+                    "magnitude":-99,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"bad_taste",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
