@@ -189,22 +189,22 @@
  </tileset>
  <layer name="Base" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B0sIJpoF0wCkbB0AXrhlH+GS0LRsFwAQDo6gIF
+   eJxjYBgFIxWsYyJf7woK9I6CwQMoSQOjgHwwnMJ9tCwYBfQGuPIPpfkKAKqpBMU=
   </data>
  </layer>
  <layer name="Ground" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJzNlTEOwjAMRSsfgqMzcQAykOxkgKongO5MHAQixVLi2o4bMjD8qc3rt/3jepgm/9U7y/+ZTop6eEdG3PesvLMgqZZenjP0SOK5nTzLPJZDzYvMu3eiWeGGhrd09km0dvIC1JnXsl9612q15qb0bplDaDxH76N4WN+vOUHR7Ek8LiNcT7ks03scYJuRi9ADjke9Bthm5CZ4tvCS0v0p63ownmmOUdesCHxNGm+GradXVisn3D1Zod4F0nxbuSvzN2JPUZ5r8LTdRHnYe2kXBNB3E5dnN6B3NH+jeVytKOv+a81hr9fYyaP/JtQHEZKTQA==
+   eJzNlSESwjAQRTtxXKBHR3EAKkgEjgro1GChHoXgCOAgM9lh87ubpMEgvuk0r383f7fWNI396B5k/0ybhGp4a0H71fx7pbytIs7k7FpeV9AjjdcpvHNbfx9jG/N64d0TaEhwHXjD/vmzV9BUyXMmznwq+9w7rxX9leaGe9dqteyZy/DIe46HtZOe7fd7XlRf6i5K5c9h9jSelBGpp1KWcY6dkJGd0gOJhzPnhIwcFc8lPK8RZu8ieMYckw5BvZFrSvEGM/d0C5JmRMoafzaZeBdoeyqXY9KSvbeE12V4qd2EPOq9tveckXcTzRjvM/elzYbWO2Rh/n69C+RJtaZmNcUr3Svolc48wvz0Jq71lfmnEQ//TaQ3tUKVjQ==
   </data>
  </layer>
  <layer name="Objects" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJylVUtug0AMtbgB7LKAHiEHaNKzNKfKosoZcoZ2E6XbSJXool1EgFoukXEUF+PaHpg8CQHz8ef5BwBwzuAPze27zsHEzwLgdzG8zXOODA+o+7UEeCv9c7ts/P+RqG+b/V+Tsi09eJf8XBbDniYzJtezZwo02TyOx8DnezneOwjOyP42vPeOHbsJeaJBi5G0AfGdyAG3B+NhoVHky7WU/EVe0MfNw/Q7mq/cj97x414Q9+sK4Ck83e2fuMB9HjMZKy9HCCmxfGF3eF57NR6rG+JUypC9Zm7ecHBbW6Gny/VzMczta88zco/Di5M2I2Sv62bY2RtnSfZW6EDwmojlHeVpHebTpzOjJGL9LDbzLL8Qj6G+VtV4DWV9ZQP3Vgwk51ddRfrMuxeWn7G8Ju6Q55S+cFBquGbxsPKF4+TE7wKm8V1s
+   eJydVUtOw0AMtXKDsojUReEIHIDPWeBUXSDOwBlgU2ADElJRgkQXqClJ9lXZYYsxeTGeScqTrFQznWc/j+0hIvrI6Bdr/v00I3qekYtiQlRPiZpp942hnsT3UhAft+z/ju0z961mu87655b/9DdnniZwKix3zI+cVZ3HB92erN/nf8+meJHTg8c3xF1ArA+cz8dZf29hcqbxV/y9ScSqvpB/KD7kR9gYBKtI/oaA8ch9IJBv7Wiza0P1K3yVU5Oi8fJofMyiteSzX2xbtrf8R4fG2wYdldMHqdgUwrkL/AhZl9yLv7NDonO2TdCsuZD9JcRi78qrEdWA+iwayJmHKzgjOVUNqR6P9ZxCa8Ny6KxRYN1YPq9uENiDlfGzgTyOmQOKlGZP78UetYdYOXNQYd8IjEvnldZOGe5qF6k7QRvRpNxz8KEasbdTs0mgdVrw+1SaN2pMjdhe05x4bx7yebqEq2U74f46ZXsFTcL1nnU9Ept7mHPtrza8N2Ukx4LUHmI7cF9Wa+z+evXv9LjmTvK874xfhHnVhDmgvEXgLM18KCIxvoT/o2bV/Q1StLfu
   </data>
  </layer>
  <layer name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJztVdsNwjAM9BSVKki6CowKf7BGN4AvmIZGKMJy7bPTIPHD/bRKL3dx/CjRGrdBWXRwSkTn1L7vDxuX5T6v7E7vG/KC9s4BvRbPiB7icK/Ck3XYGsM8YB5fO07vJ6p9T68VXAP5anGnTJSzrRf1RZ7ROeDpabns0YvMGi9XstYsVJ6Xq2htaN8O03f0UK8iPSs25It41r5ofcr77dWr0HKJ9HZLf+1Fjz3HNb/3fJVX4ka9sqUfe+dUifdXc6/C+wcVDX7Ox/jJE3/X/CVehd5O4Q==
+   eJztVdsNwjAM9BSVKki6CowKf7BGN4AvmIZGKMJy7bPTwB/30yq93MXxo0Rr3AZl0cEpEZ1T+74/bFyW+7yyO71vyAvaOwf0WjwjeojDvQpP1mFrDPOAeXztOL2fqPY9vVZwDeSrxZ0yUc62XtQXeUbngKen5bJHLzJrvFzJWrNQeV6uorWhfTtM39FDvYr0rNiQL+JZ+6L1Ke+3V69CyyXS2y39tRc99hzX/N7zVV6JG/Xdln7snVMl3l/NveiM8f5BRYOf8zF+8sTfpb+GFySLT9o=
   </data>
  </layer>
  <layer name="Top" width="20" height="29">
@@ -214,7 +214,7 @@
  </layer>
  <layer name="Walkable" width="20" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1ldsNgDAIRZnC/VdwQz+NzX1qJWk0SA9Xijgzcx7PNXNfkaH4nbby1fozX7o38adcFqPyKPZ6puheaXH+pF8antKWnBHyp6xGH7P0+0n0Oc4XfcjP6vCGt3JbHtPjzpL52GxzvaR4LM69G4pr3tfxVF839Uv1Nf3sTGlJ64LyJjVIuE1N2V7Fa+e/i0tn2g5e809p49XzZm65nBe+z417
+   eJy1VdsJgDAQuyncfwU39LeUPK0eCOUak1wsdWbmvvCDKsWdFPPzl/YJt8qJaSReGh3FvfbZWnlx/ZXPVZsVwjXzKt32zCdzrHsJxvlzPCf+UJ/l8IZv5235mB/3LVlvX6t3kRbiYzg3G8I18zo+da6b/FJ/zXl2pbykuSDdJIOEt8mUvav42vvf4dI77Qu+5p/S4tV+c285zQeheY8J
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -242,8 +242,37 @@
     <property name="place" value="loop"/>
    </properties>
   </object>
+  <object name="northeast" type="mapchange" x="224" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_6"/>
+    <property name="place" value="southeast"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="steelthorn_hexileg_spawn1" type="spawn" x="352" y="608" width="288" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="steelthorn_hexileg"/>
+   </properties>
+  </object>
+  <object name="steelthorn_hexileg_spawn2" type="spawn" x="448" y="832" width="192" height="96">
+   <properties>
+    <property name="spawngroup" value="steelthorn_hexileg"/>
+   </properties>
+  </object>
+  <object name="steelthorn_hexileg_spawn3" type="spawn" x="512" y="160" width="128" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="steelthorn_hexileg"/>
+   </properties>
+  </object>
+  <object name="steelthorn_hexileg_spawn4" type="spawn" x="416" y="32" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="steelthorn_hexileg"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
