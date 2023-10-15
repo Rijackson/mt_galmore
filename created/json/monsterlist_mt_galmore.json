@@ -588,5 +588,47 @@
         "iconID":"monsters_newb_1:570",
         "monsterClass":"insect",
         "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"orange_cat",
+        "name":"Orange cat",
+        "iconID":"monsters_cats:0",
+        "monsterClass":"animal",
+        "phraseID":"cat_dialog"
+    },
+    {
+        "id":"black_cat",
+        "name":"Black cat",
+        "iconID":"monsters_cats:1",
+        "monsterClass":"animal",
+        "phraseID":"cat_dialog"
+    },
+    {
+        "id":"striped_cat",
+        "name":"Tiger cat",
+        "iconID":"monsters_cats:2",
+        "monsterClass":"animal",
+        "phraseID":"cat_dialog"
+    },
+    {
+        "id":"gray_cat",
+        "name":"Gray cat",
+        "iconID":"monsters_cats:4",
+        "monsterClass":"animal",
+        "phraseID":"cat_dialog"
+    },
+    {
+        "id":"brown_cat",
+        "name":"Brown cat",
+        "iconID":"monsters_cats:5",
+        "monsterClass":"animal",
+        "phraseID":"cat_dialog"
+    },
+    {
+        "id":"blue_cat",
+        "name":"Old Blue",
+        "iconID":"monsters_cats:3",
+        "monsterClass":"animal",
+        "phraseID":"blue_cat_1"
     }
 ]

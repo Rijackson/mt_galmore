@@ -2149,7 +2149,7 @@
                         "requireType":"questLatestProgress",
                         "requireID":"wicked_witch",
                         "value":40,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2166,7 +2166,7 @@
                         "requireType":"questLatestProgress",
                         "requireID":"wicked_witch",
                         "value":40,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3160,6 +3160,104 @@
             {
                 "text":"Please don't hurt me.",
                 "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"cat_dialog",
+        "message":"Meow."
+    },
+    {
+        "id":"blue_cat_1",
+        "message":"Hello, my name is \"Old Blue\".",
+        "replies":[
+            {
+                "text":"What?! You can talk?",
+                "nextPhraseID":"blue_cat_talk"
+            },
+            {
+                "text":"You are an unusual color. Why are you blue?",
+                "nextPhraseID":"blue_cat_blue"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_talk",
+        "message":"Talk? Well, let me ask you this: why don't my friends up there talk?",
+        "replies":[
+            {
+                "text":"Well, I guess you got me there.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue",
+        "message":"It was Bonicksa, that wicked witch, she did this to me.",
+        "replies":[
+            {
+                "text":"What?! Why?",
+                "nextPhraseID":"blue_cat_blue2"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue2",
+        "message":"Well, you see those rats over there? the ones in the cage?",
+        "replies":[
+            {
+                "text":"Yeah.",
+                "nextPhraseID":"blue_cat_blue3"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue3",
+        "message":"You see, those things are delicious.",
+        "replies":[
+            {
+                "text":"Um, OK, but what does that have to do with Bonicksa?",
+                "nextPhraseID":"blue_cat_blue4"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue4",
+        "message":"Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them.",
+        "replies":[
+            {
+                "text":"OK...",
+                "nextPhraseID":"blue_cat_blue5"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue5",
+        "message":"She caught me killing her favorite one day. I got away that day, but she she was relentless in her attempts to hurt me.",
+        "replies":[
+            {
+                "text":"What happened next?",
+                "nextPhraseID":"blue_cat_blue6"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue6",
+        "message":"Well, after many months of trying, she was lucky one day and was able to capture me.",
+        "replies":[
+            {
+                "text":"Then?",
+                "nextPhraseID":"blue_cat_blue7"
+            }
+        ]
+    },
+    {
+        "id":"blue_cat_blue7",
+        "message":"She used her black magic to turn my beautiful white fur to this awful color I am now.",
+        "replies":[
+            {
+                "text":"Oh, I am so sorry for you.",
+                "nextPhraseID":"X"
             }
         ]
     }

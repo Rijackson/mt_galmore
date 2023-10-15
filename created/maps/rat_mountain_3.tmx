@@ -200,17 +200,17 @@
  </layer>
  <layer name="Ground" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1lDEOwjAMRatsXKBHz8ROM9AObGQAiZUO5QCdOAixZKuWFTs0hEpfaVzHr7HjeNd1AyokRTbfq8DGy2ET2K6oX+LnGMc0jjhfUbk1T0Mng3HD+COza/9Vy1iSzsgA26Nvw6BYlCtiWHWoYQTGIkauDi0YQeTKYqyGLEZkDF9g8HMupTFA84591DJ4zeUeWzKgR+5/ZkCPvMR32SclhpZfvu6d8fHsHHzDoDtpEvnwIhYXPPQeha/U4rY7aXJ6Pqy+KPkNCkPu4wMsrxYg
+   eJy1lDEOwjAMRatuXICjZ2KnGWgHJsgAEmsZygE6cRBiyVa/rMRpoFT6SpMmfv1OHNc2TcfyUQH6tfLQnneLaOzK+iV+inGIbc/9mZVaMxo6Gowbx+9hPPdfEu8CXtcwpqgTM2jssS8zRvZq+ZBYkithWPtQmyv0QixhpPZhC4ZXubIYsyGLEYDhCgw851o5BulZ4eNbBu659rglg2rk/mcG1chLfdd1UmLk8ovr3ok5Ds7BGobcSYPKh1OxUPTIe1BztaZ2uZOGNp8Pqy5K87oMQ/v4AHTwFfw=
   </data>
  </layer>
  <layer name="Objects" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJylVLENwkAMtFKmSwokmjBCZoCaEdIwAmMwAEqBmIWCAdIFpYoEJVU2QBaxYl3szyOuSf79Pp/tfxMRnRNy0WW+De1DPrdfkon/Odp7J15p+Gs/xH1l+zK/p3sfyJXRZtNXx2X+dz7nbWF9WxNVKkaafPdiwXy1oVG0sP5G8Uk+jRNDuF4LeWuIftFdQf8EuuaWbuxzadRP646p02Ez/W8Lol1ha/PA8dJR10NpwT5qWP1A/xCOjja87xJn6c15wBr0wCc5eu/sV3D+oboJ/j2DefGac9B94Rnj9Ukg84ln0hXOco1i3kjonvF8OEX0UHLtAvWz9q15pFHDO9V99u6G2FAv1oLPWJo+a8hK+A==
+   eJylVDEOglAMbRjZYDBxwSNwBp09AotH8BgewDAYz+LgAdgwDIZERydvoA00NI/2g/Et8H9/29fX/0tEdIzIRZP4NrS/07H9FA3xH729dfLlhr/2Q1wXti/H93hvA7Uy6mT46rwc/5WO49awviyJCpUjjrq9ueB4pcFRuDD/6hvvHnX/omXl5JBYz4m6NYS/8C6gfwKtucUb+5wb+mnec3TarYb/dUa0yWxuHjhf3PO6KS7YRw2rH+gfwt7hhvdd8ky9OQ+oQQvxpEbvnf0Krj+km+DfM1gXr7kG3ReeMV6fBDKfeCad4SxrNOeNhO4Zz4fDjB5KrU1AP2vfmkcaJbxT3WfvbogN+aIWfMbi9AFUbEy4
   </data>
  </layer>
  <layer name="Above" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYECAFUwQ+rAYA9kAphefGSC5S1SwYzYTdnEQQDefVD/hUk/IX9Swg9p6QOAyFn3YxMi1A2SWozyCryjHwKAkhzue7fgZGOyxYAd+3HaQ6i4/oFn+WHDAILADV9hT0w5cfsFmN7XtwCYeBzQrHgtOINMObCAPaFY+FlxARTtIAZeJKA9BAFb27iKjDCZFLcgemHpseXOzEAPDFiHi7QAAA0Q7JA==
+   eJxjYECAFUwQ+rAYA9kAphefGSC5S1SwYzYTdnEQQDefVD/hUk/IX5SqJwSw6SEmLC9jUYNNDJcdxJjvKI/gK8oxMCjJ4XabHT8Dgz0W7MCP2w5S3eUHNMsfCw4YBHbgCntq2oHLL9jsprYd2MTjgGbFY8EJZNqBDeQBzcrHgguoaAcpABbWhMyHlb27yCiDSVELsgemHlve3CzEwLBFiHg7ADXQPOU=
   </data>
  </layer>
  <layer name="Top" width="25" height="16">
@@ -290,6 +290,36 @@
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="tiny_rat"/>
+   </properties>
+  </object>
+  <object name="orange_cat_spawn1" type="spawn" x="320" y="96" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="orange_cat"/>
+   </properties>
+  </object>
+  <object name="striped_cat_spawn1" type="spawn" x="480" y="160" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="striped_cat"/>
+   </properties>
+  </object>
+  <object name="black_cat_spawn1" type="spawn" x="480" y="256" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="black_cat"/>
+   </properties>
+  </object>
+  <object name="gray_cat_spawn1" type="spawn" x="224" y="192" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="gray_cat"/>
+   </properties>
+  </object>
+  <object name="brown_cat_spawn1" type="spawn" x="224" y="288" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="brown_cat"/>
+   </properties>
+  </object>
+  <object name="blue_cat_spawn1" type="spawn" x="256" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blue_cat"/>
    </properties>
   </object>
  </objectgroup>
