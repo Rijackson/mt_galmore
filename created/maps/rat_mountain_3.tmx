@@ -322,6 +322,16 @@
     <property name="spawngroup" value="blue_cat"/>
    </properties>
   </object>
+  <object name="flamejaw_tunnelbeast_spawn1" type="spawn" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="flamejaw_tunnelbeast"/>
+   </properties>
+  </object>
+  <object name="flamejaw_tunnelbeast_spawn2" type="spawn" x="608" y="416" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="flamejaw_tunnelbeast"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

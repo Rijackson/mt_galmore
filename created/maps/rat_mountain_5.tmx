@@ -250,10 +250,10 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="steelthorn_hexileg_spawn1" type="spawn" x="352" y="608" width="288" height="128">
+  <object name="stoneclaw_prowler_spawn1" type="spawn" x="352" y="608" width="288" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="steelthorn_hexileg"/>
+    <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
   <object name="steelthorn_hexileg_spawn2" type="spawn" x="448" y="832" width="192" height="96">

@@ -630,5 +630,11 @@
         "iconID":"monsters_cats:3",
         "monsterClass":"animal",
         "phraseID":"blue_cat_1"
+    },
+    {
+        "id":"stoneclaw_prowler",
+        "name":"Stoneclaw prowler",
+        "iconID":"monsters_newb_1:250",
+        "monsterClass":"animal"
     }
 ]

@@ -199,17 +199,17 @@
  </layer>
  <layer name="Objects" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJyVVTtuwzAMFXwDeaq9ZE2nXqonyOY56JADBJ5ykKBjO2ZO0SEI0KCGneQQMWETpl9I2XobKYm/9yQ5N43Gj+2v1LnvdOwrWnuXjH3b3n6DvX+9XSZ6LMKmXbsp/hB+ve6XeQ6ZnXNuPAL3VoqeZb0+6fq+wEwY/4YfQfWu0iFPOfMco/ZDrYh17/9R+ozNQzj2cSo/cGxBakqb8/vCPouxT1DrGeyYXvbK3srQAdct9TwHWC/iHtBdaD/eM9JOyEZdxMyJe+cYGEtyRHWR7QP5cJYaVsaanKfskeKzjmL1THWQntdKjYRjJEcES/Mn4w1hoJ4JyHUMisBZ7S2wwHXXhv4kNE2/5M5leTfLpuXtKribej/kzHA+zA35l2381/xZnx/Gn8R+K7/sUePFQj1jrqH/hte0tyOGM4nPJNwD5pJ36wx3znrTeB/zz9zwvZziWbtnU2csYI0PTAhkZw==
+   eJyVVbFOw0AMPeUPLhONFLGWqT/FF3TrXHXgA1CmfgjqCGzMRQxVJVCrlPYXQMTqWec87EvubXZ89rP97uLcME6+bz+Xzr2Ufd+is9dF3/cY7FmI9cH+DHZT6LkID923s+JP4cPrflnnbWLXHJuPwL01omfJl3qlvr9gJoyD4UcQ33kZ6zQjzzFaH7kilsH/rvSZW4ewDXmOPu7YgtSUNuf7W/ss5t4B1z3YOb08KbFHQwfMW+p5DJAv4pLQXSp+BnMh7aRs1EXOnLh3ziFzkfbljogX2T5RD2epYW58k/OUPVJ+1lGunokH6XmpcCRsM3dEsDS/M94QBuqZgLuWwDlj7CJxVnsLLDDvNpz5qZ37rfVY0ijyuqmcm1TXWZ66vX2L3Q29H3JmOB/eDfmnXf676r/WVyL/ax3rsd+qL2ep7cVCO2Kuqf8Nf9PejpydSWyK2APuRqsl79Ye7pz1pnEcv1G8G76XQ3vW7tnQGQvI8Q+Hdmfd
   </data>
  </layer>
  <layer name="Above" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYMAODosxMGwWYmDYIoRDARUBzJ49ksTZeVmM9m46TIQdIPciA1LddYkO/iAVEOMHF3nK7EAOW1rF5WAMW2SAnnbQ+fjAYEn/pAKYH2HupzQdDRZAq/hAjgNapWdc8bwZKT3eBLJvkZA+ibWDmmkMW/iAzKdlOUBr82F2EAPQyw+YPmLKFXQ/EJsvifX7YC2LAYH0JwI=
+   eJxjYMAODosxMGwWYmDYIoRDARUBzJ49ksTZeVmM9m46TIQdIPciA1LddYkO/iAVEOMHF3nK7EAOW1rF5WAMW2SAnnbQ+fjAYEn/pAKYH2HupzQdDRZAq/hAjgNK0/NdWQaGe7L47UAGm5HS400g+xYJ6ZNYO4hJY0uxuBkbwBY+oHihZTlAa/NBgNh8iF5+wPQRKlew+YHYfEms3wdrWQwAcVoqwg==
   </data>
  </layer>
  <layer name="Walkable" width="25" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJyllNsNgDAIRTuF+6/ghn6ZGOS+gKQfVuAABc75y301l+X/e+pdp6d8dDrMDn0jP5Pz9af8srgUYxJ7KoyJ8k45m/dy39/tJdWXTJI6Tznbt0x02XyovnfiULmgGqnYEMtlpHPD5tjdU8leQXYuV4maFabDcnEZSsdluLapjruvVAxT25TdzZub+4bZ9YvqVTc+xNrWEUllPBDGnpU=
+   eJytVEEOwCAI8xX7/xf2w52WGNeWFkZiYhRphcJaX7svcHjcv+s8Q34o7h4D4TEOCEO9OXHctcer4ipeFUaHe2oKk/07xZnUy62/wmA5Sv+S5LmLM61l4qv6o9K9w4PlnO2ZxhRmxUvNFTfXqo/dOZXMlUo7k56vuDp17sysRAtdDPY29XE5KnO5duOhO1fXU92jGJV+k777U++unRgPZlqkzQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -253,6 +253,21 @@
   <object name="hexapede_crawler_spawn2" type="spawn" x="448" y="128" width="224" height="192">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="hexapede_crawler"/>
+   </properties>
+  </object>
+  <object name="stoneclaw_prowler_spawn1" type="spawn" x="416" y="256" width="256" height="128">
+   <properties>
+    <property name="spawngroup" value="stoneclaw_prowler"/>
+   </properties>
+  </object>
+  <object name="stoneclaw_prowler_spawn1" type="spawn" x="640" y="512" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="stoneclaw_prowler"/>
+   </properties>
+  </object>
+  <object name="hexapede_crawler_spawn3" type="spawn" x="32" y="32" width="128" height="64">
+   <properties>
     <property name="spawngroup" value="hexapede_crawler"/>
    </properties>
   </object>
