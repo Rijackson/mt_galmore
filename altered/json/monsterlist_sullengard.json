@@ -64,5 +64,48 @@
         "criticalMultiplier":3.0,
         "blockChance":229,
         "damageResistance":10
+    },
+    {
+        "id":"g04_defy",
+        "name":"Defy",
+        "iconID":"monsters_ld1:81",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"g04_defy",
+        "phraseID":"guild04_defy",
+        "hitEffect":{
+            
+        },
+        "hitReceivedEffect":{
+            
+        }
+    },
+    {
+        "id":"guild04_rebcomrade_1",
+        "name":"Greedy comrade",
+        "iconID":"monsters_ld1:65",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"guild04_comrade_1",
+        "phraseID":"smuggler6_1"
+    },
+    {
+        "id":"guild04_rebcomrade_2",
+        "name":"Grabby comrade",
+        "iconID":"monsters_ld1:65",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "spawnGroup":"guild04_comrade_2",
+        "phraseID":"smuggler6_1"
+    },
+    {
+        "id":"guild04_rebcomrade_3",
+        "name":"Zachlanny",
+        "iconID":"monsters_ld1:65",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"guild04_comrade_3",
+        "phraseID":"smuggler6_1"
     }
 ]

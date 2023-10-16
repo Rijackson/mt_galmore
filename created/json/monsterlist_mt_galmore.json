@@ -82,7 +82,7 @@
         "id":"aidem_base_defy",
         "name":"Defy",
         "iconID":"monsters_ld1:81",
-        "maxHP":379,
+        "maxHP":359,
         "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
@@ -98,7 +98,17 @@
         "attackChance":170,
         "criticalSkill":5,
         "criticalMultiplier":3.0,
-        "blockChance":170
+        "blockChance":170,
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"g03_concentration",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"40"
+                }
+            ]
+        }
     },
     {
         "id":"alaric_wild6house",
