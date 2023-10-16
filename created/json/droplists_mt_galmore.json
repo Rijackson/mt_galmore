@@ -633,5 +633,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"steelthorn_hexileg_dl",
+        "items":[
+            {
+                "itemID":"hexi_egg",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"9",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

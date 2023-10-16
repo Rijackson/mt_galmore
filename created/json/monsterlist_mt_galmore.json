@@ -584,7 +584,10 @@
         "attackCost":3,
         "attackChance":135,
         "blockChance":185,
-        "damageResistance":8
+        "damageResistance":8,
+        "hitEffect":{
+            
+        }
     },
     {
         "id":"flamejaw_tunnelbeast",
@@ -596,8 +599,29 @@
         "id":"steelthorn_hexileg",
         "name":"Steelthorn hexileg",
         "iconID":"monsters_newb_1:570",
+        "maxHP":211,
+        "moveCost":5,
         "monsterClass":"insect",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":4,
+            "max":6
+        },
+        "droplistID":"steelthorn_hexileg_dl",
+        "attackCost":3,
+        "attackChance":120,
+        "blockChance":167,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"orange_cat",

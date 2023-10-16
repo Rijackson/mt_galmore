@@ -324,5 +324,27 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hexi_egg",
+        "iconID":"items_newb:628",
+        "name":"Hexi egg",
+        "category":"animal_e",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":4,
+                    "duration":6,
+                    "chance":"18"
+                }
+            ]
+        }
     }
 ]
