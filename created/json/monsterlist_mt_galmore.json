@@ -593,7 +593,20 @@
         "id":"flamejaw_tunnelbeast",
         "name":"Flamejaw Tunnelbeast",
         "iconID":"monsters_newb_1:561",
-        "monsterClass":"reptile"
+        "maxHP":237,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":7,
+            "max":10
+        },
+        "droplistID":"flamejaw_tunnelbeast_dl",
+        "attackCost":3,
+        "attackChance":150,
+        "criticalSkill":20,
+        "criticalMultiplier":2.15,
+        "blockChance":131,
+        "damageResistance":5
     },
     {
         "id":"steelthorn_hexileg",

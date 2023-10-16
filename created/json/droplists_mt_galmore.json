@@ -654,5 +654,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"flamejaw_tunnelbeast_dl",
+        "items":[
+            {
+                "itemID":"better_worm_meat",
+                "chance":"9",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
