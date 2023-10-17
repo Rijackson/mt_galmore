@@ -375,5 +375,32 @@
                 }
             ]
         }
+    },
+    {
+        "id":"feline_fang",
+        "iconID":"items_newb:547",
+        "name":"Feline fang",
+        "category":"animal"
+    },
+    {
+        "id":"feline_milk",
+        "iconID":"items_consumables:55",
+        "name":"Feline milk",
+        "category":"animal_e",
+        "description":"A unique elixir exuding the essence of mountain flora.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"90"
+                }
+            ]
+        }
     }
 ]

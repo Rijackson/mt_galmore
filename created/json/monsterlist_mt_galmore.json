@@ -324,7 +324,7 @@
     {
         "id":"nightfur_rat",
         "name":"Nightfur rat",
-        "iconID":"monsters_newb_1:285",
+        "iconID":"monsters_newb_1:284",
         "maxHP":194,
         "moveCost":2,
         "monsterClass":"animal",
@@ -682,6 +682,31 @@
         "id":"stoneclaw_prowler",
         "name":"Stoneclaw prowler",
         "iconID":"monsters_newb_1:250",
-        "monsterClass":"animal"
+        "maxHP":230,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":8,
+            "max":9
+        },
+        "droplistID":"stoneclaw_prowler_dl",
+        "attackCost":3,
+        "attackChance":130,
+        "criticalSkill":10,
+        "criticalMultiplier":1.25,
+        "blockChance":170,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]
