@@ -228,12 +228,6 @@
     <property name="spawngroup" value="virid_toxin"/>
    </properties>
   </object>
-  <object name="guardian_mushroom_spawn1" type="spawn" x="64" y="96" width="64" height="320">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="guardian_mushroom"/>
-   </properties>
-  </object>
   <object name="river_troll_spawn1" type="spawn" x="192" y="64" width="224" height="128">
    <properties>
     <property name="quantity" value="2"/>
