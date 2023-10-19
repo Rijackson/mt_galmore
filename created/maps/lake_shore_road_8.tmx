@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -189,14 +189,19 @@
  <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <layer id="10" name="Base" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGF9jIOdAuoD0AAK0fALs=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJzF08sNgCAMBmDjjf3nUGIYQL15VVZwECGBBCuPtiIe/pvmoy/Zd90k7tkKUeL5DzXyJ3dkuKlQXWhzXYrt3bDfqoE7OBPOuWTn+oNxZ+OtEbfU73C34Bsx7m48HZkxpu439fr5whlTeg77gLkzjEvZcextW29xyX1X27U1Hi66Yb3WPV1q1Ivdr9xMubuFcVP387Vd2uOYHYbrXmk8bJ0=
+   eJzF08ENgCAMBVDjzSFczQ2VGAZQb16VFRxESEqCFWmLBg//JjzbUlVX1dhcsxLRzf2MNOond6jv91DuU6QutnNdie3dsN+6gNuDiedM2am5cNzJekvEpfodzgX/I8fdrGciM+bU/aZeP188Y0nPcR84e8ZxJW+cu9vOmyGp7752XY07xBSs17kHJHXm611WhJfztjhuuD9dW86m3nHMDpPrnlrkbGo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJyVVTtOAzEQtfYG0KUwHCDSOqnpkn4VFgm6FREVCOhAIn1yCcRh4BAUlCBA3IIZyaM8JuMPTxqt4rH9Zp6fHef+InjnJt4lEWKO53ztpechLkbOXVPcUgzxK2hpn/f9et6evgsVx7CO99JgzptYQ6D8mOZPfV2/A+XmFDOKcwge6xU34uHAuRXFi9Loqdny5tYL99Lvjs2h5iOjX4bo8NhsOYWXkePuEvrW1MxgX6xVXVI3I6V3AJ1RX93zd6XvGC2s7/2uX4SXweMhzplAz1a9p9TfWUJ79Bf2rbXDuk5i73zeXfxdo/UHne1nY+dymg/g5SX0KuD5rxmdL+kuXcX7JGiN3nJ3SyC8M6jFuscaz7HvqVpTutMM0ZiRmvvzD5/JfiVe7QfLjwKtAZ6zaI0eKnkF3zI5m9wZvxm5Q+BIvSWdUYu8ZTVvyNjwAPJaGi4K+qf8eEcevh/ZazSv5kaU/rskL55aE+eG4hdFMFuY
+   eJyNVbFOAzEMje4Pytbh6AdUIsfM1ttP1yLBVnFiAkE3kGBvf6LiY+AjGBhBBfEX2GqezrhOck+yqlxiP/vFTqvSuYoM8Gqt4cMen/kexc9JXI+duyNbkS3DL2NBMeZkn0fDedmnVTYXfhxLgznvQw6e9qdlz53jXdJeTTYjuxJWixgWno6deyZ7Uxq9FHs+n/EHd1cefqtFzmdGvQzosC32nAzwMlLcTUTfITkzuC/WIi/mRd5YW/BCZ6mvrvlnYN9p/0V52C/gZaAfWsEV648Lqu8yov1U+Mi6tXYyr/NQO993E9ZDtP6iu90V/boy4uvv2EMvd6JWGec9ofMNzdJtmCecPzG4U7MFgHcmcrHmWOM1zNKp8snNNAMaI3cLv4n6tQ/i5Xh1P1j9CGgNdkUfH1rLHsr1inzLcDepO/4Y/T/LmAiO2FvSGLngLRvyhmB+uP7O4LU0bDP6x/rxgXr4cdyv9f7EqKM2OHL/XdhHT62Jc0P2B3jHYnA=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="16">
@@ -246,7 +251,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="6" name="pond_fish_spawn" type="spawn" x="416" y="320" width="128" height="64">
    <properties>
     <property name="spawngroup" value="pond_fish"/>

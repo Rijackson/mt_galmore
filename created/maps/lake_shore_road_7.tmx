@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="13">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="13">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,12 +188,12 @@
  </tileset>
  <layer id="1" name="Ground" width="27" height="27">
   <data encoding="base64" compression="zlib">
-   eJzbzMnAcIJOeDMd7doIxfS0i9b2baaTXRuxYFrEHTZ7qG0fPjuoaR+x9qBjWps/EuwiNv6oZRcx/kPPq7Ty22Y62oWshtZhSM24GrWLdmmC1PS+nol8/5Car+hp1zqgXXNw2EftsgJk1wEy7CIn34LC8BIQX2YizU/kpDOQXU+w+IsWaRxX2qCFXQC67C7S
+   eJzbzMnAcIJOeDMd7doIxfS0i9b2baaTXRuxYFrEHTZ7qG0fPjuoaR+x9qBjWps/EuwiNv6oZRcx/kPPq7Ty22Y62oWshtZhSM24GrWLcJyTmyZITe/rmfCrpWa+gtmFSw817VoHtGsODr9Ru6wA2XWAiXQ/kZNvQWF4CYgvM5HmJ3LSMsiuJ1jCkBb5aT0Z4UeuXQDXXC7e
   </data>
  </layer>
  <layer id="2" name="Objects" width="27" height="27">
   <data encoding="base64" compression="zlib">
-   eJy9lr9Ow0AMxqPuLNkynFhg5eAN+DN1qShdYDkFsYDU8kY8DK9SiYmX4Kyc1U/u+eKEpJaqDrn658/+fOmyqaprV50sniJrfQLeNup6cPPyVjHvY8odXMebo5fE2Yi8fgZtzLlPWpBFMQWPe8acV3fITxGAzbzVCC5qaROH82NI3sY4Q9YhtfRFSPW0A/ziQUdr5Mg6WVdfL/0ID+/r7juALksvLSzKfRvP3CnncH6Y67I+Zk3h3+DK9wruKtWzr4/PDAmf0SafrQdou8qc4Ro1Vu5esHjkvGf2uZ3B/g7ZqxvlDNeu1Yu7leMsm362rL3EmuL9IHdaY5U8gb78Wugs9oQ2B+n3/4TmCWstMt6a7n/Arjn4nnRrnrhIPUFNpR4+x/Mv6Te/6Zt6iV4saUJOyYMU7zH/h7hLvmFuFp8zx/r+yN1deBeUNOWey3whzuUT9svH5z+L7kPzsuyTRQ97YJt4Z6IOnldpP8fsLvP+ANRxYaw=
+   eJy9lr9Ow0AMxqPuLNkynFhg5eAN+DN1qShdYDkFsYBUeCMehlepxMRLcFZsYdyz44uaWqoy5OqfP9/nuyy7prkMzdHiIbPWR+Bts667MC9vlfPeY+4UBt4cvQTORuSNM2gjzi1q4SyIQ/CoZ8R5Dn/5IRJjE281gcu19Mih/Dwkb+PcQ9IhtYxFwnr6Cr9EpqN3cmSdpGusl3GCh3ft8ExMl6eXHhbkvs5rbpR1fP94rvN2n3UI/6Zgnyt8VqGeXbu/piZiQZt8t67QdlFYQzVqrNK54PHI6cjel2aG97dmrq6UNVS7Vi+frRJn2f3PZfV47A6omS2rZjnTGsvyBPfl50JfS57Q9kH63RslnuYJby0yXrrhO+CdfeOAbs0TZ9gTrsnq4WNe/4T/+cEn9JLntTRxjuVBiNec/02cJV+M5fE5cbz3hzy76P6w5tJ6L/OlvC8fbL5ifv+9GH7A8syTRw95YIu8E6xD9tyazyn3IvF+AeTQZqU=
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="27">
