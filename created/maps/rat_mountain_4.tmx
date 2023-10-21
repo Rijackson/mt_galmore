@@ -205,7 +205,7 @@
    eJybw8QwIOCXLAPDbyD+I0uavpuSxKv9iWR2ohwDQ5IcaXZRog8GUoF60yjQT2uwh4TwHAWkg80khC8pamEAANvuC2E=
   </data>
  </layer>
- <layer name="Walkable" width="15" height="16" visible="0">
+ <layer name="Walkable" width="15" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYCAPbBQjXhyXWnLtRcak6iXVDmQ+qQCXO0l1B7kAWS96uOFzG7o4vrjGZhYxevG5eaDwQLmBkrAAAHHeUmc=
   </data>
@@ -229,7 +229,12 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="480" width="32" height="32"/>
+  <object name="west" type="mapchange" x="0" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="rat_mountain_3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
   <object name="upper_west" type="mapchange" x="0" y="0" width="32" height="352">
    <properties>
     <property name="map" value="rat_mountain_3"/>
