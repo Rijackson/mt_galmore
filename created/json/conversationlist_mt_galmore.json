@@ -2109,12 +2109,12 @@
         "replies":[
             {
                 "text":"OK. I think I will do that. Thanks.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
-			{
-				"text":"OK, but first please give me something to drink.",
-				"nextPhraseID":"S"
-			}
+            {
+                "text":"OK, but first please give me something to drink.",
+                "nextPhraseID":"S"
+            }
         ]
     },
     {
@@ -3188,7 +3188,7 @@
     },
     {
         "id":"blue_cat_talk",
-        "message":"Talk? Well, let me ask you this: why don't my friends up there talk?",
+        "message":"Talk? Well, let me ask you this: Why don't my friends up there talk?",
         "replies":[
             {
                 "text":"Well, I guess you got me there.",
@@ -3208,7 +3208,7 @@
     },
     {
         "id":"blue_cat_blue2",
-        "message":"Well, you see those rats over there? the ones in the cage?",
+        "message":"Well, you see those rats over there? The ones in the cage?",
         "replies":[
             {
                 "text":"Yeah.",
@@ -3238,7 +3238,7 @@
     },
     {
         "id":"blue_cat_blue5",
-        "message":"She caught me killing her favorite one day. I got away that day, but she she was relentless in her attempts to hurt me.",
+        "message":"She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me.",
         "replies":[
             {
                 "text":"What happened next?",
