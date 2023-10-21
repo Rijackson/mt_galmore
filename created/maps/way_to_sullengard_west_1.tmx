@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,36 +184,36 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_tree_3.png" width="1024" height="544"/>
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Base" width="15" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYBg6YCPnQLsAFVDqnsHmn1EwvMFQSW9DxZ3UBIPBz9RwA8gMACvdBdE=
+   eJxjYBg6YCPnQLsAFVDqnsHmn1FAWzDQ8T3Q9hMLhoo7qQkGg5+p4QaQGQBIggaL
   </data>
  </layer>
  <layer id="2" name="Ground" width="15" height="27">
   <data encoding="base64" compression="zlib">
-   eJydlDEOwyAMRSO2XIDTcwWSVjlAQm+QpFvXqKrUvepYrBrFQQYchi8WP/zNB5xqmt5rQa1e11amDtkNNQg5yhpcJcxL/9fJ1zu17yHtCf7CjGdZq44sKPipYaW8xbOF+kvEm8yZD+2x9haxqfljDnRnWMewlqmL2T5xxziW8xvPOwhZzi9oJDUTI5d5E7Paey+M1kI+Kd+lt0RZQ9QVuLc+5ku53FsAxiS89gU2l02Kfep6lss1ztcVWMh1xFqayaZkZzVj/iOpp7057oHZgKBP8FDzNwcPTp37mz86/QfQe5bb6+v3+AHivSfb
+   eJydlDEOwyAMRSO2XoDTc4UkrXKAhA7dk3TrGlWVulcdi1WjOJYBJ8MXix/+5gPeVFUbNKHmoMtJpwbZBdUpOco6XDXMy/7XIdR7s+6h7Qn+4ox72dpsWVD0c4TV8jWeLdSfGe8yZ96dtrVXxqbm5xzoLrBeYGuhjrNt4o5JrOSXz9spWckvqCc1gyCfeROjWXtPgmbm92Z1vktvibKOqClwb7vNl3K5twCMS3htC2wumxT7tMdZKVeery+wkGuPtTSTxejOasT8e1JPe0vcA7MBQZ/o4cjfHD14s+9v/tj0H0DvWW6vb9jjB0WPJ/0=
   </data>
  </layer>
  <layer id="3" name="Objects" width="15" height="27">
   <data encoding="base64" compression="zlib">
-   eJyNVF1qg0AYXLxB8iD4IDlCz1TIbXqEYq8hOUCTSAPtU8D2zRBR8y7tW3fqDo7b3dIBidl19pv5ftaY3zimgUWLyq036+n3mhhzt5738T/G3ct6vTKmXS333+3+Vzqd/Zzb7/N5r7TrrX3OltPJOX1mzJBNMW/eeQBigDva58M+j0nY6/1m/t+IH/o9uNgE38Ht09kT8Gp1v+Wz34OXjyfRAH7nnl6+q5zfWzqfew1oR+4LL+fkqddatDPv6mFw72MkRzH4cakphl50kEu9CtT0Zy+gRXvMzy3rSG+Ixx4B2GMAe+K/UK/bzTL2X55VL3oLfQHuRbyRT90PycRTvUCVLuPW4hMoAry966XOzRbqe8qWGsFDbD9e6eLFeqIO1JNrvlbiHJjTo5uvFzs3p3zSyZ5ArjW/Wk+NS6+hutaBmD63jPQUUbgccA7B3bp+03m9eLnSXLcyc3r/QXO3mnz6/JjmRnoGmlG7T+c9dAZ0D3Lf8M4ZpebIE/n0qbljHfw7ZyczBV3fuaelYg==
+   eJyNVM1Kw0AYXIN6Tw+BHpI+gs8k9G18BKmvUXwA2wYLehKit5aWJL0HvbljdtjJdlMcCE13M/vNfD9rzDk2WWTRonTru0n/e0iMuZv4ffwf465kvUqNOabD/U+7/5P1Z7/k9vvc7y3t+tE+H5ZTyznN1Jh22sc8BecBiAFuZ58v+zwmca/3M/9/J37od+1iE3wHt8m8J+DN6n7Pvd91kI8n0QB+7Z5Gviud31Pmzz1EtCP3iyDn5KnXSrQz7+qhde/dSI6Am8KY22K4FsalpjE0ooNc6lWgpn97ES3ssaviPLesI70hHnsEYI8B7In/Qr3OZ8PYlzxT73XhewvcvXgjn7ofkp6nestIP1XiE1hEeCvXS7WbLdR3Ox1qBA+xlQdgdtYXeqKK1JNrZXZeH/Wo2Lj5erVzs817newJ5Frzq/XUuPQaq2sViRlylyPzSixcDjiH4M5dv+m87oNcaa6PMnN6/0FznfY+Q/6Y5p30DDSjdt/Oe+wM6G7lvuGd00nNkSfy6VNzxzqEd86zzBR0/QI7saUO
   </data>
  </layer>
  <layer id="4" name="Above" width="15" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEh8WwCBIJLkH1LpVlYFgmS1j9TUkGhluSlNkJ0usoT75edLAe6O4NRLidEjdTQz81wGWoG24D/XuHCD8jA5j7fwP1/UHTC4pTYvSiA2zxCEsjMHCJzHBDttOFxPRCjTxBTX178IQvNcKHXL2rgelgDVpaQA9r9Pikhr0wcBdo9z0i0zFIL7Lb/gL1/cOiF1tYU9PN9NJLbrogFQAAq9gszA==
+   eJxjYMAEh8WwCBIJLkH1LpVlYFgmS1j9TUkGhluSlNkJ0usoT75edLAe6O4NRLidEjdTQz+p4CnQT8/Q/HUZ6obbQPE7RPgZGcDc/xuo7w+aXlCcEtL7EKjnEZo+bPEISyMwAEtjTHLkuRcEXEhML4+B7nxCYvjAADOJ7oSBS3jSxx484YtPHz5AaR4EgdXAMFqDFk7oYY0en9SwFwbuAu2+R2Q8gfQiu+0vUN8/LHqxhTU13UwvveSmC1IBAP/sMU8=
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5IK5TAOrfxSMglEwCgYbAAAyugE/
+   eJxjYBgF5IK5TAOrfxTQDxwWI1/vJQr0joJRMNQAAIylAwA=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="15" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytVFsOgCAM4xTe/wre0A8/NM36UpYsJIyWrRusddt5PN5ai32fm3ApV5sv5olri8U6WE6TPm2NCecUd9wJjp1Lctm55+5Q9SidnDE9mAbojPNv75r7HLfCqRlEbDI7LJ68ken9JrwqjtyuL828fdGD6dD8r/gfNXPO8CnXBY1RZ2Q=
+   eJytk8sJwDAMQzNF91+hG/bQQ4OwfiWGUEgs+dlJ13rjvr7VRqvd8yZd6tXyIid+Wy32wZim+bQ9Jp7TufNOdIw/YTm5x+av7jGZk4uJA/f3OmyxXhizY0rqpN5Kp3pALctR3ozNzc0xK4a/b8XVdznNvaZczKPVsn+rfWMPLohsDg==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -245,6 +245,12 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimmthorn_marauder"/>
+   </properties>
+  </object>
+  <object id="6" name="flying_tree_ant_spawn1" type="spawn" x="256" y="288" width="64" height="320">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>
