@@ -244,6 +244,7 @@
         "id":"esp_sweet_cherries",
         "iconID":"items_newb:814",
         "name":"Especially sweet cherries",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":256,
         "category":"food",
@@ -329,6 +330,7 @@
         "id":"hexi_egg",
         "iconID":"items_newb:628",
         "name":"Hexi egg",
+        "displaytype":"ordinary",
         "category":"animal_e",
         "useEffect":{
             "conditionsSource":[
@@ -351,6 +353,7 @@
         "id":"better_worm_meat",
         "iconID":"items_newb:772",
         "name":"Healthier worm meat",
+        "displaytype":"ordinary",
         "category":"animal_e",
         "description":"A heathier alternative to your average worm meat.",
         "useEffect":{
@@ -380,12 +383,14 @@
         "id":"feline_fang",
         "iconID":"items_newb:547",
         "name":"Feline fang",
+        "displaytype":"ordinary",
         "category":"animal"
     },
     {
         "id":"feline_milk",
         "iconID":"items_consumables:55",
         "name":"Feline milk",
+        "displaytype":"ordinary",
         "category":"animal_e",
         "description":"A unique elixir exuding the essence of mountain flora.",
         "useEffect":{
