@@ -254,7 +254,7 @@
                     "condition":"food",
                     "magnitude":7,
                     "duration":6,
-                    "chance":"50"
+                    "chance":"100"
                 }
             ]
         }
