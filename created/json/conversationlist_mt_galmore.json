@@ -2108,8 +2108,13 @@
         "message":"You should ask around town if anyone has seen or heard about it.",
         "replies":[
             {
-                "text":"OK. I think I will do that. Thanks."
-            }
+                "text":"OK. I think I will do that. Thanks.",
+				"nextPhraseID":"X"
+            },
+			{
+				"text":"OK, but first please give me something to drink.",
+				"nextPhraseID":"S"
+			}
         ]
     },
     {
@@ -2146,7 +2151,7 @@
                         "value":10
                     },
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"wicked_witch",
                         "value":40,
                         "negate":true
@@ -2163,7 +2168,7 @@
                         "value":20
                     },
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"wicked_witch",
                         "value":40,
                         "negate":true

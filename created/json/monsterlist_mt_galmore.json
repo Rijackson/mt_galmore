@@ -223,12 +223,20 @@
         "monsterClass":"animal"
     },
     {
-        "id":"busy_indoor_farmer",
+        "id":"fallhaven_indoor_farmer",
         "name":"Busy farmer",
         "iconID":"monsters_man1:0",
         "monsterClass":"humanoid",
-        "spawnGroup":"fallhaven_farmer1",
+        "spawnGroup":"fallhaven_outdoor_farmer",
         "phraseID":"fallhaven_farmer1"
+    },
+    {
+        "id":"fallhaven_outdoor_farmer",
+        "name":"Busy farmer",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"fallhaven_outdoor_farmer",
+        "phraseID":"fallhaven_outdoor_farmer_10"
     },
     {
         "id":"wicked_witch_first",
