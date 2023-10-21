@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,6 +186,9 @@
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="15" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4AwWME00C4YBaNgaAIAK1gAqw==
@@ -198,12 +201,12 @@
  </layer>
  <layer id="3" name="Objects" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJylUzsKwkAQXay0zBZChGBnm0t5AYvcQM+QQryMjY2gWNhYCAmCJpdwx+wjk2VnUHwQsp/5vHkzW47MB4tZ969s9x+7/cR9tb8nPNh659clOwuBWNekP8utbB+LlSjxEfeZyDaFHdZAWM6N2Sg8Kna3FfLD5q7w0/CP32Xa74+pbIt+QadTZsw5k+0bpmPh60Od1BucaXqHQE+pj9qsEKgWzFU4J5Sb+18FDpoeIfhsaXMZw0HI/21fw5mM+cXO0APuX/zIfeXt98Is0PsAqiD2zenbprL+El7Op0k7fyAP3hDvB9eXcsGfIPW4EThRPbXgsxa0A7fWDjkT11ATDq4LOL8BQ55Anw==
+   eJyFU8GKwkAMndVd0WN7EBRab179JmF/wMP+wfoNHhY/Ri+CLSgevHgQWoR1Pe0H7GLiTDCGSXwwtJ1JMi8vr7OGu2HY988q9c82fHdg1eEccWLv8/A+Y3sSVGuf3PdGqR6PtT7EeWLUp7rfiR6D9WpR433g3NTgUbGzL+V+ijka/CzwvGbu3Gvue0Vuz/J2Xf/+CxzKnh5L8yKdNplz2ywe+wf7/+yM5kB98tlIveXMOMgf2JvlFQT2Qr6SPsE7eP5embmlhwT3luVLzoGwUu63/LAAfZdBY+nJWF5sjzjwfEv/GCYhfql4gXuwErUPoO+lp+uv4Q383cp9PmEk/iE+D64v3nWGvJ+QG5vxGjgXsEpYL3BPA1YB/ZWZ76dWfPEZ0Q7/R+J2SR85I1epCWI8uHMlEOcrok1JvQ==
   </data>
  </layer>
  <layer id="4" name="Above" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBiawEUeU+yyGPnmHSZTL8jOS2ToRda3R5J4fetlGRg2yJJuHwiQ60dSACl+IcYMasYpsWaB1KHrJTbsDmNJD8TqRdYH00MobS3CkhZAerHlDxi4CQzfWzjiCZ9bbxKIW0L+RNYPi2Ni/YnNP6SkZ3S3E6sXm59Jze8Anw4kLw==
+   eJxjYBiawEUeU+yyGPnmHSZTL8jOS0D8WJaB4Yksbrfh0gcCeySJt2890I4Nstjl7gLF7+GQAwFy/UgKIMUvxJhBzTgl1iyQOnS9MP5CYPguIhDGl3DoJQSQ9cH0oJuFDrC5BaQXXxq8CQzfWzjiCZ9bnwLtekZB+rqJZCcsjpH9uQvo5t1AvAeIHwLteQTEq4F4jSx2/+CzDzk/otuNS68jkh0sctj1wdxKCgAAG4Qztw==
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="23">
@@ -213,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="15" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlAsKgCAQRDuF97+CNxSjIGRn5mEuSEQ9Z3l+ervu6s/zrfmuxvoPLZKhmJSlvqW+T85LWMJ92eQ7OTuRq7Idu+YRV9U6kfyKoZ6cP8eq/ioHik3nipwH58yV20tknUivFZeckdyde+ePr3RHJW4AOjhgZQ==
+   eJytU1sKwCAM2yl2/yt4w7Exf0JeHSuIiE2T1rjO44n17jvus1qY00bLwTCJS90l3X/UdTkTPagLa7Tzd9h2TuqtFBZ3Vi/NmfU34WdaWE6q6TzoeFm/yXfJD0qbwzaR/lqLS75yeclzildpnyzsue3xy1+/AAn0ckY=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -236,8 +239,9 @@
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
    </properties>
   </object>
-  <object id="4" name="flamejaw_tunnelbeast_spawn2" type="spawn" x="224" y="352" width="160" height="64">
+  <object id="4" name="flamejaw_tunnelbeast_spawn2" type="spawn" x="224" y="352" width="160" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
    </properties>
   </object>
@@ -247,12 +251,17 @@
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
    </properties>
   </object>
-  <object id="6" name="stoneclaw_prowler_spawn1" type="spawn" x="192" y="160" width="192" height="128">
+  <object id="6" name="stoneclaw_prowler_spawn2" type="spawn" x="192" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
-  <object id="7" name="stoneclaw_prowler_spawn1" type="spawn" x="96" y="640" width="288" height="96">
+  <object id="7" name="stoneclaw_prowler_spawn1" type="spawn" x="96" y="640" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="stoneclaw_prowler"/>
+   </properties>
+  </object>
+  <object id="8" name="stoneclaw_prowler_spawn3" type="spawn" x="320" y="224" width="32" height="32">
    <properties>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
