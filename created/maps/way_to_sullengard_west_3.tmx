@@ -185,7 +185,10 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/> 
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
+ <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
  <layer name="Base" width="15" height="30">
   <data encoding="base64" compression="zlib">
@@ -199,22 +202,22 @@
  </layer>
  <layer name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVE1Lw0AQXePHvT0IOaTix1Hw8yf5r6S/QzxaMCYo6KlFDx6EFhKLZ3tzhu6Qt9PZtfpgYZPM25l5+yaLXZdERd8/+sv9rRF72g+fNwfObQ06LmPS687QaHLn2ny5P4aYCnKVsG97q2ecqLORe2PU/Fg491Ssvp9mv3NjeKPYxT+5nHMGfQk3pplA6sU4zDv2Z84MzSTvnLT/yjsuPsdyMlqKbWg9k44vRZf3jvYjr+3VXsjle7om/lDpXK+RV9fN+IS+hI9eEG9ukB8z5UkG+moOuV8Tegn+cr+aW/t9E8mDsO5Y8J6HtQ6zkKc9Kf2i1sixeOIh7vee7rUsQq1kfpnzrfLpflPgOppInDXzGpXBLdU7nIMp9G35KTWD2+SlHcNPgtrQGSEetbj8j30gjSuvcwt81EG4ov8Yvlnzvk/9HmTxvForqZF5h7SOEtzYLJwR54LWpeLG/lcW/3zNvBPfM98r9ipcPWvakz9QIn5O
+   eJyNVMtKw1AQvcbHPl0IWSRadSn4/BH9Bv9K+h1SdwrWBgVdtSjiQmglMbi2C8UZkiHnTichBwI3yZx7ZuaeuYtN14ox/f/oleuhEXvY899XE+fWkprLmIb1HhpZ5Fwelet9iGHuZ1iuR6Cbh8t7HKi9xxB/ZeT8EDv3GC9/nwUl9y2suRNDz8IrxS4M3V/S+TO0dL5z0BFuU890vhiH9Uruc6MG7gFzC+r9d1Rz8b1Jk5FTbEbPE+3zHNe6N7S+req92PK5fE6XxB8E/hmlHXQRwv2CuoSPXhBvrpAfA+VJBvqqAO2XhjNn7pBqu45tX3XJmZFW66yDt6wzFrxHfq6DwOdpT0q92GvkWLwJzMId1T2K/V7J/DLnR+npetvAeWRV3D17E2bGmnmNsaExUt9wDmZQN3P7276f2mZwnby0YfhJkBp9RohHLS7fsVJ/AXcjA/sgXOk/3lPWvPep3p2gWVd6JXef5Mi8XXr2WrhNs3BEnBN6ThWXe4p37Bn18jyx+ccddafVfnyuWKtw9axpT/4DmF+Kpw==
   </data>
  </layer>
  <layer name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJzllE0OwiAQhecUJl0QL+NFNfEn0UTvwA3KSlMX/t3DITKxnfIoRV35VtDw9Q2PAaK+bobobl5jO4ksUDpWRKeq/z2HRRpit1zfzpSxSI65upD9xLOUtaHehrM/t/LXc+0nrGjPOR5aWc55vAjz2bTr54UySvnm7hHxF67nGmpyP+wrpNJzEg6xDdivl3CxvFOcsDFuyRmu1L2R++sGzjemWD/lyn6RHdMTnnmY9z5T/rqn9VrErvn/m5CzvI2IRe9nymdMZv/CSoa6f3PYJ5JGT7o=
+   eJy9lE0KwjAQhecIuhG6SO0V9AxeUncK/oCC3sGtK7tS2oJ/93CCHRqmmSRG6ds0Cf36Zl7SALT1UABP9RkfB5YXmC4JwDVpr4ewknzsFuvbqThWUo7c2cKW6FMJXv/wjGUpgwKzL438+Zz7aWnPU93THp8Ho785jhf1fDJs1qlOW0Y+39AeJf6G9dzrmvIfz9UUvzPz7CdX7D4RJ7GF0K8Wcba8XRyxNm6Jfa9Y7/T/5p79tck8T6bW6LEJ/GdicuVsLwPoZ+HsSzV9Zg6On2leq1S72T/djRIr3Z8un28y64IdpQDjtHtfU5QhP78h7BupYlTc
   </data>
  </layer>
  <layer name="Top" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKRB57JDrQLRsFgAQAZLQEE
+   eJxjYBgFQxUcFhtoF4yCUTA4wGUy8sIzWQg9mo9GAQBYcwOf
   </data>
  </layer>
  <layer name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMANNorhkcSjB4ZJUU+pvaToxWUnufbS2r249FESP8Ty0cUJhRsyH50mxnx89uLzMzFy+MKLUFgOxjjGlW+I0YcrHonRR0x8EgtILS9wmUFPvcS6mVCaJNd8SsKfVP8Sk/dooRfdHHLsJUUvANdjSRM=
+   eJy1VMkNACAIcwr3X8ENfZkYIz0QSfgIpeWIrcU2OggCzHIn/5XXwUac683lR/lsFtlenRnfcKezutFeEf42T1Zf0Yv6QrGXPey9VN4HwzmaVY1ojwpO2adqFTWr+asw7Caz9X/OCt1F5u7Rv3HmZTVHvA52AvqZVLw=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -232,7 +235,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="grimmthorn_marauder_spawn1" type="spawn" x="352" y="64" width="32" height="288">
+  <object name="grimmthorn_marauder_spawn1" type="spawn" x="352" y="288" width="32" height="32">
    <properties>
     <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
@@ -249,9 +252,15 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object name="flying_tree_ant_spawn2" type="spawn" x="224" y="800" width="256" height="32">
+  <object name="flying_tree_ant_spawn2" type="spawn" x="192" y="800" width="288" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="grimmthorn_marauder_spawn2" type="spawn" x="256" y="96" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
   </object>
  </objectgroup>

@@ -257,10 +257,22 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="128" width="192" height="224">
+  <object name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="128" width="192" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="verdant_cyclopea_creeper"/>
+   </properties>
+  </object>
+  <object name="verdant_cyclopea_creeper_spawn2" type="spawn" x="64" y="256" width="192" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="verdant_cyclopea_creeper"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn3" type="spawn" x="160" y="768" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>
