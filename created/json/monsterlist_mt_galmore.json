@@ -494,7 +494,7 @@
         "maxHP":245,
         "maxAP":12,
         "moveCost":8,
-        "monsterClass":"construct",
+        "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":5,
@@ -524,7 +524,7 @@
         "maxHP":227,
         "maxAP":12,
         "moveCost":8,
-        "monsterClass":"construct",
+        "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":3,
@@ -554,6 +554,7 @@
         "maxHP":238,
         "maxAP":12,
         "moveCost":8,
+        "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":4,
