@@ -185,6 +185,10 @@
             {
                 "progress":40,
                 "logText":"The PC has be rewarded by Zaccheria for getting Alaric off the roads."
+            },
+            {
+                "progress":41,
+                "logText":"the PC doesn't have 39, so let them have access to the \"Aidem\" camp. Or the player does have 39 and has Wanted Men 15, then let them pass."
             }
         ]
     }

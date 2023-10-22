@@ -3265,5 +3265,52 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"prerequisite_easedropping_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prerequisite_easedropping_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":39,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prerequisite_easedropping_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"prerequisite_easedropping"
+    },
+    {
+        "id":"prerequisite_easedropping_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":41
+            }
+        ]
     }
 ]
