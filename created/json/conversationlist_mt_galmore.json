@@ -3169,6 +3169,48 @@
         ]
     },
     {
+		"id":"gal_chk_h1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gal_chk_h2"
+            }
+        ]
+    },
+    {
+		"id":"gal_chk_h2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gal_chk_h3",
+                "requires":[
+                    {
+                        "requireType":"dateEquals",
+                        "requireID":"MMDD",
+                        "value":1024
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            }
+        ]
+    },
+    {
+		"id":"gal_chk_h3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            }
+        ]
+    },
+    {
         "id":"cat_dialog",
         "message":"Meow."
     },
