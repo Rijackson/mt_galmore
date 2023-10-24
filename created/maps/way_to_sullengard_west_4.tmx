@@ -196,17 +196,17 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJytU81KAzEQHvoGu4dCD1kfoU/i7xsIXlTwbcSD7yG0Z2ELFhQPhQUvbqF2Wx/AenKGzOCYTNI9+MGQbDL55ptvk7oEmGG80TiELK4O/n6fVgBnVf6MoEH+KdfYOYBvjLa0c1PrUR7rqQt/5mvog2p8FH7vknOueZR1jRvVV4f7h9jTURVrmXAPbQ+vCMfIcRL4E3pIeEYvXpyfSw8UO4xXla+1fI4AVrjf7dGxwP0HFU0P3RPUMnXe1xrzNxhrI/bVJnTs9xPyzZ3XHHJQjdtBfPZu4GtTzszFPtDd057QnPi3gS7NLXdGdDU8Sp3W+D+EJa8Lv6VX881H+X4Ea84fl7/eWPxb497mENVJcJ8n+rWwCjRIP8JtYZx4y6E/hdL0mNEk7/c9wdsYPi0S3pG2C1VrY+Rpf5aBrr69hbhP3J3/xg+lenG9
+   eJytU81qwkAQXnyD5CB4SHwEn6R/vkGhl7bQt5Ee+h4FvbUUIii0ehACvTSCGvUBtKfOsDNknOyuOfSDYZPd2W+++TLJYmPGEN+4tk0QD93T95vUmH4avjNL7JoD/4hqHGHvF6KI3Xd8+7U80pNF9s6hbQNrrCN7dk85j7TyvsST6KuE8wvo6TKttLyB1neIIfVQNPAKcQUc18of7SFq/wTuL/KJe8A4QsxFvvRl3zFmBeflGR0LOH8VkTfQPQQto8RqyyB/C7FxxLnaiJL8ngDfNLGaNQfWGLTqd59btjbmjJO6Dzh70hN8Rv6d0iW5eWZKmpmc9HGdQn0fxpL2md+lF8F80064H8aG8ntx5Y3k5/52jrkNoVbHwY249fQrazNWSgP3w9yu+z3Pv6z9iYSmj4Am/n9/PLy5w6eFxzvUdtet+tw68qQ/S6WraW8aL57Z+W/8AWMSegQ=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFN2UZGG7JMlAd7BTCFPOUh9De8rj1+aHJ6coxMOjJYVd7EmjHKSz2YAP6QDMM0MzxwuKO9cCw2EBieNyRZGC4K0maHhiA+QGbW0BgJtAts6DueYtmhyeecMQGsqDqVwPNW0OkHzPR7FgO1LcCi14jHHFEDjhO5fS4By3cLosRp4/U8MUFFgL9swiHn5DD15FM+0D+OQg0/xCZ4YYePgMFXJD8jy2OyAmfweI3egAAwmofrw==
+   eJxjYEAFN2UZGG7JMlAd7BTCFPOUh9De8rj1+aHJ6coxMOjJIfgLgW5dBHXvSaAdp7DYgw3oA80wkEMV88LijvVAszeQGB53JBkY7kqSpgcGYH7A5hYQmAl0yyyoe96i2eGJJxyxgSyo+tVA89YQ6cdMNDuWA/WtwKLXSA5TjFxwnMrpcQ9auF0WI04fqeGLCyCnWXSAHL6OZNoH8s9BoPmHyAw39PAZKOCC5H9scURO+AwWv9EDAABaWCEs
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1U1sOABAMcwr3v4Ib+iGRJq3aRrIf+rIxemtj1W0hxuUh9oWXzXN6ZnTUvtJleRgOOcyvoocR7ajnLe8+x1Lc17fnzMO9t8qKeOatfKLzdfiqH64H66WrWzG7jK6Ld/5iNsOvNQHi7EUw
+   eJy1k9ENwCAIRJ3C/Vdgw/5oQongA1oSPtTj7iIgcwxZeQuLIXX7XWOpHvUT8VpMxKPP+k7mOzP+PD8e7qRNubNR4a5q3vzaPybzQr1E/SP98XCeV4vPzE53R0h9dZ5P9VXeL3rX4aV4sotdD3/FA2+ESEw=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

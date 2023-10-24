@@ -201,12 +201,12 @@
  </layer>
  <layer id="3" name="Objects" width="12" height="33">
   <data encoding="base64" compression="zlib">
-   eJx1U01Lw0AQHaP1noALFZL+BP9I/Qd6EPwrnjyLp/4NRS9+0jYqqD0UWy3SitK0evCg2Jsz7g592cQHS7KZN7PzXnaIivg2RI/Gvu8FRFmVaFKdx6chURoTXcXzby2Tr9EL8/tRZJ9nnHMe5/nDyJ6DeKkRXTDvMs7XH3g8+X7grZ6xGn5AxzDK572zng/Q1DSW4+vwof0fmnLdgluO3/F6Ag+En3q616Ji7hFzjnmlUB81v/E+43XCnFPwvwn8T6g75f3E5XTY02vOuXH9Sy2Jq/eif9+9a46gGxa5Cs2RZ9tYbwTqv54nqLvcXX7uBJb/p8nVH4M3onnDO6sNcb2jA+hdsO72z1C/GVt/8F4rNuEMrK//d7ZCBbxyTp/jsxK+/7/EA+HK/GSs85576ZT4r/OCfiGE3wL/9e7IXPnziXz05stx+u6sxYRoKbHvqSne5coq++Vq6xkLzA8S66evVSAc1YhaDmEmcWk9X4Pef62lmDKnwvzlJN8/QudPkHn9+zVHMCvj0P4j7FviOnOIrvNwbIpLZ64s5qPB/m3V7H/thsW4AntqBMX4A+T+54uPuldnu1bO0/NkHn8BLxu6bA==
+   eJx1U8tOwzAQNIFyTyQsgZT0E/iR8gdwQOJXOHFGnPobILjwVNsAEtBDRQsVahGoaeHAAURv7GIvHdthJCtxdna9M/G2U/WHYlmpMa0vrdSDNt92o9l3wSRWKqe8S8htauWgG7v7YWKep5Rzlrr8QWLOYRxT7ITWc1Wpc3pepG79fuTW5e/73upqo+EbdAwSN++N9LyDpoY2HF+HD+n/QJfrZtxQ/JbWI3jA/NzTvZqEuYfEOaKVQ33U/Er7Qs98wv6F/wF1J7Qf25w2eXpFOde2f67FcfGe9e/Zd8lhdOKQK5Acfra08YYh/st5jJrN3aHndmT4v5ps/RF4w5rXvbNaEJc72ofeGWt2/wT1G6nxB++1YAPOwPryf6dLKsAL5fQoPi3h+/+LPWAuz09BOu+ol3aJ/zIv6BeC+U3wX+4Oz5U/n8hHbz4tp2fPms+UWsjMe67Du1xZIb9sbTljjvhRZvz0tTKYIxpRywHMJC6p52uQ+y+1BBPiVIi/mLn9I2T+GIXXv19zCLMyis0/wr45LjOH6FgPRzpcMnNlMR918m+zav5rJw7jAuypHoXxe8j9zxcfNa/OVrWcJ+fxPP4ABtq/GQ==
   </data>
  </layer>
  <layer id="4" name="Above" width="12" height="33">
   <data encoding="base64" compression="zlib">
-   eJxjYICAlbIMDKtkGeDgIZD9CImPCywEqlkExIxyDAxMcvjVLgaqW0KEmeSAO5IMDHclSdcHcz8+sB4ovwGLGvQwwwZmAuVnIak5hUP9fKD4AjLCZjVQzxoahSm2sMFn30EauQMELotB6KVAO5ZB7bkNpO/gsPMwUP0nIQaGo0jyv4HsP3jUEwtuAtPZJaj6jUDzNiGZeRktDYLC6yWJ6RJk/i0i9OxEU/MYaNcTAnEAMxtGE5PPYX5Ej/vlQPYKNL0w87D54ThQ/ARaeIHUPAXyn8nidj96/kN2P7L7cAFy8gg292sDyzcdHGUcKI5fQdU7ykNob6BaHxzqSXETMfGKDbjIk66HEAAApAJS4g==
+   eJxjYICAlbIMDKtkGeDgIZD9CImPCywEqlkExIxyDAxMcpjy84FyC6DmLAbSS4gwkxxwR5KB4a4k6fpg7scH1gPlN2BRgx5m2MBMoPwsJDWncKhHDidSwGqgnjU0ClNsYYPPvoM0cgcIXBaD0EuBdiyD2nMbSN/BYedhoPpPQgwMR5HkfwPZf/CoJxbcBKazS1D1G4HmbUIy8zJaGgSF10sS0yXI/FtE6NmJpuYx0K4nBOIAZjaMJiafw/yIHvfLgewVaHph5mHzw3Gg+Am08AKpeQrkP5PF7X70/IfsfmT34QLk5BFs7tcGlm86WMo4EADF8Suoekd5CO0NVOuDQz0pbiImXrEBF3nS9RACADCrVFs=
   </data>
  </layer>
  <layer id="5" name="Top" width="12" height="33">
@@ -216,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="12" height="33" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlNENACEIQ53C/Ve4De/zDIH2wWliothCUWQtPZ79zcye4SqO4k3jkkF0OLziVRqpveu/wim80+W4Vdxz73JWuBif1FKmV9XhjXqavh/V0PHfuc+4VlriuXoLhSF/fdovKKdbf+Sccki+3bv700OcD+LzBRyvgQs=
+   eJytlFEOwCAIQzmF97/CbrgPP7YQeC1zJiZO21IQF/GMa+0ZxV63X+E6DvFIh/jOcHwoPPGmNTvV73CEV74Ut4v7/lY5Ey7Hd3qp8kt9+Ec/fb0/18NEf1LPvCYv+ZzugjDqrVd8yreLR5xp/znnLsfJd1q7k3+I0nA0b2HlhCc=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -256,7 +256,7 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object id="7" name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="0" width="128" height="224">
+  <object id="7" name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="96" width="192" height="160">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="verdant_cyclopea_creeper"/>
