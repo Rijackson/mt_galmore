@@ -505,6 +505,12 @@
                         "requireID":"wanted_men",
                         "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":41,
+                        "negate":false
                     }
                 ]
             }
@@ -3169,7 +3175,7 @@
         ]
     },
     {
-		"id":"gal_chk_h1",
+        "id":"gal_chk_h1",
         "replies":[
             {
                 "text":"N",
@@ -3178,7 +3184,7 @@
         ]
     },
     {
-		"id":"gal_chk_h2",
+        "id":"gal_chk_h2",
         "replies":[
             {
                 "text":"N",
@@ -3201,7 +3207,7 @@
         ]
     },
     {
-		"id":"gal_chk_h3",
+        "id":"gal_chk_h3",
         "rewards":[
             {
                 "rewardType":"questProgress",
