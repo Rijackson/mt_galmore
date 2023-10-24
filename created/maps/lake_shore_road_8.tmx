@@ -196,12 +196,12 @@
  </layer>
  <layer id="1" name="Ground" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJzF08sNhSAQBVDjziJszQ6VGApQd26VFixESDDBEeaDBhd35+O8mQuqrqqxuWclopvnb6RRP7lD/TyHclORutDOdSX25Yb71gXc3puwZ8rGeuG4k/WWiEvtO+wF/keOu1nPRDoOz0zN/mbeq1/YsWTncA+cd8ZxpXecO+/sg333tetm3H1MwXmde/hgvXz9lhXh5dwtjhu+n66lbamPudg9TtlcP3XOCZfsbJQ=
+   eJzF000OQDAQBlCxcwhXc0Ma6QGws6VXcBCajKSq84fU4ttVn5npmLIo+uqamYmt7t9oY35yu/J+D+di0bqx/dTV2Kcb9ttmcFsw4zlzNjUXiTsc3pRwuX5T/yhxl8NziRmHd2K1v6n3nG88Y03P4x2T7JnE1b5xab0jhDr3tetrXCEuY73e3SDUXL7eZcN4T96WxA33p6l5W+tTLvWOMVvqY/fsjvxskg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJyNVDtOw0AQXfkGoUth+wCR2FBTgLAAQWElRoIuikUFAjpooA2XQBwGDkFBCQTELZhR9snDZD9+0sha787nvZ3ZcW7MmAywaq1h3R6f+R6Ez0mcD425Irshm7kvo6EYU7KPjf552WeibCr8OJYG5752NVjaH+Vd7lTeGe1VZHtkc2GViOHDfWHMA9mr0ug5W+WzCX/kbvP1f5WoedvDlwEdnrJVTgbyMmK564C+fWpmcF8sRF2cF3Vj7YMVOkt9Necfin9E2h4X8Tq0f+PhhLwM9MNE5Ar1xynxOwtoPxI+krfmLus6cdz5vmu3Tml9SPw/6W6XWTy+/o899HIruMo4b5H5vqBZunTzhPObAW6pfpEzhlrQvzvEcTdwzy9ulraUj1WxQoDOoX78jfCHzz7VdlCkY0nofgzpo9+yZdbFh9Za5zqhN7TBPOGOv8r1s++D/2cZpWduGsXdVwPesj5vCOaH+bciL2ZezxR0jOmv3xDglnr4btit9X7p4VGpf6lek28IempBOR/J/gB96GlS
+   eJyNVDtOw0AQXfkGoUvh+ACRWFNTgGIBgsIijgRdFIsKBHTQQBsugTgMHIKCEgiIWzCj7JMnk/3kSaPEuzuf93Zmy9yYkgyw6lvDuj0+89MLn5O46BtzTXZLNnW/jIZijMk+t+J5a1qf5J3PqbKx8ONYGpz7xtVgaX+Yd7ljeae0PiOryEbu/0ysNSq3xMPAmEeyN6XRS7bMZxP+yN/m62uVqHnXw1fq8JwtczKQlxHLXQf03aRmBvfFXNTFeVE3vn2wQmepr+b8S/GPSduTQbwO7d94OGle1u2XgrOv3jPidx7Qfih8JG/NXdY1cdz5vtHvKa2PiP8X3e0ii8fX69hDL7eCq4zzHpnvS5qlKzdPOL8d4JbqF5wdiVrQv3vEcT9wz69ulnaUj1WxQoDOoX78i/CHzwHVdjhIx5LQ/RjSR79li6yLD621znVCb2iDecIdfxfrZz96q2cZhZobRqO4+2rAW7bJG4L5Yf6tyIuZ1zMFHWP66zcEuKMevu9333q/8PCo1Fqq1+Qbgp6aU84nsn9hQGrN
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="16">
@@ -216,7 +216,7 @@
  </layer>
  <layer id="5" name="Walkable" width="30" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lMENgDAMA1mjj+6/Ji9EhZL4nAKR+KSVLwaHMY+wxryftdepVSvS/Ypb8dWdtbfDpL2MrWan8xHP6v10inxnkgfaV9yIn/Ucz8RLxX6eucxs3uhc5cjxkHGVNt0xlQ3KjfhvZNrZyQ73r1wpDy7f+edTjqtBMtbdd8KtNK97J0ZzILM=
+   eJy9lEsSwCAIQ3sNF97/ml116jhJSOiHGTeAeaDomAe0Me+1+jq2aiHdr7iKX+U85SKO8iVr3+/Ww2p0z6djzj078+D6Ky7iM1/Ss9OLYu+xlMnqRfFqjpIeGLfSVrUwjtJ148k9ObrJm+xw/5qrqoeUn/z5LifVcGbsrf8ecZXmlXcCLfsgsw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -251,7 +251,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="6" name="pond_fish_spawn" type="spawn" x="416" y="320" width="128" height="64">
    <properties>
     <property name="spawngroup" value="pond_fish"/>
