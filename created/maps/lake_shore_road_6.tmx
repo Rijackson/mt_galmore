@@ -198,22 +198,22 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJylU01PwzAMjSbxdVwPHa2UcYWfxe9C/A04gjRYy5gAcWgZcGJiWtcbB7TdeFYS4qYGKvEkq6qdPNvPsVL/xyJWaj9VKoE9aON7i5pnlv3ufBn4DsF1lHY7//oH9yf41tYaiNpnqZcKVoBzGRurgnthb4sgP6+HelnBatgFtLnU5j/k5CgQO4OVsCfYzJ2NDN+9Njo/255K5MsZH89f9ts+Dq7NJva+jVDfKuBw/biaeb2FkC8TfE5fijmtlnFT+62hUtvDdg7CCPmvtOc77XkO0vykZ3xhLHyPTp+x0PcMsSrBXdg0sf2y+8SbC/cI54J/BN/xgantJ0g6ECZWA/c+CG7GVOccnO8B72Pk67yBVhPdfsPfeZO2r47MXqwR2ySmFqep1He4D3wGrmea9S72ey81/ISPyPQg7ZyEkuWR3rED5b5Gz2Pt9zvEXeLr6AL+xjLw5roZ/41rR5j7rO9rzZgGpbAzNF+3EzTvgTBzwi1qmmrPu7J9z+3ZAbsj5Snsu69hL/bLY4QvpeOceQ==
+   eJyVVMtOwkAUHUl8LTShi2JJClv9DP0TE//K+Bsa3WiCUkSiRpMq6koigYIuXBjYeW5mrjMdbhVPcjLhTufcN0opNY6U+oj0+Q7eg/9BP1Rqo6pUBN7G2saajEF5fr0EepvQ2qrq36+B1aT4TuHjLLbfv/yh/QW9iWEO0D2Gzgl4ATbBNdjWwRSag1Bz6L3jeBh9z78bD+WSgaPQxp0ZzYeCuFPcHdI9+Ah22X+g9W5iXecnk9NCTakWzr36rH/2UVQjtzZTMClr29SvFZB5Gm4fUi/eVPC3jTh3ankb15f8cq0GYb72i3izVJv1QWjA/7kzCwclq0E13y9pm3/nzyPXpynk3cXdEHOXgR0z025+pNsS3hGOBHsDtt26jq0IUh0IbVMDng8C95ji7EHzzdO9C2ycl6hVO56d4R+/wu6PAr3jE9xNIx0L11TK298HtwecM/V6Bfu9WtX6hM9A5yDtnAR3f/w5dkG+eb/7BdrXkY1jHrgzlkC3Fefvf9NaFvreLdtYE6cG0n8E9Zd3gvpdEXpOuEJMndjqZibvnvm24ryR/KRm7kfgszndO8I3ttSqYw==
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbIMswCnCA+cCwWUCF8FkPNGPDIAhnavkHGdyUZGC4JYkq9hRoxzMc9iwGii/BIQcy6zYQv0Iy7zFQ7RMy3Awzaw+a25jlGBhY5Egz67IYA4OjPKYYuWAuE6bYYTTzYOavBPp9FR7/o4c9DFwC6t+MQ46agJJwwGYWLByWAv28DI+/9xHhN/QwhYHlQHNXEEhT2PQii5Hib5A+bHkC3Y7VQPk1RKR1kL5LWOwHicHyI7Z8iQuQUj6hmwkAzlszvg==
+   eJzbIMsAB3clGagOQGbOB9qxQJawWmLATKA5s4B4KRAvo5KZyGA50MwVUHOp4e7jQP0ngHgDkjkPgexHQOwiT5nZyIBJjrAaUv2jCDRTiYC5N4Hxewst3TwF2vEMhz2LgeJLcMiBzLoNxK+QzHsMVPuEjDiAmbUHzW3MQP+wEBFWyOCyGAODozymGLlgLhOm2GE082DmrwT6fRUe/6OHPQxcAurfTIP8jA4oCQdsZsHCgVD+3keE39DDFAaQ8zgpepHFSPE3SB+2PIFux2qg/Boi0jpI3yUs9oPEYPkRW77EBdajlU/4ALqZABdhP5o=
   </data>
  </layer>
  <layer id="5" name="Top" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQEtwWGygXYAbUOI2APAIAbM=
+   eJxjYBgFtAbrZQfaBaNgFIyCgQSHxQbaBbgBJW4DAM93An8=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1ktEJACAIRJui/Vdow74iEO/0zAQhUJ+nueZosTWvd/KyudUePwxxX/dzaiOOF/sxa+d/MybrY2P2jdzjMH7klRlRfWWnES+rV92Doo1pUZgZDagfy0WabU50n5n9sztl+tSbrvRTGBugw2Bl
+   eJytU0EOADAE84r9/wt+uOsitGokTquqMj9mnqQasXbKE/mqHu/btE8296/uqGfbk4wn8x5p2gp1ng4e7b2Dr3xh+2X8LJVg9b//j/0bxK/6oGhDWhTOjoaqH8JWmiOG3WfHf3SnSJ9605N+CscFbQxzDQ==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -223,7 +223,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="32" y="0" width="544" height="32">
+  <object id="2" name="north" type="mapchange" x="192" y="0" width="384" height="32">
    <properties>
     <property name="map" value="lake_shore_road_3"/>
     <property name="place" value="south"/>
@@ -279,8 +279,9 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Spawn">
-  <object id="11" name="tough_venomfang_spawn1" type="spawn" x="64" y="64" width="128" height="128">
+  <object id="11" name="tough_venomfang_spawn1" type="spawn" x="64" y="96" width="128" height="128">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="tough_venomfang"/>
    </properties>
   </object>
