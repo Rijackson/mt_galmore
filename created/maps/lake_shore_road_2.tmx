@@ -193,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNVLtOAlEQXf2DpWbhF2y1k0QRMfFFoKGSxoRKrHw0Pn/B0g8wYaXTFhttjI9GJfGRWOhfeE7uTHa4LMJJJnfhzp575szcbeWDYAvRQvg4zw7+p5iNgqCAiJFzafIsVy0cn4+4x/6zx0cc4JzDKPm9kXFrR/Lq5pxNPC8jdwXxjv0bxBPiUXIboo86t03NdU/rMCinaiRXGWctIU4Qp0ZnGzlX4L32uPeQsx8l/qiHU4im1Ob3hHXRv1usd/Ke1mlhPSSfrdH3UftRHFL7ToqHvm8Waf3VWl9wxqup91M00jftCYO91dnS/s7hed6r8wdcv2FSr3rYEH3aE0VzjP4qF6OL+BL/jsBzbHQq2l69/hnqXWEiCfr3kHVBP6vmnf/uB3vEiD2+Xs7tn032zznRMc/D5lt9WwdXhfoybi6/c46TeyXUvhgN3mcf6p/VEcs7Otf2bvv+EW/I74VuDqiNM7gbDdZG0Dv7/6jvSyxzQmh/Cf2eKKixGPbzTUPDTOTOXMW6Jt++rsyyclW8u1E22pXP3lud05LwpdWp+Jjs104+1d7CWgTHgvDWwqRWy8mesoaLFB86I/wjONPVfML5B4HZk58=
+   eJyNVDlOA0EQXPyDdezBXyCFDEuwGCNxWXZChBMkR5iII+H8AiEPQPJCBqlJIEEcCWCJQyKAX1Clndb0jsdASa31entqqqt7plOOonVEB+HjpDT4n2DSRFEFkSLnTOVprmb8fz7iFt8fPT5iF/vsGfe+Wsye5wG+New5j9wFxCu+XyEeEPc2t2X1UeeGqnnFaq1i3axx7z6EUzSSq4b8OcQh4kjp7CLnAjyXHtc2cnaM80c8HEO0bW3iY4K8GZPVRf+u8byx66TOz9Gwh+TTNfo+Sj+SIbVuBjz0fdMI9VdqfcIez6red6uRvklPGOytzJb0dwq/p02e9wtc37GrVzxsWX3SE0F7SI0awsXoIT6sf/vgOVA6BV2vXn8P8a4y4oL+3ZWyoJ8Ntea388EeMVKPr297f1zIzzmhz8eweRbflsFVp75iNpecKXLym5wJ/zz7EP+0jtSukbnWZ9v3j3hBfj/O5oDaOINbZrA2gt7p//+6X1I7J4T0l5D7RECNSZznG4eGCZPtuYjnkr37enaWhavunY2a0i58cm7lO+e0avlCdQreCnnt5BPtnaK7K4hm7GrVnOwpazgN+BC6T31wphtlx/kDqQ+WNw==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxLlGdgSAJiaoJEWaCZssSr1weqNcChPhHqvkQqulMbaJcOEKcCcRoR7owGqokhoI4Y9+HzJwwgm0FqOEYC1UZhUU9KuKH7tQrNPB1ZhJkwcxWBYkpI6lSBbDUi3Z0INaNQHmE2pSAZaE6KLPXSDCz9UQPslmNgKJKH+LeIivnuiByCrQn0uxYJYRnMSD134EqDMLBbhniz5IHmKBDwx2oc5kkC9UlB9RoCaSMgtgdiBzTzXNDiAFY2IAPkfAuTh4XxQTkGrADmT5D7fHCoUweKayDZ5QVkP8RhHsyfu6A0LnXIIEYQQrthSWfTmQjrJwYAADqwKVM=
+   eJxLlGdgSAJiaoJEWaCZssSr1weqNcChPhHqvkQc7tQE6tMiYJcpUN4MSY02kK0DxKlAnEaEO6OBamKAeK4gA8M8IA4FssPQ9MHcpw4U18BhJsyfR+Rw24XsR1LDMRKoNgqLelLiF+ZXGKhCM09HFmEmzFxFoJgSkjpVIFuNSHcnQs0olEeYTSlIBpqTIos7zZAKYOmPGmA3MO6L5CH+LaJivkNOU8TkCWQQzEg9d+BKgzCwW4Z4s+SB5igQ8MdqHOZJAvVJQfUaAmkjILYHYgc081zQ4gBWNiAD5PIJJg8L44M48jLMnyD3+eBQh15WeAHZD3GYB/PnLiiNSx0yiBGE0G5Y0tl0JsL6iQEA/0AuMg==
   </data>
  </layer>
  <layer id="4" name="Top" width="20" height="20">
@@ -208,7 +208,7 @@
  </layer>
  <layer id="5" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1k1EOgDAIQ3eQXZzb+uMHQUoLmySLiaFvtYLttew9nfIa299zWhm/6kXa+A75nHhmTOal+g4lRyWXLlPRTxhIk2V34vvGHKL/emO2/9gT/2R9qqfO/lVM1QPSRR9dHmOrPJYHyo/tP5ovtgPs/tiT8aflWQ/OV14K
+   eJytk8sNACAIQx3ExdnWiwei1BawCReVx09sjmHbMvI+Nm/rKuJXfM8zlGdUC+IyU3OJ+CjWq052z+IiIf8KQ6kBzTsT88c/zMy3y+7K90x5p+bU2T/kozBes6/wGFvlsX6g/rH9R/+L7QCLf76J+FV51gLlhGRn
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -256,7 +256,7 @@
     <property name="spawngroup" value="stn_lizard"/>
    </properties>
   </object>
-  <object id="9" name="stn_lizard_spawn2" type="spawn" x="160" y="64" width="384" height="224">
+  <object id="9" name="stn_lizard_spawn2" type="spawn" x="160" y="64" width="288" height="224">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="stn_lizard"/>

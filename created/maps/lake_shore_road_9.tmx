@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="15">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,47 +186,47 @@
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="12" name="Base" width="30" height="22">
+ <layer id="1" name="Base" width="30" height="22">
   <data encoding="base64" compression="zlib">
    eJxjYBiZYCPnQLtgFIyCUTAKBh8YSWXjSPLrKBgFtAYAUJECLw==
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="22">
+ <layer id="2" name="Ground" width="30" height="22">
   <data encoding="base64" compression="zlib">
    eJzNlUEOgjAQRZvuTHoF7+BVvIAn4wpiSFfiRncYd7qpuvUgdgITyWRKpwWVxQ8JnfmPPxmg1ErtvKpFnpoBDfWVmVzbaSx3tZTxaqPUwcSZe9PWgqbICzwJ92w+M+F8jp550uFzjnsxw0wJ9+qZt8S8Ma4lXI79SsgKeni/p2DOd9PWpnhP8Q5J9zpXsdz/5H5j1nPnzmG/1sJv41z3WjJr5G5+nJXmtZnK4dI9G6OQt+tU6PZKuYUOe8IZKvUZgAX/WPzPOsLFM+qN9/u9oVn3a/A5aT/mdwF/rofjVkxvw9zr92PebaCGE91Djhvzw1lA3RugPu0k
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="22">
+ <layer id="3" name="Objects" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJydVb1KA0EQ3lyiYJmACVfsBQsrwahgK2iClYT8lIEjKY0voA8gaK1dzCMEW99AQQsbRSwF8Scv4Q63w07mdvdMPhh2b29mvvnbOyGEuC8KsSXFDNZkck7RVGdtmawtJV2ZtkPU9LtX5uMqFOI6NM8ue8BHyfjqaL5Yuu2aWqej42szHfB3FJo9+p+qGDct/oC3Rs4P1H7g0KN7X04dFlc1w18ro8YUVI/Xnb/fUftIy75M+yvkjORzs88gtpz2iE/AZ+CumS2P7Vy6Plxn18FNAby8Zj+WevBe2eoM81Zn9YGc+iyvvuXMhVga/bpnXrkexodzC8A7WtdzfazWk1B4AfY0L9+84t2z9YQDuIeEG+P8YrWvZfDiPaY6U0v/XPh16GbxYk3Ow3TOzxn5v3viQ15fHend4/HRfvdIf3nPH5Xdk5JcJEQQmXx8dxBnjM4h5UP/0Nce6W9e+S9EJh76Dmbyv3NT0/HR+ca7Cn6WFMeykq7yPagmsWE8fNZtc+PjBZ3vYlKb1oLSlvYcfLwdYr++gBxK8z8EvtjR39WKEdpnwCKcDcJBc4AaIA9gFCTrWK3liskbMQ7SsY7YGeo0GC/q3uhv/NtKItwe8FJO/yOpb7Th3627kuEFHaydC3jvABt6jbXtMONbTPFAeCfK9lTZnhH7iSVHCqzFPLgNkpmgvBeK83KOuCn+AFuWjYQ=
+   eJydVb1KA0EQ3lyiYJmACVdsgoWVYFSwFTTBSkJ+ysCRlMYX0AcQtNYu5hGCrZ2lghZpFLEUxJ+8hDvcDjuZ290z+WDYvb2Z+eZv74QQ4iEvxJYUM1iT8TlFQ521ZLw2lXRk0g5R1e9emY+rUIjr0Dy77AEfBeOrrfki6bZraJ22jq/FdMDfUWj26H+qYty0+APeKjk/UPu+Q4/ufTm1WVyVFH/NlBpTUD1ed/5+R+3LWvZl0l8uYySbmX0GseW0R3wCPgN3zWx5bGeS9eE6uw5uCuDlNfux1IP3ylZnmLcaqw/k1GN59SxnLkTS6Nc888r1MD6cWwDe0Zqe62O1noTCC7CnefnmFe+erSccwD0g3BjnF6s9+Jx45hrvMY1taumfC78O3WpKvliT8zCZ8yQl/3dPfMjrqyO9ezw+2u8u6S/v+ZOye1aSKQsRlE0+vjuIM0bnkPKhf+hrl/Q3q/znyiYe+g5m8r9zU9Xx0fnGuwp+lhTHspKO8t2vxLFhPHTW76V9bny8oPOdj2vTXFBa0p6Dj7dN7NcXkENp/ofAFzn6u1oyQvsMNVuEs044aA5QA+QBDIN4Ham1WDJ5I0ZBMtYhO0OdOuNF3Rv9jX9biYXbA16KyX8k9Y02/Lt1VzC8oIO1cwHvHWBDr5G2HaR8iykeCe9Y2Z4q2zNiP7bkSIG1mAe3QTwTlPdCcV7OETfFHwUhj9E=
   </data>
  </layer>
- <layer id="3" name="Objects_bridge_fixed" width="30" height="22" visible="0">
+ <layer id="4" name="Objects_bridge_fixed" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFowA/YGEcaBeMglEwCkbBKBgFo2AwAwAzKwAG
   </data>
  </layer>
- <layer id="4" name="Above" width="30" height="22">
+ <layer id="5" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAbVkGqoOrQrjlbCRpZy8xgBR7GRkJq2ElQg2p9goCzRQigEVpYK8i0EwlAliVBvaCgJYsfkwssCLR3kcS+DGxwBiariOBdJQkaW6gJqCm3ZYD5I9SoL1laHZvoFN50UbAz8jxix7nq4FuXAPED4H4ERXdG4nkJpjdj4HmP5FFiNEq3T0F2vEMao+jPKZ7qA1gYQizB5efqB3Gp4FmnYGalwm0MwuHvYxyDAxMctSzdxSQnnbnMqHykdOMNVqaIMVckF55YNtFAdp+mcMEwTAwmwm7PmxuIgVQ2hbyxqEfPVwNgWwjJD6x9qKbg60MBAA4zTPP
+   eJxjYIAAbVkGqoOrQrjlbCRpZy8xgBR7GRkJq2ElQg2p9goCzRQigEVpYK8i0EwlAliVBvaCgJYsfkwssCLR3kcS+DGxwBiariOBdJQkaW6gJiDG7vXAMNpARDhZUtkf54mMm1KgvWVodhPjXmqANgJ+Ro5f9DhfDXTjGiB+CMSPqOjeSCQ3wex+DDT/iSxCjFbp7inQjmdQexzlMd0DA/OBahZQwc+wMITZg8tPyGF8gEx7kf1xGmjGGag5mUDxLBz2MsoxMDDJkWcfzM7oASgfMgeoTCLGv6Sm3blMqHzkNGONFoekmAvSKw9suyhA2y9zmCAYBmYzYdeHzU2kAErbQt449KOHqyGQbYTEJ9ZedHOwlYEABbI8bw==
   </data>
  </layer>
- <layer id="5" name="Top" width="30" height="22">
+ <layer id="6" name="Top" width="30" height="22">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2DwACNGBgZjHNiEcaBdNwpGwSgYBaNgJAFjyYF2wdABAOUXAe0=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="22" visible="0">
+ <layer id="7" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlF0KgDAMg3sNH7z/NcUHQYZtkyaKhYHbTL/+jEZEbHtIdurXdZ13uje4iIbldEyUzXKR5eY69NM6q/lOuF0MX9qUfX+HSr+U3J09z/y5+vFHLqO/x4T4VOdHVqPOl2N2dWxUy2jW7+o/B1cxx9x08p/usn2VA8qr/GW6LO5JHbMcq3PGB2qTPnc1Yu0ALlAunw==
+   eJzNlEkKwCAMRXONLnr/a5YuCiLqHxKlAReK+S+DJiLiuiNlr3+/vnPkt4PL+KgcxGTZKpdZ1dwKf7fO2XwdLorhpLns9h1m+pXJ3fmDK+5Ir6off+Qq/m1MjGZ2fsxqhLQqZhdi93VRc273SHN0T8l5xs2YMjd3zDTn3TE5sDxGrz9j7qixo3q4Gqw5vV31y7EH07UxJw==
   </data>
  </layer>
- <layer id="7" name="Walkable_bridge_fixed" width="30" height="22" visible="0">
+ <layer id="8" name="Walkable_bridge_fixed" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20Hb6AAAOA3ClAAAQ==
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="9" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="928" y="32" width="32" height="576">
    <properties>
     <property name="map" value="way_to_sullengard_west_0"/>
@@ -239,69 +239,69 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="4" name="north" type="mapchange" x="64" y="0" width="448" height="32">
+  <object id="3" name="north" type="mapchange" x="64" y="0" width="448" height="32">
    <properties>
     <property name="map" value="lake_shore_road_8"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="northeast" type="mapchange" x="768" y="0" width="128" height="32">
+  <object id="4" name="northeast" type="mapchange" x="768" y="0" width="128" height="32">
    <properties>
     <property name="map" value="lake_shore_road_8"/>
     <property name="place" value="southeast"/>
    </properties>
   </object>
-  <object id="6" name="sutdover_river_bridge_script_selector" type="script" x="512" y="128" width="96" height="32">
+  <object id="5" name="sutdover_river_bridge_script_selector" type="script" x="512" y="128" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="7" name="thief_seraphina_script_selector" type="script" x="448" y="128" width="32" height="32">
+  <object id="6" name="thief_seraphina_script_selector" type="script" x="448" y="128" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
-  <object id="8" name="thief_seraphina_spawn" type="spawn" x="384" y="96" width="32" height="32">
+ <objectgroup id="10" name="Spawn">
+  <object id="7" name="thief_seraphina_spawn" type="spawn" x="384" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="thief_seraphina"/>
    </properties>
   </object>
-  <object id="9" name="young_virid_toxin_spawn1" type="spawn" x="448" y="224" width="160" height="352">
+  <object id="8" name="young_virid_toxin_spawn1" type="spawn" x="448" y="224" width="160" height="352">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="young_virid_toxin"/>
    </properties>
   </object>
-  <object id="10" name="flying_tree_ant_spawn1" type="spawn" x="64" y="352" width="416" height="224">
+  <object id="9" name="flying_tree_ant_spawn1" type="spawn" x="64" y="352" width="416" height="224">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object id="11" name="virid_toxin_spawn1" type="spawn" x="736" y="64" width="160" height="192">
+  <object id="10" name="virid_toxin_spawn1" type="spawn" x="736" y="64" width="160" height="192">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="virid_toxin"/>
    </properties>
   </object>
-  <object id="12" name="virid_toxin_spawn2" type="spawn" x="768" y="352" width="128" height="192">
+  <object id="11" name="virid_toxin_spawn2" type="spawn" x="800" y="352" width="96" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="virid_toxin"/>
    </properties>
   </object>
-  <object id="13" name="hardshell_beetle_spawn" type="spawn" x="64" y="64" width="224" height="256">
+  <object id="12" name="hardshell_beetle_spawn" type="spawn" x="64" y="64" width="224" height="256">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="hardshell_beetle"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace" visible="0">
-  <object id="14" name="bridge_fixed" type="replace" x="544" y="128" width="32" height="32">
+ <objectgroup id="11" name="Keys"/>
+ <objectgroup id="12" name="Replace" visible="0">
+  <object id="13" name="bridge_fixed" type="replace" x="544" y="128" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_bridge_fixed"/>
     <property name="Walkable" value="Walkable_bridge_fixed"/>
