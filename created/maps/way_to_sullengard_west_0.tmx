@@ -212,7 +212,7 @@
    eJydktENACEIQ53i9l/BDf05fkihD5qYGLQUKPc75/4nQ8UiHm/5TpD/qVzV/07D1UK51fsE27lUs9lg60eOOX+mumSvHH/qL80X99y/8kUdqqV4ZD+dZjebbb2E7zwlupUP1axIDy4n6X8zu47ndsvloHjOfGad
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="south" type="mapchange" x="160" y="768" width="320" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_west_1"/>
@@ -225,7 +225,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="0" y="0" width="416" height="32">
+  <object name="north" type="mapchange" x="96" y="0" width="320" height="32">
    <properties>
     <property name="map" value="lake_shore_road_8a"/>
     <property name="place" value="south"/>
