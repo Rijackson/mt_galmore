@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,7 +182,7 @@
  </tileset>
  <layer id="1" name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJytzjEOgCAMQFHD5v0TzoADOLjpoO46oLuTB7GNJSGIoaDDHyA8WiWqqk80QIaaKA010JFoJddCG8W1I82aGXbxQmfp/Z5pbWBPirOz9Wah7eo7Z935LTfLv+PaWOajVYVWky2Z/Yct2du3uT60mIz8IcUztBcnfqkf
+   eJytzjEOgCAMQFHD5v0TzqADOLjhoO46oLuTB7GNJSGIoaDDHyA8WiOqyiQaIE1NlIJa6Ei0kuugjeLakWbNDLt4obP0fs+0NrAnxdnZerPQ9vWds+78lpvl33FtLP3RNoVWkS2Z/Yct2du3uT60mIz8IcUztBdmxqkx
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="15">

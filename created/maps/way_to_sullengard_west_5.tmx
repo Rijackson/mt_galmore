@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="12" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -201,12 +201,12 @@
  </layer>
  <layer id="3" name="Objects" width="12" height="33">
   <data encoding="base64" compression="zlib">
-   eJx1U0tKA0EQLaNxPwM2RJjJEbxIvIEuBK/iyrW4yjUMuvHLJFFBzSKYSJBElHx04UIxO6vsLvKme3zQTPfUq9/rLqIQ34boydj9QYloUiGaVhb2WUTUToiuk8W/psnH6EX58yi233P2uUjy/GFs8yBeqkSXzLtK8vEHHk/+H3mrZ2wPP9DHMM77vXM/H9BTZizH78OH1t8wxX0L7th+z2sMGgi/7fW9EYe+x8w54dWG+NjzG58nvE6Zcwb6Z8D/hLgzPk+dT4c1vWGfW1e/xBK7ai/9H7q9+gi6UchVqI98W8ZqI1D9NZ+g5nz3+btXsvy/nlz8MWgjPW95uVpg1zc6gNoFm+787OJnyUIffNeKbciB8fV+52sU4JV9+myfF/D9+xINhCvzM+E+H7ieToH+Oi+oF0L4TdBf347MlT+fyEdtvhyn73Itp0Qrqd23TfiWy+usl4vt58hM2KtAONoj9tKAmcS1xPlLaRhf37/GUsyYU2b+apqvH6HzJ5gU1I8xRzArMq9yR1i32HXmEF2n4diES2euyOajzvrtVO29dqPQrsCa6qXQ/gi+/+nio+bF2a0W8zSfzOMv70S6OQ==
+   eJx1U8tOwzAQNIFyTyQsgZT0E/iR8gdwQOJXOHFGnPobILjwVNsAEtBDRQsVahGoaeHAAURv7GIvnWzCSFZie3a9M/a2Y/OHbNmYMY0va8yDdWu7wWxdMAmNSSnuEmKb1uTQDd33mDgnNIaRm5/S/1mc5w8idw7iuWrMOfEu4nz+vuLx+r4aXes0fIOOQZSPeyM976CpYR1H69CQ+g9suW7GDe3f0ngMZ2vMT5Xu1agYe0icIxop5EfNrzTP7MxXrF/4H5B3QvOxj2mTp1cUc+3r51y8L96z/j3/LzGMTljkCiSGvy3rvGGI/3Ieo+Zjd+i7HTj+ryaffwTesOZ1dVYL9uWN9qF2xpqfP0H+Ruz8wXct2IAzML/c73TJFPBCMT3an5bw9X2xB8zl/slI5x3V0i7xX/oF/UIwvwn+y9vhvtL9iXz05tNzev6s+cSYhcT9p7b4lisr5JfPLWfMET9InJ9aK4M5ohG1HEBP4pB8WoO8f8klmBCnQvzFJF8/QvqPkan6dc4h9MoodHeEdfO+9Byi4z0c2eKQnivb06iTf5tVd6+dsLgvwJrqQXH/HmL/80WjpvJsVct5ch734w9Zir8Z
   </data>
  </layer>
  <layer id="4" name="Above" width="12" height="33">
   <data encoding="base64" compression="zlib">
-   eJxjYICAlbIMDKtkGeDgIZD9CImPCywEqlkExIxyDAxMcvjVLgaqW0KEmeSAO5IMDHclSdcHcz8+sB4ovwGLGvQwwwZmAuVnIak5hUP9fKD4AjLCZjVQzxoahSm2sMFn30EauQMELosxMCwFmr8MyY7bQPYdHHYeBqo/iib3G8j/g0c9seAmMJ1dgqrfCDRvE5KZl9HSICi8XpKYLkHm3yJCz040NY+Bdj0hEAcws4m1AwRgfkSP++VA9go0+2DlBjbzjwPFT6CFF0jNUyD/mSxu96PnP3T3o8cBOiAnj2BzvzawfNPBUcaB4vgVVL2jPIT2Bqr1waGeFDcRE6/YgIs86XoIAQD2rk/h
+   eJxjYICAlbIMDKtkGeDgIZD9CIkPA/OBYguQxBcC2YuAmFGOgYFJDlM9MlgMVLcEi5nUAHckGRjuSpKuD+Z+fGA9UH4DFjXoYYYNzATKz0JScwqHevRwJRasBupZQ6MwxRY2+Ow7SCN3gMBlMQi9FGjHMqg9t4H0HRx2Hgaq/yTEwHAUSf43kP0Hj3piwU1gOrsEVb8RaN4mJDMvo6VBUHi9JDFdgsy/RYSenWhqHgPtekIgDmBmw2hc+RwZwPyIHvfLgewVaHph5mHzw3Gg+Am08AKpeQrkP5PF7X70/IfsfmT34QLk5BFs7tcGlm86OMo4UBy/gqp3lIfQ3kC1PjjUk+ImYuIVG3CRJ10PIQAAd1tUWw==
   </data>
  </layer>
  <layer id="5" name="Top" width="12" height="33">
@@ -214,9 +214,9 @@
    eJxjYBgFo2BogMtipKm/RKJ6UsAtSeLVrpGlnTuGGtg4GhZDGgAAqb0EXA==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="12" height="33">
+ <layer id="6" name="Walkable" width="12" height="33" visible="0">
   <data encoding="base64" compression="zlib">
-   eJyllNEJwDAIRDNF91+hG/azIOb5LhGEED3PqHEtlvf5tbvv/HYYwp3yGjF5TP6EszlSXZL4xLHzJ/7aDxLqH/Vr8qv8Zpa6fCfc7Tyd9s/UKI2f1LOeKZdqN/+ZdOI72RcWk86fsVuMeW9au5sdkv6NDv8BKMl9KA==
+   eJyllFEOwCAIQzmF97/CbriPfbgQWh5KYuK0LQV1ETue9Y0o1tR6hatGx8tB85Jw+hTveNOe3eornMN3vjquyvv/7mp2uJzf3SHlXfGIPxqn50c9TPQn/cxz5yXvk/d88vYrvqtX5XOc6f0j+5RD6p327uYf0mkQzReshYQn
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -251,14 +251,36 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object id="6" name="flying_tree_ant_spawn2" type="spawn" x="128" y="448" width="96" height="256">
+  <object id="6" name="flying_tree_ant_spawn2" type="spawn" x="128" y="544" width="128" height="224">
    <properties>
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object id="7" name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="128" width="192" height="224">
+  <object id="7" name="verdant_cyclopea_creeper_spawn1" type="spawn" x="64" y="96" width="192" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="verdant_cyclopea_creeper"/>
+   </properties>
+  </object>
+  <object id="8" name="verdant_cyclopea_creeper_spawn2" type="spawn" x="64" y="256" width="192" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="verdant_cyclopea_creeper"/>
+   </properties>
+  </object>
+  <object id="9" name="flying_tree_ant_spawn3" type="spawn" x="160" y="768" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object id="10" name="verdant_cyclopea_creeper_spawn1" type="spawn" x="192" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="verdant_cyclopea_creeper"/>
+   </properties>
+  </object>
+  <object id="11" name="verdant_cyclopea_creeper_spawn3" type="spawn" x="64" y="384" width="32" height="32">
+   <properties>
     <property name="spawngroup" value="verdant_cyclopea_creeper"/>
    </properties>
   </object>

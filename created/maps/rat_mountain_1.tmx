@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCzJgAL0hSD0a0EGguAakhp5oD4mOVTxR0Cx10L4zXiJZg/M/kcE9JECpjMh2Ojm3oTaL4ik5hlQjBXoFzY5THUgUCHMwHAWzd3X0PjXkfj6ePzSDjSrQxgRDy+Q9B2XZWA4IYvgT2XC9M9OoPwuWUw7cQGQW0BhMJWJsFpc4DzQvguyqGGGDGB+aEXyN0wtKJzuo+nDFtd3SXAfcphVIpmFHGegsIGZiW4/CKDHEXp8Eit3FBgux2Rxy8PiDhT+03H4ET08QPyDQDMPyWLmJ5hakJvOSKKaiS3dPYO6fSNQ7SZJiBqYHgDnhTiH
+   eJxjYMAE+kIQ+rUgFkk0cA1NDZMcqvgjoFmvhfCb8RLNDJj9jwjoIwVMZ0Kw0c29CbVfEEnNM6AYK9AvbHKY6kCgQpiB4SOaOehhcR2Jr4/HL+1AszqA+LIkhP8CSd9xWQaGE7II/lQmTP/sBMrvksW0ExcAuQUUBlOZCKvFBc4D7bsgixpmyADmh1Ykf8PUgsLpPpo+bHF9lwT3IYdZJZJZyHEGChuYmej2gwB6HKHHJ7FyR4HhckwWtzws7kDhPx2HH9HDA8Q/CDTzkCxmfoKpBbnpjCSqmdjS3TOo2zcC1W6ShKiB6QEA3IM3jw==
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="13">
@@ -206,9 +206,9 @@
    eJx7JMswbMBToF+e4fBPhjD17CmHmnVZDFNuOdD+FQTCdCZQfhYWNYexmEcJQDZvPdC+DQTchc0/yHKkug+fepDcJSqbRyqA2b8UGC7L0MKGGnGxEGjmIln85u2RJM9sSt03H+iuBVC3rQTSq6BsADLpHHs=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="20" height="13">
+ <layer id="5" name="Walkable" width="20" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBGIqQE2UtEsdDOpgfHZgUzj8g+yOmr6FZ952NyASwybXmLsJVUtPnegswnJU9N9xNhDbNxRErfYzEdPO7jUEWsuNjYp6RJXHgEAejFDog==
+   eJzbKMZAVbCRBuZRCxNyM7oadH3I6giZSa4fccnhU4tPLzH2kqoWnzvQ2YTkqek+YuwhNu4oiVts5qOnHVzqiDUXG5uUdIkrjwAAZ1NCFA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -218,7 +218,7 @@
     <property name="place" value="top_west"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="64" y="0" width="544" height="32">
+  <object id="2" name="north" type="mapchange" x="32" y="0" width="576" height="32">
    <properties>
     <property name="map" value="flagstone_filler_east_2"/>
     <property name="place" value="south"/>
