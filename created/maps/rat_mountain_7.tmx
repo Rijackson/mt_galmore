@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,17 +198,17 @@
  </layer>
  <layer id="3" name="Objects" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJyVVc1KA0EMHhb0PnuyC61XPfWlfILeei4efADZkw8invwrKIKeKh5KQbFs1YsPoDihEzb7bTK7fiCY7Ezy5Usmda4bG9+0r3PnbvKmbxrss6zpO432OJ710X6NdpnpsQgn4dun4k/hxet+medhYOfsG4/AtZWiZsmXaqW630ATxrvhRxDfSV7nKY17d0Pn7odtf+VrrohZ9D8rdVp5vhO6LWKcta97bEHOFOpM2h3t23cx9hK4rsCWtdwGjeaKTj/B9xv+zpW618YcMG85z32AfBFfIe5l4HKl8CT4rH2eMAZdaHZSNs5FF/+dkXO7o+3/XDvHkLGIn+wR8SIbect8qKWGifFN6ilrLMUcYW2PQdsnQ1/mQfM8UzgSFondYMGa+aWxQxg4zwTstQTqjGenibvaLrDAvKt4h9+QBppR5LVXODcotlpuQt8+RO+69ofUDPXh3pD/IMQ/LNqzfizi007gfOy38ksttb5YqHromvq94W/a7vhPzyQusroG7I2WS76tFbw5a6fxOd5R3Bt+l1191t5Z1x0LyPEPJB9yqg==
+   eJyVVbFOw0AMPeUPLhONFLGWqT/FF3TrXHXgA1CmfgjqCGzMRQxVJVCrlPYXQMTqWec87EvubXZ89rP97uLcME6+bz+Xzr2Ufd+is9dF3/cY7FmI9cH+DHZT6LkID923s+JP4cPrflnnbWLXHJuPwL01omfJl3qlvr9gJoyD4UcQ33kZ6zQjzzFaH7kilsH/rvSZW4ewDXmOPu7YgtSUNuf7W/ss5t4B1z3YOb08KbFHQwfMW+p5DJAv4pLQXSp+BnMh7aRs1EXOnLh3ziFzkfbljogX2T5RD2epYW58k/OUPVJ+1lGunokH6XmpcCRsM3dEsDS/M94QBuqZgLuWwDlj7CJxVnsLLDDvNpz5qZ37rfVY0ijyuqmcm1TXWZ66vX2L3Q29H3JmOB/eDfmnXf676r/WVyL/ax3rsd+qL2ep7cVCO2Kuqf8Nf9PejpydSWyK2APuRqsl79Ye7pz1pnEcv1G8G76XQ3vW7tnQGQvI8Q+Hdmfd
   </data>
  </layer>
  <layer id="4" name="Above" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYMAODosxMGwWYmDYIoRDARUBzJ49ksTZeVmM9m46TIQdIPciA1zuWinLwLBKFlP8Eh38QSogJmxd5CmzAzlske1bCgyjZVjC6S5Q7B4WcXyAlmG7EOiWRSS6Bx2gpx10Pj6ALY6eAt3zjEI3IQNi0j+pAOZHmPtxpaP1QH9soKJfaA1oVR4hxwGl6RlXHsIVz5uR0uNNIPsWCemTWDuISWNLiUwH2MIHFC+0LAdobT4IEJsP0csPmD5C5Qo2PxBbvhPr98FYz4EAAH8mNOQ=
+   eJxjYMAODosxMGwWYmDYIoRDARUBzJ49ksTZeVmM9m46TIQdIPciA1LddYkO/iAVEOMHF3nK7EAOW1rF5WAMW2SAnnbQ+fjAYEn/pAKYH2HupzQdDRZAq/hAjgNK0/NdWQaGe7L47UAGm5HS400g+xYJ6ZNYO4hJY0uxuBkbwBY+oHihZTlAa/NBgNh8iF5+wPQRKlew+YHYfEms3wdrWQwAcVoqwg==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="25" height="23" visible="0">
+ <layer id="5" name="Walkable" width="25" height="23">
   <data encoding="base64" compression="zlib">
-   eJy1lFEKwDAIQ3uK3f8Ku+G+BsUlvliY0B9rk6iha33jvkSy3L+n5lSdwt0xFJ/ToDi6N5UnPTse4Xa6iONEu5sL3bn9qF7S+U/zal/km4TDzSjxKWG4SHBJL9Wk+QRjsn/CU/5WPG5GpK3ykq6up8nfRDM65abep7xdkFaaZ9eLwlNvVE3iP+Jwb6c1qcYuUq2neOou/adS73RecP+C82+yz8rrMP6IyvEAqpKwdg==
+   eJytVEEOwCAI8xX7/xf2w52WGNeWFkZiYhRphcJaX7svcHjcv+s8Q34o7h4D4TEOCEO9OXHctcer4ipeFUaHe2oKk/07xZnUy62/wmA5Sv+S5LmLM61l4qv6o9K9w4PlnO2ZxhRmxUvNFTfXqo/dOZXMlUo7k56vuDp17sysRAtdDPY29XE5KnO5duOhO1fXU92jGJV+k777U++unRgPZlqkzQ==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -249,30 +249,24 @@
     <property name="spawngroup" value="hexapede_crawler"/>
    </properties>
   </object>
-  <object id="7" name="hexapede_crawler_spawn2" type="spawn" x="640" y="96" width="32" height="32">
+  <object id="7" name="hexapede_crawler_spawn2" type="spawn" x="448" y="128" width="224" height="192">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="hexapede_crawler"/>
    </properties>
   </object>
   <object id="8" name="stoneclaw_prowler_spawn1" type="spawn" x="416" y="256" width="256" height="128">
    <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
-  <object id="9" name="stoneclaw_prowler_spawn2" type="spawn" x="640" y="512" width="96" height="128">
+  <object id="9" name="stoneclaw_prowler_spawn1" type="spawn" x="640" y="512" width="96" height="128">
    <properties>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
   <object id="10" name="hexapede_crawler_spawn3" type="spawn" x="32" y="32" width="128" height="64">
    <properties>
-    <property name="spawngroup" value="hexapede_crawler"/>
-   </properties>
-  </object>
-  <object id="11" name="hexapede_crawler4" type="spawn" x="384" y="160" width="288" height="128">
-   <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="hexapede_crawler"/>
    </properties>
   </object>

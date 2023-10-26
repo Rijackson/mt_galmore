@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,9 +186,6 @@
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Base" width="15" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4AwWME00C4YBaNgaAIAK1gAqw==
@@ -201,32 +198,32 @@
  </layer>
  <layer id="3" name="Objects" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJyFU81Kw0AQXlsr9pgchAqJt17zTAVfwINvoM/QQ+nDNBfBBhQPvfRQSBDUnnwAS2e6O/gxZKYfLNnszu83384H4YTpbfy2efxe0/+YVpfuGZ+wX6b9HM40JNYm+z+rctueYz2q+8yJL3G/MtuG43Uqxv1dCM9OHS3cLYz8YrNz6vOAfsMyhMsy9sq1nfP7uIn7X6qhmdi2Mi/h6a0I4b3ot/2j8wPcyRykT5yN5lvPDCH64N48rTC4F9GV1gnnQP+NMXOPDw3UlqdLrEHwYuT39LAifuvEsdZkn1/fmdSA/h7/fXhI9rWhBdRgq2Jvid/9xObfwoj0fVVGf0EFb4hz4jyQ3z3ZfZPfT/KVGa/oW6f9K/mvaTW0LijPgNaa+muKGLszdPGUasC3we8R9YA1c62aE8YscYa8SM1HoXVM5w==
+   eJylU7EKwkAMDZ107A3CCcXNtT/lDzj0D/QbOog/4+IiKAouDkKLoO3mF3ixjU3D5VB8UHpNk7uX93J5BPA0ANMxvFGY5j1w30P3lBF8cGPrdbvOWQxxst2a9jrHXSw1oELuhYg9MQLte4/1nMz0e0DMJgDLAI+C/Vsp51PONcAvhH/qjqPue2f1XPKLdNonAIdEz6+YjlnbH/WJ3lAspLcEeYo++vzlwF5oruSc4Nm8/qxwCOkhwWcrNJc+bJXzv/VVzqSvzhcjD3h99iP3eZu/UWYB7wehEHtfnL611fXX8HA1lW3qCam4Q9wPri+eRfUIzeNK4YT9lErNQtGOuNWmzxm5Sk04uC7E+QVn+UKP
   </data>
  </layer>
  <layer id="4" name="Above" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBiawEUeU+yyGPnmHSZTL8jOS0D8WJaB4Yksbrfh0gcCeySJt2890I4Nstjl7gLF7+GQAwFy/UgKIMUvxJhBzTgl1iyQOnS9MP5CYPguIhDGl3DoJQSQ9cH0oJuFDrC5BaQXXxq8CQzfWzjiCZ9bnwLteobH74TS/U0kO2FxvBFIb5KE+HMXUP9uIN4DxA+B9jwC4tVAvEYWu9nobkXOG8j5Ed1ubHpBwBHJDhY57PpAgFCcoAMALgw1lg==
+   eJxjYBiawEUeU+yyGPnmHSZTL8jOS2ToRda3R5J4fetlGRg2yJJuHwiQ60dSACl+IcYMasYpsWaB1KHrJTbsDmNJD8TqRdYH00MobS3CkhZAerHlDxi4CQzfWzjiCZ9bbxKIW0L+RNYPi2Ni/YnNP6SkZ3S3E6sXm59Jze8Anw4kLw==
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwlcFhtoF4yCUYAdHCYjbZKjZ6gBABLdApw=
+   eJxjYBgFQwlcFhtoF4yCUTAKSAEAZE8A6g==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="15" height="23" visible="0">
+ <layer id="6" name="Walkable" width="15" height="23">
   <data encoding="base64" compression="zlib">
-   eJytU9sJACEMuyncfwU3FEV/Sl7iFUTkmibtpb19K/q+T8w3OzUnjZQDYRwX++Z0/1FX5dzoqbpqjXT+CpvOif0rhq03qufmjPq74UdaUI6rqTyoeFG/znfOD0ybwibhdi3FOV+pPLf7jFf5Kz2oZ+bV110fQqh2KQ==
+   eJytlMkNACEMA6mC/lugQz77QFFsj6KNxAuGicxx9lrnG2+drUddUzlVxKEYNZ+8qe8/9yUs4V52krdjJ17ldmz1kay6cyL+jqE5ufwcq/rrMlBselfkPbjMXLm7RM6J9NpxKTPiJT7lnuSV/qjEXVqwYfM=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
-  <object id="1" name="loop" type="mapchange" x="384" y="608" width="32" height="32">
+  <object id="1" name="loop" type="mapchange" x="416" y="672" width="32" height="32">
    <properties>
     <property name="map" value="rat_mountain_5"/>
     <property name="place" value="loop"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="32" y="0" width="160" height="32">
+  <object id="2" name="north" type="mapchange" x="96" y="0" width="96" height="32">
    <properties>
     <property name="map" value="rat_mountain_4"/>
     <property name="place" value="south"/>
@@ -239,29 +236,23 @@
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
    </properties>
   </object>
-  <object id="4" name="flamejaw_tunnelbeast_spawn2" type="spawn" x="224" y="352" width="160" height="96">
+  <object id="4" name="flamejaw_tunnelbeast_spawn2" type="spawn" x="224" y="352" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="flamejaw_tunnelbeast"/>
+   </properties>
+  </object>
+  <object id="5" name="flamejaw_tunnelbeast_spawn3" type="spawn" x="160" y="576" width="256" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
    </properties>
   </object>
-  <object id="5" name="flamejaw_tunnelbeast_spawn3" type="spawn" x="160" y="512" width="256" height="64">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="flamejaw_tunnelbeast"/>
-   </properties>
-  </object>
-  <object id="6" name="stoneclaw_prowler_spawn2" type="spawn" x="192" y="192" width="32" height="32">
+  <object id="6" name="stoneclaw_prowler_spawn1" type="spawn" x="192" y="160" width="192" height="128">
    <properties>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
-  <object id="7" name="stoneclaw_prowler_spawn1" type="spawn" x="192" y="576" width="160" height="64">
-   <properties>
-    <property name="spawngroup" value="stoneclaw_prowler"/>
-   </properties>
-  </object>
-  <object id="8" name="stoneclaw_prowler_spawn3" type="spawn" x="320" y="224" width="32" height="32">
+  <object id="7" name="stoneclaw_prowler_spawn1" type="spawn" x="96" y="640" width="288" height="96">
    <properties>
     <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
