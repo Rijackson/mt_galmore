@@ -511,6 +511,11 @@
                         "requireID":"sullengard_hidden",
                         "value":41,
                         "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":15
                     }
                 ]
             }
