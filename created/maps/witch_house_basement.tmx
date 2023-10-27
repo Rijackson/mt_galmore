@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="15" height="10">
   <data encoding="base64" compression="zlib">
    eJxr52Jg6CADdwJxOxC7SEP4zkDajEiMTa8LEdgVSe9mToheEE0sRtZrIk2+XmcK9D4kQR9ML6luhWFQWJPqVhgGhfVDTvIxAApKYHs=
@@ -197,7 +200,7 @@
  </layer>
  <layer id="4" name="Top" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4cFhsZOkdCQAAA/MDZQ==
+   eJxjYBh4cFgMwd4pO/z1IoNVFOgdzAAAc2UHhA==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="15" height="10" visible="0">
