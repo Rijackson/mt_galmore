@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="6">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -189,19 +189,24 @@
  <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <layer id="10" name="Base" width="30" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQAuwkXOgXTAw4MQI9fcoGAWjgP4AAJgfAYw=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcILGeCMWTGs70fFmKKa3vaN4FI/igcUDUeZgK/PoUf4MFnsHOs5H8SgexSMHAwBDkzE6
+   eJw7wcnAcILGeCMWTGs70fFmKKa3vaN4FI/igcUDUebA7IyTRbDpUf5gK2sHwl4n2YGP91E8ikfxyMAA9LcwiQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdiJNlYHAG4gA0HChLQ0uR7E6AYmc62EfIDdiAoDB93TMKRsFAAT8653+YncFA7AQtA4Lo5AZ9qJ2JspAyIBFq/2shBgYDGtsLMv+YHIQP8/81QdrbCwvbYKQwT4D6nVYAvYx3orF9uNxAbzupCTKBdVDWANRDlUA7qwbA3k6gnV2j9e6wAwA2Qx0g
+   eJxjYKAdiJNlYHAG4gA0HChLQ0uR7E6AYmc62EfIDdiAoDB93TMKRsFAAT8653+YncFA7AQtA4Lo5AZ9qJ2JQPxICEKD7H8NZBvQ2F6Q+cfkIHyY/68J0t5eWNgGQzHI3wnQMKAVQC/jnWhsHy430NtOaoJMYB2UNQD1UCXQzqoBsLcTaGfXaL077AAAWfweLg==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="23">
   <data encoding="base64" compression="zlib">
-   eJw7wcmAFVyTpQzDQKYkA0MWEP8SQojlSGK3k5r2kgIYhQfG3qtiA2MvCAxneym1g1w3jdpL2/ii1N6lcgwMy+ToYy/MrkfAcu8okD5GJ3uPQu1B9ie9whnZn4+E6GcvLjBqL/lmkQLItbeCif72HgHWuUfF6G8vNcCovbjtBQCtEITo
+   eJw7wcmAFVyTpQzDQKYkA0MWEP8SQojlSGK3k5r2kgIYhQfG3qtiA2MvCAxneym1g1w3jdpL2/ii1N6lcgwMy+ToYy+yXUeB9DE62XsUag+yP+kVzuj+pJe9uMCoveSbRQog194KJvrbewRY5x4Vo7+91ACj9uK2FwBKzYMA
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="23">
@@ -209,7 +214,7 @@
    eJztzgENAAAIA6Ansb09baGbgwQkAHzRdT0A2DPQswDE
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="23" visible="0">
+ <layer id="5" name="Walkable" width="30" height="23">
   <data encoding="base64" compression="zlib">
    eJxjYKAdkJRFxcjitAb0sAOXvdj8PFBuGAWjABkMRPrElv9p7QZCZtPKbmxm0qP8g5mJz1+09i82u2kZzvjCmpZpGz39jpa1o2AUDCwAAInGCsM=
   </data>
@@ -222,6 +227,12 @@
    </properties>
   </object>
   <object id="2" name="exit" type="mapchange" x="544" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_6"/>
+    <property name="place" value="lake_island"/>
+   </properties>
+  </object>
+  <object id="6" name="gal_isle_loot" type="container" x="384" y="416" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_6"/>
     <property name="place" value="lake_island"/>

@@ -696,5 +696,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"gal_isle_loot",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":2000,
+                    "max":2000
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            }
+        ]
     }
 ]

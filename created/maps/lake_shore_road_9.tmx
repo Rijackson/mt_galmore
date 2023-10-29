@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="14">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -206,19 +206,19 @@
    eJxjYBgFowA/YGEcaBeMglEwCkbBKBgFo2AwAwAzKwAG
   </data>
  </layer>
- <layer id="5" name="Above" width="30" height="22">
+ <layer id="5" name="Above" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYIAAbVkGqoOrQrjlbCRpZy8xgBR7GRkJq2ElQg2p9goCzRQigEVpYK8i0EwlAliVBvaCgJYsfkwssCLR3kcS+DGxwBiariOBdJQkaW6gJiDG7vXAMNpARDhZUtkf54mMm1KgvWVodhPjXmqANgJ+Ro5f9DhfDXTjGiB+CMSPqOjeSCQ3wex+DDT/iSxCjFbp7inQjmdQexzlMd0DA/OBahZQwc+wMITZg8tPyGF8gEx7kf1xGmjGGag5mUDxLBz2MsoxMDDJkWcfzM7oASgfMgeoTCLGv6Sm3blMqHzkNGONFoekmAvSKw9suyhA2y9zmCAYBmYzYdeHzU2kAErbQt449KOHqyGQbYTEJ9ZedHOwlYEABbI8bw==
   </data>
  </layer>
- <layer id="6" name="Top" width="30" height="22">
+ <layer id="6" name="Top" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2DwACNGBgZjHNiEcaBdNwpGwSgYBaNgJAFjyYF2wdABAOUXAe0=
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="22" visible="0">
+ <layer id="7" name="Walkable" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzNlEkKwCAMRXONLnr/a5YuCiLqHxKlAReK+S+DJiLiuiNlr3+/vnPkt4PL+KgcxGTZKpdZ1dwKf7fO2XwdLorhpLns9h1m+pXJ3fmDK+5Ir6off+Qq/m1MjGZ2fsxqhLQqZhdi93VRc273SHN0T8l5xs2YMjd3zDTn3TE5sDxGrz9j7qixo3q4Gqw5vV31y7EH07UxJw==
+   eJy9lEEKwDAIBP1GD/3/N0sPhSBGd11TIdCk6qgxmpldt0ny2vv1nUe60fckF7FhORUTZbNcZE1zJ+y7dVbz7XCrGP6ULnvtQ+W+lNw7bzDjnqw/y52KQ61zNHMQn+r82NWo8jUxuyq2rwub87pH+w/5x3AVYebmiTfV6TskB5SH+PNniA5zj5l9FNMuXkS3qgsj2X115AErATGT
   </data>
  </layer>
  <layer id="8" name="Walkable_bridge_fixed" width="30" height="22" visible="0">
