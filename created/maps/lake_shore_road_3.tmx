@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="9">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -199,12 +199,12 @@
  </layer>
  <layer id="2" name="Objects" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBiawIkRPx5os18IUuYGXOA70NwfNDKbXYiBgUOIfP0bZRkYNgHxZiDeIks9d4HAQaB5h4D4MBAfobLZo2AUBMgwMATK0M58AySz/WSoa18Q1CxZaQYGfSDtBMSJVDDbWQZhPsi9wTIINsz92PzCTYTdcUA1CTIQO5ygbBgfZmcwlG1AwDxc4RmHFg7IdgYRGU5xUPXIbpgszsAwBYiniqOq9QKWS+flGBguyCHiBOY2mPt8pRHYDylMcaWFk0CzTgHxUSA+JgeJ39kyiPBJUUCEVwASDob6D93tcUA35wHxcaBZJ+QQ4uelEeGDCztD7YaFmz7UbAAEQj6x
+   eJxjYBiawIkRPx5os18IUuYGXOA70NwfNDKbXYiBgUOIfP0bZRkYNgHxZiDeIks9d4HAQaB5h4D4MBAfobLZo2AUBMgwMATK0M58AySz/WSoa18Q1CxZaQYGfSDtBMSJVDDbWQZhPsi9wTIINsz92PzCTYTdcUA1CTIQO5ygbBgfZmcwlG1AwDxc4RmHFg7IdgYRGU5xUPXIbpgszsAwBYiniqOq9QKWS+flEOYjhw/Mfb7SCOyHFKa40sJJoHmngPgoEB+Tg8TvbBlE+KQoIMIrAAkHQ/2H7vY4oJvzgPg40KwTcgjx89KI8MGFnaF2w8JNH2o2AH4lPiI=
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeCJNDxdQEw8XsYEYIDmHEZIPogXS3rTQE08JsZDCczUZXQy4eimYTG26jZo8CECgWZ2AoEaeN2c1Ac1twmL0eGC8bqBg3K4FmrQLipUC8DGpupCxC3kUBv/4Xgqj8GKC7Y4F4OdCsFRS48zvQ3B9IZscghUcsmeFuDNXHLsTAwCEEYQMABLxReQ==
+   eJxjYKAeCJNDxdQEw8XsYEYIDmHEZIPogXS3rTQE08JsZDCczUZXQy4eimYTG26jZo8CECgWZ2AoEaeN2c1Ac1twmL0eGC8bqBg3K4FmrQLipUC8DIgvAHGkLELeRQG//heCqPwYoLtjgXg50JwVFLjzO9DcH0hmxyCFRyyZ4W4M1ccuxMDAIQRhAwDjvlJn
   </data>
  </layer>
  <layer id="4" name="Top" width="23" height="23">
@@ -212,7 +212,7 @@
    eJxjYBgFo2AUjIJRMApGwSggHliKQ2gACq0AUQ==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="23" height="23">
+ <layer id="5" name="Walkable" width="23" height="23" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAdkJQhjGlp92A0eyDDZBSMgqEM6FFmwMynRX5EN5MWZmOzi1ZlC7bwgrGpDfCZic1vxPoXXzgREifWTHx2EfIfofgjJaypmR6QzQAAv94Rmg==
   </data>

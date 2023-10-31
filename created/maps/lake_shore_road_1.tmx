@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -219,7 +219,7 @@
  </layer>
  <layer id="6" name="Walkable" width="23" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlFEKwCAMQ72G4P3Puf0MRNrk6RzbxwJ+aGua2traSqnnulDbvhWB+Cjs4s/sRFN/d+RxNsK78r7RftRBOV2c7IzwRtoU/+7+I++jtGa6M73jmfLrbU43rW10n3BnPPTvKd6Ix9WM6H4LT8ZfrSXlnO1BVcPIJ8phpZZuFrl/PzPTXO+7Hne5qfzIv1jpN8JBZwm1qfgqLtWU5XEXpJY/voUDkLA2Cg==
+   eJztVEEKwCAM8xuC/3/ndhmIpElalO2wgAetxtTU9tFav8eDPvYNBGcPwy7+KO5oms+uPCrm8FbeF81XHS6nuidac3iRNsa/u/6c92FaI92R3nWN7ZtjSrfrLTrvcEc87t9jvIhHeebofgsn76966XJma5B5iPagHCpeql6k/n2mp6naVzWucmP5Of+iUm9ZjkwPZV6jdXeoc67OLBwvf3wLF/aZNgo=
   </data>
  </layer>
  <layer id="7" name="Walkable_trees_gone" width="23" height="30" visible="0">
