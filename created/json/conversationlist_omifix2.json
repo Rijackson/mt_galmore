@@ -71,7 +71,7 @@
     },
     {
         "id":"capvjern_26b",
-        "message":"Calm down, Jern. \n\nKamelio, alive? How? Where? ",
+        "message":"Calm down, Jern. \n\nKamelio, alive? How? Where?",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -96,7 +96,7 @@
         "switchToNPC":"prim_guard5",
         "replies":[
             {
-                "text":"Uh... The general will sure let you know in full detail... Soon enough.",
+                "text":"Uh ... The general will sure let you know in full detail ... Soon enough.",
                 "nextPhraseID":"capvjern_28c"
             },
             {
@@ -162,7 +162,7 @@
     },
     {
         "id":"capvjern_28d",
-        "message":"You or...? That's utter nonsense!",
+        "message":"You or ...? That's utter nonsense!",
         "replies":[
             {
                 "text":"N",
@@ -198,7 +198,7 @@
     },
     {
         "id":"capvjern_30a",
-        "message":"What in the world...? It moves!",
+        "message":"What in the world ...? It moves!",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -248,7 +248,7 @@
     },
     {
         "id":"capvjern_30c",
-        "message":"Hmpf... You know what? Right, someone has to patrol this settlement.",
+        "message":"Hmpf ... You know what? Right, someone has to patrol this settlement.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -315,7 +315,7 @@
     },
     {
         "id":"capvjern_31b",
-        "message":"*staring at the cloak* I have never seen this before. Not even when I used to work there. What in the world is this?",
+        "message":"[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -326,7 +326,7 @@
     },
     {
         "id":"capvjern_32b",
-        "message":"*looks at you*",
+        "message":"[looks at you]",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -337,7 +337,7 @@
     },
     {
         "id":"capvjern_33",
-        "message":"*stares at the cloak again*",
+        "message":"[stares at the cloak again]",
         "replies":[
             {
                 "text":"N",
@@ -347,10 +347,10 @@
     },
     {
         "id":"capvjern_34",
-        "message":"*stares at you again*",
+        "message":"[stares at you again]",
         "replies":[
             {
-                "text":"What...?",
+                "text":"What ...?",
                 "nextPhraseID":"capvjern_35"
             },
             {
@@ -361,7 +361,7 @@
     },
     {
         "id":"capvjern_35",
-        "message":"*puts his hand over the captain's shoulder* Hey, captain, wake up.",
+        "message":"[puts his hand over the captain's shoulder] Hey, captain, wake up.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -383,7 +383,7 @@
     },
     {
         "id":"capvjern_37",
-        "message":"*breathing heavily* That... that substance is dangerous!\n\n$playername, you must destroy the cloak!",
+        "message":"[breathing heavily] That ... that substance is dangerous!\n\n$playername, you must destroy the cloak!",
         "replies":[
             {
                 "text":"The mine is full of it! Do you believe me now?",
@@ -393,7 +393,7 @@
     },
     {
         "id":"capvjern_38",
-        "message":"I do. *looks at Jern* I do believe in what the kid says.",
+        "message":"I do. [looks at Jern] I do believe in what the kid says.",
         "replies":[
             {
                 "text":"N",
@@ -403,7 +403,7 @@
     },
     {
         "id":"capvjern_39",
-        "message":"Grgh...Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!",
+        "message":"Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -425,7 +425,7 @@
                 "nextPhraseID":"capvjern_30c"
             },
             {
-                "text":"Do not lose your life for a bunch dead bones. You must live for your friends.",
+                "text":"Do not lose your life for a bunch of dead bones. You must live for your friends.",
                 "nextPhraseID":"capvjern_30c"
             }
         ]
@@ -451,7 +451,7 @@
     },
     {
         "id":"capvjern_32c",
-        "message":"Thank you again. \\n\\n *looks at the captain* I'll be going.",
+        "message":"Thank you again.\\n\\n[looks at the captain] I'll be going.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -480,7 +480,7 @@
     },
     {
         "id":"ortholion_guard_1e",
-        "message":"I prefer the great plains of calm, always calm Loneford... Yes, always quiet and peaceful...",
+        "message":"I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ...",
         "replies":[
             {
                 "text":"But General Orth...",
@@ -490,7 +490,7 @@
     },
     {
         "id":"ortholion_guard_2e",
-        "message":"Ah! The soft breeze of the coast, the vivid life of the port of Feygard... \n\n[The soldier continues lamenting and completely ignores your presence]",
+        "message":"Ah! The soft breeze of the coast, the vivid life of the port of Feygard ... \n\n[The soldier continues lamenting and completely ignores your presence]",
         "replies":[
             {
                 "text":"Hey, pay attention!",
@@ -524,7 +524,7 @@
     },
     {
         "id":"ortholion_guard3_10",
-        "message":"Yes sir, I w...Hey! What did you just say?",
+        "message":"Yes sir, I w... Hey! What did you just say?",
         "replies":[
             {
                 "text":"I have important information to deliver!",
@@ -552,7 +552,7 @@
     },
     {
         "id":"ortholion_guard3_11b",
-        "message":"*looks at you perplexed* Uhh... *hic* Over there. \n\n*points at the mountain scout*",
+        "message":"[looks at you perplexed] Uhh... *hic* Over there. \n\n*points at the mountain scout*",
         "replies":[
             {
                 "text":"Finally, bye.",

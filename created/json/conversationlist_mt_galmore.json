@@ -47,7 +47,7 @@
     },
     {
         "id":"sullengard_town_clerk_bridge_0",
-        "message":"With all that gold that you helped us get back, we plan to fix the bridge so we will be able ship our beer to the west.",
+        "message":"With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west.",
         "replies":[
             {
                 "text":"\"Bridge\"? What bridge? To the west?",
@@ -93,7 +93,7 @@
         "message":"The bridge that crosses over the Sutdover River has been repaired thanks to you.",
         "replies":[
             {
-                "text":"Yes. I am aware. In fact, I've already used.",
+                "text":"Yes. I am aware. In fact, I've already used it.",
                 "nextPhraseID":"X"
             }
         ]
@@ -297,7 +297,8 @@
     },
     {
         "id":"thief_seraphina_40",
-        "message":"[Seraphina bends down to look under the bridge.]",
+        "switchToNPC":"none",
+        "message":"Seraphina bends down to look under the bridge.",
         "replies":[
             {
                 "text":"N",
@@ -307,6 +308,7 @@
     },
     {
         "id":"thief_seraphina_50",
+        "switchToNPC":"thief_seraphina",
         "message":"Um, it's not here.",
         "replies":[
             {
@@ -702,7 +704,7 @@
         "replies":[
             {
                 "text":"Who's that?",
-                "nextPhraseID":"aidem_camp_defy_76"
+                "nextPhraseID":"aidem_camp_defy_76a"
             },
             {
                 "text":"Feygard? Nor City?",
@@ -716,7 +718,17 @@
     },
     {
         "id":"aidem_camp_defy_76",
-        "message":"Well, yes. But not right now. Those adventures are too big for us right now. I'm talking about the Thieves Guild.",
+        "message":"Well, yes. But not right now. Those adventures are too big for us right now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"aidem_camp_defy_76a"
+            }
+        ]
+    },
+    {
+        "id":"aidem_camp_defy_76a",
+        "message":"I'm talking about the Thieves Guild.",
         "replies":[
             {
                 "text":"Why would you want to do that?",
@@ -788,7 +800,7 @@
     },
     {
         "id":"aidem_camp_defy_82",
-        "message":"Anyways...The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven.",
+        "message":"Anyways... The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven.",
         "replies":[
             {
                 "text":"I've been all around the Fallhaven area a thousand times and I've never seen any vault.",
@@ -830,7 +842,7 @@
     },
     {
         "id":"aidem_camp_defy_85",
-        "message":"The enterance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access.",
+        "message":"The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access.",
         "replies":[
             {
                 "text":"That sounds easy. I'll do it.",
@@ -952,6 +964,12 @@
     {
         "id":"aidem_camp_defy_100",
         "message":"It's where the rail tracks end. West of the Sutdover River.",
+        "replies":[
+            {
+                "text":"The Sutdover River? Where is it?",
+                "nextPhraseID":"aidem_camp_defy_110"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -976,6 +994,10 @@
         ]
     },
     {
+        "id":"aidem_camp_defy_110",
+        "message":"The Sutdover River flows between Sullengard and Stoutford."
+    },
+    {
         "id":"aidem_base_locked",
         "message":"As you sneak a peek inside, a terrifying voice yells out. Warning you not to step foot inside."
     },
@@ -995,7 +1017,7 @@
     },
     {
         "id":"troublemaker_wm_15",
-        "message":"Hmm...well I guess you could do that for me considering Umar trusts you a lot.",
+        "message":"Hmm... well I guess you could do that for me considering Umar trusts you a lot.",
         "replies":[
             {
                 "text":"Great! Just tell me where to go and you can consider it done.",
@@ -1005,10 +1027,10 @@
     },
     {
         "id":"troublemaker_wm_20",
-        "message":"Well, it's not that easy. You need more than the location. You need this key. ",
+        "message":"Well, it's not that easy. You need more than the location. You need this key.",
         "replies":[
             {
-                "text":"Thanks, but where is vault located?",
+                "text":"Thanks, but where is the vault located?",
                 "nextPhraseID":"troublemaker_wm_25"
             }
         ],
@@ -1086,7 +1108,7 @@
         "message":"You know, $playername, for just being a young adventurer, you are learning a lot.",
         "replies":[
             {
-                "text":"Thanks a lot. I do feel a lot smarter now than I did before joing your guild.",
+                "text":"Thanks a lot. I do feel a lot smarter now than I did before joining your guild.",
                 "nextPhraseID":"troublemaker_wm_report_30"
             }
         ]
@@ -1124,7 +1146,7 @@
     },
     {
         "id":"troublemaker_wm_report_40",
-        "message":"You can find the empty house just south of here. Enter it and you will find your way.",
+        "message":"You can find the empty house just south east of here. Enter it and you will find your way.",
         "replies":[
             {
                 "text":"I'll be there. Thank you.",
@@ -1860,7 +1882,7 @@
         "message":"Do I know you?",
         "replies":[
             {
-                "text":"Oh, you want to play dumb? Umar will here about this!",
+                "text":"Oh, you want to play dumb? Umar will hear about this!",
                 "nextPhraseID":"X"
             }
         ]
@@ -1868,145 +1890,6 @@
     {
         "id":"wild6_house_hatch_defy_killed_no_key",
         "message":"I should come back with the Thieves Guild key."
-    },
-    {
-        "id":"faction_count_thieves",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_thieves_10"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"faction_count_thieves",
-                "value":0
-            }
-        ]
-    },
-    {
-        "id":"faction_count_thieves_10",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_thieves_10a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wanted_men",
-                        "value":65
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_thieves_10a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"faction_count_thieves",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_thieves_20"
-            }
-        ]
-    },
-    {
-        "id":"faction_count_thieves_10a",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_thieves_20"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"faction_count_thieves",
-                "value":-8
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"faction_count_thieves",
-                "value":10
-            }
-        ]
-    },
-    {
-        "id":"faction_count_thieves_20",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_shadow_20a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"vacor",
-                        "value":60
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_shadow_20a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"faction_count_shadow",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_shadow_30"
-            }
-        ]
-    },
-    {
-        "id":"faction_count_thieves_20a",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_thieves_30"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"faction_count_thieves",
-                "value":3
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"faction_count_thieves",
-                "value":20
-            }
-        ]
-    },
-    {
-        "id":"faction_count_thieves_30",
-        "replies":[
-            {
-                "nextPhraseID":"faction_count_shadow_30a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"kaverin",
-                        "value":21
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_shadow_30a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"faction_count_shadow",
-                        "value":30
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"faction_count_shadow_40"
-            }
-        ]
     },
     {
         "id":"troublemaker_wm_return_real_key_10",
@@ -2059,7 +1942,7 @@
     },
     {
         "id":"bela_witch_15",
-        "message":"[Looking extermely confused and terrified]...Well, why would it be you?",
+        "message":"[Looking extermely confused and terrified] ... Well, why would it be you?",
         "replies":[
             {
                 "text":"Nevermind.",
@@ -2069,7 +1952,7 @@
     },
     {
         "id":"bela_witch_16",
-        "message":"[Looking extermely confused]...Who?",
+        "message":"[Looking extermely confused] ... Who?",
         "replies":[
             {
                 "text":"Nevermind",
@@ -2248,7 +2131,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_60",
-        "message":"No way! I have no way to protect myself and believe me, I will need to if I tell you anything. ",
+        "message":"No way! I have no way to protect myself and believe me, I will need to if I tell you anything.",
         "replies":[
             {
                 "text":"I will protect you. Trust me.",
@@ -2258,7 +2141,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_65",
-        "message":"[Laughing uncontrollably]...You? You are just a child of a farmer. So you are weaker than I am.",
+        "message":"[Laughing uncontrollably] ... You? You are just a child of a farmer. So you are weaker than I am.",
         "replies":[
             {
                 "text":"You know my father?",
@@ -2349,7 +2232,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_80",
-        "message":"Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experiance.",
+        "message":"Now, I will tell you right now that I have chosen to block out most of the details as it was such a painful experience.",
         "replies":[
             {
                 "text":"Understandable.",
@@ -2359,7 +2242,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_81",
-        "message":"All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room...I think.",
+        "message":"All I remember was being kept in a dark room for what felt like weeks without food and being alone. You see, the witch kept Addie in another room ... I think.",
         "replies":[
             {
                 "text":"You think?",
@@ -2386,7 +2269,7 @@
     },
     {
         "id":"fallhaven_outdoor_farmer_83",
-        "message":"After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until know.",
+        "message":"After a couple of weeks passed, I saw a chance to escape and I took it. Never to look back and never to talk about it. Well, until now.",
         "replies":[
             {
                 "text":"Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?",
@@ -2449,7 +2332,7 @@
         "message":"Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion.",
         "replies":[
             {
-                "text":"What...do I know you? You're just a young girl?",
+                "text":"What ... do I know you? You're just a young girl?",
                 "nextPhraseID":"captive_girl_20"
             }
         ]
@@ -2513,6 +2396,17 @@
                         "requireType":"questLatestProgress",
                         "requireID":"wicked_witch",
                         "value":90
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_75",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":95
                     }
                 ]
             }
@@ -2841,7 +2735,7 @@
         "message":"Oh my, what have we here? Another brave soul seeking to challenge me?",
         "replies":[
             {
-                "text":"[While backing up] Me? No ma'am. I just wondered into the wrong house. Please don't hurt me.",
+                "text":"[While backing up] Me? No ma'am. I just wandered into the wrong house. Please don't hurt me.",
                 "nextPhraseID":"X"
             },
             {
@@ -2895,7 +2789,7 @@
     },
     {
         "id":"wicked_witch_first_45",
-        "message":"Oh, this fight will be fun...for me that is.",
+        "message":"Oh, this fight will be fun ... for me that is.",
         "replies":[
             {
                 "text":"I won't hesitate! Take this!",
@@ -2957,7 +2851,7 @@
     },
     {
         "id":"wicked_witch_second_30",
-        "message":"I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory\u2014perfect for my amusement.",
+        "message":"I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement.",
         "replies":[
             {
                 "text":"[angry] You won't get away with this!",
@@ -3198,16 +3092,13 @@
                     {
                         "requireType":"dateEquals",
                         "requireID":"MMDD",
-                        "value":1024
+                        "value":1101
                     }
                 ]
-            }
-        ],
-        "rewards":[
+            },
             {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"sutdover_hidden",
-                "value":7
+                "text":"N",
+                "nextPhraseID":"gal_chk_h4"
             }
         ]
     },
@@ -3216,6 +3107,16 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h4",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
                 "rewardID":"sutdover_hidden",
                 "value":7
             }

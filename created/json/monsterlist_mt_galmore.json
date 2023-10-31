@@ -600,7 +600,7 @@
     },
     {
         "id":"flamejaw_tunnelbeast",
-        "name":"Flamejaw Tunnelbeast",
+        "name":"Flamejaw tunnelbeast",
         "iconID":"monsters_newb_1:561",
         "maxHP":237,
         "moveCost":4,

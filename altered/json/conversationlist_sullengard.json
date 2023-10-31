@@ -187,7 +187,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_taken",
-        "message":"You have already examined this hole and looted all of it's contents.",
+        "message":"You have already examined this hole and looted all of its contents.",
         "replies":[
             {
                 "text":"Oh, yeah. What a dummy I am.",
