@@ -2442,6 +2442,20 @@
                         "value":95
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"captive_girl_31"
+            }
+        ]
+    },
+    {
+        "id":"captive_girl_31",
+        "message":"Thank you again, my savior! I will go now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"R"
             }
         ]
     },
