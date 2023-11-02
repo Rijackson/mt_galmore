@@ -717,5 +717,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"witch_playing_kid",
+        "name":"Playing kid",
+        "iconID":"monsters_ld1:158",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"witch_playing_kid"
     }
 ]

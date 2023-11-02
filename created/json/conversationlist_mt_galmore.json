@@ -2389,6 +2389,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"sutdover_hidden",
                 "value":1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"witch_playing_kid",
+                "mapName":"lake_shore_road_0"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_crystals",
+                "mapName":"lake_shore_road_0"
             }
         ]
     },
@@ -2992,6 +3002,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"sutdover_hidden",
                 "value":1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"witch_playing_kid",
+                "mapName":"lake_shore_road_0"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_crystals",
+                "mapName":"lake_shore_road_0"
             }
         ]
     },
@@ -3088,6 +3108,20 @@
     {
         "id":"crystal_teleportation_disabled",
         "message":"There is nothing to see here except for that wolf dung over there. Gross!"
+    },
+    {
+        "id":"witch_playing_kid",
+        "message":"Look what I have found here - bewitched crystals! They are really fun!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"witch_playing_kid_1"
+            }
+        ]
+    },
+    {
+        "id":"witch_playing_kid_1",
+        "message":"I wonder if there are more of them in the area?"
     },
     {
         "id":"guardian_mushroom_1",

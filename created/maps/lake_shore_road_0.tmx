@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="13">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="18">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,7 +203,7 @@
  </layer>
  <layer id="4" name="Objects_broken_pillar" width="20" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowA7eCFGXfMuC1DXvFEwCkbBKMAHALSGAeI=
+   eJxjYBgFowA7eCFGXfMuC1DXvFEwMsBrocFhBjK4IwihXwhS11yQO59ROd+NZAAAjBoHuw==
   </data>
  </layer>
  <layer id="5" name="Objects_reg_tree" width="20" height="22">
@@ -236,6 +236,26 @@
    eJzFU0EKACAI8xX9/wv9MLrGdFOLBkJSm2VuDrNJAkHlsJwBcZEGys+zqK7yVo9zrrPocCMdRbdbm/XV43Rwq18378DmJztXCqfaB88jTDPjEebNit8YXmpGucr19n/PM/Kw+seKZlQrmolKX5D+jgXqAl4Q
   </data>
  </layer>
+ <objectgroup id="15" name="Mapevents_crystals">
+  <object id="15" name="c1" type="mapchange" x="544" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_0"/>
+    <property name="place" value="c2"/>
+   </properties>
+  </object>
+  <object id="16" name="c2" type="mapchange" x="512" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_0"/>
+    <property name="place" value="c3"/>
+   </properties>
+  </object>
+  <object id="17" name="c3" type="mapchange" x="448" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="lake_shore_road_0"/>
+    <property name="place" value="c1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="11" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="96" y="672" width="448" height="32">
    <properties>
@@ -297,6 +317,13 @@
     <property name="spawngroup" value="stn_lizard"/>
    </properties>
   </object>
+  <object id="13" name="witch_playing_kid" type="spawn" x="480" y="480" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="witch_playing_kid"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="13" name="Keys"/>
  <objectgroup id="14" name="Replace">
@@ -317,6 +344,14 @@
     <property name="requireId" value="wicked_witch_despawn_timer"/>
     <property name="requireType" value="timerElapsed"/>
     <property name="requireValue" value="72"/>
+   </properties>
+  </object>
+  <object id="14" name="crystals" type="replace" x="448" y="448" width="128" height="128">
+   <properties>
+    <property name="Objects" value="Objects_broken_pillar"/>
+    <property name="requireId" value="sutdover_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
