@@ -297,8 +297,8 @@
     },
     {
         "id":"thief_seraphina_40",
-        "switchToNPC":"none",
         "message":"Seraphina bends down to look under the bridge.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -308,8 +308,8 @@
     },
     {
         "id":"thief_seraphina_50",
-        "switchToNPC":"thief_seraphina",
         "message":"Um, it's not here.",
+        "switchToNPC":"thief_seraphina",
         "replies":[
             {
                 "text":"What do you mean \"it's not here\"? Where is it?",
@@ -1524,6 +1524,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"thieves_vault_key_fake",
                 "value":1
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_defy_spawn",
+                "mapName":"aidem_base_2"
             }
         ]
     },
@@ -2951,9 +2956,6 @@
     {
         "id":"wicked_witch_third_40",
         "message":"Leave me now, child before you end up like that young girl you killed."
-    },
-    {
-        "id":"wicked_witch_first_killed_script2"
     },
     {
         "id":"wicked_witch_reveal_girl_selector",
