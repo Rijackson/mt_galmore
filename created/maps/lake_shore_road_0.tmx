@@ -237,6 +237,9 @@
   </data>
  </layer>
  <objectgroup id="15" name="Mapevents_crystals">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
   <object id="15" name="c1" type="mapchange" x="544" y="448" width="32" height="32">
    <properties>
     <property name="map" value="lake_shore_road_0"/>

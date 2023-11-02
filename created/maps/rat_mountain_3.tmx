@@ -194,12 +194,12 @@
  </tileset>
  <layer id="1" name="Base" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxbwcQwZMFmzoF2AW3ACirGCTXNIgSGa3yMgsEJ6Jm2KQX0cCvIDkL2UNsdAIFzBsk=
+   eJxbwcQwZMFmzoF2AW3ACirGCTXNIgSGa3yMgsEJ6Jm2KQX0cCvIDnqHCQBMVQYf
   </data>
  </layer>
  <layer id="2" name="Ground" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1lD0OwjAMhaNsXICjZ2KnHSgDE2QAibUMhb0TB6GWbNV9SpwWSqWn/DTxF9txgneuUoowXqJatafNKJq7sH6xj4z71rnd0DY87lmpPa2hvcG4sv1GzefOJfbOytc5jG7QgRkV+1VitOyr5YfYknwIw8rD0lhpX4gljFQe1mDUECuL0RuyGFExQoGh7zkqxyA9FvjxLUPnHH1ck0E1cvszg2rkCf+xTkqMXHz1vndiTVD3YA5D3qQjnDWALS36pB/9dC2q8+ObhIxX5u3AurDWiFIMjMkHUb4Wlw==
+   eJy1lDEOwjAMRaNuXICjZ2KnHSgDE3QAibUMhb0TB6GWbNX6cpwGSqWvKGniF9uxYxVCrdTBvESNGk+bWbR2Yf1iHxn3bQi7aWx5PrKsM72jvcO4sv1WrafuJfbOytcljGHSgRk1+5Vj9Oyr54fYknwIw8tDaay0L8QShpWHNRgNxMpjjI48RqcYMcPQ7xyVYpAeBX58y9A5Rx/XZFCN3P7MoBp5wn+skxwjFV997m3sieodLGFITzrCXSPYsiS1GR0N1dyTNIO+V6J3YF14e0QWA2PyAXYOFno=
   </data>
  </layer>
  <layer id="3" name="Objects" width="25" height="16">
@@ -209,7 +209,7 @@
  </layer>
  <layer id="4" name="Above" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEh8WwCBIJYHrxmQGSu0QFO/CJo5tPqp8I2bFaloFhjSxhPZfRxB4D9TyRJc9NuPQQE5bo7sAlhssOYsx3lEfwFeUYGJTkcLvNjp+BwR4LduDHbQep7vIDmuWPBQcMAjtwhT05diwHpqcVWNIiLr9gs5tcfxCTF2EgDmhWPBacQIYd2PIfCOQBzcrHggvI9AelgNh4XsEEoXcxIdxELICphZlByB6Yemx5c7MQA8MWIdx2oAMASMBCKw==
+   eJxjYMAEh8WwCBIJYHrxmQGSu0QFO/CJo5tPqp8I2bFaloFhjSxhPZfRxB4D9TyRJc9NuPQQE5bo7sAlhssOYsx3lEfwFeUYGJTkcLvNjp+BwR4LduDHbQep7vIDmuWPBQcMAjtwhT05diwHpqcVWNIiLr9gs5tcfxCTF2EgDmhWPBacQIYd2PIfCOQBzcrHggvI9AelgJR4RgakuIfcsg1b3twsxMCwRYh4OwDLEj9x
   </data>
  </layer>
  <layer id="5" name="Top" width="25" height="16">
@@ -217,7 +217,7 @@
    eJxjYBgFo4D+4LDYqB2jdozaMdQBAGVQBsk=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="25" height="16">
+ <layer id="6" name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNVNsNwCAI7BTuv4IbGv8q4R5gP0pCjIB3gOgczyFznGu0M9kxmWZxN8JwES/KDeXSyZ3xsvjY8/faqUPt3TrcXrmcWY3If8OhsP7GEW3uXVU5OljOLH7FgXyVGVfqnFWYTNw/SPXDqQNhVN9qhoM4YtwCuqpz1A==
   </data>
