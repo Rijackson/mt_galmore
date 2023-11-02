@@ -3296,5 +3296,25 @@
                 "value":41
             }
         ]
+    },
+    {
+        "id":"defy_wild6house_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"defy_wild6house_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"defy_wild6house_20"
+            }
+        ]
     }
 ]

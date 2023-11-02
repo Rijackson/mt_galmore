@@ -120,7 +120,7 @@
         "id":"defy_wild6house",
         "name":"Defy",
         "iconID":"monsters_ld1:81",
-        "phraseID":"defy_wild6house_10"
+        "phraseID":"defy_wild6house_selector"
     },
     {
         "id":"wild6_house_thief",
