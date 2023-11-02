@@ -1544,6 +1544,29 @@
                         "requireID":"wanted_men",
                         "value":57,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"thief_rennik_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":57,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":2
                     }
                 ]
             },
@@ -1566,6 +1589,11 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"thief_rennik_dl"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":2
             }
         ]
     },

@@ -167,6 +167,10 @@
                 "logText":"PC has completed enough of  'A Wicked witch' to enable mountain teleportation crystals."
             },
             {
+                "progress":2,
+                "logText":"The PC has been rewarded by Rennik."
+            },
+            {
                 "progress":7,
                 "logText":"h"
             }
