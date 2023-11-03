@@ -410,5 +410,23 @@
     {
         "id":"ortholion_guard3_1b",
         "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and do not have time to waste with a kid."
+    },
+    {
+        "id":"ortholion_guard7",
+        "message":"HAH! I SPOTTED YOU, EVIL BEING! *raises his sword*",
+        "replies":[
+            {
+                "text":"I'm not a threat, stop!",
+                "nextPhraseID":"ortholion_guard7_10"
+            },
+            {
+                "text":"This one won't be my fault.",
+                "nextPhraseID":"ortholion_guard7_10"
+            },
+            {
+                "text":"Hah! I spotted you, useless soldier!",
+                "nextPhraseID":"ortholion_guard7_10"
+            }
+        ]
     }
 ]

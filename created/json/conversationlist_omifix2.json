@@ -563,5 +563,21 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"ortholion_guard7_10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard7",
+                "mapName":"elm_mine2"
+            }
+        ]
     }
 ]
