@@ -60,7 +60,7 @@
     },
     {
         "id":"capvjern_26a",
-        "message":"Ha HA! You want the kid to do your job for free? \\n You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!",
+        "message":"Ha HA! You want the kid to do your job for free? \nYou see, $playername? We have not even begun clearing the mountain entrance. I wonder why!",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -96,11 +96,11 @@
         "switchToNPC":"prim_guard5",
         "replies":[
             {
-                "text":"Uh ... The general will sure let you know in full detail ... Soon enough.",
+                "text":"Uh ... The general will certainly let you know in full detail ... Soon enough.",
                 "nextPhraseID":"capvjern_28c"
             },
             {
-                "text":"No survivors, excepting Arghest. Many Feygard soldiers have fallen too.",
+                "text":"No survivors, except Arghest. Many Feygard soldiers have fallen too.",
                 "nextPhraseID":"capvjern_28b"
             }
         ]
@@ -259,7 +259,7 @@
     },
     {
         "id":"capvjern_31a",
-        "message":"Take this old key. I used to work in the mines where I was younger. I am sure there was a supply chest somewhere inside.",
+        "message":"Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside.",
         "replies":[
             {
                 "text":"N",
@@ -269,7 +269,7 @@
     },
     {
         "id":"capvjern_32a",
-        "message":"Thank you again. \\n\\n *looks at the captain* I'll be going.",
+        "message":"Thank you again. \n\n *looks at the captain* I'll be going.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -288,7 +288,8 @@
         "rewards":[
             {
                 "rewardType":"giveItem",
-                "rewardID":"elm2_key"
+                "rewardID":"elm2_key",
+				"value":1
             },
             {
                 "rewardType":"deactivateSpawnArea",
@@ -451,7 +452,7 @@
     },
     {
         "id":"capvjern_32c",
-        "message":"Thank you again.\\n\\n[looks at the captain] I'll be going.",
+        "message":"Thank you again.\n\n[looks at the captain] I'll be going.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
