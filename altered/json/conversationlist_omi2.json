@@ -428,5 +428,57 @@
                 "nextPhraseID":"ortholion_guard7_10"
             }
         ]
+    },
+    {
+        "id":"elm2_passage2_1",
+        "message":"Fortunately, the miner's lamp shines brightly. But unfortunately, the passage is still collapsed.",
+        "replies":[
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2_2",
+        "message":"Another pitch black tunnel. This one has an old, consumed miner's lamp on the wall.",
+        "replies":[
+            {
+                "text":"Add fuel to the miner's lamp.",
+                "nextPhraseID":"elm2_passage2_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"torch",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2_3",
+        "message":"A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor.",
+        "replies":[
+            {
+                "text":"Yay, bones!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":23
+            }
+        ]
     }
 ]
