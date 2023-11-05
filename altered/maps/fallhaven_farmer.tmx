@@ -209,11 +209,7 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="2" name="fallhaven_farmer1" type="spawn" x="96" y="128" width="256" height="96">
-   <properties>
-    <property name="spawngroup" value="fallhaven_indoor_farmer"/>
-   </properties>
-  </object>
+  <object id="2" name="fallhaven_farmer1" type="spawn" x="96" y="128" width="256" height="96"/>
  </objectgroup>
  <objectgroup id="7" name="Keys"/>
 </map>

@@ -223,14 +223,6 @@
         "monsterClass":"animal"
     },
     {
-        "id":"fallhaven_indoor_farmer",
-        "name":"Busy farmer",
-        "iconID":"monsters_man1:0",
-        "monsterClass":"humanoid",
-        "spawnGroup":"fallhaven_outdoor_farmer",
-        "phraseID":"fallhaven_farmer1"
-    },
-    {
         "id":"fallhaven_outdoor_farmer",
         "name":"Busy farmer",
         "iconID":"monsters_man1:0",
