@@ -1061,7 +1061,7 @@
         "message":"You what? How? Where? Tell me all you know.",
         "replies":[
             {
-                "text":"I found them by pure luck really.",
+                "text":"I found them by pure luck, really.",
                 "nextPhraseID":"troublemaker_wm_report_10"
             }
         ]
@@ -3362,6 +3362,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"defy_wild6house_20"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_5_alt",
+        "message":"Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?",
+        "replies":[
+            {
+                "text":"Well, I agreed to, but only because I want to help you guys catch him.",
+                "nextPhraseID":"troublemaker_wm_report_20"
             }
         ]
     }

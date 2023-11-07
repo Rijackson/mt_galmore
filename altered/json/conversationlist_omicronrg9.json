@@ -84,6 +84,23 @@
             },
             {
                 "text":"I have found Defy and his men.",
+                "nextPhraseID":"troublemaker_wm_report_5_alt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have found Defy and his men.",
                 "nextPhraseID":"troublemaker_wm_report_5",
                 "requires":[
                     {
