@@ -1302,6 +1302,11 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"factionCountThieves",
                 "value":-8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"aidem_base_defy_spawn",
+                "mapName":"aidem_base_2"
             }
         ]
     },
@@ -3355,7 +3360,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
-                        "value":70
+                        "value":65
                     }
                 ]
             },
