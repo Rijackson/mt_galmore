@@ -40,6 +40,7 @@
             "increaseCriticalSkill":8,
             "increaseBlockChance":-7,
             "setCriticalMultiplier":3.0,
+            "setNonWeaponDamageModifier":150,
             "addedConditions":[
                 {
                     "condition":"loyalist",
@@ -145,6 +146,7 @@
             "increaseAttackCost":5,
             "increaseAttackChance":0,
             "increaseBlockChance":1,
+            "setNonWeaponDamageModifier":132,
             "addedConditions":[
                 {
                     "condition":"bless",
