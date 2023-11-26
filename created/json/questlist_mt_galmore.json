@@ -172,7 +172,11 @@
             },
             {
                 "progress":7,
-                "logText":"h"
+                "logText":"halloween"
+            },
+            {
+                "progress":8,
+                "logText":"xmas"
             }
         ]
     }
