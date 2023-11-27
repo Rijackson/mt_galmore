@@ -194,5 +194,45 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_cat_seeker_10",
+        "message":"He is entirely white. He looks look a fresh coat of snow.",
+        "replies":[
+            {
+                "text":"Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]",
+                "nextPhraseID":"sullengard_cat_seeker_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] No, I have not.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"No, I have not. Sorry.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
