@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -214,11 +214,6 @@
    eJxjYBgFQwlcFhtoF4yCUYAdHCYjbZKjZ6gBABLdApw=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="15" height="23">
-  <data encoding="base64" compression="zlib">
-   eJytlMsNACEIRK3C/lugQy8ejJkfURJOizxGh605Ru08oyZPVJNEykBnHId9U3P/6qtqOvPcc909lA7E7bwV4zsW4jE97p6Rvg4fzYJqXE/lQcVFep3vunul7pjpROF2LT2X/gMS36dc5a80kWbm1dddX2x0d7c=
-  </data>
- </layer>
  <objectgroup id="7" name="Mapevents">
   <object id="1" name="loop" type="mapchange" x="384" y="608" width="32" height="32">
    <properties>
@@ -233,7 +228,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="3" name="flamejaw_tunnelbeast_spawn1" type="spawn" x="224" y="32" width="64" height="64">
    <properties>
     <property name="spawngroup" value="flamejaw_tunnelbeast"/>
@@ -267,6 +262,11 @@
    </properties>
   </object>
  </objectgroup>
+ <layer id="6" name="Walkable" width="15" height="23" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJytlMkNwDAIBF2F+2/BHeaThxXNHkhB4hXDsHids9c6b95xtk4600TLoJrEUd/c3H/3bWrTHu+5vj2cDuJO7krxE4t4Sk/aFemb8GkWOpN6Og86LulNvpu+K7djpZMivbW2rv0HNL5vuc5fbZJm5dVmRuevBzd9dvA=
+  </data>
+ </layer>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>
