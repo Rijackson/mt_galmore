@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -196,20 +196,25 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJytU81qwkAQXnyD5CB4SHwEn6R/vkGhl7bQt5Ee+h4FvbUUIii0ehACvTSCGvUBtKfOsDNknOyuOfSDYZPd2W+++TLJYmPGEN+4tk0QD93T95vUmH4avjNL7JoD/4hqHGHvF6KI3Xd8+7U80pNF9s6hbQNrrCN7dk85j7TyvsST6KuE8wvo6TKttLyB1neIIfVQNPAKcQUc18of7SFq/wTuL/KJe8A4QsxFvvRl3zFmBeflGR0LOH8VkTfQPQQto8RqyyB/C7FxxLnaiJL8ngDfNLGaNQfWGLTqd59btjbmjJO6Dzh70hN8Rv6d0iW5eWZKmpmc9HGdQn0fxpL2md+lF8F80064H8aG8ntx5Y3k5/52jrkNoVbHwY249fQrazNWSgP3w9yu+z3Pv6z9iYSmj4Am/n9/PLy5w6eFxzvUdtet+tw68qQ/S6WraW8aL57Z+W/8AWMSegQ=
+   eJytUztOw0AQHeUGSWEpxTopoM5J+IQbINHwEbdBFNyDgi4IyQlE4lNEskSDI4U44QAEKJjBM9rxZtdxwZNGa8/uvnnzdjdpAQwxXmmMoBInnfJ/PwY4iMu5bwPwY+z/M35nyJ1i3HCNFea+OC84U9w6X4WM9yTNYhzhvnuu8c65Y15zyqPkNc5V7Rznd7Cn3dhqGaDWW1NwUw9ZDa8Ie8ix7/jjekjaH5H7iT37jGysMF4Cvny0AWY4n2/QMcH5axVpDd1yrqQtwfULjLknNtUm5Oz3A/Y3NoVml4NqXDTW9142itq0ZmjK2gg0kidT9oi+iX8Z2XoEzS13hnT93UvWJ3Uy53wEW12A7a7l9+klCN+4Xd2PYM7rey3rjeaXM1967m0V1up4uAmHgX51bcHM0SD9CLdvfy/wll1/mkrTXYUmeb9vAd7U49Mk4B1pO+rYPheeddqfqaOrbm8urgJ357/xCx5tfeM=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFN2UZGG7JMlAd7BTCFPOUh9De8rj1+aHJ6coxMOjJIfgLgW5dBHXvSaAdp7DYgw3oA80wkEMV88LijvVAszeQGB53JBkY7kqSpgcGYH7A5hYQmAl0yyyoe96i2eGJJxyxgSyo+tVA89YQ6cdMNDuWA/WtwKLXSA5TjFxwnMrpcQ9auF0WI04fqeGLCyCnWXSAHL6OZNoH8s9BoPmHyAw39PAZKOBCwP/khM9g8Rs9AABCCyBD
+   eJxjYEAFN2UZGG7Joor5yDNQDHYKYYp5Qs31xmO+H5qcrhwDg54cgr8Q6NZFQLwLi/n4gD7QDAM5VDEvLO5YDzR7AzQ8sPkBG7gjycBwV5I098DASaAdp4D4Jg67DIFuNoK6+y2aHZ4kxlMWVP1qoP/WAPFNoHm3CLg7E82O5UB9K2Qx3WaEFrYw8BJo/itJiH3EgI/AcDhOpFpiwR40P14WI04fqeGLC8DSLDaAHL6OZNoH8s9BoPmHyAw39PAZKOBCwP/khM9g8Rs9AADOUiaX
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="15" visible="0">
+ <layer id="4" name="Top" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJy1k9ENwCAIRJ3C/Vdgw/5oQongA1oSPtTj7iIgcwxZeQuLIXX7XWOpHvUT8VpMxKPP+k7mOzP+PD8e7qRNubNR4a5q3vzaPybzQr1E/SP98XCeV4vPzE53R0h9dZ5P9VXeL3rX4aV4sotdD3/FA2+ESEw=
+   eJxjYBgFgxF4yQ+0C2gHVssOtAtGwSgY/gAAbwABMg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <layer id="5" name="Walkable" width="25" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNU0EKwDAI6yv2/y/0h7tsUEKiiacKQtGaRG33s9b+vDO8w+ow9p8xxupSO7G36IPxKxylT2E7+pw+z3vIpTgnehhGij3lrHbE8sxRWzUjNdNuH+5MKn2Ik7wf1mdiTn23C4ej+vsOrsubap38UTefaL7BXoJGUaA=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="768" y="0" width="32" height="352">
    <properties>
     <property name="map" value="way_to_sullengard_west_5"/>
@@ -223,13 +228,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="7" name="Spawn">
   <object id="3" name="cyclopea_creeper_spawn1" type="spawn" x="96" y="32" width="64" height="160">
    <properties>
     <property name="spawngroup" value="cyclopea_creeper"/>
    </properties>
   </object>
-  <object id="4" name="cyclopea_creeper_spawn2" type="spawn" x="640" y="0" width="96" height="320">
+  <object id="4" name="cyclopea_creeper_spawn2" type="spawn" x="640" y="64" width="96" height="256">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="cyclopea_creeper"/>
@@ -251,7 +256,7 @@
     <property name="spawngroup" value="hexapede_crawler"/>
    </properties>
   </object>
-  <object id="8" name="cyclopea_creeper_spawn3" type="spawn" x="64" y="192" width="32" height="64">
+  <object id="8" name="cyclopea_creeper_spawn3" type="spawn" x="64" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="cyclopea_creeper"/>
    </properties>
@@ -268,6 +273,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
