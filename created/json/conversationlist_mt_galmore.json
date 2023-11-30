@@ -1626,6 +1626,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"wanted_men",
                 "value":57
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aidem_jail_thieves",
+                "mapName":"guildbrig2"
             }
         ]
     },
@@ -3377,6 +3382,16 @@
             {
                 "text":"Well, I agreed to, but only because I want to help you guys catch him.",
                 "nextPhraseID":"troublemaker_wm_report_20"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_wm_report_45",
+        "message":"Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there.",
+        "replies":[
+            {
+                "text":"Oh, yeah, I forgot.",
+                "nextPhraseID":"X"
             }
         ]
     }

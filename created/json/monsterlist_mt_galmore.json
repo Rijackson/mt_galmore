@@ -717,5 +717,36 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"witch_playing_kid"
+    },
+    {
+        "id":"aidem_jail_greedy",
+        "name":"Greedy",
+        "iconID":"monsters_ld1:65",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"aidem_jail_grabby",
+        "name":"Grabby",
+        "iconID":"monsters_ld1:65",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"aidem_jail_zachlanny",
+        "name":"Zachlanny",
+        "iconID":"monsters_ld1:65",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"aidem_jail_alaric",
+        "name":"Alaric",
+        "iconID":"monsters_tometik2:55",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"aidem_jail_defy",
+        "name":"Defy",
+        "iconID":"monsters_ld1:81",
+        "monsterClass":"humanoid"
     }
 ]

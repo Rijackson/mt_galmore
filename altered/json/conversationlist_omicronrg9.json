@@ -100,6 +100,17 @@
                 ]
             },
             {
+                "text":"I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?",
+                "nextPhraseID":"troublemaker_wm_report_45",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":56
+                    }
+                ]
+            },
+            {
                 "text":"I have found Defy and his men.",
                 "nextPhraseID":"troublemaker_wm_report_5",
                 "requires":[
