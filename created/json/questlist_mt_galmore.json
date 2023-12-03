@@ -14,7 +14,7 @@
             },
             {
                 "progress":20,
-                "logText":"While speaking with Defy, I've learned the he and his men have it out for the Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means."
+                "logText":"While speaking with Defy, I've learned the he and his men have a grudge against the Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means."
             },
             {
                 "progress":25,
@@ -38,7 +38,7 @@
             },
             {
                 "progress":50,
-                "logText":"I told Troublemaker all that I knew about Defy, his men and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
+                "logText":"I told Troublemaker all that I knew about Defy, his men, and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
             },
             {
                 "progress":55,
@@ -50,13 +50,13 @@
             },
             {
                 "progress":57,
-                "logText":"I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves Guild has apprehended all five men and that they are now the Guild jail.",
+                "logText":"I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves Guild has apprehended all five men and that they are now in the Guild jail.",
                 "rewardExperience":19797,
                 "finishesQuest":1
             },
             {
                 "progress":60,
-                "logText":"Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then report back to the vault in order to collect my share of the gold."
+                "logText":"Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker. Then I should report back to the vault in order to collect my share of the gold."
             },
             {
                 "progress":65,
@@ -111,7 +111,7 @@
             },
             {
                 "progress":50,
-                "logText":"After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was \"confident in my path\" and that we shall see in the future. I wonder what that meant?",
+                "logText":"After meeting Bonicksa, the wicked witch, I decided to let her live and she did likewise, but not before leaving me with a very cryptic response. Saying I was \"confident in my path\" and that \"we shall see\". I wonder what that meant?",
                 "finishesQuest":1
             },
             {
@@ -120,11 +120,11 @@
             },
             {
                 "progress":60,
-                "logText":"I've killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
+                "logText":"I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
             },
             {
                 "progress":65,
-                "logText":"I've \"killed\" Bonicksa again, only for her to reappear."
+                "logText":"I \"killed\" Bonicksa again, only for her to reappear."
             },
             {
                 "progress":70,

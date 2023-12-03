@@ -270,7 +270,7 @@
     },
     {
         "id":"thief_seraphina_20",
-        "message":"Well, a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold.",
+        "message":"Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold.",
         "replies":[
             {
                 "text":"Wow! All you thieves are alike. Here, take it.",
@@ -297,7 +297,7 @@
     },
     {
         "id":"thief_seraphina_40",
-        "message":"Seraphina bends down to look under the bridge.",
+        "message":"[Seraphina bends down to look under the bridge.]",
         "switchToNPC":"none",
         "replies":[
             {
@@ -668,7 +668,7 @@
     },
     {
         "id":"aidem_camp_defy_60",
-        "message":"Well, before I get into anymore details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?",
+        "message":"Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?",
         "replies":[
             {
                 "text":"N",
@@ -762,17 +762,17 @@
     },
     {
         "id":"aidem_camp_defy_78",
-        "message":"Well, for starters, Umar and his side-kick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands.",
+        "message":"Well, for starters, Umar and his sidekick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands.",
         "replies":[
             {
-                "text":"Um...they do what now?",
+                "text":"Um...what did they do?",
                 "nextPhraseID":"aidem_camp_defy_80"
             }
         ]
     },
     {
         "id":"aidem_camp_defy_80",
-        "message":"You know what I am talking about. Don't you?",
+        "message":"You know what I am talking about, don't you?",
         "replies":[
             {
                 "text":"I'm not so sure that I do.",
@@ -873,7 +873,7 @@
     },
     {
         "id":"aidem_camp_defy_87",
-        "message":"Nope. We will be doing that.",
+        "message":"No. We will be doing that.",
         "replies":[
             {
                 "text":"Then what do you need from me?",
@@ -1201,7 +1201,7 @@
                 ]
             },
             {
-                "text":"What are you waiting for? Go bring the fake key to Troublemaker.",
+                "text":"What are you waiting for? Go take the fake key to Troublemaker.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1343,7 +1343,7 @@
     },
     {
         "id":"defy_wild6house_20",
-        "message":"We are leaving now. To close to Fallhaven for my liking.",
+        "message":"We are leaving now. Too close to Fallhaven for my liking.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -2129,7 +2129,7 @@
         "message":"[Taken aback by the question] What did you just ask me?",
         "replies":[
             {
-                "text":"I asked if you know anything about a witch and a possibility that she took a girl.",
+                "text":"I asked if you know anything about a witch and the possibility that she took a girl.",
                 "nextPhraseID":"fallhaven_outdoor_farmer_40"
             }
         ]
@@ -2543,7 +2543,7 @@
         "message":"I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot.",
         "replies":[
             {
-                "text":"Well, I have 25 of those for you.",
+                "text":"Well, I have twenty-five of those for you.",
                 "nextPhraseID":"captive_girl_71",
                 "requires":[
                     {
@@ -2554,7 +2554,7 @@
                 ]
             },
             {
-                "text":"Well, I have 20 of those for you.",
+                "text":"Well, I have twenty of those for you.",
                 "nextPhraseID":"captive_girl_54",
                 "requires":[
                     {
@@ -2571,7 +2571,7 @@
                 ]
             },
             {
-                "text":"Well, I have 10 of those for you.",
+                "text":"Well, I have ten of those for you.",
                 "nextPhraseID":"captive_girl_56",
                 "requires":[
                     {
@@ -2588,7 +2588,7 @@
                 ]
             },
             {
-                "text":"Well, I have 5 of those for you and I'm not sure where I got them. Do you know where I can get some?",
+                "text":"Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?",
                 "nextPhraseID":"captive_girl_56",
                 "requires":[
                     {
@@ -2605,7 +2605,7 @@
                 ]
             },
             {
-                "text":"Well, I only have 1 of those for you and I don't remember where I got it. Do you know where I can get some?",
+                "text":"Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?",
                 "nextPhraseID":"captive_girl_56",
                 "requires":[
                     {
@@ -2681,7 +2681,7 @@
     },
     {
         "id":"captive_girl_56",
-        "message":"Can you get me 25 of them?",
+        "message":"Can you get me twenty-five of them?",
         "replies":[
             {
                 "text":"Where can I get some?",
@@ -2691,14 +2691,14 @@
     },
     {
         "id":"captive_girl_54",
-        "message":"Only 20? I was really hoping for 25.",
+        "message":"Only twenty? I was really hoping for twenty-five.",
         "replies":[
             {
                 "text":"Whatever! Fine. I will go get you five more.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I know that you \"asked\" for 25, but I have 20 and they are hard to get. Please take these.",
+                "text":"I know that you \"asked\" for twentyyy-five, but I have twenty and they are hard to get. Please take these.",
                 "nextPhraseID":"captive_girl_70",
                 "requires":[
                     {
@@ -2712,7 +2712,7 @@
     },
     {
         "id":"captive_girl_70",
-        "message":"OK. I won't make you go back just for 5 more when you've already brought me 20.",
+        "message":"OK. I won't make you go back just for five more when you've already brought me twenty.",
         "replies":[
             {
                 "text":"N",
@@ -2729,7 +2729,7 @@
     },
     {
         "id":"captive_girl_71",
-        "message":"WOW! You actually managed to find 25! I am so grateful.",
+        "message":"WOW! You actually managed to find twenty-five! I am so grateful.",
         "replies":[
             {
                 "text":"N",
@@ -3135,7 +3135,7 @@
     },
     {
         "id":"guardian_mushroom_1",
-        "message":"You're here to take our magical muchroom!",
+        "message":"You're here to take our magical mushroom!",
         "replies":[
             {
                 "text":"Yes!",
@@ -3186,7 +3186,7 @@
                         "requireType":"date",
                         "requireID":"MMDD",
                         "value":1102,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3203,7 +3203,7 @@
                         "requireType":"date",
                         "requireID":"MMDD",
                         "value":1226,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3267,7 +3267,7 @@
         "message":"Hello, my name is \"Old Blue\".",
         "replies":[
             {
-                "text":"What?! You can talk?",
+                "text":"What! You can talk?",
                 "nextPhraseID":"blue_cat_talk"
             },
             {
@@ -3281,7 +3281,7 @@
         "message":"Talk? Well, let me ask you this: Why don't my friends up there talk?",
         "replies":[
             {
-                "text":"Well, I guess you got me there.",
+                "text":"Well, I guess you've got me there.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3291,7 +3291,7 @@
         "message":"It was Bonicksa, that wicked witch, she did this to me.",
         "replies":[
             {
-                "text":"What?! Why?",
+                "text":"What? Why?",
                 "nextPhraseID":"blue_cat_blue2"
             }
         ]

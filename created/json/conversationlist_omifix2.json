@@ -289,7 +289,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"elm2_key",
-				"value":1
+                "value":1
             },
             {
                 "rewardType":"deactivateSpawnArea",
@@ -505,7 +505,7 @@
     },
     {
         "id":"ortholion_guard3_8",
-        "message":"I hate these escorting trips. It is not like the general needs us, does he?",
+        "message":"I hate these escorting trips. It's not like the general really needs us for this.",
         "replies":[
             {
                 "text":"N",
@@ -518,7 +518,7 @@
         "message":"The trip here was anything but safe. I miss my former post in Crossglen.",
         "replies":[
             {
-                "text":"Oh, so you are one of those good for nothing, always drunk soldiers?",
+                "text":"Oh, so you are one of those good for nothing, always drunk, soldiers?",
                 "nextPhraseID":"ortholion_guard3_10"
             }
         ]
@@ -539,7 +539,7 @@
     },
     {
         "id":"ortholion_guard3_11a",
-        "message":"Whatever it be it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*.",
+        "message":"Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*.",
         "replies":[
             {
                 "text":"Blackwater brew, eh? Truly disappointing. Goodbye.",

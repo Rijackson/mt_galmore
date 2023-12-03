@@ -484,7 +484,7 @@
     },
     {
         "id":"ortholion_guard3_1b",
-        "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and do not have time to waste with a kid."
+        "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and do not have time to waste talking to a kid."
     },
     {
         "id":"ortholion_guard7",
@@ -553,6 +553,20 @@
                 "rewardType":"questProgress",
                 "rewardID":"bwm72_beginning",
                 "value":23
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_4",
+        "message":"Our... mighty general has already caught that Shadow fanatic...Yes. Deep in the mine, that's where he is. He's coming back...Probably.",
+        "replies":[
+            {
+                "text":"Aha, so no idea. Thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Good. Gonna check that out, bye.",
+                "nextPhraseID":"X"
             }
         ]
     }
