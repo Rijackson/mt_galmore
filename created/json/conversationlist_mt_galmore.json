@@ -525,7 +525,7 @@
     },
     {
         "id":"aidem_camp_intro_10",
-        "message":"Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day.",
+        "message":"[Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day.]",
         "replies":[
             {
                 "text":"Hello boys!",
