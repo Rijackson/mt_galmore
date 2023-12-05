@@ -3202,8 +3202,8 @@
                     {
                         "requireType":"date",
                         "requireID":"MMDD",
-                        "value":1226,
-                        "negate":true
+                        "value":1228,
+						"negate":true
                     }
                 ]
             },
