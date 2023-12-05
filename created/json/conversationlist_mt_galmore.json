@@ -138,7 +138,7 @@
     },
     {
         "id":"sutdover_river_bridge_broken_script",
-        "message":"[You can't continue over the broken boards. It's time to turn around and find another way across.]",
+        "message":"You can't continue over the broken boards. It's time to turn around and find another way across.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -297,7 +297,7 @@
     },
     {
         "id":"thief_seraphina_40",
-        "message":"[Seraphina bends down to look under the bridge.]",
+        "message":"Seraphina bends down to look under the bridge.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -493,7 +493,7 @@
     },
     {
         "id":"easedropping_required_key",
-        "message":"[You should get a better understanding of who these men are before you crash the party.]"
+        "message":"You should get a better understanding of who these men are before you crash the party."
     },
     {
         "id":"aidem_camp_intro_selector",
@@ -525,7 +525,7 @@
     },
     {
         "id":"aidem_camp_intro_10",
-        "message":"[Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day.]",
+        "message":"Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day.",
         "replies":[
             {
                 "text":"Hello boys!",
@@ -1759,7 +1759,7 @@
     },
     {
         "id":"aidem_camp_easedrop_5",
-        "message":"[As you step between the trees, the crunch of the dry leaves beneath your feet startle you.]",
+        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
         "replies":[
             {
                 "text":"N",
@@ -1769,7 +1769,7 @@
     },
     {
         "id":"aidem_camp_easedrop_6",
-        "message":"[As you step between the trees, the crunch of the dry leaves beneath your feet startle you.]",
+        "message":"As you step between the trees, the crunch of the dry leaves beneath your feet startle you.",
         "replies":[
             {
                 "text":"N",
@@ -2698,7 +2698,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I know that you \"asked\" for twentyyy-five, but I have twenty and they are hard to get. Please take these.",
+                "text":"I know that you \"asked\" for twenty-five, but I have twenty and they are hard to get. Please take these.",
                 "nextPhraseID":"captive_girl_70",
                 "requires":[
                     {
