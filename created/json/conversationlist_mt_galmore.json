@@ -2438,6 +2438,18 @@
                         "requireID":"wicked_witch",
                         "value":90,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":95,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":96,
+                        "negate":true
                     }
                 ]
             },
@@ -2664,7 +2676,7 @@
     },
     {
         "id":"captive_girl_65",
-        "message":"Ah, YES. I remember her saying that an \"undead\" friend of her's east of here tought her how to make them.",
+        "message":"Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them.",
         "replies":[
             {
                 "text":"OK. Stay here. I will be back with more of them.",
@@ -3040,6 +3052,18 @@
                         "requireType":"timerElapsed",
                         "requireID":"wicked_witch_despawn_timer",
                         "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":96,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wicked_witch",
+                        "value":95,
+                        "negate":true
                     }
                 ]
             }
@@ -3203,7 +3227,7 @@
                         "requireType":"date",
                         "requireID":"MMDD",
                         "value":1228,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
